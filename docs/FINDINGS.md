@@ -1365,6 +1365,20 @@ memory between windows: rail cars, a furnace, a rolling mill, coils, a warehouse
 then kitchenware and appliances — the raw-material-to-home arc every corporate film
 of the period is built on.
 
+### The confound this survived
+
+If the object detector simply saw less in a still shot, "unconfirmed" would rise
+there for a reason having nothing to do with the model. Checked: on still shots it
+finds **more** (mean 1.66 COCO classes per frame, 21% of frames empty) than on
+moving ones (1.41, 27% empty). The split is not an artefact of the instrument, and
+if anything it is understated.
+
+**But the detector is unreliable on this footage and that limits the aggregate.**
+On `alu-s026` it labels an aluminium coil a *fire hydrant* while the model
+correctly reports "handling of large metal coils" — there, the unconfirmed count is
+the detector being wrong. The number that survives without the detector is the one
+checked by eye: eight identical frames of a hillside, a helicopter, then a fire.
+
 **Not shown:** one film, one era, one 4:3 scan. Descriptions were sampled every
 third window, not exhaustively. The grounding check covers COCO's 80 classes, so
 actions, materials and weather — the categories the coverage table shows models
