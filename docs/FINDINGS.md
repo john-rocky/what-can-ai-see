@@ -1284,6 +1284,108 @@ different and none is run.
 
 ---
 
+## F23 — Ask a model what is happening in a still scene and it starts inventing
+
+*Source: `runs/neutral/` (394 windows, 69 everyday clips, 5 models) and `runs/alu/`
+(117 windows, 15 shots of a 1956 industrial film, 3 models), grounded against
+RF-DETR on the same frames by `tools/grounding.py` and `tools/coverage.py`.*
+
+Every prompt in this benchmark until now named the event it was hunting: "has
+anything been spilled", "did a person fall". That measures whether a model can
+confirm somebody else's hypothesis. It says nothing about what the model would
+have noticed on its own, which is the thing you need before you know what a model
+is *for*.
+
+So the same footage, the same runtime, one neutral instruction — **describe what is
+happening** — and the replies scored not for correctness but for what they contain.
+
+### What each model volunteers when nothing is asked
+
+| mentions | Holo2 4B | LFM2.5-VL 3B | MiniCPM-V 4.6 | North Micro | Qwen3-VL 2B |
+|---|---|---|---|---|---|
+| people | 10% | 55% | 41% | 53% | 58% |
+| action | 13% | 78% | 56% | 57% | **93%** |
+| spatial relation | 7% | 65% | 25% | 28% | **100%** |
+| **material — wet, dirty** | 1% | **12%** | **13%** | **11%** | **20%** |
+| **text on a sign** | 2% | **18%** | **21%** | **8%** | 28% |
+| change over time | 7% | 68% | 41% | 31% | **94%** |
+| **median length** | **9 wd** | 87 wd | 104 wd | 72 wd | **255 wd** |
+
+**Holo2 4B does not answer a neutral question.** Nine words, and the words are the
+prompt handed back verbatim. The same model scores 0.78 balanced accuracy when an
+event is named. It is a judgement device, not a describer, and nothing in the
+judgement numbers says so.
+
+**Nobody volunteers materials or text.** Wet floors and written signs turn up in
+6–28% of descriptions across every model. Both are read correctly when asked
+directly — F17 has every model at 100% on "is the ground wet?" — so this is not a
+perception limit. It is an attention one, and it means a product built on running
+commentary will never hear about the wet floor unless somebody thinks to ask.
+
+### Where the invention happens
+
+RF-DETR gives an independent inventory of the same frame, so a named object is
+either confirmed or not. Unconfirmed is not proof of invention — the detector
+misses things — but every model faces the same detector with the same blind spots,
+so the comparison holds.
+
+Split by how much the scene moves, on the film:
+
+| model | still shots | moving shots |
+|---|---|---|
+| LFM2.5-VL 3B | **52%** unconfirmed | 27% |
+| MiniCPM-V 4.6 | **36%** | **6%** |
+| Qwen3-VL 2B | **53%** | 31% |
+
+**A still scene makes every model two to six times less checkable.** MiniCPM names
+almost nothing unconfirmable while something is moving and invents freely once
+nothing is. The clearest single case: a locked-off shot of a wooded hillside,
+measured at 0.022 foreground change — eight identical frames — described as *"a
+helicopter over a rural landscape"*. There is no helicopter.
+
+The mechanism is not mysterious. Asked to describe, with nothing to report, a model
+reports something.
+
+**This is the failure mode that matters for continuous monitoring**, because a
+camera watching a room is in the still case nearly all of the time. It is also
+distinct from the false-alarm rate in F21: that is answering the wrong yes or no,
+this is naming a specific object that is not there. A pipeline that consumes
+running commentary is exposed to the second and not protected by measuring the
+first.
+
+### The film also settles the sourcing question
+
+One 13.7-minute public-domain industrial film (`archive.org/details/Aluminum1956`,
+Reynolds Metals, 1956) cut on scene change gives 40 shots of 8s or more, 15 of them
+on a locked camera. Against 327 stock clips fetched and measured for 6 keepers, and
+with one licence check instead of 327.
+
+Walking the film in order, the descriptions recover its structure without any
+memory between windows: rail cars, a furnace, a rolling mill, coils, a warehouse,
+then kitchenware and appliances — the raw-material-to-home arc every corporate film
+of the period is built on.
+
+**Not shown:** one film, one era, one 4:3 scan. Descriptions were sampled every
+third window, not exhaustively. The grounding check covers COCO's 80 classes, so
+actions, materials and weather — the categories the coverage table shows models
+neglect — cannot be verified this way at all.
+
+### A measurement bug this uncovered
+
+`enter_onset.py` read 31 of 33 shots from the film as "camera moves", clustered at
+0.30–0.51 px, while the frame edges plainly did not move. The cause was **film
+grain**: phase correlation keys on high-frequency detail, and a 1956 scan's grain
+is independent per frame, so the correlation peak wanders on a locked-off camera.
+A Gaussian blur before correlating removes it — still shots went from 2 to 10, and
+the stock corpus, where the threshold was originally calibrated, is unchanged
+(fixed clips still measure 0.02–0.13, moving ones 0.7–2.2).
+
+The threshold was tuned on clean digital video and silently wrong on film. Any
+measure carried to a new kind of footage needs re-checking against eyes before its
+output is believed.
+
+---
+
 ## Open, not yet measured
 
 - **Six of eight models.** Only LFM2.5-VL 450M and North Micro Vision have run.

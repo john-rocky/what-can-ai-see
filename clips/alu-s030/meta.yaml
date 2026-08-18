@@ -1,0 +1,28 @@
+# Shot 30 of alu.mp4, cut by tools/split_shots.py at scene threshold
+# 0.18. NOT YET SCOREABLE: measure the camera with enter_onset.py, then
+# set event, label, onset_s and camera. A shot from a documentary is not a camera
+# feed until it has been checked for pans and zooms.
+id: alu-s030
+tier: field
+event: UNVERIFIED
+label: UNVERIFIED
+pair: null
+onset_s: null
+duration_s: 16.18
+camera: UNVERIFIED
+ground_truth: >-
+  TODO — describe what is actually visible.
+source:
+  kind: archive
+  provider: archive.org
+  id: Aluminum1956
+  shot: 30
+  in_film_s: [601.87, 618.05]
+  license: public domain (creativecommons.org/licenses/publicdomain)
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED

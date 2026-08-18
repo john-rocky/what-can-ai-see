@@ -59,9 +59,17 @@ def camera_shift(grays: list, ) -> float:
     toward the lens both make the frame differ more and more from its opening, and
     the first version of this tool read the drone as "a forklift enters at 0.9s".
     Camera motion has to be measured, not inferred from the thing it contaminates."""
+    # Blur first. Phase correlation is sensitive to high-frequency detail, and on
+    # a 1956 film scan that detail is GRAIN — every frame's grain is independent,
+    # so the correlation peak wanders even when the camera is bolted down. Measured
+    # raw, 31 of 33 shots from an industrial documentary read as "camera moves" at
+    # 0.30-0.51 px, tightly clustered, while the frame edges plainly do not move.
+    # Grain is high-frequency and a pan is a global low-frequency shift, so a
+    # Gaussian kills one and leaves the other.
     shifts = []
     for a, b in zip(grays, grays[1:]):
-        fa = np.float32(a); fb = np.float32(b)
+        fa = cv2.GaussianBlur(np.float32(a), (0, 0), 2.0)
+        fb = cv2.GaussianBlur(np.float32(b), (0, 0), 2.0)
         (dx, dy), _ = cv2.phaseCorrelate(fa, fb)
         shifts.append(float(np.hypot(dx, dy)))
     return float(np.median(shifts)) if shifts else 0.0

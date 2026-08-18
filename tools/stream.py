@@ -56,11 +56,25 @@ def main() -> None:
     ap.add_argument("--stride", type=float, default=0.4, help="seconds between calls")
     ap.add_argument("--panels", type=int, default=4, choices=sorted(WINDOW_GRIDS))
     ap.add_argument("--out", type=Path, default=None)
+    ap.add_argument("--neutral", action="store_true",
+                    help="window a clip that has no event assigned yet. Requiring a "
+                         "label before windowing has the discovery workflow backwards: "
+                         "the neutral pass exists to find out what a clip shows, so it "
+                         "cannot be gated on already knowing.")
     args = ap.parse_args()
 
     meta = yaml.safe_load((args.clip / "meta.yaml").read_text())
     events = {e["id"]: e for e in yaml.safe_load(args.events.read_text())["events"]}
-    event = events[meta["event"]]
+    if args.neutral or meta.get("event") not in events:
+        if not args.neutral:
+            raise SystemExit(
+                f"{args.clip.name}: event {meta.get('event')!r} is not in events.yaml. "
+                f"Label it, or pass --neutral to window it without a question.")
+        event = {"id": meta.get("event", "UNVERIFIED"),
+                 "question": "Describe what is happening.",
+                 "evidence": "unassigned"}
+    else:
+        event = events[meta["event"]]
     video = args.clip / "clip.mp4"
     duration, _, _ = probe(video)
 
