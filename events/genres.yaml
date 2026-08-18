@@ -1,0 +1,113 @@
+version: 1
+genres:
+- id: state-change
+  kind: transition
+  question: Has the pancake browned?
+  reads: whether a physical process has completed, from appearance alone
+  search:
+  - pancake cooking pan
+  - toast browning
+  - kettle boiling
+  - egg frying pan
+  question_original: Has the food finished cooking?
+- id: appear-disappear
+  kind: transition
+  question: Has a person come into view who was not in the scene before?
+  reads: presence and absence — the surveillance primitive
+  search:
+  - empty corridor person walks
+  - station platform waiting
+  - park bench people
+- id: count
+  kind: stable
+  question: Are there more than two people in the scene?
+  reads: quantity, held steady while nothing changes
+  search:
+  - cafe table friends talking
+  - family dinner table
+  - meeting room table
+- id: spatial
+  kind: stable
+  question: Is the cat on top of the bench?
+  reads: the relation between two things, not the things themselves
+  search:
+  - cat on table
+  - dog on sofa
+  - cat sitting windowsill
+  question_original: Is the animal on top of the furniture?
+- id: action
+  kind: stable
+  question: Is the person writing?
+  reads: what a body is doing, when several actions look alike
+  search:
+  - person writing notebook desk
+  - student studying
+  - person drawing sketch
+- id: interaction
+  kind: transition
+  question: Has the cup been taken off the table?
+  reads: an exchange between two people, not one person moving
+  search:
+  - handing coffee cup
+  - passing document office
+  - market vendor giving change
+  question_original: Did one person hand something to another person?
+- id: affordance
+  kind: transition
+  question: Is the door open?
+  reads: the functional state of an object, which has only two values
+  search:
+  - door opening room
+  - fridge door open
+  - window opening
+- id: text
+  kind: stable
+  question: Does the sign say SALE?
+  reads: symbols, where the answer is written in the frame and still gets missed
+  search:
+  - shop open sign door
+  - neon open sign
+  - storefront signage
+  question_original: Does the visible sign show the word OPEN?
+- id: material
+  kind: transition
+  question: Is the ground wet?
+  reads: a property of stuff — wet, dry, dusty — with no object to name
+  search:
+  - rain on pavement
+  - wiping table cloth
+  - water poured on floor
+  question_original: Is the surface wet?
+- id: ambient
+  kind: stable
+  question: Is it raining?
+  reads: the condition of the whole scene rather than anything in it
+  search:
+  - rain window street
+  - snow falling street
+  - foggy morning road
+- id: animal
+  kind: transition
+  question: Is the dog eating?
+  reads: behaviour in a non-human subject, where human priors do not help
+  search:
+  - dog eating bowl
+  - cat drinking water
+  - birds feeding garden
+  question_original: Is the animal eating?
+- id: causality
+  kind: transition
+  question: Is the liquid boiling?
+  reads: the visible consequence of something that already happened
+  search:
+  - pot boiling over
+  - cup overfilling
+  - sink overflowing
+  question_original: Has liquid overflowed the container?
+question_note: Several questions were rewritten AFTER the footage arrived, and the originals are
+  kept beside them. `causality` asked whether liquid had overflowed a container; what the search
+  returned was pots boiling, and nothing overflows in any of them. Asking the original question
+  of that footage would have measured the gap between my query and the world, and scored every model
+  at zero for answering correctly. F14 found that question wording moves results more than model
+  choice does — so the wording is fitted to the clip, in the open, rather than the clip being claimed
+  to show what the question asks.

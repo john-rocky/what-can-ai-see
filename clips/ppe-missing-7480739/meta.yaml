@@ -1,0 +1,39 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: ppe-missing-7480739
+tier: field
+event: ppe-missing
+label: positive
+pair: ppe-missing-8963857
+onset_s: null
+duration_s: 6.0
+ground_truth: 'A woodworker at a mitre saw in a workshop, head clearly visible, wearing a
+  red beanie and no hard hat. Positive by the taxonomy''s own rule: a cap or beanie is not
+  a helmet.'
+source:
+  kind: stock
+  provider: pexels
+  video_id: 7480739
+  url: https://www.pexels.com/video/a-man-working-while-wearing-a-beanie-7480739/
+  title: a man working while wearing a beanie
+  author: cottonbro studio
+  author_url: https://www.pexels.com/@cottonbro
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 2048x1080
+conditions:
+  distance: mid
+  target_size: large
+  light: bright
+  occlusion: none
+  blur: none
+  viewpoint: side
+  clutter: high
+  duration_class: multi-second
+trim:
+- 0.5
+- 6.5
+pair_note: Scene is NOT matched - workshop vs construction site - because Pexels has essentially
+  no footage of a helmetless worker on a construction site. A model could answer from the
+  setting rather than the head; treat a correct answer here as weaker evidence than a correct
+  answer on a matched pair.
+shows_transition: false

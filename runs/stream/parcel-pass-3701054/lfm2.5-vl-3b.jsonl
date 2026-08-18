@@ -1,0 +1,12 @@
+{"answer":"No. The frames show a stationary conveyor belt with no visible parcel.","id":"parcel-pass-3701054|w000|gate","load_s":9.3520000000000003,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3244,"ok":true}
+{"answer":"No. The frames show an empty conveyor belt with no parcel present.","id":"parcel-pass-3701054|w001|gate","load_s":9.3520000000000003,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3190,"ok":true}
+{"answer":"No. The frames show a stationary conveyor belt with no moving parcel.","id":"parcel-pass-3701054|w002|gate","load_s":9.3520000000000003,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3135,"ok":true}
+{"answer":"No. The frames show a stationary conveyor belt with no visible parcel.","id":"parcel-pass-3701054|w003|gate","load_s":9.3520000000000003,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3200,"ok":true}
+{"answer":"No. The frames show a stationary conveyor belt with no visible parcel.","id":"parcel-pass-3701054|w004|gate","load_s":9.3520000000000003,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3311,"ok":true}
+{"answer":"No. The frames show a stationary conveyor belt with no parcel present.","id":"parcel-pass-3701054|w005|gate","load_s":9.3520000000000003,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3097,"ok":true}
+{"answer":"No. The frames show a stationary conveyor belt with no moving parcel.","id":"parcel-pass-3701054|w006|gate","load_s":9.3520000000000003,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3076,"ok":true}
+{"answer":"No. The frames show a stationary conveyor belt with no visible parcel.","id":"parcel-pass-3701054|w007|gate","load_s":9.3520000000000003,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3102,"ok":true}
+{"answer":"No. The frames show a stationary display with no movement of a parcel.","id":"parcel-pass-3701054|w008|gate","load_s":9.3520000000000003,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3057,"ok":true}
+{"answer":"No. The frames show a stationary display with no moving parcel.","id":"parcel-pass-3701054|w009|gate","load_s":9.3520000000000003,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3022,"ok":true}
+{"answer":"No. The frames show a stationary display with no moving parcel.","id":"parcel-pass-3701054|w010|gate","load_s":9.3520000000000003,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3106,"ok":true}
+{"answer":"No. The frames show a stationary conveyor belt with no visible parcel.","id":"parcel-pass-3701054|w011|gate","load_s":9.3520000000000003,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3065,"ok":true}

@@ -1,0 +1,40 @@
+# The observation.images.logitech_2 view of spill3-pos: same episode, same trim, same event,
+# different angle. Onset and control cleanliness are NOT inherited.
+id: spill3-pos-v2
+tier: field
+event: spill
+label: positive
+pair: spill3-neg-v2
+onset_s: 4.1
+duration_s: 15.0
+ground_truth: The same rig. The robot pours and a large amount goes onto the table beside the cup.
+  Onset measured at 13.4s in the source by tools/spill_onset.py.
+dataset_anomaly: pour coffee incorrectly and put a lot on the side
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/domotic_pouringCoffee_anomaly
+  file: videos/chunk-000/observation.images.logitech_2/episode_000002.mp4
+  camera: observation.images.logitech_2
+  license: apache-2.0
+  counterpart: kantine/domotic_pouringCoffee_expert — same rig, same camera, same task, different
+    outcome.
+conditions:
+  viewpoint: fixed-rig-oblique
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid
+trim:
+- 6.9
+- 21.9
+derived_from: spill3-pos
+shows_transition: true
+view: oblique-low (logitech_2); the paired clip is overhead (logitech_1)
+onset_method: same method, rises 0.013 and holds. Overhead measured 6.5s — from this shallower angle
+  the coffee reaching the table is visible about two seconds EARLIER, which is why the onset was re-measured
+  rather than copied.
+framing: centre-cropped 4:3 -> 16:9 to match the overhead corpus, because every model stretches its
+  input to a square canvas (F1) and a 2x2 sheet of 16:9 panels is squashed harder than one of 4:3.
+  The native 4:3 cut is kept as clip43.mp4 and its run as runs/stream/_v2-43.

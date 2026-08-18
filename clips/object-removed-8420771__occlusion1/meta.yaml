@@ -1,0 +1,41 @@
+# DERIVED from object-removed-8420771 by tools/make_variants.py — occlusion level 1.
+# Not field footage. Its pair is the identically-degraded mate, so the only
+# difference across this rung is the condition under test.
+id: object-removed-8420771__occlusion1
+tier: variant
+event: object-removed
+label: negative
+pair: object-removed-5241131__occlusion1
+onset_s: null
+duration_s: 6.0
+ground_truth: A woman walks through a delicatessen looking at the shelves. Her hands stay
+  empty and at her side in every panel; nothing leaves a shelf.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 8420771
+  url: https://www.pexels.com/video/an-elderly-woman-looking-around-at-a-grocery-store-8420771/
+  title: an elderly woman looking around at a grocery store
+  author: Kampus Production
+  author_url: https://www.pexels.com/@kampus
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: near
+  target_size: mid
+  light: bright
+  occlusion: 17%-occluded
+  blur: light
+  viewpoint: side
+  clutter: high
+  duration_class: multi-second
+negative_hardness: hard
+pair_note: The camera tracks with her, so the shelf contents behind her differ between panels.
+  A model that compares panels naively can read that as goods having disappeared. The confound
+  is deliberate and realistic - a panning PTZ camera does exactly this - and it is a camera-motion
+  confound, not an event.
+shows_transition: false
+derived_from: object-removed-8420771
+degradation:
+  axis: occlusion
+  level: 1

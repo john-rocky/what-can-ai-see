@@ -1,0 +1,36 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: handover-7424456
+tier: field
+event: handover
+label: negative
+pair: handover-4440917
+onset_s: null
+duration_s: 3.8
+ground_truth: 'Two people in a room: a woman holds a large cardboard box, a man sits on the
+  floor talking to her. The box stays with the woman in every panel. Two people plus an object,
+  and no transfer - the exact negative events.yaml specifies for this event.'
+source:
+  kind: stock
+  provider: pexels
+  video_id: 7424456
+  url: https://www.pexels.com/video/a-woman-holding-a-box-while-talking-to-a-man-7424456/
+  title: a woman holding a box while talking to a man
+  author: Gustavo Fring
+  author_url: https://www.pexels.com/@gustavo-fring
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: near
+  target_size: large
+  light: bright
+  occlusion: none
+  blur: none
+  viewpoint: side
+  clutter: low
+  duration_class: multi-second
+negative_hardness: hard
+trim:
+- 0.5
+- 4.3
+shows_transition: false

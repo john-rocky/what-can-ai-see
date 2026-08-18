@@ -1,0 +1,12 @@
+{"answer":"Yes\nThe sequence shows a person's leg and foot moving forward and then dropping the white object onto the floor.","id":"fall-8526604|w000|gate","load_s":1.347,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":4038,"ok":true}
+{"answer":"No\nThe frames show a person kneeling on the floor with no indication of a fall.","id":"fall-8526604|w001|gate","load_s":1.347,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3899,"ok":true}
+{"answer":"No\nThe frames show a person kneeling on the floor with no indication of a fall.","id":"fall-8526604|w002|gate","load_s":1.347,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3942,"ok":true}
+{"answer":"No\nThe frames show a person kneeling on the floor with no indication of a fall.","id":"fall-8526604|w003|gate","load_s":1.347,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3877,"ok":true}
+{"answer":"No\nThe frames show a person kneeling on the floor without any indication of a fall.","id":"fall-8526604|w004|gate","load_s":1.347,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3949,"ok":true}
+{"answer":"No\nThe frames show a person sitting on a couch with no indication of a fall.","id":"fall-8526604|w005|gate","load_s":1.347,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3915,"ok":true}
+{"answer":"Yes\nThe sequence shows a person's leg and torso in a falling position, with the body angled downward toward the floor.","id":"fall-8526604|w006|gate","load_s":1.347,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":4040,"ok":true}
+{"answer":"No\nThe frames show a person sitting on the floor with no indication of a fall.","id":"fall-8526604|w007|gate","load_s":1.347,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3901,"ok":true}
+{"answer":"Yes\nThe sequence shows a person transitioning from sitting to lying down on the floor.","id":"fall-8526604|w008|gate","load_s":1.347,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3888,"ok":true}
+{"answer":"Yes\nThe sequence shows a person transitioning from sitting to lying down on the floor.","id":"fall-8526604|w009|gate","load_s":1.347,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3861,"ok":true}
+{"answer":"No\nThe frames show a person lying on the floor in a consistent position without any indication of a fall.","id":"fall-8526604|w010|gate","load_s":1.347,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3985,"ok":true}
+{"answer":"Yes\nThe sequence shows a person lying on the floor with their head tilted back, suggesting they have fallen.","id":"fall-8526604|w011|gate","load_s":1.347,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3934,"ok":true}

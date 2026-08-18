@@ -1,0 +1,344 @@
+version: 0.1
+events:
+- id: ppe-missing
+  ja: 保護具未着用
+  evidence: state
+  domains:
+  - construction
+  - factory
+  - logistics
+  positive: A person in the work area with a required item of PPE absent (no helmet, no hi-vis vest,
+    no gloves, no eye protection). The bare head or bare hands must be visible, not merely out of
+    frame.
+  negative: Person wearing all required PPE; person wearing a cap or beanie that is not a helmet
+    is POSITIVE, not negative — cap != helmet.
+  question: Is there a person not wearing a hard hat?
+  latency: false
+- id: shelf-empty
+  ja: 棚欠品
+  evidence: state
+  domains:
+  - retail
+  positive: A shelf facing with a visible gap where product should be — bare backboard or bare shelf
+    between stocked facings.
+  negative: A fully faced shelf; a shelf with product pushed back but present; an intentionally
+    empty display fixture.
+  question: Is there an empty gap on the shelf where product is missing?
+  latency: false
+- id: part-missing
+  ja: 部品の有無
+  evidence: state
+  domains:
+  - factory
+  positive: An assembly with a component absent from a position where the reference build has one
+    — an empty screw hole, a vacant socket, a missing clip.
+  negative: The complete assembly; a component present but a different colour or orientation (that
+    is assembly-error, not part-missing).
+  question: Is any component missing from this assembly?
+  latency: false
+- id: assembly-wrong
+  ja: 組付けミス
+  evidence: state
+  domains:
+  - factory
+  positive: All components present but one is in the wrong position, orientation, or order relative
+    to the reference.
+  negative: The correct build; a build missing a part (that is part-missing).
+  question: Is any component installed incorrectly — wrong position or wrong orientation?
+  latency: false
+- id: meter-anomaly
+  ja: メーター異常
+  evidence: state
+  domains:
+  - inspection
+  - facility
+  positive: An analogue gauge with the needle in a marked red/danger band, or a digital readout
+    outside the stated normal range, or a lit fault lamp.
+  negative: Needle in the green/normal band; unlit indicator lamp; a gauge whose face is unreadable
+    (that is a refusal, scored separately).
+  question: Is the gauge reading outside its normal range?
+  latency: false
+- id: damage
+  ja: 破損
+  evidence: state
+  domains:
+  - logistics
+  - facility
+  - inspection
+  positive: Visible structural failure on the object of interest — a crushed carton corner, a cracked
+    panel, a torn belt, a split seam, a shattered or broken item.
+  negative: Surface dirt, staining, label wear, or printing that resembles a crack; an intact object
+    photographed at an angle.
+  question: Is the object damaged — broken, shattered, cracked, crushed, or torn?
+  latency: false
+- id: object-removed
+  ja: 物の持ち去り
+  evidence: change
+  domains:
+  - retail
+  - security
+  - logistics
+  positive: An object present in the earlier frames and absent in the later ones, with a person
+    having been near it in between.
+  negative: An object occluded by a passer-by and still there afterwards; an object that moved within
+    frame but did not leave.
+  question: Was an object taken away from the scene?
+  latency: true
+- id: object-abandoned
+  ja: 置き忘れ
+  evidence: change
+  domains:
+  - security
+  - logistics
+  - facility
+  positive: An object absent in the earlier frames and present-and-unattended in the later ones,
+    the person who brought it having left.
+  negative: A bag set down while its owner stands beside it; permanent scene furniture (a bin, a
+    planter) that was always there.
+  question: Has an unattended bag or item been left in the scene?
+  latency: true
+- id: step-complete
+  ja: 工程完了
+  evidence: change
+  domains:
+  - factory
+  positive: The workpiece is in its post-operation state in the later frames and its pre-operation
+    state in the earlier ones — lid fitted, label applied, box sealed, weld laid.
+  negative: The operation started but not finished; the workpiece unchanged.
+  question: Has the assembly step been completed?
+  latency: true
+- id: fall
+  ja: 転倒
+  evidence: motion
+  domains:
+  - security
+  - factory
+  - facility
+  - healthcare
+  positive: A person goes from upright to on the ground and stays down. The down posture must be
+    visible in at least one frame.
+  negative: A person crouching, kneeling, bending to pick something up, sitting down, or lying down
+    deliberately. These are the alarms that kill deployments.
+  question: Did a person fall to the ground?
+  latency: true
+- id: object-drop
+  ja: 落下
+  evidence: motion
+  domains:
+  - factory
+  - logistics
+  - construction
+  positive: An object leaves a held or supported position and reaches the floor or a lower level,
+    unintended.
+  negative: An object placed down deliberately; an object thrown and caught; an object lowered by
+    hand or hoist.
+  question: Did an object fall or get dropped?
+  latency: true
+- id: intrusion
+  ja: 侵入
+  evidence: motion
+  domains:
+  - security
+  - construction
+  - facility
+  positive: A person crosses into a marked restricted area — over a line, past a barrier, through
+    a fence, inside a taped zone.
+  negative: A person walking alongside the boundary without crossing; an authorised person entering
+    through the designated gate.
+  question: Did a person enter the restricted area?
+  latency: true
+- id: entry-exit
+  ja: 入退室
+  evidence: motion
+  domains:
+  - security
+  - facility
+  - retail
+  positive: A person passes fully through a door or gate, in either direction.
+  negative: A person opening the door and not going through; a person passing in front of the door;
+    the door opening with nobody there.
+  question: Did a person go through the door?
+  latency: true
+- id: handover
+  ja: 受け渡し
+  evidence: motion
+  domains:
+  - security
+  - retail
+  - logistics
+  positive: An object passes from one person's hands to another's. Both people and the object must
+    be visible.
+  negative: Two people standing close, one holding an object; a person setting an object down for
+    another to pick up later (that is a two-step, scored as object-removed + object-abandoned).
+  question: Did one person hand an object to another person?
+  latency: true
+- id: vehicle-arrival
+  ja: 車両到着
+  evidence: motion
+  domains:
+  - logistics
+  - construction
+  - facility
+  positive: A vehicle enters the frame and comes to a stop in the bay, dock, or lot.
+  negative: A vehicle driving through without stopping; a vehicle already parked at the start; a
+    vehicle departing.
+  question: Did a vehicle arrive and stop?
+  latency: true
+- id: parcel-pass
+  ja: 荷物通過
+  evidence: motion
+  domains:
+  - logistics
+  positive: A parcel or tote travels past a fixed reference point on a conveyor or chute.
+  negative: An empty conveyor running; a parcel present but stationary (that is line-stopped or
+    jam).
+  question: Did a parcel pass along the conveyor?
+  latency: true
+- id: line-stopped
+  ja: 停止
+  evidence: dwell
+  domains:
+  - factory
+  - logistics
+  positive: The line, conveyor, or machine is not moving for the whole clip, in a context where
+    it should be running.
+  negative: The line running normally; the line running slowly; a brief pause shorter than the stated
+    threshold.
+  question: Has the conveyor or machine stopped moving?
+  latency: true
+- id: jam
+  ja: 詰まり
+  evidence: dwell
+  domains:
+  - factory
+  - logistics
+  positive: Items accumulate against an obstruction and stop advancing while upstream items keep
+    arriving — a backlog that grows and does not clear.
+  negative: A dense but moving flow; a queue that advances; a single item briefly snagging and freeing
+    itself.
+  question: Are items jammed or backed up and not moving forward?
+  latency: true
+- id: smoke-fire
+  ja: 煙・火災
+  evidence: diffuse
+  domains:
+  - facility
+  - factory
+  - construction
+  - security
+  positive: Visible smoke plume or open flame in the scene.
+  negative: Steam, dust, fog, exhaust, a bright reflective light source, a welding arc, or a screen
+    showing fire. These are the classic false positives and they belong in the negative set on purpose.
+  question: Is there smoke or fire in the scene?
+  latency: true
+- id: hand-in-danger-zone
+  ja: 危険区域への人体進入
+  evidence: motion
+  domains:
+  - factory
+  - robotics
+  positive: A bare hand or limb enters the working envelope of a machine, tool or robot while it
+    is in use. The limb and the hazard must both be visible.
+  negative: The machine works with nobody in the envelope; a hand present OUTSIDE the working area,
+    or reaching in only after the tool is clear.
+  question: Is a person's hand inside the machine's working area?
+  latency: true
+- id: spill
+  ja: 液体こぼれ
+  evidence: change
+  domains:
+  - factory
+  - retail
+  - facility
+  - healthcare
+  positive: Material that was contained is now on a surface it should not be on — a pool, a run,
+    a splash, or a heap of loose solids such as powder or grounds, persisting after the moment it
+    happened.
+  negative: A wet or dusty surface being cleaned; material correctly inside its container; a dark
+    patch, shadow or pattern that is not spilled material.
+  question: Has anything been spilled onto the surface?
+  definition_note: Originally written as "liquid", which was an arbitrary narrowing made before
+    any spill footage was in hand. Widened to loose solids when a coffee-grounds spill turned out
+    to be the same visual event — a heap where the surface should be clean — and would otherwise
+    have been scored against a question that did not describe it.
+  latency: true
+- id: person-enters
+  evidence: motion
+  question: Has a person come into view who was not in the scene before?
+  note: 'Added because `intrusion` asks whether a person entered the RESTRICTED area, and whether
+    an area is restricted is not in the picture. That is the same defect as the kantine anomalies
+    rejected in REJECTED.md: the meaning lives in a spec the camera never sees, so a model can only
+    guess and the person writing the ground truth is guessing too. This asks the part that is visible,
+    which is also the primitive every intrusion product is built on top of.'
+- id: state-change
+  evidence: genre
+  question: Has the pancake browned?
+  note: 'A genre of meaning rather than an incident: whether a physical process has completed, from
+    appearance alone. Defined in events/genres.yaml; registered here so every tool resolves one
+    question per id the same way. kind=transition.'
+- id: appear-disappear
+  evidence: genre
+  question: Has a person come into view who was not in the scene before?
+  note: 'A genre of meaning rather than an incident: presence and absence — the surveillance primitive.
+    Defined in events/genres.yaml; registered here so every tool resolves one question per id the
+    same way. kind=transition.'
+- id: count
+  evidence: genre
+  question: Are there more than two people in the scene?
+  note: 'A genre of meaning rather than an incident: quantity, held steady while nothing changes.
+    Defined in events/genres.yaml; registered here so every tool resolves one question per id the
+    same way. kind=stable.'
+- id: spatial
+  evidence: genre
+  question: Is the cat on top of the bench?
+  note: 'A genre of meaning rather than an incident: the relation between two things, not the things
+    themselves. Defined in events/genres.yaml; registered here so every tool resolves one question
+    per id the same way. kind=stable.'
+- id: action
+  evidence: genre
+  question: Is the person writing?
+  note: 'A genre of meaning rather than an incident: what a body is doing, when several actions
+    look alike. Defined in events/genres.yaml; registered here so every tool resolves one question
+    per id the same way. kind=stable.'
+- id: interaction
+  evidence: genre
+  question: Has the cup been taken off the table?
+  note: 'A genre of meaning rather than an incident: an exchange between two people, not one person
+    moving. Defined in events/genres.yaml; registered here so every tool resolves one question per
+    id the same way. kind=transition.'
+- id: affordance
+  evidence: genre
+  question: Is the door open?
+  note: 'A genre of meaning rather than an incident: the functional state of an object, which has
+    only two values. Defined in events/genres.yaml; registered here so every tool resolves one question
+    per id the same way. kind=transition.'
+- id: text
+  evidence: genre
+  question: Does the sign say SALE?
+  note: 'A genre of meaning rather than an incident: symbols, where the answer is written in the
+    frame and still gets missed. Defined in events/genres.yaml; registered here so every tool resolves
+    one question per id the same way. kind=stable.'
+- id: material
+  evidence: genre
+  question: Is the ground wet?
+  note: 'A genre of meaning rather than an incident: a property of stuff — wet, dry, dusty — with
+    no object to name. Defined in events/genres.yaml; registered here so every tool resolves one
+    question per id the same way. kind=transition.'
+- id: ambient
+  evidence: genre
+  question: Is it raining?
+  note: 'A genre of meaning rather than an incident: the condition of the whole scene rather than
+    anything in it. Defined in events/genres.yaml; registered here so every tool resolves one question
+    per id the same way. kind=stable.'
+- id: animal
+  evidence: genre
+  question: Is the dog eating?
+  note: 'A genre of meaning rather than an incident: behaviour in a non-human subject, where human
+    priors do not help. Defined in events/genres.yaml; registered here so every tool resolves one
+    question per id the same way. kind=transition.'
+- id: causality
+  evidence: genre
+  question: Is the liquid boiling?
+  note: 'A genre of meaning rather than an incident: the visible consequence of something that already
+    happened. Defined in events/genres.yaml; registered here so every tool resolves one question
+    per id the same way. kind=transition.'

@@ -1,0 +1,20 @@
+{"answer":"No\nPanel 5 shows the climber in mid-air above the climbing wall, indicating he has fallen.","id":"fall-5916779|g6|gate","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3107,"ok":true}
+{"answer":"1, 2, 3, 4, 5, 6\nYes","id":"fall-5916779|g6|panels","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3294,"ok":true}
+{"answer":"Yes\nPanel 6 shows the person lying flat on the floor with limbs splayed, indicating a fall.","id":"fall-8526604|g6|gate","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3111,"ok":true}
+{"answer":"1, 2, 3, 4, 5, 6\nYes","id":"fall-8526604|g6|panels","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3319,"ok":true}
+{"answer":"Yes\nPanel 1 shows a large plume of white smoke rising from the industrial facility.","id":"smoke-fire-14458800|g6|gate","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3017,"ok":true}
+{"answer":"1, 2, 3, 4, 5, 6\nYes","id":"smoke-fire-14458800|g6|panels","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3307,"ok":true}
+{"answer":"Yes\nPanel 1 shows a large plume of dark smoke rising from a fire on the ground.","id":"smoke-fire-8365988|g6|gate","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3032,"ok":true}
+{"answer":"1, top center\n2, top center\n3, top center\n4, top center\n5, top center\n6, top center\nYes","id":"smoke-fire-8365988|g6|panels","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3430,"ok":true}
+{"answer":"No\nPanel 1 shows a standing figure with no indication of a fall.","id":"synth-fall-neg|g6|gate","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":2973,"ok":true}
+{"answer":"1, center\n2, center\n3, center\n4, center\n5, center\n6, center\nYes","id":"synth-fall-neg|g6|panels","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3366,"ok":true}
+{"answer":"Yes\nPanel 5 shows the person's body beginning to rotate and fall toward the ground.","id":"synth-fall-pos|g6|gate","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3003,"ok":true}
+{"answer":"1, center\n2, center\n3, left\n4, right\n5, center\n6, center\nYes","id":"synth-fall-pos|g6|panels","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3358,"ok":true}
+{"answer":"Yes\nPanel 6 shows the blue pole has been removed.","id":"synth-remove-neg|g6|gate","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":2957,"ok":true}
+{"answer":"1, 2, 3, 4, 5, 6\nYes","id":"synth-remove-neg|g6|panels","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3307,"ok":true}
+{"answer":"No\nPanel 6 shows the object is gone, as only the pole and ball remain.","id":"synth-remove-pos|g6|gate","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3016,"ok":true}
+{"answer":"1, left\n2, right\n3, left\n4, right\n5, left\n6, right\nYes","id":"synth-remove-pos|g6|panels","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3383,"ok":true}
+{"answer":"Yes\nPanel 6 shows the objects in their final position with no motion blur.","id":"synth-stop-neg|g6|gate","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":2997,"ok":true}
+{"answer":"1, 2, 3, 4, 5, 6\nYes","id":"synth-stop-neg|g6|panels","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3298,"ok":true}
+{"answer":"Yes\nPanel 1 shows the objects at the leftmost position, while panel 6 shows them at the rightmost position, indicating movement from left to right.","id":"synth-stop-pos|g6|gate","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3123,"ok":true}
+{"answer":"1, 2, 3, 4, 5, 6\nYes","id":"synth-stop-pos|g6|panels","load_s":4.5899999999999999,"max_tokens":260,"model":"lfm2.5-vl-3b","ms":3296,"ok":true}

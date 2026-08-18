@@ -1,0 +1,18 @@
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g6|gate","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":4365,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g6|open","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2651,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g6|when","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2734,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g6|gate","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2679,"ok":false}
+{"answer":"The object rotates and moves across the surface. The final position shows it lying horizontally.","id":"synth-fall-pos|g6|open","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":1554,"ok":true}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g6|when","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2718,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g6|gate","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2679,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g6|open","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2440,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g6|when","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2486,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g6|gate","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2701,"ok":false}
+{"answer":"The objects move and shift across the frames. The blue bar grows taller over time.","id":"synth-remove-pos|g6|open","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":1416,"ok":true}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g6|when","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2513,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g6|gate","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2466,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g6|open","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2365,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g6|when","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2461,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g6|gate","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2408,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g6|open","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2340,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g6|when","load_s":631.74400000000003,"max_tokens":80,"model":"minicpm-v-4.6","ms":2472,"ok":false}

@@ -1,0 +1,36 @@
+# Watch the contact sheet, then replace `label: UNVERIFIED` with positive or
+# negative, set `onset_s` for positives, write `ground_truth`, and pair it with
+# its opposite clip. An unverified clip is excluded by build_tasks.py.
+id: intrusion-35054875
+tier: field
+event: person-enters
+label: positive
+pair: null
+onset_s: 2.8
+duration_s: 15.0
+ground_truth: A fixed camera on a low concrete barrier in a park. The frame is empty for the first
+  two and a half seconds; a person then runs in, vaults over the barrier, and continues out of frame.
+  A person crossing a barrier into a space that was empty.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 35054875
+  url: https://www.pexels.com/video/outdoor-park-workout-man-performing-box-jumps-35054875/
+  title: outdoor park workout man performing box jumps
+  author: Jude Okafor
+  author_url: https://www.pexels.com/@jamok
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  viewpoint: fixed-tripod
+  distance: mid
+  light: daylight-overcast
+  occlusion: none
+  blur: slight-on-vault
+  clutter: low
+camera: fixed
+selection: kept by tools/review.py after tools/enter_onset.py measured the camera as fixed. 165 of
+  327 candidates were rejected on camera motion alone, which a 6-frame contact sheet does not reveal.
+trim:
+- 0.0
+- 15.0

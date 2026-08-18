@@ -1,0 +1,12 @@
+{"answer":"No. The person in panel 4 is not wearing a hard hat.","id":"ppe-missing-8963857|w000|gate","load_s":6.149,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3286,"ok":true}
+{"answer":"No. All four panels show the same person wearing a hard hat.","id":"ppe-missing-8963857|w001|gate","load_s":6.149,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3154,"ok":true}
+{"answer":"No\nThe person in panel 4 is not wearing a hard hat.","id":"ppe-missing-8963857|w002|gate","load_s":6.149,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3183,"ok":true}
+{"answer":"No\nAll individuals in the frames are wearing hard hats.","id":"ppe-missing-8963857|w003|gate","load_s":6.149,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3166,"ok":true}
+{"answer":"No\nAll individuals in the frames are wearing hard hats.","id":"ppe-missing-8963857|w004|gate","load_s":6.149,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3231,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a hard hat.","id":"ppe-missing-8963857|w005|gate","load_s":6.149,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3407,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a hard hat.","id":"ppe-missing-8963857|w006|gate","load_s":6.149,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3549,"ok":true}
+{"answer":"No\nThe worker in all four frames is wearing a yellow hard hat.","id":"ppe-missing-8963857|w007|gate","load_s":6.149,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3450,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a yellow hard hat.","id":"ppe-missing-8963857|w008|gate","load_s":6.149,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3203,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a hard hat.","id":"ppe-missing-8963857|w009|gate","load_s":6.149,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3175,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a yellow hard hat.","id":"ppe-missing-8963857|w010|gate","load_s":6.149,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3148,"ok":true}
+{"answer":"No\nAll four frames show the same individual wearing a hard hat.","id":"ppe-missing-8963857|w011|gate","load_s":6.149,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3271,"ok":true}

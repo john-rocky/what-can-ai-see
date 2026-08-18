@@ -1,0 +1,40 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: smoke-fire-34992285
+tier: field
+event: smoke-fire
+label: negative
+pair: smoke-fire-8064156
+onset_s: null
+duration_s: 6.0
+ground_truth: 'Ground-level industrial yard: a white vapour cloud billows across the loading
+  area beside safety bollards. Reads exactly like smoke from a warehouse fire; it is vapour.
+  No flame, no dark plume.'
+source:
+  kind: stock
+  provider: pexels
+  video_id: 34992285
+  url: https://www.pexels.com/video/eerie-industrial-smoke-and-steamy-setting-34992285/
+  title: eerie industrial smoke and steamy setting
+  author: Axel Musenga
+  author_url: https://www.pexels.com/@xldrewit
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: near
+  target_size: large
+  light: bright
+  occlusion: none
+  blur: none
+  viewpoint: ground
+  clutter: high
+  duration_class: multi-second
+negative_hardness: hard
+trim:
+- 0.5
+- 6.5
+pair_note: Composition is NOT matched to its positive (ground-level yard vs elevated skyline).
+  What is matched is the confusion under test - industrial plume, smoke or not.
+evidence_note: Diffuse event:present throughout the clip, so onset_s is null and latency is
+  not defined.
+shows_transition: false

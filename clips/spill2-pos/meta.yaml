@@ -1,0 +1,36 @@
+# Cut from spill-pournext-anom-e000005. kantine LeRobot, Apache-2.0.
+# Negative verified clean by measurement, not by trusting the dataset label.
+id: spill2-pos
+tier: field
+event: spill
+label: positive
+pair: spill2-neg
+onset_s: 6.5
+duration_s: 15.0
+ground_truth: The same rig. The robot pours beside the cup instead of into it and a brown pool spreads
+  on the table. Onset measured at 16.5s in the source.
+dataset_anomaly: pour coffee next to the cup
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/domotic_pouringCoffee_anomaly
+  file: videos/chunk-000/observation.images.logitech_1/episode_000005.mp4
+  camera: observation.images.logitech_1
+  license: apache-2.0
+  counterpart: kantine/domotic_pouringCoffee_expert — same rig, same camera, same task, different
+    outcome.
+conditions:
+  viewpoint: fixed-rig
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid
+trim:
+- 10.0
+- 25.0
+derived_from: spill-pournext-anom-e000005
+shows_transition: true
+onset_method: tools/spill_onset.py — first frame where the brown fraction of the table crosses 0.012
+  and holds for a second
+moment: coffee hits the table

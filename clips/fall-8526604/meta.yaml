@@ -1,0 +1,36 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: fall-8526604
+tier: field
+event: fall
+label: negative
+pair: fall-5916779
+onset_s: null
+duration_s: 6.0
+ground_truth: A man on an exercise mat moves from kneeling (panels 1-4) to lying flat on his
+  back (panels 5-6). Upright, then on the ground, then staying down - the trajectory of a
+  collapse, performed deliberately. No fall.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 8526604
+  url: https://www.pexels.com/video/a-medium-shot-of-a-man-lying-down-on-the-floor-8526604/
+  title: a medium shot of a man lying down on the floor
+  author: Ron Lach
+  author_url: https://www.pexels.com/@ron-lach
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 2048x1080
+conditions:
+  distance: near
+  target_size: large
+  light: dim
+  occlusion: none
+  blur: none
+  viewpoint: side
+  clutter: low
+  duration_class: multi-second
+negative_hardness: hard
+trim:
+- 3.5
+- 9.5
+shows_transition: true

@@ -1,0 +1,36 @@
+# Cut from spill-pourchk-ok-e000017. kantine LeRobot, Apache-2.0. Negative verified by measurement.
+id: spill3-neg
+tier: field
+event: spill
+label: negative
+pair: spill3-pos
+onset_s: null
+duration_s: 15.0
+ground_truth: The same rig, camera and task, normal episode. Table clean throughout — 0.003
+  brown at the end.
+dataset_anomaly: claimed normal
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/domotic_pouringCoffee_anomaly
+  file: videos/chunk-000/observation.images.logitech_1/episode_000017.mp4
+  camera: observation.images.logitech_1
+  license: apache-2.0
+  counterpart: kantine/domotic_pouringCoffee_anomaly — same rig, same camera, same task, different
+    outcome.
+conditions:
+  viewpoint: fixed-rig
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid
+trim:
+- 6.9
+- 21.9
+derived_from: spill-pourchk-ok-e000017
+shows_transition: false
+onset_method: measured, tools/spill_onset.py
+negative_hardness: hard
+verified_clean: brown fraction of the table measured at the end, not assumed from the dataset
+  label

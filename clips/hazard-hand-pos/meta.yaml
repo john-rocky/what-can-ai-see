@@ -1,0 +1,35 @@
+# Lead-in staged: frame 0 held 4s, then the real episode.
+id: hazard-hand-pos
+tier: staged
+event: hand-in-danger-zone
+label: positive
+pair: hazard-hand-neg
+onset_s: 6.6
+duration_s: 15.0
+ground_truth: A soldering station seen from a fixed overhead camera. For the first six and a half
+  seconds the pegboard and circuit board are clear; then a bare human hand enters from the right and
+  stays in the path of the soldering iron. Lead-in held from frame 0.
+dataset_anomaly: user places his hand between the soldering iron and the electronic card
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/industrial_soldering_anomaly
+  file: videos/chunk-000/observation.images.logitech_1/episode_000010.mp4
+  camera: observation.images.logitech_1
+  license: apache-2.0
+  counterpart: kantine/industrial_soldering_expert — same rig, same camera, same task, different outcome.
+conditions:
+  viewpoint: fixed-rig
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid
+derived_from: _tmp-hand
+shows_transition: true
+lead_in:
+  held_first_frame_s: 4.0
+  why: the source has no pre-event footage; frame 0 is the normal state and is held to supply a measurable
+    baseline
+  caveat: duration is fabricated; the held pixels are the clip's own frame 0
+moment: a hand goes in

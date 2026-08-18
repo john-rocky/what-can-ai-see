@@ -1,0 +1,86 @@
+{
+  "clip": "handover-7424456",
+  "event": "handover",
+  "label": "negative",
+  "question": "Did one person hand an object to another person?",
+  "onset_s": null,
+  "duration_s": 3.8,
+  "window_s": 1.6,
+  "stride_s": 0.4,
+  "panels": 4,
+  "ground_truth": "Two people in a room: a woman holds a large cardboard box, a man sits on the floor talking to her. The box stays with the woman in every panel. Two people plus an object, and no transfer - the exact negative events.yaml specifies for this event.",
+  "windows": [
+    {
+      "i": 0,
+      "t_start": 0.0,
+      "t_end": 1.6,
+      "times": [
+        0.2,
+        0.6,
+        1.0,
+        1.4
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/handover-7424456/windows/w000.jpg"
+    },
+    {
+      "i": 1,
+      "t_start": 0.4,
+      "t_end": 2.0,
+      "times": [
+        0.6,
+        1.0,
+        1.4,
+        1.8
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/handover-7424456/windows/w001.jpg"
+    },
+    {
+      "i": 2,
+      "t_start": 0.8,
+      "t_end": 2.4,
+      "times": [
+        1.0,
+        1.4,
+        1.8,
+        2.2
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/handover-7424456/windows/w002.jpg"
+    },
+    {
+      "i": 3,
+      "t_start": 1.2,
+      "t_end": 2.8,
+      "times": [
+        1.4,
+        1.8,
+        2.2,
+        2.6
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/handover-7424456/windows/w003.jpg"
+    },
+    {
+      "i": 4,
+      "t_start": 1.6,
+      "t_end": 3.2,
+      "times": [
+        1.8,
+        2.2,
+        2.6,
+        3.0
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/handover-7424456/windows/w004.jpg"
+    },
+    {
+      "i": 5,
+      "t_start": 2.0,
+      "t_end": 3.6,
+      "times": [
+        2.2,
+        2.6,
+        3.0,
+        3.4
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/handover-7424456/windows/w005.jpg"
+    }
+  ]
+}

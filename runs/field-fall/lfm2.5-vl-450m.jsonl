@@ -1,0 +1,40 @@
+{"answer":"Yes","id":"fall-5916779|f1|gate","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1038,"ok":true}
+{"answer":"Yes","id":"fall-5916779|f1|gate2","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":936,"ok":true}
+{"answer":"No","id":"fall-5916779|f1|gate3","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":992,"ok":true}
+{"answer":"The climber is using a different technique, and the climbing wall has a different design.","id":"fall-5916779|f1|open","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1070,"ok":true}
+{"answer":"Yes","id":"fall-5916779|f1|when","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":901,"ok":true}
+{"answer":"Yes","id":"fall-5916779|g2|gate","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1124,"ok":true}
+{"answer":"No","id":"fall-5916779|g2|gate2","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1030,"ok":true}
+{"answer":"No","id":"fall-5916779|g2|gate3","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1113,"ok":true}
+{"answer":"The climber is ascending the wall, with the first frame showing them at the beginning of the climb and the second frame showing them at the end.","id":"fall-5916779|g2|open","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1257,"ok":true}
+{"answer":"1","id":"fall-5916779|g2|when","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1133,"ok":true}
+{"answer":"Yes","id":"fall-5916779|g6|gate","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1114,"ok":true}
+{"answer":"No","id":"fall-5916779|g6|gate2","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1047,"ok":true}
+{"answer":"No.","id":"fall-5916779|g6|gate3","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":897,"ok":true}
+{"answer":"The climber is ascending the wall, with the first frame showing them at the bottom and the last frame showing them at the top.","id":"fall-5916779|g6|open","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":727,"ok":true}
+{"answer":"1","id":"fall-5916779|g6|when","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1138,"ok":true}
+{"answer":"Yes","id":"fall-5916779|g12|gate","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1110,"ok":true}
+{"answer":"No","id":"fall-5916779|g12|gate2","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1043,"ok":true}
+{"answer":"No.","id":"fall-5916779|g12|gate3","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1134,"ok":true}
+{"answer":"The video shows a person climbing a wall, with the sequence of frames showing the progression of their ascent.","id":"fall-5916779|g12|open","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1209,"ok":true}
+{"answer":"1","id":"fall-5916779|g12|when","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1120,"ok":true}
+{"answer":"Yes","id":"fall-8526604|f1|gate","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":989,"ok":true}
+{"answer":"Yes","id":"fall-8526604|f1|gate2","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":922,"ok":true}
+{"answer":"No","id":"fall-8526604|f1|gate3","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1001,"ok":true}
+{"answer":"The man is walking on the carpet, and the lighting is dimmer.","id":"fall-8526604|f1|open","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1065,"ok":true}
+{"answer":"1","id":"fall-8526604|f1|when","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1000,"ok":true}
+{"answer":"Yes","id":"fall-8526604|g2|gate","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1106,"ok":true}
+{"answer":"No","id":"fall-8526604|g2|gate2","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1042,"ok":true}
+{"answer":"No","id":"fall-8526604|g2|gate3","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":691,"ok":true}
+{"answer":"The video clip shows a sequence of two frames from a single video. In the earliest frame, the scene is set in a dimly lit room with a person lying on the floor. In the latest frame, the person is now lying on their back, with their head resting on a surface. The changes between the frames include the person's position and the lighting conditions.","id":"fall-8526604|g2|open","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1197,"ok":true}
+{"answer":"1","id":"fall-8526604|g2|when","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1129,"ok":true}
+{"answer":"Yes","id":"fall-8526604|g6|gate","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1098,"ok":true}
+{"answer":"No","id":"fall-8526604|g6|gate2","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1030,"ok":true}
+{"answer":"No","id":"fall-8526604|g6|gate3","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1123,"ok":true}
+{"answer":"The video clip shows a man lying on the floor, with his arm raised and his head tilted back. The sequence of frames reveals a gradual progression of his movements, starting from a relaxed position to a more dynamic and possibly tense posture.","id":"fall-8526604|g6|open","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1384,"ok":true}
+{"answer":"1","id":"fall-8526604|g6|when","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1102,"ok":true}
+{"answer":"Yes","id":"fall-8526604|g12|gate","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1130,"ok":true}
+{"answer":"No","id":"fall-8526604|g12|gate2","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1045,"ok":true}
+{"answer":"No","id":"fall-8526604|g12|gate3","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1101,"ok":true}
+{"answer":"The video shows a sequence of a person's movements, starting from a relaxed position in panel 1 to a more dynamic pose in panel 12.","id":"fall-8526604|g12|open","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1271,"ok":true}
+{"answer":"1","id":"fall-8526604|g12|when","load_s":0.61799999999999999,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1124,"ok":true}

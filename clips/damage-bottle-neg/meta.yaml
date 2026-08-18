@@ -1,0 +1,37 @@
+# Curated negative for damage-bottle-pos, cut to the same length.
+id: damage-bottle-neg
+tier: field
+event: damage
+label: negative
+pair: damage-bottle-pos
+onset_s: null
+duration_s: 9.5
+ground_truth: A glass bottle stands against a dark background, its shadow moving as the light
+  shifts. It stays intact for the whole clip.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 7876233
+  url: https://www.pexels.com/video/shadow-of-a-glass-bottle-7876233/
+  title: shadow of a glass bottle
+  author: MART  PRODUCTION
+  author_url: https://www.pexels.com/@mart-production
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 2048x1080
+conditions:
+  distance: unknown
+  target_size: unknown
+  light: unknown
+  occlusion: unknown
+  blur: unknown
+  viewpoint: unknown
+  clutter: unknown
+  duration_class: unknown
+negative_hardness: hard
+trim:
+- 0.5
+- 10.0
+derived_from: damage-7876233
+shows_transition: false
+pair_note: Its positive has a four-second held lead-in to supply a baseline; this negative
+  is cut to the same length so clip duration is not a cue.

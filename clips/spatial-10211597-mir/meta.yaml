@@ -1,0 +1,38 @@
+# Mirror of spatial-10211597 for the training-contamination probe. See `mirrored:` below.
+id: spatial-10211597-mir
+tier: field
+event: spatial
+label: positive
+pair: null
+onset_s: null
+duration_s: 15.02
+camera: fixed
+ground_truth: A tabby cat sits on top of a wooden bench in a garden and stays there.
+source:
+  kind: stock
+  provider: pexels
+  id: 10211597
+  url: https://www.pexels.com/video/a-cat-with-a-strong-look-10211597/
+  title: a cat with a strong look
+  scene_query: spatial
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: spatial
+kind: stable
+expected: 'yes'
+trim:
+- 0.0
+- 15.0
+derived_from: spatial-10211597
+mirrored: horizontally flipped copy of the original. Semantically identical — a cat on a bench is
+  still on the bench, two people are still two people — but no longer a pixel match for anything in
+  a training set. If a model's answers hold across the flip it is reading the picture; if they move,
+  the flip is not the only explanation but memory of the original clip becomes one of them.

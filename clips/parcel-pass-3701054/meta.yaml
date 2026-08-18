@@ -1,0 +1,38 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: parcel-pass-3701054
+tier: field
+event: parcel-pass
+label: negative
+pair: parcel-pass-4156510
+onset_s: null
+duration_s: 6.0
+ground_truth: An empty airport baggage carousel. No parcels on the belt in any panel, so nothing
+  passed.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 3701054
+  url: https://www.pexels.com/video/a-empty-conveyor-3701054/
+  title: a empty conveyor
+  author: K
+  author_url: https://www.pexels.com/@kelly
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: mid
+  target_size: none
+  light: bright
+  occlusion: none
+  blur: none
+  viewpoint: side
+  clutter: high
+  duration_class: multi-second
+negative_hardness: easy
+trim:
+- 0.5
+- 6.5
+pair_note: EASY negative. The hard version - parcels present on a belt that is not advancing
+  - is the positive-starved case of F6 and is not sourceable from stock. The synthetic `synth-stop`
+  pair covers it in the floor tier.
+shows_transition: false

@@ -1,0 +1,36 @@
+# The observation.images.logitech_2 view of grounds-neg: same episode, same trim, same event,
+# different angle. Onset and control cleanliness are NOT inherited.
+id: grounds-neg-v2
+tier: field
+event: spill
+label: negative
+pair: grounds-pos-v2
+onset_s: null
+duration_s: 15.0
+ground_truth: The same rig, same fixed camera, same task, from the normal episodes of the same dataset.
+  The grounds go where they should and the table stays clean.
+dataset_anomaly: episodes 0-4 are the normal test episodes
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/domotic_makingCoffee_anomaly
+  file: videos/chunk-000/observation.images.logitech_2/episode_000000.mp4
+  camera: observation.images.logitech_2
+  license: apache-2.0
+  counterpart: kantine/domotic_makingCoffee_anomaly — same rig, same camera, same task, different
+    outcome.
+conditions:
+  viewpoint: fixed-rig-oblique
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid
+trim:
+- 10.0
+- 25.0
+derived_from: grounds-neg
+shows_transition: false
+negative_hardness: hard
+view: oblique-low (logitech_2); the paired clip is overhead (logitech_1)
+verified_clean: no rise in the dark fraction of the table at any point; ends 0.003 BELOW baseline.

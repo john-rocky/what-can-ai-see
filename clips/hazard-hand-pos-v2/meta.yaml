@@ -1,0 +1,42 @@
+# The observation.images.logitech_2 view of hazard-hand-pos: same episode, same trim, same event,
+# different angle. Onset and control cleanliness are NOT inherited.
+id: hazard-hand-pos-v2
+tier: staged
+event: hand-in-danger-zone
+label: rejected
+pair: hazard-hand-neg-v2
+onset_s: null
+duration_s: 15.0
+ground_truth: A soldering station seen from a fixed overhead camera. For the first six and a half
+  seconds the pegboard and circuit board are clear; then a bare human hand enters from the right and
+  stays in the path of the soldering iron. Lead-in held from frame 0.
+dataset_anomaly: user places his hand between the soldering iron and the electronic card
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/industrial_soldering_anomaly
+  file: videos/chunk-000/observation.images.logitech_2/episode_000010.mp4
+  camera: observation.images.logitech_2
+  license: apache-2.0
+  counterpart: kantine/industrial_soldering_expert — same rig, same camera, same task, different outcome.
+conditions:
+  viewpoint: fixed-rig-oblique
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid
+derived_from: hazard-hand-pos
+shows_transition: true
+lead_in:
+  held_first_frame_s: 4.0
+  why: the source has no pre-event footage; frame 0 is the normal state and is held to supply a measurable
+    baseline
+  caveat: duration is fabricated; the held pixels are the clip's own frame 0
+view: oblique-low (logitech_2); the paired clip is overhead (logitech_1)
+rejected: NOT SCOREABLE FROM THIS VIEW, and the reason is the result. The overhead camera first sees
+  a hand at 6.6s, so that pair has 13 windows of clean lead-in. From the oblique camera the person's
+  arm is in frame at t=0 and never leaves — there is no window in the 15s trim whose correct answer
+  is No. So the 6.6s 'onset' is not when the situation became dangerous; it is when the overhead crop
+  could first see it. Latency measured against it is a property of the camera placement, not of the
+  model.

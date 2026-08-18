@@ -1,0 +1,12 @@
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|w000|gate","load_s":0.94899999999999995,"max_tokens":320,"model":"minicpm-v-4.6","ms":2591,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|w001|gate","load_s":0.94899999999999995,"max_tokens":320,"model":"minicpm-v-4.6","ms":2742,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|w002|gate","load_s":0.94899999999999995,"max_tokens":320,"model":"minicpm-v-4.6","ms":2586,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|w003|gate","load_s":0.94899999999999995,"max_tokens":320,"model":"minicpm-v-4.6","ms":2586,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|w004|gate","load_s":0.94899999999999995,"max_tokens":320,"model":"minicpm-v-4.6","ms":2593,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|w005|gate","load_s":0.94899999999999995,"max_tokens":320,"model":"minicpm-v-4.6","ms":2596,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|w006|gate","load_s":0.94899999999999995,"max_tokens":320,"model":"minicpm-v-4.6","ms":2590,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|w007|gate","load_s":0.94899999999999995,"max_tokens":320,"model":"minicpm-v-4.6","ms":2582,"ok":false}
+{"answer":"\n\nNo, the conveyor is moving. The blocks are progressing from left to right across the frames, indicating ongoing motion.","id":"synth-stop-neg|w008|gate","load_s":0.94899999999999995,"max_tokens":320,"model":"minicpm-v-4.6","ms":2068,"ok":true}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|w009|gate","load_s":0.94899999999999995,"max_tokens":320,"model":"minicpm-v-4.6","ms":2569,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|w010|gate","load_s":0.94899999999999995,"max_tokens":320,"model":"minicpm-v-4.6","ms":2586,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|w011|gate","load_s":0.94899999999999995,"max_tokens":320,"model":"minicpm-v-4.6","ms":2593,"ok":false}

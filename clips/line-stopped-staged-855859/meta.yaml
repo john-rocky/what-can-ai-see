@@ -1,0 +1,39 @@
+# STAGED from line-stopped-855859 by tools/stage.py (freeze).
+# Its pair is the same footage unmodified, so the composited change is the
+# only difference between the two halves.
+id: line-stopped-staged-855859
+tier: staged
+event: line-stopped
+label: positive
+pair: line-stopped-staged-855859-control
+onset_s: 3.0
+duration_s: 6.0
+ground_truth: The machinery runs normally for the first part of the clip and then holds completely
+  still for the rest. A running line that stops.
+staged:
+  base_clip: line-stopped-855859
+  transition: freeze
+  at_s: 3.0
+  caveat: Composited, not filmed. A model that scores here may be reading a compositing seam
+    rather than the event; the patch edge is feathered and tools/stage.py --check renders
+    a difference map for inspection.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 855859
+  url: https://www.pexels.com/video/packaging-machine-855859/
+  title: packaging machine
+  author: Pixabay
+  author_url: https://www.pexels.com/@pixabay
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: unknown
+  target_size: unknown
+  light: unknown
+  occlusion: unknown
+  blur: unknown
+  viewpoint: unknown
+  clutter: unknown
+  duration_class: unknown
+shows_transition: true

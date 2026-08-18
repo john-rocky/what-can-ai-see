@@ -1,0 +1,31 @@
+# Fetched by tools/fetch_scene.py — searched by PLACE, not by event.
+id: material-9253241
+tier: field
+event: material
+label: positive
+pair: null
+onset_s: null
+duration_s: 10.05
+camera: fixed
+ground_truth: A wet road at night, painted crossing stripes and red traffic lights reflected in the
+  water.
+source:
+  kind: stock
+  provider: pexels
+  id: 9253241
+  url: https://www.pexels.com/video/raindrops-on-the-road-9253241/
+  title: raindrops on the road
+  scene_query: material
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: material
+kind: stable
+expected: 'yes'

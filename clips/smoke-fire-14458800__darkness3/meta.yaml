@@ -1,0 +1,40 @@
+# DERIVED from smoke-fire-14458800 by tools/make_variants.py — darkness level 3.
+# Not field footage. Its pair is the identically-degraded mate, so the only
+# difference across this rung is the condition under test.
+id: smoke-fire-14458800__darkness3
+tier: variant
+event: smoke-fire
+label: negative
+pair: smoke-fire-8365988__darkness3
+onset_s: null
+duration_s: 6.0
+ground_truth: Aerial view of an industrial plant emitting a large white water-vapour plume
+  in normal operation. No fire, no dark smoke. Composition, subject and plume geometry closely
+  match the positive it pairs with; only colour and the absence of flame separate them.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 14458800
+  url: https://www.pexels.com/video/steam-over-power-plant-14458800/
+  title: steam over power plant
+  author: Luke Nomad
+  author_url: https://www.pexels.com/@luke-nomad-142956646
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: far
+  target_size: large
+  light: very-dark
+  occlusion: none
+  blur: none
+  viewpoint: aerial
+  clutter: high
+  duration_class: multi-second
+negative_hardness: hard
+derived_from: smoke-fire-14458800
+degradation:
+  axis: darkness
+  level: 3
+evidence_note: Diffuse event:present throughout the clip, so onset_s is null and latency is
+  not defined.
+shows_transition: false

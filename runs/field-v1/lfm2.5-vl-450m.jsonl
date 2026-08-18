@@ -1,0 +1,240 @@
+{"answer":"Yes","id":"fall-5916779|f1|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1066,"ok":true}
+{"answer":"Yes","id":"fall-5916779|f1|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":975,"ok":true}
+{"answer":"No","id":"fall-5916779|f1|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1067,"ok":true}
+{"answer":"The climber is using a different technique, and the climbing wall has a different design.","id":"fall-5916779|f1|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1100,"ok":true}
+{"answer":"Yes","id":"fall-5916779|f1|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1041,"ok":true}
+{"answer":"Yes","id":"fall-5916779|g2|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1215,"ok":true}
+{"answer":"No","id":"fall-5916779|g2|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1104,"ok":true}
+{"answer":"No","id":"fall-5916779|g2|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1238,"ok":true}
+{"answer":"The climber is ascending the wall, with the first frame showing them at the beginning of the climb and the second frame showing them at the end.","id":"fall-5916779|g2|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1508,"ok":true}
+{"answer":"1","id":"fall-5916779|g2|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1291,"ok":true}
+{"answer":"Yes","id":"fall-5916779|g6|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1254,"ok":true}
+{"answer":"No","id":"fall-5916779|g6|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1222,"ok":true}
+{"answer":"No.","id":"fall-5916779|g6|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1206,"ok":true}
+{"answer":"The climber is ascending the wall, with the first frame showing them at the bottom and the last frame showing them at the top.","id":"fall-5916779|g6|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":977,"ok":true}
+{"answer":"1","id":"fall-5916779|g6|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":761,"ok":true}
+{"answer":"Yes","id":"fall-5916779|g12|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1636,"ok":true}
+{"answer":"No","id":"fall-5916779|g12|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1282,"ok":true}
+{"answer":"No.","id":"fall-5916779|g12|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1157,"ok":true}
+{"answer":"The video shows a person climbing a wall, with the sequence of frames showing the progression of their ascent.","id":"fall-5916779|g12|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1457,"ok":true}
+{"answer":"1","id":"fall-5916779|g12|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1320,"ok":true}
+{"answer":"Yes","id":"fall-8526604|f1|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1068,"ok":true}
+{"answer":"Yes","id":"fall-8526604|f1|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1016,"ok":true}
+{"answer":"No","id":"fall-8526604|f1|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1085,"ok":true}
+{"answer":"The man is walking on the carpet, and the lighting is dimmer.","id":"fall-8526604|f1|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1127,"ok":true}
+{"answer":"1","id":"fall-8526604|f1|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1220,"ok":true}
+{"answer":"Yes","id":"fall-8526604|g2|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1302,"ok":true}
+{"answer":"No","id":"fall-8526604|g2|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1113,"ok":true}
+{"answer":"No","id":"fall-8526604|g2|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1259,"ok":true}
+{"answer":"The video clip shows a sequence of two frames from a single video. In the earliest frame, the scene is set in a dimly lit room with a person lying on the floor. In the latest frame, the person is now lying on their back, with their head resting on a surface. The changes between the frames include the person's position and the lighting conditions.","id":"fall-8526604|g2|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1833,"ok":true}
+{"answer":"1","id":"fall-8526604|g2|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1330,"ok":true}
+{"answer":"Yes","id":"fall-8526604|g6|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1143,"ok":true}
+{"answer":"No","id":"fall-8526604|g6|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1276,"ok":true}
+{"answer":"No","id":"fall-8526604|g6|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1329,"ok":true}
+{"answer":"The video clip shows a man lying on the floor, with his arm raised and his head tilted back. The sequence of frames reveals a gradual progression of his movements, starting from a relaxed position to a more dynamic and possibly tense posture.","id":"fall-8526604|g6|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1458,"ok":true}
+{"answer":"1","id":"fall-8526604|g6|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1437,"ok":true}
+{"answer":"Yes","id":"fall-8526604|g12|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1173,"ok":true}
+{"answer":"No","id":"fall-8526604|g12|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1106,"ok":true}
+{"answer":"No","id":"fall-8526604|g12|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1170,"ok":true}
+{"answer":"The video shows a sequence of a person's movements, starting from a relaxed position in panel 1 to a more dynamic pose in panel 12.","id":"fall-8526604|g12|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1408,"ok":true}
+{"answer":"1","id":"fall-8526604|g12|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1197,"ok":true}
+{"answer":"Yes","id":"smoke-fire-14458800|f1|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":987,"ok":true}
+{"answer":"Yes, there is smoke or fire visible in the scene. The image shows a factory with smoke billowing out of its smokestacks, indicating that it is likely emitting smoke or fire.","id":"smoke-fire-14458800|f1|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1255,"ok":true}
+{"answer":"No","id":"smoke-fire-14458800|f1|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1068,"ok":true}
+{"answer":"The image shows a city with factories emitting smoke, with snow-capped mountains in the background.","id":"smoke-fire-14458800|f1|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1155,"ok":true}
+{"answer":"Yes","id":"smoke-fire-14458800|f1|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1037,"ok":true}
+{"answer":"No","id":"smoke-fire-14458800|g2|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1136,"ok":true}
+{"answer":"No, there is no smoke or fire in the scene.","id":"smoke-fire-14458800|g2|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1116,"ok":true}
+{"answer":"No.","id":"smoke-fire-14458800|g2|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1169,"ok":true}
+{"answer":"The video clip shows a factory emitting smoke, with the earliest frame showing the factory in its initial state and the latest frame showing it in a more advanced state.","id":"smoke-fire-14458800|g2|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1274,"ok":true}
+{"answer":"1","id":"smoke-fire-14458800|g2|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1141,"ok":true}
+{"answer":"No","id":"smoke-fire-14458800|g6|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1131,"ok":true}
+{"answer":"No, there is no smoke or fire in the scene.","id":"smoke-fire-14458800|g6|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1102,"ok":true}
+{"answer":"No.","id":"smoke-fire-14458800|g6|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1184,"ok":true}
+{"answer":"The video clip shows a factory emitting smoke from multiple locations, with the smoke spreading across the frame. The changes between the earliest and latest frames include the smoke's position and intensity, as well as the overall layout of the factory and surrounding area.","id":"smoke-fire-14458800|g6|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1463,"ok":true}
+{"answer":"None","id":"smoke-fire-14458800|g6|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1121,"ok":true}
+{"answer":"No","id":"smoke-fire-14458800|g12|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1143,"ok":true}
+{"answer":"No, there is no smoke or fire in the scene.","id":"smoke-fire-14458800|g12|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1068,"ok":true}
+{"answer":"No.","id":"smoke-fire-14458800|g12|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1169,"ok":true}
+{"answer":"The video clip shows a sequence of 12 frames from a single video, with the earliest frame (1) being the oldest and the latest frame (12) being the newest. The changes between the earliest and latest frames include the gradual increase in smoke plumes, indicating the progression of the event or process being captured.","id":"smoke-fire-14458800|g12|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1570,"ok":true}
+{"answer":"1","id":"smoke-fire-14458800|g12|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1241,"ok":true}
+{"answer":"Yes","id":"smoke-fire-34992285|f1|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1012,"ok":true}
+{"answer":"Yes, there is smoke or fire in the scene. Smoke is visible in the air, and there's also a fire burning on the ground.","id":"smoke-fire-34992285|f1|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1163,"ok":true}
+{"answer":"No","id":"smoke-fire-34992285|f1|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1055,"ok":true}
+{"answer":"The scene shifts from a factory setting to a more industrial or construction environment, with steam and machinery visible.","id":"smoke-fire-34992285|f1|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1146,"ok":true}
+{"answer":"1","id":"smoke-fire-34992285|f1|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1027,"ok":true}
+{"answer":"No","id":"smoke-fire-34992285|g2|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1116,"ok":true}
+{"answer":"No","id":"smoke-fire-34992285|g2|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1045,"ok":true}
+{"answer":"No","id":"smoke-fire-34992285|g2|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1161,"ok":true}
+{"answer":"The video clip shows a sequence of two frames from a single video. In the earliest frame, there are two large white containers stacked on top of each other. In the latest frame, the containers have been removed, and the scene shows a white object on the ground.","id":"smoke-fire-34992285|g2|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1439,"ok":true}
+{"answer":"1","id":"smoke-fire-34992285|g2|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1155,"ok":true}
+{"answer":"No","id":"smoke-fire-34992285|g6|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1143,"ok":true}
+{"answer":"No","id":"smoke-fire-34992285|g6|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1101,"ok":true}
+{"answer":"No.","id":"smoke-fire-34992285|g6|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1150,"ok":true}
+{"answer":"The video clip shows a sequence of six frames from a single video, with the earliest frame (1) being the earliest and the latest frame (6) being the latest. The changes between the frames include the movement of the white tanker and the presence of smoke, indicating that the tanker is moving and the smoke is being emitted.","id":"smoke-fire-34992285|g6|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1652,"ok":true}
+{"answer":"1","id":"smoke-fire-34992285|g6|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1246,"ok":true}
+{"answer":"No","id":"smoke-fire-34992285|g12|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1181,"ok":true}
+{"answer":"No, there is no smoke or fire in the scene.","id":"smoke-fire-34992285|g12|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1027,"ok":true}
+{"answer":"No.","id":"smoke-fire-34992285|g12|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1028,"ok":true}
+{"answer":"The video clip shows a sequence of frames from a video, with the earliest frame being the first frame in the sequence. The frames progress from left to right, with each frame showing a different moment in time. The changes between the earliest and latest frames include the movement of the objects and the changing positions of the people.","id":"smoke-fire-34992285|g12|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1432,"ok":true}
+{"answer":"1","id":"smoke-fire-34992285|g12|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1026,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8064156|f1|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":905,"ok":true}
+{"answer":"Yes, there is smoke or fire visible in the scene. The tall smokestacks in the background are emitting thick plumes of smoke, which is a clear indication of a fire or smoke release.","id":"smoke-fire-8064156|f1|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1132,"ok":true}
+{"answer":"No","id":"smoke-fire-8064156|f1|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":951,"ok":true}
+{"answer":"The scene shifts from a cityscape at dusk to a smoky industrial area at dawn, with the sky transitioning from warm orange to cool blue.","id":"smoke-fire-8064156|f1|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1094,"ok":true}
+{"answer":"1","id":"smoke-fire-8064156|f1|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":939,"ok":true}
+{"answer":"No","id":"smoke-fire-8064156|g2|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1007,"ok":true}
+{"answer":"No, there is no smoke or fire in the scene.","id":"smoke-fire-8064156|g2|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1036,"ok":true}
+{"answer":"No.","id":"smoke-fire-8064156|g2|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1039,"ok":true}
+{"answer":"The video clip shows a building with smoke rising from its chimney, indicating a factory or industrial facility. The scene transitions from a bright, sunny sky in the first frame to a darker, more ominous sky in the second frame, suggesting an impending storm or industrial activity.","id":"smoke-fire-8064156|g2|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1385,"ok":true}
+{"answer":"1","id":"smoke-fire-8064156|g2|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1037,"ok":true}
+{"answer":"No","id":"smoke-fire-8064156|g6|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1003,"ok":true}
+{"answer":"No, there is no smoke or fire in the scene.","id":"smoke-fire-8064156|g6|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1062,"ok":true}
+{"answer":"No.","id":"smoke-fire-8064156|g6|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1048,"ok":true}
+{"answer":"The video clip shows a cityscape with smoke rising from buildings, transitioning from a bright sky to a darker, more ominous atmosphere as the time progresses.","id":"smoke-fire-8064156|g6|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1181,"ok":true}
+{"answer":"None","id":"smoke-fire-8064156|g6|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1053,"ok":true}
+{"answer":"No","id":"smoke-fire-8064156|g12|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1053,"ok":true}
+{"answer":"No, there is no smoke or fire in the scene.","id":"smoke-fire-8064156|g12|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1016,"ok":true}
+{"answer":"No.","id":"smoke-fire-8064156|g12|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1022,"ok":true}
+{"answer":"The video clip shows a sequence of 12 frames from a single video, with the earliest frame (panel 1) being the oldest and the latest frame (panel 12) being the newest. The changes between the earliest and latest frames include the appearance of smoke, which is visible in the middle frames.","id":"smoke-fire-8064156|g12|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1429,"ok":true}
+{"answer":"None","id":"smoke-fire-8064156|g12|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1064,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8365988|f1|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":998,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8365988|f1|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":867,"ok":true}
+{"answer":"No","id":"smoke-fire-8365988|f1|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":942,"ok":true}
+{"answer":"The fire is spreading rapidly, with smoke rising high into the sky.","id":"smoke-fire-8365988|f1|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":973,"ok":true}
+{"answer":"1","id":"smoke-fire-8365988|f1|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":959,"ok":true}
+{"answer":"No","id":"smoke-fire-8365988|g2|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1021,"ok":true}
+{"answer":"No, there is no smoke or fire in the scene.","id":"smoke-fire-8365988|g2|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1022,"ok":true}
+{"answer":"No","id":"smoke-fire-8365988|g2|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":717,"ok":true}
+{"answer":"The video clip shows a dramatic scene where a fire is burning in a building, with smoke rising into the air. The earliest frame captures the initial moment of the fire, while the latest frame shows the fire spreading and consuming the building.","id":"smoke-fire-8365988|g2|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":781,"ok":true}
+{"answer":"1","id":"smoke-fire-8365988|g2|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":802,"ok":true}
+{"answer":"No","id":"smoke-fire-8365988|g6|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":825,"ok":true}
+{"answer":"No, there is no smoke or fire in the scene.","id":"smoke-fire-8365988|g6|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":847,"ok":true}
+{"answer":"No.","id":"smoke-fire-8365988|g6|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":811,"ok":true}
+{"answer":"The video clip shows a gradual increase in smoke from panel 1 to panel 6, indicating a gradual escalation of the fire.","id":"smoke-fire-8365988|g6|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":765,"ok":true}
+{"answer":"None","id":"smoke-fire-8365988|g6|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":739,"ok":true}
+{"answer":"No","id":"smoke-fire-8365988|g12|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1494,"ok":true}
+{"answer":"No, there is no smoke or fire in the scene.","id":"smoke-fire-8365988|g12|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1185,"ok":true}
+{"answer":"No.","id":"smoke-fire-8365988|g12|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1399,"ok":true}
+{"answer":"The video clip shows a gradual increase in smoke from panel 1 to panel 12, indicating a gradual escalation of the fire.","id":"smoke-fire-8365988|g12|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1314,"ok":true}
+{"answer":"1","id":"smoke-fire-8365988|g12|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1386,"ok":true}
+{"answer":"Yes","id":"synth-fall-neg|f1|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1162,"ok":true}
+{"answer":"No","id":"synth-fall-neg|f1|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":988,"ok":true}
+{"answer":"No","id":"synth-fall-neg|f1|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1290,"ok":true}
+{"answer":"A blue candle with a yellow top is placed on a gray surface against a gray background.","id":"synth-fall-neg|f1|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1131,"ok":true}
+{"answer":"1","id":"synth-fall-neg|f1|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1140,"ok":true}
+{"answer":"Yes","id":"synth-fall-neg|g2|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1273,"ok":true}
+{"answer":"No","id":"synth-fall-neg|g2|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1164,"ok":true}
+{"answer":"No.","id":"synth-fall-neg|g2|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1197,"ok":true}
+{"answer":"The video clip shows a sequence of two frames from a single video, with panel 1 being the earliest and panel 2 the latest. The changes between the frames include the addition of a blue vertical line in panel 1, which is not present in panel 2.","id":"synth-fall-neg|g2|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1517,"ok":true}
+{"answer":"1","id":"synth-fall-neg|g2|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1190,"ok":true}
+{"answer":"Yes","id":"synth-fall-neg|g6|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1172,"ok":true}
+{"answer":"No","id":"synth-fall-neg|g6|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1115,"ok":true}
+{"answer":"No","id":"synth-fall-neg|g6|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1201,"ok":true}
+{"answer":"The video clip shows a sequence of six frames, with panel 1 being the earliest and panel 6 the latest. The changes between the earliest and latest frames include the progression of the subject's movement and the changes in the background.","id":"synth-fall-neg|g6|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1439,"ok":true}
+{"answer":"1","id":"synth-fall-neg|g6|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1167,"ok":true}
+{"answer":"Yes","id":"synth-fall-neg|g12|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1136,"ok":true}
+{"answer":"No","id":"synth-fall-neg|g12|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1294,"ok":true}
+{"answer":"No","id":"synth-fall-neg|g12|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1153,"ok":true}
+{"answer":"The video clip progresses from a scene with a person in a dark room to a scene with a person in a brightly lit room.","id":"synth-fall-neg|g12|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1289,"ok":true}
+{"answer":"1","id":"synth-fall-neg|g12|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1150,"ok":true}
+{"answer":"Yes","id":"synth-fall-pos|f1|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1028,"ok":true}
+{"answer":"Yes","id":"synth-fall-pos|f1|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":948,"ok":true}
+{"answer":"No","id":"synth-fall-pos|f1|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1037,"ok":true}
+{"answer":"A blue stick with a yellow tip is leaning against a gray surface.","id":"synth-fall-pos|f1|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1078,"ok":true}
+{"answer":"1","id":"synth-fall-pos|f1|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1034,"ok":true}
+{"answer":"Yes","id":"synth-fall-pos|g2|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1150,"ok":true}
+{"answer":"No","id":"synth-fall-pos|g2|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1059,"ok":true}
+{"answer":"No.","id":"synth-fall-pos|g2|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1182,"ok":true}
+{"answer":"The video clip shows a sequence of two frames, with panel 1 being the earliest and panel 2 the latest. The changes between the frames include the addition of a blue vertical line in panel 1, which is not present in panel 2.","id":"synth-fall-pos|g2|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1495,"ok":true}
+{"answer":"1","id":"synth-fall-pos|g2|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1436,"ok":true}
+{"answer":"Yes","id":"synth-fall-pos|g6|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1164,"ok":true}
+{"answer":"No","id":"synth-fall-pos|g6|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1058,"ok":true}
+{"answer":"No","id":"synth-fall-pos|g6|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1141,"ok":true}
+{"answer":"The video clip shows a sequence of frames from a single video, with panel 1 being the earliest and panel 6 the latest. The changes between the earliest and latest frames include the progression of the video's content, with panel 1 likely showing the beginning of the video and panel 6 showing the end.","id":"synth-fall-pos|g6|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1519,"ok":true}
+{"answer":"1","id":"synth-fall-pos|g6|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1165,"ok":true}
+{"answer":"Yes","id":"synth-fall-pos|g12|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1142,"ok":true}
+{"answer":"No","id":"synth-fall-pos|g12|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1048,"ok":true}
+{"answer":"No","id":"synth-fall-pos|g12|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1155,"ok":true}
+{"answer":"The video clip shows a sequence of 12 frames, with panel 1 being the earliest and panel 12 the latest. The changes between the earliest and latest frames include the progression of the subject, possibly a person or object, from the start to the end of the video.","id":"synth-fall-pos|g12|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1466,"ok":true}
+{"answer":"1","id":"synth-fall-pos|g12|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1162,"ok":true}
+{"answer":"Yes","id":"synth-remove-neg|f1|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1034,"ok":true}
+{"answer":"Yes","id":"synth-remove-neg|f1|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1046,"ok":true}
+{"answer":"No","id":"synth-remove-neg|f1|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1051,"ok":true}
+{"answer":"The image shows a simple, minimalist scene with a blue and orange object on a gray background. The blue object is taller and has a rounded top, while the orange object is shorter and has a flat top.","id":"synth-remove-neg|f1|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1271,"ok":true}
+{"answer":"1","id":"synth-remove-neg|f1|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1040,"ok":true}
+{"answer":"Yes","id":"synth-remove-neg|g2|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1144,"ok":true}
+{"answer":"Yes, an object was taken away from the scene.","id":"synth-remove-neg|g2|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1142,"ok":true}
+{"answer":"No","id":"synth-remove-neg|g2|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1166,"ok":true}
+{"answer":"The video clip shows a sequence of two frames, with panel 1 being the earliest and panel 2 the latest. The changes between the frames include the addition of a blue vertical line in panel 1 and the presence of a small orange dot in panel 2.","id":"synth-remove-neg|g2|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1465,"ok":true}
+{"answer":"1","id":"synth-remove-neg|g2|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1173,"ok":true}
+{"answer":"Yes","id":"synth-remove-neg|g6|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1161,"ok":true}
+{"answer":"Yes, an object was taken away from the scene.","id":"synth-remove-neg|g6|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1143,"ok":true}
+{"answer":"No","id":"synth-remove-neg|g6|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1145,"ok":true}
+{"answer":"The video clip shows a sequence of frames from a single video, with panel 1 being the earliest and panel 6 the latest. The changes between the earliest and latest frames include the progression of objects or actions, with panel 6 showing a more dynamic scene compared to panel 1.","id":"synth-remove-neg|g6|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1478,"ok":true}
+{"answer":"1","id":"synth-remove-neg|g6|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1156,"ok":true}
+{"answer":"Yes","id":"synth-remove-neg|g12|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1150,"ok":true}
+{"answer":"Yes, an object was taken away from the scene.","id":"synth-remove-neg|g12|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1139,"ok":true}
+{"answer":"No","id":"synth-remove-neg|g12|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1176,"ok":true}
+{"answer":"The video clip progresses from a scene with a person in a room to a scene with a person in a car.","id":"synth-remove-neg|g12|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1253,"ok":true}
+{"answer":"1","id":"synth-remove-neg|g12|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1222,"ok":true}
+{"answer":"Yes","id":"synth-remove-pos|f1|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1111,"ok":true}
+{"answer":"Yes","id":"synth-remove-pos|f1|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1136,"ok":true}
+{"answer":"No","id":"synth-remove-pos|f1|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1225,"ok":true}
+{"answer":"A blue stick with a small orange tip is standing on a gray surface against a gray background.","id":"synth-remove-pos|f1|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1264,"ok":true}
+{"answer":"1","id":"synth-remove-pos|f1|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1239,"ok":true}
+{"answer":"Yes","id":"synth-remove-pos|g2|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1489,"ok":true}
+{"answer":"Yes, an object was taken away from the scene.","id":"synth-remove-pos|g2|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1311,"ok":true}
+{"answer":"No","id":"synth-remove-pos|g2|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1340,"ok":true}
+{"answer":"The video clip shows a sequence of two frames, with panel 1 being the earliest and panel 2 the latest. The changes between the frames include the addition of a blue vertical line in panel 1, which is not present in panel 2.","id":"synth-remove-pos|g2|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1733,"ok":true}
+{"answer":"1","id":"synth-remove-pos|g2|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1199,"ok":true}
+{"answer":"Yes","id":"synth-remove-pos|g6|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1477,"ok":true}
+{"answer":"Yes, an object was taken away from the scene.","id":"synth-remove-pos|g6|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1148,"ok":true}
+{"answer":"No","id":"synth-remove-pos|g6|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1359,"ok":true}
+{"answer":"The video clip shows a sequence of six frames, with panel 1 being the earliest and panel 6 the latest. The changes between the earliest and latest frames include the progression of objects or actions, with panel 6 showing a more dynamic scene.","id":"synth-remove-pos|g6|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1729,"ok":true}
+{"answer":"1","id":"synth-remove-pos|g6|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1320,"ok":true}
+{"answer":"Yes","id":"synth-remove-pos|g12|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1257,"ok":true}
+{"answer":"Yes, an object was taken away from the scene.","id":"synth-remove-pos|g12|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1136,"ok":true}
+{"answer":"No","id":"synth-remove-pos|g12|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1674,"ok":true}
+{"answer":"The video clip progresses from a scene with a person in a car to a scene with a person in a car, then to a scene with a person in a car, and finally to a scene with a person in a car.","id":"synth-remove-pos|g12|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1936,"ok":true}
+{"answer":"1","id":"synth-remove-pos|g12|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1140,"ok":true}
+{"answer":"Yes","id":"synth-stop-neg|f1|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1238,"ok":true}
+{"answer":"No","id":"synth-stop-neg|f1|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":954,"ok":true}
+{"answer":"No","id":"synth-stop-neg|f1|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1184,"ok":true}
+{"answer":"The clip shows a person walking on a sidewalk, with a few orange blocks on the ground.","id":"synth-stop-neg|f1|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1115,"ok":true}
+{"answer":"None","id":"synth-stop-neg|f1|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1124,"ok":true}
+{"answer":"Yes","id":"synth-stop-neg|g2|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1177,"ok":true}
+{"answer":"No","id":"synth-stop-neg|g2|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1234,"ok":true}
+{"answer":"No.","id":"synth-stop-neg|g2|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1254,"ok":true}
+{"answer":"The video clip shows a sequence of two frames, with panel 1 being the earliest and panel 2 the latest. The changes between the frames include the progression of the scene, with panel 1 depicting a more static or less dynamic moment compared to panel 2, which shows a more active or changing scene.","id":"synth-stop-neg|g2|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1694,"ok":true}
+{"answer":"1","id":"synth-stop-neg|g2|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1327,"ok":true}
+{"answer":"Yes","id":"synth-stop-neg|g6|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1235,"ok":true}
+{"answer":"No","id":"synth-stop-neg|g6|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1433,"ok":true}
+{"answer":"No.","id":"synth-stop-neg|g6|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1211,"ok":true}
+{"answer":"The video clip shows a sequence of six frames, with panel 1 being the earliest and panel 6 the latest. The changes between the earliest and latest frames include the progression of the scene, with panel 1 depicting a more static or less dynamic moment and panel 6 showing a more active or complex scene.","id":"synth-stop-neg|g6|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1769,"ok":true}
+{"answer":"1","id":"synth-stop-neg|g6|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1192,"ok":true}
+{"answer":"No","id":"synth-stop-neg|g12|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1173,"ok":true}
+{"answer":"No, the conveyor or machine has not stopped moving. The frames are in time order, indicating that the video is being recorded in the correct sequence.","id":"synth-stop-neg|g12|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1273,"ok":true}
+{"answer":"No.","id":"synth-stop-neg|g12|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1197,"ok":true}
+{"answer":"The video clip progresses from a scene with a person in a car to a scene with a person in a car, then to a scene with a person in a car, and finally to a scene with a person in a car.","id":"synth-stop-neg|g12|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1482,"ok":true}
+{"answer":"1","id":"synth-stop-neg|g12|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1207,"ok":true}
+{"answer":"Yes","id":"synth-stop-pos|f1|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1046,"ok":true}
+{"answer":"No","id":"synth-stop-pos|f1|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":966,"ok":true}
+{"answer":"No","id":"synth-stop-pos|f1|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1066,"ok":true}
+{"answer":"The clip shows a person walking on a sidewalk, with a few orange blocks on the ground.","id":"synth-stop-pos|f1|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1126,"ok":true}
+{"answer":"None","id":"synth-stop-pos|f1|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1046,"ok":true}
+{"answer":"No","id":"synth-stop-pos|g2|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1142,"ok":true}
+{"answer":"No","id":"synth-stop-pos|g2|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1053,"ok":true}
+{"answer":"No.","id":"synth-stop-pos|g2|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1165,"ok":true}
+{"answer":"The video clip shows a sequence of two frames, with panel 1 being the earliest and panel 2 the latest. The changes between the frames include the progression of the scene, with panel 1 depicting a more static or less dynamic moment compared to panel 2, which shows a more active or changing scene.","id":"synth-stop-pos|g2|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1519,"ok":true}
+{"answer":"1","id":"synth-stop-pos|g2|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1166,"ok":true}
+{"answer":"Yes","id":"synth-stop-pos|g6|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1165,"ok":true}
+{"answer":"No","id":"synth-stop-pos|g6|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1324,"ok":true}
+{"answer":"No.","id":"synth-stop-pos|g6|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1243,"ok":true}
+{"answer":"The video clip shows a sequence of six frames, with panel 1 being the earliest and panel 6 the latest. The changes between the earliest and latest frames include the progression of the subject, possibly from a stationary object to a moving one, and the addition of a second frame that appears to show the subject in motion.","id":"synth-stop-pos|g6|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1515,"ok":true}
+{"answer":"1","id":"synth-stop-pos|g6|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1148,"ok":true}
+{"answer":"Yes","id":"synth-stop-pos|g12|gate","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1136,"ok":true}
+{"answer":"No, the conveyor or machine has not stopped moving. The frames are in time order, indicating that the video is being recorded in the correct sequence.","id":"synth-stop-pos|g12|gate2","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1262,"ok":true}
+{"answer":"No.","id":"synth-stop-pos|g12|gate3","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1145,"ok":true}
+{"answer":"The video clip progresses from a scene with a person in a car to a scene with a person in a car, then to a scene with a person in a car, and finally to a scene with a person in a car.","id":"synth-stop-pos|g12|open","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1387,"ok":true}
+{"answer":"1","id":"synth-stop-pos|g12|when","load_s":0.84799999999999998,"max_tokens":80,"model":"lfm2.5-vl-450m","ms":1155,"ok":true}

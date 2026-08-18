@@ -1,0 +1,39 @@
+# STAGED control for line-stopped-staged-31818733: the same footage, unmodified.
+id: line-stopped-staged-31818733-control
+tier: staged
+event: line-stopped
+label: negative
+pair: line-stopped-staged-31818733
+onset_s: null
+duration_s: 6.0
+ground_truth: 'The same clip, unmodified: the scene continues normally throughout. Background,
+  lighting, camera, grain and duration are identical to the positive it pairs with — the composited
+  change is the only difference.'
+staged:
+  base_clip: line-stopped-31818733
+  transition: freeze-control
+  at_s: null
+  caveat: Composited, not filmed. A model that scores here may be reading a compositing seam
+    rather than the event; the patch edge is feathered and tools/stage.py --check renders
+    a difference map for inspection.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 31818733
+  url: https://www.pexels.com/video/high-precision-packaging-strap-production-31818733/
+  title: high precision packaging strap production
+  author: Prakash Chavda
+  author_url: https://www.pexels.com/@praksh
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: unknown
+  target_size: unknown
+  light: unknown
+  occlusion: unknown
+  blur: unknown
+  viewpoint: unknown
+  clutter: unknown
+  duration_class: unknown
+negative_hardness: hard
+shows_transition: false

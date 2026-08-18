@@ -1,0 +1,946 @@
+[
+  {
+    "task_id": "line-stopped-staged-31818733|g6|gate",
+    "clip": "line-stopped-staged-31818733",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-31818733-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-31818733|g6|open",
+    "clip": "line-stopped-staged-31818733",
+    "encoding": "g6",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-31818733-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-31818733|f1|gate",
+    "clip": "line-stopped-staged-31818733",
+    "encoding": "f1",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-31818733-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-31818733|f1|open",
+    "clip": "line-stopped-staged-31818733",
+    "encoding": "f1",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-31818733-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-31818733-control|g6|gate",
+    "clip": "line-stopped-staged-31818733-control",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-31818733",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 6,
+    "panel_times": [
+      0.497,
+      1.49,
+      2.483,
+      3.477,
+      4.47,
+      5.463
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-31818733-control|g6|open",
+    "clip": "line-stopped-staged-31818733-control",
+    "encoding": "g6",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-31818733",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 6,
+    "panel_times": [
+      0.497,
+      1.49,
+      2.483,
+      3.477,
+      4.47,
+      5.463
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-31818733-control|f1|gate",
+    "clip": "line-stopped-staged-31818733-control",
+    "encoding": "f1",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-31818733",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 1,
+    "panel_times": [
+      2.98
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-31818733-control|f1|open",
+    "clip": "line-stopped-staged-31818733-control",
+    "encoding": "f1",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-31818733",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 1,
+    "panel_times": [
+      2.98
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-38806067|g6|gate",
+    "clip": "line-stopped-staged-38806067",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-38806067-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-38806067|g6|open",
+    "clip": "line-stopped-staged-38806067",
+    "encoding": "g6",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-38806067-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-38806067|f1|gate",
+    "clip": "line-stopped-staged-38806067",
+    "encoding": "f1",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-38806067-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-38806067|f1|open",
+    "clip": "line-stopped-staged-38806067",
+    "encoding": "f1",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-38806067-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-38806067-control|g6|gate",
+    "clip": "line-stopped-staged-38806067-control",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-38806067",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 6,
+    "panel_times": [
+      0.497,
+      1.49,
+      2.483,
+      3.477,
+      4.47,
+      5.463
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-38806067-control|g6|open",
+    "clip": "line-stopped-staged-38806067-control",
+    "encoding": "g6",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-38806067",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 6,
+    "panel_times": [
+      0.497,
+      1.49,
+      2.483,
+      3.477,
+      4.47,
+      5.463
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-38806067-control|f1|gate",
+    "clip": "line-stopped-staged-38806067-control",
+    "encoding": "f1",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-38806067",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 1,
+    "panel_times": [
+      2.98
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-38806067-control|f1|open",
+    "clip": "line-stopped-staged-38806067-control",
+    "encoding": "f1",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-38806067",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 1,
+    "panel_times": [
+      2.98
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-855859|g6|gate",
+    "clip": "line-stopped-staged-855859",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-855859-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-855859|g6|open",
+    "clip": "line-stopped-staged-855859",
+    "encoding": "g6",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-855859-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-855859|f1|gate",
+    "clip": "line-stopped-staged-855859",
+    "encoding": "f1",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-855859-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-855859|f1|open",
+    "clip": "line-stopped-staged-855859",
+    "encoding": "f1",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-855859-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-855859-control|g6|gate",
+    "clip": "line-stopped-staged-855859-control",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-855859",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 6,
+    "panel_times": [
+      0.497,
+      1.49,
+      2.483,
+      3.477,
+      4.47,
+      5.463
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-855859-control|g6|open",
+    "clip": "line-stopped-staged-855859-control",
+    "encoding": "g6",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-855859",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 6,
+    "panel_times": [
+      0.497,
+      1.49,
+      2.483,
+      3.477,
+      4.47,
+      5.463
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-855859-control|f1|gate",
+    "clip": "line-stopped-staged-855859-control",
+    "encoding": "f1",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-855859",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 1,
+    "panel_times": [
+      2.98
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-855859-control|f1|open",
+    "clip": "line-stopped-staged-855859-control",
+    "encoding": "f1",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-855859",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 1,
+    "panel_times": [
+      2.98
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-9244501|g6|gate",
+    "clip": "line-stopped-staged-9244501",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-9244501-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-9244501|g6|open",
+    "clip": "line-stopped-staged-9244501",
+    "encoding": "g6",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-9244501-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-9244501|f1|gate",
+    "clip": "line-stopped-staged-9244501",
+    "encoding": "f1",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-9244501-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-9244501|f1|open",
+    "clip": "line-stopped-staged-9244501",
+    "encoding": "f1",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "line-stopped-staged-9244501-control",
+    "onset_s": 3.0,
+    "tier": "staged",
+    "shows_transition": true,
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-9244501-control|g6|gate",
+    "clip": "line-stopped-staged-9244501-control",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-9244501",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-9244501-control|g6|open",
+    "clip": "line-stopped-staged-9244501-control",
+    "encoding": "g6",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-9244501",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-9244501-control|f1|gate",
+    "clip": "line-stopped-staged-9244501-control",
+    "encoding": "f1",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-9244501",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  },
+  {
+    "task_id": "line-stopped-staged-9244501-control|f1|open",
+    "clip": "line-stopped-staged-9244501-control",
+    "encoding": "f1",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "line-stopped-staged-9244501",
+    "onset_s": null,
+    "tier": "staged",
+    "shows_transition": false,
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "unknown",
+      "target_size": "unknown",
+      "light": "unknown",
+      "occlusion": "unknown",
+      "blur": "unknown",
+      "viewpoint": "unknown",
+      "clutter": "unknown",
+      "duration_class": "unknown"
+    }
+  }
+]

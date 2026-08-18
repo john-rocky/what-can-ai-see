@@ -1,0 +1,37 @@
+# Cut from part-missing-coffeepod-anom-e000010. kantine LeRobot, Apache-2.0.
+# The dataset calls this anomaly 'no container in the machine'; the VISIBLE
+# consequence is spilled grounds, so it is filed as `spill`, not part-missing.
+id: grounds-pos
+tier: field
+event: spill
+label: positive
+pair: grounds-neg
+onset_s: 7.0
+duration_s: 15.0
+ground_truth: A robot spoons coffee grounds toward a machine on a fixed camera. The table is clean
+  for the first seven seconds; grounds then miss the machine and accumulate in a growing heap on the
+  table.
+dataset_anomaly: there is no container in the machine
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/domotic_makingCoffee_anomaly
+  file: videos/chunk-000/observation.images.logitech_1/episode_000010.mp4
+  camera: observation.images.logitech_1
+  license: apache-2.0
+  counterpart: kantine/domotic_makingCoffee_expert — same rig, same camera, same task, different outcome.
+conditions:
+  viewpoint: fixed-rig
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid
+trim:
+- 10.0
+- 25.0
+derived_from: part-missing-coffeepod-anom-e000010
+shows_transition: true
+verified_clean: checked by eye on the last frame (verify/end-frame.png) — a heap of dark grounds on
+  the table, absent in the matched negative.
+moment: coffee hits the table

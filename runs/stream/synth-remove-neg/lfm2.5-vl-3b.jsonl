@@ -1,0 +1,12 @@
+{"answer":"No\nThe object remains in the scene throughout all four frames.","id":"synth-remove-neg|w000|gate","load_s":1.24,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3124,"ok":true}
+{"answer":"No\nThe object remains in the scene throughout all four frames.","id":"synth-remove-neg|w001|gate","load_s":1.24,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3111,"ok":true}
+{"answer":"No\nThe object remains in the scene throughout all four frames.","id":"synth-remove-neg|w002|gate","load_s":1.24,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3184,"ok":true}
+{"answer":"No\nThe object remains in the scene throughout all four frames.","id":"synth-remove-neg|w003|gate","load_s":1.24,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3143,"ok":true}
+{"answer":"No\nThe object remains in the scene throughout all four frames.","id":"synth-remove-neg|w004|gate","load_s":1.24,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3079,"ok":true}
+{"answer":"No\nThe object remains in the scene throughout all four frames.","id":"synth-remove-neg|w005|gate","load_s":1.24,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3088,"ok":true}
+{"answer":"No\nThe object remains in the scene throughout all four frames.","id":"synth-remove-neg|w006|gate","load_s":1.24,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3123,"ok":true}
+{"answer":"No\nThe object remains in the scene throughout all four frames.","id":"synth-remove-neg|w007|gate","load_s":1.24,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3228,"ok":true}
+{"answer":"No\nThe object remains in the scene throughout all four frames.","id":"synth-remove-neg|w008|gate","load_s":1.24,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3286,"ok":true}
+{"answer":"No. The object remains in the scene throughout all four frames.","id":"synth-remove-neg|w009|gate","load_s":1.24,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3213,"ok":true}
+{"answer":"No. The object remains in the scene throughout the sequence.","id":"synth-remove-neg|w010|gate","load_s":1.24,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3112,"ok":true}
+{"answer":"No. The object remains in the scene throughout the sequence.","id":"synth-remove-neg|w011|gate","load_s":1.24,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3061,"ok":true}

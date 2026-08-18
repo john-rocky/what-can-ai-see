@@ -1,0 +1,22 @@
+{"answer":"Yes\nAll four panels show the same two individuals seated at a table.","id":"count-6380996|w000|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2965,"ok":true}
+{"answer":"Yes\nThe same two individuals appear in all four frames.","id":"count-6380996|w001|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2926,"ok":true}
+{"answer":"Yes\nAll four panels show the same two individuals seated at a table.","id":"count-6380996|w002|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2971,"ok":true}
+{"answer":"Yes\nAll four panels show the same two individuals seated at a table.","id":"count-6380996|w003|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":3004,"ok":true}
+{"answer":"Yes\nThe frames show two distinct individuals seated at a table.","id":"count-6380996|w004|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2952,"ok":true}
+{"answer":"Yes\nThe frames show two distinct individuals seated at a table.","id":"count-6380996|w005|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2982,"ok":true}
+{"answer":"Yes\nThe frames show two distinct individuals seated across from each other at a table.","id":"count-6380996|w006|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":3031,"ok":true}
+{"answer":"No. The images only show two people seated at a table.","id":"count-6380996|w007|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2986,"ok":true}
+{"answer":"No. The images only show two people seated at a table.","id":"count-6380996|w008|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2972,"ok":true}
+{"answer":"Yes\nThe frames show two distinct individuals seated across from each other at a table.","id":"count-6380996|w009|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":3025,"ok":true}
+{"answer":"No. The images only show two people seated at a table.","id":"count-6380996|w010|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2930,"ok":true}
+{"answer":"Yes\nThe panels show two distinct individuals seated across from each other at a table.","id":"count-6380996|w011|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2975,"ok":true}
+{"answer":"No. The images only show two people seated at a table.","id":"count-6380996|w012|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2932,"ok":true}
+{"answer":"No. The images only show two people seated at a table.","id":"count-6380996|w013|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2931,"ok":true}
+{"answer":"No. The images only show two people seated at a table.","id":"count-6380996|w014|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2931,"ok":true}
+{"answer":"No. The images consistently show only two people seated at the table.","id":"count-6380996|w015|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2937,"ok":true}
+{"answer":"No. The images only show two people seated at a table.","id":"count-6380996|w016|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2933,"ok":true}
+{"answer":"No. The images only show two people seated at a table.","id":"count-6380996|w017|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2954,"ok":true}
+{"answer":"No. The images only show two people seated at a table.","id":"count-6380996|w018|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2940,"ok":true}
+{"answer":"No. The images only show two people, a woman and a man, seated at a table.","id":"count-6380996|w019|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":3007,"ok":true}
+{"answer":"Yes\nThe panels show two distinct individuals seated at a table.","id":"count-6380996|w020|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2938,"ok":true}
+{"answer":"No. The images only show two people, a woman and a man, seated at a table.","id":"count-6380996|w021|gate","load_s":5.5860000000000003,"max_tokens":320,"model":"lfm2.5-vl-3b","ms":2997,"ok":true}

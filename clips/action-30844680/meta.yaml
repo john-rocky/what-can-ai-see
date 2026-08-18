@@ -1,0 +1,30 @@
+# Fetched by tools/fetch_scene.py — searched by PLACE, not by event.
+id: action-30844680
+tier: field
+event: action
+label: positive
+pair: null
+onset_s: null
+duration_s: 11.38
+camera: fixed
+ground_truth: A hand writes in a spiral notebook on a desk beside a laptop, continuously.
+source:
+  kind: stock
+  provider: pexels
+  id: 30844680
+  url: https://www.pexels.com/video/person-writing-2023-goals-in-notebook-at-desk-30844680/
+  title: person writing 2023 goals in notebook at desk
+  scene_query: action
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: action
+kind: stable
+expected: 'yes'

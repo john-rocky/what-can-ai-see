@@ -1,0 +1,35 @@
+# Mirror of count-3970144 for the training-contamination probe. See `mirrored:` below.
+id: count-3970144-mir
+tier: field
+event: count
+label: positive
+pair: null
+onset_s: null
+duration_s: 14.01
+camera: fixed
+ground_truth: Three young people sit together at a table looking at a menu. Nobody joins or leaves.
+source:
+  kind: stock
+  provider: pexels
+  id: 3970144
+  url: https://www.pexels.com/video/people-ordering-at-a-restaurant-3970144/
+  title: people ordering at a restaurant
+  scene_query: count
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: count
+kind: stable
+expected: 'yes'
+derived_from: count-3970144
+mirrored: horizontally flipped copy of the original. Semantically identical — a cat on a bench is
+  still on the bench, two people are still two people — but no longer a pixel match for anything in
+  a training set. If a model's answers hold across the flip it is reading the picture; if they move,
+  the flip is not the only explanation but memory of the original clip becomes one of them.

@@ -1,0 +1,39 @@
+# Cut from spill-pourchk-ok-e000016. kantine LeRobot, Apache-2.0.
+# Negative verified clean by measurement, not by trusting the dataset label.
+id: spill2-neg
+tier: field
+event: spill
+label: negative
+pair: spill2-pos
+onset_s: null
+duration_s: 15.0
+ground_truth: The same rig, camera and task, normal episode. The table stays clean — 0.003
+  brown at the end.
+dataset_anomaly: claimed normal
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/domotic_pouringCoffee_anomaly
+  file: videos/chunk-000/observation.images.logitech_1/episode_000016.mp4
+  camera: observation.images.logitech_1
+  license: apache-2.0
+  counterpart: kantine/domotic_pouringCoffee_anomaly — same rig, same camera, same task, different
+    outcome.
+conditions:
+  viewpoint: fixed-rig
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid
+trim:
+- 10.0
+- 25.0
+derived_from: spill-pourchk-ok-e000016
+shows_transition: false
+onset_method: tools/spill_onset.py — first frame where the brown fraction of the table crosses
+  0.012 and holds for a second
+negative_hardness: hard
+verified_clean: brown fraction of the table at the end, measured. The FIRST version of spill-neg
+  was built from episode 15, which the dataset labels normal but which scores 0.024 — it had
+  a spill in it and was scored for hours before anyone watched it.

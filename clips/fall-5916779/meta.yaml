@@ -1,0 +1,39 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: fall-5916779
+tier: field
+event: fall
+label: positive
+pair: fall-8526604
+onset_s: 3.3
+duration_s: 5.8
+ground_truth: A climber on an indoor bouldering wall loses his grip and falls backwards off
+  the wall; panels 1-4 show him climbing, panel 5 the release, panel 6 mid-air. He does not
+  reach the mat inside the clip.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 5916779
+  url: https://www.pexels.com/video/man-attempt-to-jump-climb-on-the-wall-then-fell-down-5916779/
+  title: man attempt to jump climb on the wall then fell down
+  author: Tima Miroshnichenko
+  author_url: https://www.pexels.com/@tima-miroshnichenko
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: mid
+  target_size: large
+  light: bright
+  occlusion: none
+  blur: light
+  viewpoint: side
+  clutter: high
+  duration_class: sub-second
+trim:
+- 3.0
+- 8.8
+onset_confidence: +/-0.5s, read off the panel timestamps
+domain_note: Sport, not workplace. Stock libraries have industrial SCENES but not industrial
+  INCIDENTS - nobody films a worker falling in a warehouse. Read any fall result as 'can it
+  see a fall at all', not as a workplace-safety number.
+shows_transition: true

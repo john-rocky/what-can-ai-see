@@ -1,0 +1,39 @@
+# DERIVED from smoke-fire-8365988 by tools/make_variants.py — occlusion level 2.
+# Not field footage. Its pair is the identically-degraded mate, so the only
+# difference across this rung is the condition under test.
+id: smoke-fire-8365988__occlusion2
+tier: variant
+event: smoke-fire
+label: positive
+pair: smoke-fire-14458800__occlusion2
+onset_s: null
+duration_s: 6.0
+ground_truth: Aerial view of an industrial site with a large black smoke plume and visible
+  orange flame at its base. A structure is burning.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 8365988
+  url: https://www.pexels.com/video/aerial-video-of-black-smoke-from-burning-establishments-8365988/
+  title: aerial video of black smoke from burning establishments
+  author: Alan W
+  author_url: https://www.pexels.com/@alanw
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: far
+  target_size: large
+  light: bright
+  occlusion: 33%-occluded
+  blur: none
+  viewpoint: aerial
+  clutter: high
+  duration_class: multi-second
+subtype: fire
+derived_from: smoke-fire-8365988
+degradation:
+  axis: occlusion
+  level: 2
+evidence_note: Diffuse event:present throughout the clip, so onset_s is null and latency is
+  not defined.
+shows_transition: false

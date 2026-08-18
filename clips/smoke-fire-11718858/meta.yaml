@@ -1,0 +1,37 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: smoke-fire-11718858
+tier: field
+event: smoke-fire
+label: negative
+pair: smoke-fire-31130099
+onset_s: null
+duration_s: 6.0
+ground_truth: Aerial view of a factory under overcast sky; a small white vapour plume rises
+  from a roof vent. Same aerial-industrial-with-a-plume composition as its positive; plume
+  size and colour are what separate them.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 11718858
+  url: https://www.pexels.com/video/clouds-over-factory-11718858/
+  title: clouds over factory
+  author: David  Martin
+  author_url: https://www.pexels.com/@david-martin-182137585
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: mid
+  target_size: small
+  light: overcast
+  occlusion: none
+  blur: none
+  viewpoint: aerial
+  clutter: high
+  duration_class: multi-second
+negative_hardness: hard
+trim:
+- 0.5
+- 6.5
+evidence_note: Diffuse event:present throughout, so onset_s is null and latency is not defined.
+shows_transition: false

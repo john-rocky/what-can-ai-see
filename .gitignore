@@ -1,0 +1,24 @@
+# Video, and anything derived from it, is not ours to redistribute.
+#
+# Pexels' licence is "free to use, no attribution required" but it does NOT permit
+# redistributing the file itself, and a contact sheet is the file with most of its
+# frames thrown away. kantine's recordings are Apache-2.0 and could be shipped, but
+# they are gigabytes and everyone can fetch them from the source.
+#
+# So the repo carries what this project actually made: the harness, the questions,
+# the ground truth, and every answer every model gave. `clips/*/meta.yaml` records
+# the Pexels id and URL of each clip, so the corpus is reconstructible from it.
+clips/**/*.mp4
+runs/stream/**/windows/
+runs/**/*.jpg
+runs/**/*.png
+cards/
+site/index.html
+clips/**/verify/
+
+# build output
+runner/.build/
+**/__pycache__/
+.DS_Store
+clips/**/*.png
+clips/**/*.jpg

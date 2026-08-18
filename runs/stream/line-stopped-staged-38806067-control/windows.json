@@ -1,0 +1,146 @@
+{
+  "clip": "line-stopped-staged-38806067-control",
+  "event": "line-stopped",
+  "label": "negative",
+  "question": "Has the conveyor or machine stopped moving?",
+  "onset_s": null,
+  "duration_s": 5.96,
+  "window_s": 1.6,
+  "stride_s": 0.4,
+  "panels": 4,
+  "ground_truth": "The same clip, unmodified: the scene continues normally throughout. Background, lighting, camera, grain and duration are identical to the positive it pairs with \u2014 the composited change is the only difference.",
+  "windows": [
+    {
+      "i": 0,
+      "t_start": 0.0,
+      "t_end": 1.6,
+      "times": [
+        0.2,
+        0.6,
+        1.0,
+        1.4
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/line-stopped-staged-38806067-control/windows/w000.jpg"
+    },
+    {
+      "i": 1,
+      "t_start": 0.4,
+      "t_end": 2.0,
+      "times": [
+        0.6,
+        1.0,
+        1.4,
+        1.8
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/line-stopped-staged-38806067-control/windows/w001.jpg"
+    },
+    {
+      "i": 2,
+      "t_start": 0.8,
+      "t_end": 2.4,
+      "times": [
+        1.0,
+        1.4,
+        1.8,
+        2.2
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/line-stopped-staged-38806067-control/windows/w002.jpg"
+    },
+    {
+      "i": 3,
+      "t_start": 1.2,
+      "t_end": 2.8,
+      "times": [
+        1.4,
+        1.8,
+        2.2,
+        2.6
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/line-stopped-staged-38806067-control/windows/w003.jpg"
+    },
+    {
+      "i": 4,
+      "t_start": 1.6,
+      "t_end": 3.2,
+      "times": [
+        1.8,
+        2.2,
+        2.6,
+        3.0
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/line-stopped-staged-38806067-control/windows/w004.jpg"
+    },
+    {
+      "i": 5,
+      "t_start": 2.0,
+      "t_end": 3.6,
+      "times": [
+        2.2,
+        2.6,
+        3.0,
+        3.4
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/line-stopped-staged-38806067-control/windows/w005.jpg"
+    },
+    {
+      "i": 6,
+      "t_start": 2.4,
+      "t_end": 4.0,
+      "times": [
+        2.6,
+        3.0,
+        3.4,
+        3.8
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/line-stopped-staged-38806067-control/windows/w006.jpg"
+    },
+    {
+      "i": 7,
+      "t_start": 2.8,
+      "t_end": 4.4,
+      "times": [
+        3.0,
+        3.4,
+        3.8,
+        4.2
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/line-stopped-staged-38806067-control/windows/w007.jpg"
+    },
+    {
+      "i": 8,
+      "t_start": 3.2,
+      "t_end": 4.8,
+      "times": [
+        3.4,
+        3.8,
+        4.2,
+        4.6
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/line-stopped-staged-38806067-control/windows/w008.jpg"
+    },
+    {
+      "i": 9,
+      "t_start": 3.6,
+      "t_end": 5.2,
+      "times": [
+        3.8,
+        4.2,
+        4.6,
+        5.0
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/line-stopped-staged-38806067-control/windows/w009.jpg"
+    },
+    {
+      "i": 10,
+      "t_start": 4.0,
+      "t_end": 5.6,
+      "times": [
+        4.2,
+        4.6,
+        5.0,
+        5.4
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/line-stopped-staged-38806067-control/windows/w010.jpg"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: fall-7644974
+tier: field
+event: fall
+label: positive
+pair: fall-7667144
+onset_s: 2.2
+duration_s: 6.0
+ground_truth: A skateboarder rides the lip of a ramp upright (panels 1-2), loses it and comes
+  down (panel 3), and is on the ground from panel 4 onward. The whole body is in frame throughout
+  - upright, falling, down, staying down.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 7644974
+  url: https://www.pexels.com/video/woman-falling-down-while-skating-7644974/
+  title: woman falling down while skating
+  author: Yaroslav Shuraev
+  author_url: https://www.pexels.com/@yaroslav-shuraev
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 2048x1080
+conditions:
+  distance: mid
+  target_size: mid
+  light: dusk
+  occlusion: none
+  blur: light
+  viewpoint: side
+  clutter: mid
+  duration_class: sub-second
+trim:
+- 5.0
+- 11.0
+onset_confidence: +/-0.5s, between the panel-2 and panel-3 timestamps
+domain_note: 'Sport, not workplace. See F6: stock has industrial scenes but not industrial
+  incidents, so every sourceable fall is a sports fall.'
+shows_transition: true

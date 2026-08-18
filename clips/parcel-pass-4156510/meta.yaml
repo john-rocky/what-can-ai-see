@@ -1,0 +1,35 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: parcel-pass-4156510
+tier: field
+event: parcel-pass
+label: positive
+pair: parcel-pass-3701054
+onset_s: 0.0
+duration_s: 6.0
+ground_truth: A loading-dock conveyor carrying parcels and coloured bags. Individual items
+  sit at visibly different positions in every panel - a yellow bag tracks right to left across
+  panels 3-6. Motion is legible from the sheet because the items are individually identifiable.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 4156510
+  url: https://www.pexels.com/video/packages-moving-on-a-conveyor-belt-4156510/
+  title: packages moving on a conveyor belt
+  author: Erkan Avanoğlu
+  author_url: https://www.pexels.com/@erkan3923
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: mid
+  target_size: mid
+  light: bright
+  occlusion: partial
+  blur: none
+  viewpoint: side
+  clutter: high
+  duration_class: multi-second
+trim:
+- 0.5
+- 6.5
+shows_transition: true

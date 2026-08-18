@@ -1,0 +1,158 @@
+{
+  "clip": "parcel-pass-4156510",
+  "event": "parcel-pass",
+  "label": "positive",
+  "question": "Did a parcel pass along the conveyor?",
+  "onset_s": 0.0,
+  "duration_s": 6.0,
+  "window_s": 1.6,
+  "stride_s": 0.4,
+  "panels": 4,
+  "ground_truth": "A loading-dock conveyor carrying parcels and coloured bags. Individual items sit at visibly different positions in every panel - a yellow bag tracks right to left across panels 3-6. Motion is legible from the sheet because the items are individually identifiable.",
+  "windows": [
+    {
+      "i": 0,
+      "t_start": 0.0,
+      "t_end": 1.6,
+      "times": [
+        0.2,
+        0.6,
+        1.0,
+        1.4
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/parcel-pass-4156510/windows/w000.jpg"
+    },
+    {
+      "i": 1,
+      "t_start": 0.4,
+      "t_end": 2.0,
+      "times": [
+        0.6,
+        1.0,
+        1.4,
+        1.8
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/parcel-pass-4156510/windows/w001.jpg"
+    },
+    {
+      "i": 2,
+      "t_start": 0.8,
+      "t_end": 2.4,
+      "times": [
+        1.0,
+        1.4,
+        1.8,
+        2.2
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/parcel-pass-4156510/windows/w002.jpg"
+    },
+    {
+      "i": 3,
+      "t_start": 1.2,
+      "t_end": 2.8,
+      "times": [
+        1.4,
+        1.8,
+        2.2,
+        2.6
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/parcel-pass-4156510/windows/w003.jpg"
+    },
+    {
+      "i": 4,
+      "t_start": 1.6,
+      "t_end": 3.2,
+      "times": [
+        1.8,
+        2.2,
+        2.6,
+        3.0
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/parcel-pass-4156510/windows/w004.jpg"
+    },
+    {
+      "i": 5,
+      "t_start": 2.0,
+      "t_end": 3.6,
+      "times": [
+        2.2,
+        2.6,
+        3.0,
+        3.4
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/parcel-pass-4156510/windows/w005.jpg"
+    },
+    {
+      "i": 6,
+      "t_start": 2.4,
+      "t_end": 4.0,
+      "times": [
+        2.6,
+        3.0,
+        3.4,
+        3.8
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/parcel-pass-4156510/windows/w006.jpg"
+    },
+    {
+      "i": 7,
+      "t_start": 2.8,
+      "t_end": 4.4,
+      "times": [
+        3.0,
+        3.4,
+        3.8,
+        4.2
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/parcel-pass-4156510/windows/w007.jpg"
+    },
+    {
+      "i": 8,
+      "t_start": 3.2,
+      "t_end": 4.8,
+      "times": [
+        3.4,
+        3.8,
+        4.2,
+        4.6
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/parcel-pass-4156510/windows/w008.jpg"
+    },
+    {
+      "i": 9,
+      "t_start": 3.6,
+      "t_end": 5.2,
+      "times": [
+        3.8,
+        4.2,
+        4.6,
+        5.0
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/parcel-pass-4156510/windows/w009.jpg"
+    },
+    {
+      "i": 10,
+      "t_start": 4.0,
+      "t_end": 5.6,
+      "times": [
+        4.2,
+        4.6,
+        5.0,
+        5.4
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/parcel-pass-4156510/windows/w010.jpg"
+    },
+    {
+      "i": 11,
+      "t_start": 4.4,
+      "t_end": 6.0,
+      "times": [
+        4.6,
+        5.0,
+        5.4,
+        5.8
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/parcel-pass-4156510/windows/w011.jpg"
+    }
+  ]
+}

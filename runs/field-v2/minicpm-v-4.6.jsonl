@@ -1,0 +1,360 @@
+{"error":"Session ended without producing a response.","id":"fall-5916779|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2246,"ok":false}
+{"answer":"The image shows a person actively engaged in rock climbing, which suggests they are moving upwards and not falling to the ground. The person appears to be in a climbing position, holding onto the holds and using their body weight for support.","id":"fall-5916779|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1008,"ok":true}
+{"error":"Session ended without producing a response.","id":"fall-5916779|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1469,"ok":false}
+{"answer":"The person is climbing a wall, moving upwards. The changes are the person's position and the angle of the climb.","id":"fall-5916779|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":895,"ok":true}
+{"error":"Session ended without producing a response.","id":"fall-5916779|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1473,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-5916779|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1440,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-5916779|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1540,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-5916779|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1734,"ok":false}
+{"answer":"The climber progresses upward, reaching a new hold. His posture shifts to a more extended position, indicating movement.","id":"fall-5916779|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1154,"ok":true}
+{"error":"Session ended without producing a response.","id":"fall-5916779|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1506,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-5916779|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1701,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-5916779|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1529,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-5916779|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1708,"ok":false}
+{"answer":"The climber ascends a colorful wall, adjusting his position. The sequence shows him moving from lower to higher sections.","id":"fall-5916779|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1159,"ok":true}
+{"error":"Session ended without producing a response.","id":"fall-5916779|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1409,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-5916779|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1712,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-5916779|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1549,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-5916779|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1742,"ok":false}
+{"answer":"A person is performing a dynamic activity in a large indoor space. The sequence shows a progression of movements that suggest an exercise or performance.","id":"fall-5916779|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1203,"ok":true}
+{"answer":"Looking at the sequence of panels, we can check if any show a person falling to the ground. Observing the progression from panel 1 to panel 12, there is no indication of a fall; the person appears to be in various stages of movement or activity without falling. Therefore, the answer is None.","id":"fall-5916779|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1503,"ok":true}
+{"error":"Session ended without producing a response.","id":"fall-8526604|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1205,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1282,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1469,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1392,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1499,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1563,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1294,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1697,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1468,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1717,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1701,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1326,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1685,"ok":false}
+{"answer":"The person is moving and then lying down. The changes involve the person transitioning from a standing to a lying position.","id":"fall-8526604|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1142,"ok":true}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1720,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1468,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1541,"ok":false}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1722,"ok":false}
+{"answer":"The man is lying down and then lifting his arm. His posture changes from lying to standing.","id":"fall-8526604|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1110,"ok":true}
+{"error":"Session ended without producing a response.","id":"fall-8526604|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1488,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-4440917|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1454,"ok":false}
+{"answer":"In the image, one person is handing a box to another person. The person receiving the box appears to be in the process of receiving or examining the package.","id":"handover-4440917|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":880,"ok":true}
+{"error":"Session ended without producing a response.","id":"handover-4440917|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1477,"ok":false}
+{"answer":"The person receives a package. The interaction involves handing over the box.","id":"handover-4440917|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":808,"ok":true}
+{"error":"Session ended without producing a response.","id":"handover-4440917|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1509,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-4440917|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1570,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-4440917|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1373,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-4440917|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1716,"ok":false}
+{"answer":"The person receives packages being handed over. The changes involve the exchange of items between the two individuals.","id":"handover-4440917|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1109,"ok":true}
+{"error":"Session ended without producing a response.","id":"handover-4440917|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1784,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-4440917|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1551,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-4440917|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1490,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-4440917|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1719,"ok":false}
+{"answer":"The person receives a box and then a white item. The box is handed over, indicating the transfer of an object.","id":"handover-4440917|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1151,"ok":true}
+{"error":"Session ended without producing a response.","id":"handover-4440917|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2056,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-4440917|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":5802,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-4440917|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2363,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-4440917|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1765,"ok":false}
+{"answer":"The person is organizing items in a box. The changes involve moving objects and arranging them.","id":"handover-4440917|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1495,"ok":true}
+{"error":"Session ended without producing a response.","id":"handover-4440917|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1689,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-7424456|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1714,"ok":false}
+{"answer":"The image shows a person on the right side, who appears to be handing a box to another person on the left side.","id":"handover-7424456|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":955,"ok":true}
+{"error":"Session ended without producing a response.","id":"handover-7424456|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2303,"ok":false}
+{"answer":"The man is sitting and looking at the woman holding a box. The box appears to be new or being moved into the room.","id":"handover-7424456|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1945,"ok":true}
+{"error":"Session ended without producing a response.","id":"handover-7424456|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1517,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-7424456|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1546,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-7424456|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1521,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-7424456|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1717,"ok":false}
+{"answer":"The man is smiling and looking at the box, while the woman stands nearby. The interaction suggests a positive exchange.","id":"handover-7424456|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1514,"ok":true}
+{"error":"Session ended without producing a response.","id":"handover-7424456|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1756,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-7424456|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1722,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-7424456|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1223,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-7424456|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1721,"ok":false}
+{"answer":"The man is receiving a box and smiling. The interaction suggests a positive exchange.","id":"handover-7424456|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1089,"ok":true}
+{"error":"Session ended without producing a response.","id":"handover-7424456|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1562,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-7424456|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1713,"ok":false}
+{"error":"Session ended without producing a response.","id":"handover-7424456|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1544,"ok":false}
+{"answer":"[Observing the interactions in the panels, particularly focusing on the exchange between the individuals and the box. In panel 4, there is a clear action where one person is handing an object to another. This indicates a handover of an object, which can be considered a handoff.] The evidence is found in the interaction where one person is handing an object to another, as observed in panel ","id":"handover-7424456|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1738,"ok":true}
+{"answer":"The person is receiving items from the other individual. The items are being unpacked.","id":"handover-7424456|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1122,"ok":true}
+{"error":"Session ended without producing a response.","id":"handover-7424456|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1777,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1055,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1281,"ok":false}
+{"answer":"[observation of the conveyor belt and the parcel] The parcel did not pass along the conveyor as it is not visible on the conveyor.","id":"parcel-pass-3701054|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1006,"ok":true}
+{"answer":"The clip shows an indoor setting with potted plants arranged on a wooden surface. Between the earliest and latest frames, the plants appear to be slightly moved or repositioned.","id":"parcel-pass-3701054|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1000,"ok":true}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1489,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1708,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1214,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1701,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1639,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1741,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1439,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1544,"ok":false}
+{"answer":"[Observation of the conveyor belt area in each panel. Check for any visible signs of a parcel being transported.] The evidence shows no visible parcel on the conveyor belt across all panels, indicating that a parcel did not pass along the conveyor.","id":"parcel-pass-3701054|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1452,"ok":true}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1647,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1486,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1704,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1555,"ok":false}
+{"answer":"[Observation of the conveyor belt area in each panel. Check for any visible signs of a parcel being transported.] The evidence shows a consistent presence of potted plants and no visible movement or change indicative of a parcel. Therefore, the answer is no.","id":"parcel-pass-3701054|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1317,"ok":true}
+{"answer":"The scene shows a consistent indoor setting with potted plants and a red wall. The changes are minimal, indicating a static environment.","id":"parcel-pass-3701054|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1128,"ok":true}
+{"error":"Session ended without producing a response.","id":"parcel-pass-3701054|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1749,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1464,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1074,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1460,"ok":false}
+{"answer":"A person is standing near a doorway, while boxes are being moved along a conveyor belt. The person appears to be preparing to handle the next item.","id":"parcel-pass-4156510|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":961,"ok":true}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1510,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1542,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1534,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1650,"ok":false}
+{"answer":"The person is moving boxes along a conveyor. The boxes are being transported further down the path.","id":"parcel-pass-4156510|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1015,"ok":true}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1724,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1704,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1512,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1461,"ok":false}
+{"answer":"The boxes are being moved along a conveyor belt. The person is adjusting the boxes as they progress.","id":"parcel-pass-4156510|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1118,"ok":true}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1735,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1502,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1543,"ok":false}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1571,"ok":false}
+{"answer":"A person is moving boxes along a conveyor belt. The boxes are being transported steadily from left to right.","id":"parcel-pass-4156510|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1139,"ok":true}
+{"error":"Session ended without producing a response.","id":"parcel-pass-4156510|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1750,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1392,"ok":false}
+{"answer":"Yes, there is a person not wearing a hard hat. The person is wearing a red beanie.","id":"ppe-missing-7480739|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":702,"ok":true}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1485,"ok":false}
+{"answer":"The person is looking at the tools on the wall. The changes are the person's position and focus.","id":"ppe-missing-7480739|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":883,"ok":true}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1500,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1734,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1394,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1639,"ok":false}
+{"answer":"The person is adjusting a tool near a saw. The changes involve moving closer to the saw.","id":"ppe-missing-7480739|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1105,"ok":true}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1757,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1717,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1254,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1722,"ok":false}
+{"answer":"The person interacts with tools, suggesting a workshop setting. The changes involve the person's movement and the arrangement of objects.","id":"ppe-missing-7480739|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1151,"ok":true}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1773,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1748,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1358,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1647,"ok":false}
+{"answer":"The person is organizing tools. The changes involve rearranging the tools on the wall.","id":"ppe-missing-7480739|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1102,"ok":true}
+{"error":"Session ended without producing a response.","id":"ppe-missing-7480739|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1750,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1406,"ok":false}
+{"answer":"The person in the image is wearing a hard hat and safety glasses, which suggests a focus on safety and protection. The presence of the hard hat and safety glasses indicates that the person is likely involved in a construction or industrial setting where such protective gear is essential. The person is also wearing a blue shirt and black gloves, which are typical for work attire in such environments. The background, which includes yellow","id":"ppe-missing-8963857|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1107,"ok":true}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1484,"ok":false}
+{"answer":"The worker is pointing and holding a device, indicating a change in direction or communication.","id":"ppe-missing-8963857|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":843,"ok":true}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1505,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1728,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1253,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1742,"ok":false}
+{"answer":"The worker gestures while speaking, indicating a shift in communication or instruction.","id":"ppe-missing-8963857|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":966,"ok":true}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1753,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1740,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1338,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1738,"ok":false}
+{"answer":"The worker gestures towards a structure, indicating a change in focus or direction.","id":"ppe-missing-8963857|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1080,"ok":true}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1574,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1829,"ok":false}
+{"error":"Session ended without producing a response.","id":"ppe-missing-8963857|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1506,"ok":false}
+{"answer":"Looking at the frames, all the individuals are wearing hard hats. There is no person not wearing a hard hat. Therefore, the answer is no.","id":"ppe-missing-8963857|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1336,"ok":true}
+{"answer":"The worker gestures and points towards a structure. The changes involve shifting his hand positions and emphasizing different aspects of the background.","id":"ppe-missing-8963857|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1172,"ok":true}
+{"answer":"Looking at the panels, all the individuals shown are wearing hard hats. Therefore, there is no person not wearing a hard hat. Since the question asks for the number of the earliest panel in which it is visible, and all panels show a person wearing a hard hat, the answer is None.","id":"ppe-missing-8963857|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1418,"ok":true}
+{"answer":"Yes, there is smoke in the scene. The panel is the industrial facility, and the visual evidence is the large plumes of smoke.","id":"smoke-fire-14458800|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1025,"ok":true}
+{"answer":"Yes, there is smoke or fire in the scene, emanating from the industrial facility, indicating some form of industrial activity or emissions.","id":"smoke-fire-14458800|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":845,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1487,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1413,"ok":false}
+{"answer":"Yes, the smoke or fire is visible in the scene, and it is in the earliest panel which is 1.","id":"smoke-fire-14458800|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":848,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1693,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1455,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1740,"ok":false}
+{"answer":"The smoke increases in volume between the frames. The industrial area remains constant.","id":"smoke-fire-14458800|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1088,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1775,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1534,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1488,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1732,"ok":false}
+{"answer":"The smoke intensifies, indicating increased industrial activity. The frames show a continuous process without significant changes.","id":"smoke-fire-14458800|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1117,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1755,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1594,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1444,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1756,"ok":false}
+{"answer":"The smoke plumes grow larger and more intense, indicating increasing emissions. The surrounding buildings remain static, suggesting a continuous industrial activity.","id":"smoke-fire-14458800|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2146,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-14458800|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":5112,"ok":false}
+{"answer":"Yes, there is smoke in the scene. The panel is the area with smoke, and the visual evidence is the visible smoke.","id":"smoke-fire-34992285|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1783,"ok":true}
+{"answer":"Yes, there is smoke or fire in the scene. The smoke is rising and appears to be coming from some kind of industrial or manufacturing process.","id":"smoke-fire-34992285|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":743,"ok":true}
+{"answer":"\n\nTo determine if there is smoke or fire, we examine the scene.","id":"smoke-fire-34992285|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1830,"ok":true}
+{"answer":"A large plume of smoke rises from the ground, indicating a significant event or release. The smoke gradually dissipates, suggesting the event has ended.","id":"smoke-fire-34992285|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":997,"ok":true}
+{"answer":"Yes, the smoke or fire is visible in the scene, and it is most prominent in the earliest panel, which is panel 1.","id":"smoke-fire-34992285|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1055,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-34992285|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1787,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-34992285|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1841,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-34992285|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":3032,"ok":false}
+{"answer":"The smoke spreads further, indicating an increase in activity. The stacks remain stationary.","id":"smoke-fire-34992285|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1118,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-34992285|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1521,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-34992285|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1720,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-34992285|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1577,"ok":false}
+{"answer":"\n\nTo determine if there is","id":"smoke-fire-34992285|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1949,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-34992285|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1903,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-34992285|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2154,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-34992285|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2112,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-34992285|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1620,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-34992285|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2138,"ok":false}
+{"answer":"The smoke increases in volume and spreads across the area. The structure on the right remains stationary throughout the sequence.","id":"smoke-fire-34992285|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1408,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-34992285|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2214,"ok":false}
+{"answer":"Yes, there is smoke or fire. The panel is the sky with smoke, and the visual evidence is the plumes of smoke rising from the buildings.","id":"smoke-fire-8064156|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":825,"ok":true}
+{"answer":"The image shows a cityscape with several buildings. Prominently, there are tall structures emitting smoke or possibly fire, which suggests industrial activity. The sky is painted with hues of orange and purple, indicating either sunrise or sunset. The combination of the smoke, the colorful sky, and the urban setting creates a striking and somewhat concerning scene, highlighting the intersection of industrial life and natural beauty.","id":"smoke-fire-8064156|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1291,"ok":true}
+{"answer":"Yes, the scene shows smoke or fire being emitted from the buildings, indicating the presence of smoke or fire.","id":"smoke-fire-8064156|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":970,"ok":true}
+{"answer":"Smoke rises from the buildings as the sky transitions from sunset to dusk. The lighting dims, indicating the end of the day.","id":"smoke-fire-8064156|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":907,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1498,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1453,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1532,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1609,"ok":false}
+{"answer":"The smoke from the factories increases in intensity. The sky becomes darker.","id":"smoke-fire-8064156|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1070,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1742,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1715,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1439,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1611,"ok":false}
+{"answer":"The smokestack emits more smoke, indicating increasing pollution. The sky transitions from a colorful sunset to a darker, overcast state.","id":"smoke-fire-8064156|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1179,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1755,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1534,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1545,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1730,"ok":false}
+{"answer":"The smoke from the factory increases in height over time. The sky transitions from a lighter to a darker hue.","id":"smoke-fire-8064156|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1162,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8064156|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1335,"ok":false}
+{"answer":"Yes, there is smoke or fire in the scene. The panel is the area with the burning structure, and the visual evidence is the thick black smoke rising.","id":"smoke-fire-8365988|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":717,"ok":true}
+{"answer":"Yes, there is smoke or fire in the scene. The image shows a significant amount of black smoke or fire rising from a building, indicating a fire or smoke issue.","id":"smoke-fire-8365988|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":618,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8365988|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1011,"ok":false}
+{"answer":"The fire spreads, causing smoke to rise into the sky. The surrounding area becomes more obscured by the thick smoke.","id":"smoke-fire-8365988|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":606,"ok":true}
+{"answer":"Yes, there is smoke or fire visible in the scene, and it is in the earliest panel which is 1.","id":"smoke-fire-8365988|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":684,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8365988|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1164,"ok":false}
+{"answer":"\n\nTo","id":"smoke-fire-8365988|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1052,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8365988|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1204,"ok":false}
+{"answer":"The fire intensifies, causing more smoke and damage. The flames spread across the building.","id":"smoke-fire-8365988|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":748,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8365988|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1190,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8365988|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1183,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8365988|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1079,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8365988|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1193,"ok":false}
+{"answer":"The fire grows larger, emitting more smoke. The smoke increases in volume over time.","id":"smoke-fire-8365988|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":740,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8365988|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1201,"ok":false}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8365988|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1196,"ok":false}
+{"answer":"\n\nTo determine if there is smoke or fire, we examine the scenes in the contact sheet. All panels show thick","id":"smoke-fire-8365988|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1076,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8365988|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1188,"ok":false}
+{"answer":"The smoke grows larger and denser, indicating increasing fire intensity.","id":"smoke-fire-8365988|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":736,"ok":true}
+{"error":"Session ended without producing a response.","id":"smoke-fire-8365988|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1247,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1007,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":890,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1007,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":951,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1038,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1162,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1049,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1170,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1122,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1191,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1172,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1065,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1178,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1128,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1201,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1170,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1078,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1195,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1135,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-neg|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1208,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":989,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":874,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1007,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":941,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1017,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1267,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1157,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1214,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1158,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1245,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1211,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1058,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1174,"ok":false}
+{"answer":"The object rotates and moves across the surface. The final position shows it lying horizontally.","id":"synth-fall-pos|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":732,"ok":true}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1181,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1172,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1070,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1197,"ok":false}
+{"answer":"The object moves and interacts with other elements over time. The object's orientation changes, indicating motion or interaction.","id":"synth-fall-pos|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":784,"ok":true}
+{"error":"Session ended without producing a response.","id":"synth-fall-pos|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1192,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":992,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":885,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1012,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":936,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1027,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1169,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1219,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1591,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1400,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1593,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1662,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1587,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1663,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1133,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1234,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1257,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1133,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1273,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1207,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-neg|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1294,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1065,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":931,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1139,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2035,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1856,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1370,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1226,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1451,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1410,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1839,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1502,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1894,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1759,"ok":false}
+{"answer":"The objects move and shift across the frames. The blue bar grows taller over time.","id":"synth-remove-pos|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":861,"ok":true}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1977,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1869,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2111,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1457,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1311,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-remove-pos|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1556,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1273,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2179,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":4151,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2647,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1344,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1585,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1927,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1570,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1456,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2384,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":4553,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1593,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1653,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1435,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1463,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1653,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2410,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1967,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1281,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-neg|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1535,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|f1|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1152,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|f1|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":995,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|f1|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1087,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|f1|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1036,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|f1|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1121,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g2|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1668,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g2|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1518,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g2|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1310,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g2|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1251,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g2|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1287,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g6|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1492,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g6|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1865,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g6|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1484,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g6|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1506,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g6|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":2060,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g12|gate","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1479,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g12|gate2","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1980,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g12|gate3","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1569,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g12|open","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1484,"ok":false}
+{"error":"Session ended without producing a response.","id":"synth-stop-pos|g12|when","load_s":6.6059999999999999,"max_tokens":80,"model":"minicpm-v-4.6","ms":1582,"ok":false}

@@ -1,0 +1,12 @@
+{"answer":"No. There is no visual evidence of a person falling in any of the frames.","id":"synth-fall-neg|w000|gate","load_s":8.8379999999999992,"max_tokens":70,"model":"north-micro-vision","ms":2723,"ok":true}
+{"answer":"No. There is no visual evidence of a person falling in any of the frames.","id":"synth-fall-neg|w001|gate","load_s":8.8379999999999992,"max_tokens":70,"model":"north-micro-vision","ms":2690,"ok":true}
+{"answer":"No. There is no visual evidence of a person falling in any of the frames.","id":"synth-fall-neg|w002|gate","load_s":8.8379999999999992,"max_tokens":70,"model":"north-micro-vision","ms":2690,"ok":true}
+{"answer":"No. There is no visual evidence of a person or any object falling in any of the frames.","id":"synth-fall-neg|w003|gate","load_s":8.8379999999999992,"max_tokens":70,"model":"north-micro-vision","ms":2713,"ok":true}
+{"answer":"No. There is no visual evidence of a person falling in any of the frames.","id":"synth-fall-neg|w004|gate","load_s":8.8379999999999992,"max_tokens":70,"model":"north-micro-vision","ms":2696,"ok":true}
+{"answer":"No. There is no visual evidence of a person falling in any of the frames.","id":"synth-fall-neg|w005|gate","load_s":8.8379999999999992,"max_tokens":70,"model":"north-micro-vision","ms":2688,"ok":true}
+{"answer":"No. There is no visual evidence of a person falling in any of the frames.","id":"synth-fall-neg|w006|gate","load_s":8.8379999999999992,"max_tokens":70,"model":"north-micro-vision","ms":2686,"ok":true}
+{"answer":"No. There is no visual evidence of a person falling in any of the frames.","id":"synth-fall-neg|w007|gate","load_s":8.8379999999999992,"max_tokens":70,"model":"north-micro-vision","ms":2672,"ok":true}
+{"answer":"No. There is no visual evidence of a person falling in any of the frames.","id":"synth-fall-neg|w008|gate","load_s":8.8379999999999992,"max_tokens":70,"model":"north-micro-vision","ms":2670,"ok":true}
+{"answer":"No. There is no visual evidence of a person falling in any of the frames.","id":"synth-fall-neg|w009|gate","load_s":8.8379999999999992,"max_tokens":70,"model":"north-micro-vision","ms":2663,"ok":true}
+{"answer":"No. There is no visual evidence of a person falling in any of the frames.","id":"synth-fall-neg|w010|gate","load_s":8.8379999999999992,"max_tokens":70,"model":"north-micro-vision","ms":2668,"ok":true}
+{"answer":"Yes. The image shows a person standing upright in all four frames, indicating no fall.","id":"synth-fall-neg|w011|gate","load_s":8.8379999999999992,"max_tokens":70,"model":"north-micro-vision","ms":2681,"ok":true}

@@ -1,0 +1,23 @@
+{
+  "encoding": "g2",
+  "grid": [
+    1,
+    2
+  ],
+  "panels": 2,
+  "times": [
+    1.5,
+    4.5
+  ],
+  "sheet_px": [
+    1024,
+    1158
+  ],
+  "canvas_aspect": 0.884,
+  "panel_px_at_448": [
+    448,
+    224
+  ],
+  "tokens_per_panel_at_196": 98.0,
+  "out": "/Users/majimadaisuke/code/what-can-ai-see/clips/synth-remove-neg/g2.jpg"
+}

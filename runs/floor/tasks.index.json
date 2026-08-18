@@ -1,0 +1,560 @@
+[
+  {
+    "task_id": "synth-fall-neg|g6|gate",
+    "clip": "synth-fall-neg",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "fall",
+    "label": "negative",
+    "pair": "synth-fall-pos",
+    "onset_s": null,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-fall-neg|g6|open",
+    "clip": "synth-fall-neg",
+    "encoding": "g6",
+    "question": "open",
+    "event": "fall",
+    "label": "negative",
+    "pair": "synth-fall-pos",
+    "onset_s": null,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-fall-neg|g6|when",
+    "clip": "synth-fall-neg",
+    "encoding": "g6",
+    "question": "when",
+    "event": "fall",
+    "label": "negative",
+    "pair": "synth-fall-pos",
+    "onset_s": null,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-fall-pos|g6|gate",
+    "clip": "synth-fall-pos",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "fall",
+    "label": "positive",
+    "pair": "synth-fall-neg",
+    "onset_s": 2.6,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-fall-pos|g6|open",
+    "clip": "synth-fall-pos",
+    "encoding": "g6",
+    "question": "open",
+    "event": "fall",
+    "label": "positive",
+    "pair": "synth-fall-neg",
+    "onset_s": 2.6,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-fall-pos|g6|when",
+    "clip": "synth-fall-pos",
+    "encoding": "g6",
+    "question": "when",
+    "event": "fall",
+    "label": "positive",
+    "pair": "synth-fall-neg",
+    "onset_s": 2.6,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-remove-neg|g6|gate",
+    "clip": "synth-remove-neg",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "object-removed",
+    "label": "negative",
+    "pair": "synth-remove-pos",
+    "onset_s": null,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-remove-neg|g6|open",
+    "clip": "synth-remove-neg",
+    "encoding": "g6",
+    "question": "open",
+    "event": "object-removed",
+    "label": "negative",
+    "pair": "synth-remove-pos",
+    "onset_s": null,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-remove-neg|g6|when",
+    "clip": "synth-remove-neg",
+    "encoding": "g6",
+    "question": "when",
+    "event": "object-removed",
+    "label": "negative",
+    "pair": "synth-remove-pos",
+    "onset_s": null,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-remove-pos|g6|gate",
+    "clip": "synth-remove-pos",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "object-removed",
+    "label": "positive",
+    "pair": "synth-remove-neg",
+    "onset_s": 3.0,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-remove-pos|g6|open",
+    "clip": "synth-remove-pos",
+    "encoding": "g6",
+    "question": "open",
+    "event": "object-removed",
+    "label": "positive",
+    "pair": "synth-remove-neg",
+    "onset_s": 3.0,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-remove-pos|g6|when",
+    "clip": "synth-remove-pos",
+    "encoding": "g6",
+    "question": "when",
+    "event": "object-removed",
+    "label": "positive",
+    "pair": "synth-remove-neg",
+    "onset_s": 3.0,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-stop-neg|g6|gate",
+    "clip": "synth-stop-neg",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "synth-stop-pos",
+    "onset_s": null,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-stop-neg|g6|open",
+    "clip": "synth-stop-neg",
+    "encoding": "g6",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "synth-stop-pos",
+    "onset_s": null,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-stop-neg|g6|when",
+    "clip": "synth-stop-neg",
+    "encoding": "g6",
+    "question": "when",
+    "event": "line-stopped",
+    "label": "negative",
+    "pair": "synth-stop-pos",
+    "onset_s": null,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-stop-pos|g6|gate",
+    "clip": "synth-stop-pos",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "synth-stop-neg",
+    "onset_s": 0.0,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-stop-pos|g6|open",
+    "clip": "synth-stop-pos",
+    "encoding": "g6",
+    "question": "open",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "synth-stop-neg",
+    "onset_s": 0.0,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "synth-stop-pos|g6|when",
+    "clip": "synth-stop-pos",
+    "encoding": "g6",
+    "question": "when",
+    "event": "line-stopped",
+    "label": "positive",
+    "pair": "synth-stop-neg",
+    "onset_s": 0.0,
+    "tier": "floor",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "none",
+      "duration_class": "multi-second"
+    }
+  }
+]

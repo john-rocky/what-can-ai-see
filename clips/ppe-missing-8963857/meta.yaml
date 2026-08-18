@@ -1,0 +1,35 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: ppe-missing-8963857
+tier: field
+event: ppe-missing
+label: negative
+pair: ppe-missing-7480739
+onset_s: null
+duration_s: 6.0
+ground_truth: A construction worker on a scaffolded site with a walkie-talkie, wearing a yellow
+  hard hat, safety glasses and gloves throughout. Full PPE.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 8963857
+  url: https://www.pexels.com/video/a-man-using-a-walkie-talkie-while-at-the-site-8963857/
+  title: a man using a walkie talkie while at the site
+  author: Mikael Blomkvist
+  author_url: https://www.pexels.com/@mikael-blomkvist
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: mid
+  target_size: large
+  light: bright
+  occlusion: none
+  blur: none
+  viewpoint: side
+  clutter: high
+  duration_class: multi-second
+negative_hardness: easy
+trim:
+- 0.5
+- 6.5
+shows_transition: false

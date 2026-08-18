@@ -1,0 +1,34 @@
+# From kantine/domotic_dishTidyUp_anomaly (videos/chunk-000/observation.images.logitech_1/episode_000010.mp4). NOT YET SCOREABLE — watch it, then set
+# label/onset_s and write ground_truth by hand.
+#
+# The anomaly SETS mix normal and abnormal episodes: soldering_anomaly's own
+# meta/tasks.jsonl assigns 0:4 to normal samples. Taking the first episodes
+# of an '_anomaly' repo therefore yields clips with nothing wrong in them,
+# which is exactly the mistake this --eps flag exists to prevent.
+id: object-drop-dishdrop-anom-e000010
+tier: field
+event: object-drop
+label: UNVERIFIED          # intended: positive
+pair: null
+onset_s: null
+duration_s: 69.68
+ground_truth: >-
+  TODO — describe what is actually visible.
+dataset_anomaly: >-
+  dropping dishes
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/domotic_dishTidyUp_anomaly
+  file: videos/chunk-000/observation.images.logitech_1/episode_000010.mp4
+  camera: observation.images.logitech_1
+  license: apache-2.0
+  counterpart: >-
+    kantine/domotic_dishTidyUp_expert — same rig, same camera, same task, different outcome.
+conditions:
+  viewpoint: fixed-rig
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid

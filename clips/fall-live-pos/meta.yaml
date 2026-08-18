@@ -1,0 +1,41 @@
+# Re-cut from fall-7644974 with a long lead-in, for the live sliding-window view.
+# A window ending at t is all the model has at t, so latency is only
+# meaningful if several windows fall entirely BEFORE the event.
+id: fall-live-pos
+tier: field
+event: fall
+label: positive
+pair: fall-live-neg
+onset_s: 5.2
+duration_s: 9.0
+ground_truth: A skateboarder rides the ramp upright for the first five seconds, loses it, and is on
+  the ground for the rest of the clip. Cut with a long lead-in so there is a real 'before' period
+  to measure detection delay against.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 7644974
+  url: https://www.pexels.com/video/woman-falling-down-while-skating-7644974/
+  title: woman falling down while skating
+  author: Yaroslav Shuraev
+  author_url: https://www.pexels.com/@yaroslav-shuraev
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 2048x1080
+conditions:
+  distance: mid
+  target_size: mid
+  light: dusk
+  occlusion: none
+  blur: light
+  viewpoint: side
+  clutter: mid
+  duration_class: sub-second
+trim:
+- 2.0
+- 11.0
+onset_confidence: +/-0.5s, between the panel-2 and panel-3 timestamps
+domain_note: 'Sport, not workplace. See F6: stock has industrial scenes but not industrial incidents,
+  so every sourceable fall is a sports fall.'
+shows_transition: true
+derived_from: fall-7644974
+moment: he falls

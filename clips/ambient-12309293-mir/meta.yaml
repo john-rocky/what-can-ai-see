@@ -1,0 +1,38 @@
+# Mirror of ambient-12309293 for the training-contamination probe. See `mirrored:` below.
+id: ambient-12309293-mir
+tier: field
+event: ambient
+label: positive
+pair: null
+onset_s: null
+duration_s: 15.02
+camera: fixed
+ground_truth: 'A fixed view from a window: rain runs down the glass and the roof opposite is wet.'
+source:
+  kind: stock
+  provider: pexels
+  id: 12309293
+  url: https://www.pexels.com/video/raindrops-dripping-on-a-window-glass-12309293/
+  title: raindrops dripping on a window glass
+  scene_query: ambient
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: ambient
+kind: stable
+expected: 'yes'
+trim:
+- 0.0
+- 15.0
+derived_from: ambient-12309293
+mirrored: horizontally flipped copy of the original. Semantically identical — a cat on a bench is
+  still on the bench, two people are still two people — but no longer a pixel match for anything in
+  a training set. If a model's answers hold across the flip it is reading the picture; if they move,
+  the flip is not the only explanation but memory of the original clip becomes one of them.

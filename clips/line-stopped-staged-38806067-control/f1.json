@@ -1,0 +1,22 @@
+{
+  "encoding": "f1",
+  "grid": [
+    1,
+    1
+  ],
+  "panels": 1,
+  "times": [
+    2.98
+  ],
+  "sheet_px": [
+    1024,
+    576
+  ],
+  "canvas_aspect": 1.778,
+  "panel_px_at_448": [
+    448,
+    448
+  ],
+  "tokens_per_panel_at_196": 196.0,
+  "out": "/Users/majimadaisuke/code/what-can-ai-see/clips/line-stopped-staged-38806067-control/f1.jpg"
+}

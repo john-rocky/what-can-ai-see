@@ -1,0 +1,33 @@
+{
+  "encoding": "g12",
+  "grid": [
+    3,
+    4
+  ],
+  "panels": 12,
+  "times": [
+    0.25,
+    0.75,
+    1.25,
+    1.75,
+    2.25,
+    2.75,
+    3.25,
+    3.75,
+    4.25,
+    4.75,
+    5.25,
+    5.75
+  ],
+  "sheet_px": [
+    1023,
+    778
+  ],
+  "canvas_aspect": 1.315,
+  "panel_px_at_448": [
+    149,
+    112
+  ],
+  "tokens_per_panel_at_196": 16.3,
+  "out": "/Users/majimadaisuke/code/what-can-ai-see/clips/smoke-fire-34992285/g12.jpg"
+}

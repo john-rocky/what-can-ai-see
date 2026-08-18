@@ -1,0 +1,12 @@
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-38806067|w000|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2569,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-38806067|w001|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2585,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-38806067|w002|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2591,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-38806067|w003|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2577,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-38806067|w004|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2576,"ok":false}
+{"answer":"\n\nTo determine if the conveyor or machine has stopped moving, we examine the time - ordered frames. Since the conveyor has","id":"line-stopped-staged-38806067|w005|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2586,"ok":true}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-38806067|w006|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2577,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-38806067|w007|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2578,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-38806067|w008|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2573,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-38806067|w009|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2582,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-38806067|w010|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2578,"ok":false}
+{"answer":"\n\nYes, the conveyor or machine appears to","id":"line-stopped-staged-38806067|w011|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2579,"ok":true}

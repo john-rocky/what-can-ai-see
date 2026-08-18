@@ -1,0 +1,35 @@
+# Fetched by tools/fetch_scene.py — searched by PLACE, not by event.
+id: action-6101146
+tier: field
+event: action
+label: positive
+pair: null
+onset_s: 1.8
+duration_s: 15.0
+camera: fixed
+ground_truth: A person sits at a table with a coffee cup and papers; at 1.8s they pick up a pen and
+  begin writing.
+source:
+  kind: stock
+  provider: pexels
+  id: 6101146
+  url: https://www.pexels.com/video/man-drinking-coffee-and-working-6101146/
+  title: man drinking coffee and working
+  scene_query: action
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: action
+kind: transition
+expected: null
+trim:
+- 0.0
+- 15.0
+moment: she starts writing

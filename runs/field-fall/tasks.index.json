@@ -1,0 +1,1212 @@
+[
+  {
+    "task_id": "fall-5916779|f1|gate",
+    "clip": "fall-5916779",
+    "encoding": "f1",
+    "question": "gate",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 1,
+    "panel_times": [
+      2.9
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|f1|gate2",
+    "clip": "fall-5916779",
+    "encoding": "f1",
+    "question": "gate2",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 1,
+    "panel_times": [
+      2.9
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|f1|gate3",
+    "clip": "fall-5916779",
+    "encoding": "f1",
+    "question": "gate3",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 1,
+    "panel_times": [
+      2.9
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|f1|open",
+    "clip": "fall-5916779",
+    "encoding": "f1",
+    "question": "open",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 1,
+    "panel_times": [
+      2.9
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|f1|when",
+    "clip": "fall-5916779",
+    "encoding": "f1",
+    "question": "when",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 1,
+    "panel_times": [
+      2.9
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g2|gate",
+    "clip": "fall-5916779",
+    "encoding": "g2",
+    "question": "gate",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 2,
+    "panel_times": [
+      1.45,
+      4.35
+    ],
+    "tokens_per_panel_at_196": 98.0,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g2|gate2",
+    "clip": "fall-5916779",
+    "encoding": "g2",
+    "question": "gate2",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 2,
+    "panel_times": [
+      1.45,
+      4.35
+    ],
+    "tokens_per_panel_at_196": 98.0,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g2|gate3",
+    "clip": "fall-5916779",
+    "encoding": "g2",
+    "question": "gate3",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 2,
+    "panel_times": [
+      1.45,
+      4.35
+    ],
+    "tokens_per_panel_at_196": 98.0,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g2|open",
+    "clip": "fall-5916779",
+    "encoding": "g2",
+    "question": "open",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 2,
+    "panel_times": [
+      1.45,
+      4.35
+    ],
+    "tokens_per_panel_at_196": 98.0,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g2|when",
+    "clip": "fall-5916779",
+    "encoding": "g2",
+    "question": "when",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 2,
+    "panel_times": [
+      1.45,
+      4.35
+    ],
+    "tokens_per_panel_at_196": 98.0,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g6|gate",
+    "clip": "fall-5916779",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 6,
+    "panel_times": [
+      0.483,
+      1.45,
+      2.417,
+      3.383,
+      4.35,
+      5.317
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g6|gate2",
+    "clip": "fall-5916779",
+    "encoding": "g6",
+    "question": "gate2",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 6,
+    "panel_times": [
+      0.483,
+      1.45,
+      2.417,
+      3.383,
+      4.35,
+      5.317
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g6|gate3",
+    "clip": "fall-5916779",
+    "encoding": "g6",
+    "question": "gate3",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 6,
+    "panel_times": [
+      0.483,
+      1.45,
+      2.417,
+      3.383,
+      4.35,
+      5.317
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g6|open",
+    "clip": "fall-5916779",
+    "encoding": "g6",
+    "question": "open",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 6,
+    "panel_times": [
+      0.483,
+      1.45,
+      2.417,
+      3.383,
+      4.35,
+      5.317
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g6|when",
+    "clip": "fall-5916779",
+    "encoding": "g6",
+    "question": "when",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 6,
+    "panel_times": [
+      0.483,
+      1.45,
+      2.417,
+      3.383,
+      4.35,
+      5.317
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g12|gate",
+    "clip": "fall-5916779",
+    "encoding": "g12",
+    "question": "gate",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 12,
+    "panel_times": [
+      0.242,
+      0.725,
+      1.208,
+      1.692,
+      2.175,
+      2.658,
+      3.142,
+      3.625,
+      4.108,
+      4.592,
+      5.075,
+      5.558
+    ],
+    "tokens_per_panel_at_196": 16.3,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g12|gate2",
+    "clip": "fall-5916779",
+    "encoding": "g12",
+    "question": "gate2",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 12,
+    "panel_times": [
+      0.242,
+      0.725,
+      1.208,
+      1.692,
+      2.175,
+      2.658,
+      3.142,
+      3.625,
+      4.108,
+      4.592,
+      5.075,
+      5.558
+    ],
+    "tokens_per_panel_at_196": 16.3,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g12|gate3",
+    "clip": "fall-5916779",
+    "encoding": "g12",
+    "question": "gate3",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 12,
+    "panel_times": [
+      0.242,
+      0.725,
+      1.208,
+      1.692,
+      2.175,
+      2.658,
+      3.142,
+      3.625,
+      4.108,
+      4.592,
+      5.075,
+      5.558
+    ],
+    "tokens_per_panel_at_196": 16.3,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g12|open",
+    "clip": "fall-5916779",
+    "encoding": "g12",
+    "question": "open",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 12,
+    "panel_times": [
+      0.242,
+      0.725,
+      1.208,
+      1.692,
+      2.175,
+      2.658,
+      3.142,
+      3.625,
+      4.108,
+      4.592,
+      5.075,
+      5.558
+    ],
+    "tokens_per_panel_at_196": 16.3,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-5916779|g12|when",
+    "clip": "fall-5916779",
+    "encoding": "g12",
+    "question": "when",
+    "event": "fall",
+    "label": "positive",
+    "pair": "fall-8526604",
+    "onset_s": 3.3,
+    "tier": "field",
+    "panels": 12,
+    "panel_times": [
+      0.242,
+      0.725,
+      1.208,
+      1.692,
+      2.175,
+      2.658,
+      3.142,
+      3.625,
+      4.108,
+      4.592,
+      5.075,
+      5.558
+    ],
+    "tokens_per_panel_at_196": 16.3,
+    "conditions": {
+      "distance": "mid",
+      "target_size": "large",
+      "light": "bright",
+      "occlusion": "none",
+      "blur": "light",
+      "viewpoint": "side",
+      "clutter": "high",
+      "duration_class": "sub-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|f1|gate",
+    "clip": "fall-8526604",
+    "encoding": "f1",
+    "question": "gate",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|f1|gate2",
+    "clip": "fall-8526604",
+    "encoding": "f1",
+    "question": "gate2",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|f1|gate3",
+    "clip": "fall-8526604",
+    "encoding": "f1",
+    "question": "gate3",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|f1|open",
+    "clip": "fall-8526604",
+    "encoding": "f1",
+    "question": "open",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|f1|when",
+    "clip": "fall-8526604",
+    "encoding": "f1",
+    "question": "when",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 1,
+    "panel_times": [
+      3.0
+    ],
+    "tokens_per_panel_at_196": 196.0,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g2|gate",
+    "clip": "fall-8526604",
+    "encoding": "g2",
+    "question": "gate",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 2,
+    "panel_times": [
+      1.5,
+      4.5
+    ],
+    "tokens_per_panel_at_196": 98.0,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g2|gate2",
+    "clip": "fall-8526604",
+    "encoding": "g2",
+    "question": "gate2",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 2,
+    "panel_times": [
+      1.5,
+      4.5
+    ],
+    "tokens_per_panel_at_196": 98.0,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g2|gate3",
+    "clip": "fall-8526604",
+    "encoding": "g2",
+    "question": "gate3",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 2,
+    "panel_times": [
+      1.5,
+      4.5
+    ],
+    "tokens_per_panel_at_196": 98.0,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g2|open",
+    "clip": "fall-8526604",
+    "encoding": "g2",
+    "question": "open",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 2,
+    "panel_times": [
+      1.5,
+      4.5
+    ],
+    "tokens_per_panel_at_196": 98.0,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g2|when",
+    "clip": "fall-8526604",
+    "encoding": "g2",
+    "question": "when",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 2,
+    "panel_times": [
+      1.5,
+      4.5
+    ],
+    "tokens_per_panel_at_196": 98.0,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g6|gate",
+    "clip": "fall-8526604",
+    "encoding": "g6",
+    "question": "gate",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g6|gate2",
+    "clip": "fall-8526604",
+    "encoding": "g6",
+    "question": "gate2",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g6|gate3",
+    "clip": "fall-8526604",
+    "encoding": "g6",
+    "question": "gate3",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g6|open",
+    "clip": "fall-8526604",
+    "encoding": "g6",
+    "question": "open",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g6|when",
+    "clip": "fall-8526604",
+    "encoding": "g6",
+    "question": "when",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 6,
+    "panel_times": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "tokens_per_panel_at_196": 32.7,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g12|gate",
+    "clip": "fall-8526604",
+    "encoding": "g12",
+    "question": "gate",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 12,
+    "panel_times": [
+      0.25,
+      0.75,
+      1.25,
+      1.75,
+      2.25,
+      2.75,
+      3.25,
+      3.75,
+      4.25,
+      4.75,
+      5.25,
+      5.75
+    ],
+    "tokens_per_panel_at_196": 16.3,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g12|gate2",
+    "clip": "fall-8526604",
+    "encoding": "g12",
+    "question": "gate2",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 12,
+    "panel_times": [
+      0.25,
+      0.75,
+      1.25,
+      1.75,
+      2.25,
+      2.75,
+      3.25,
+      3.75,
+      4.25,
+      4.75,
+      5.25,
+      5.75
+    ],
+    "tokens_per_panel_at_196": 16.3,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g12|gate3",
+    "clip": "fall-8526604",
+    "encoding": "g12",
+    "question": "gate3",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 12,
+    "panel_times": [
+      0.25,
+      0.75,
+      1.25,
+      1.75,
+      2.25,
+      2.75,
+      3.25,
+      3.75,
+      4.25,
+      4.75,
+      5.25,
+      5.75
+    ],
+    "tokens_per_panel_at_196": 16.3,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g12|open",
+    "clip": "fall-8526604",
+    "encoding": "g12",
+    "question": "open",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 12,
+    "panel_times": [
+      0.25,
+      0.75,
+      1.25,
+      1.75,
+      2.25,
+      2.75,
+      3.25,
+      3.75,
+      4.25,
+      4.75,
+      5.25,
+      5.75
+    ],
+    "tokens_per_panel_at_196": 16.3,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  },
+  {
+    "task_id": "fall-8526604|g12|when",
+    "clip": "fall-8526604",
+    "encoding": "g12",
+    "question": "when",
+    "event": "fall",
+    "label": "negative",
+    "pair": "fall-5916779",
+    "onset_s": null,
+    "tier": "field",
+    "panels": 12,
+    "panel_times": [
+      0.25,
+      0.75,
+      1.25,
+      1.75,
+      2.25,
+      2.75,
+      3.25,
+      3.75,
+      4.25,
+      4.75,
+      5.25,
+      5.75
+    ],
+    "tokens_per_panel_at_196": 16.3,
+    "conditions": {
+      "distance": "near",
+      "target_size": "large",
+      "light": "dim",
+      "occlusion": "none",
+      "blur": "none",
+      "viewpoint": "side",
+      "clutter": "low",
+      "duration_class": "multi-second"
+    }
+  }
+]

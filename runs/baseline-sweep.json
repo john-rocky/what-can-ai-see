@@ -1,0 +1,42 @@
+[
+ [
+  "spill-pos",
+  {
+   "best_area": 0.09,
+   "latency_s": 4.3,
+   "negative_fires": 12,
+   "pre_onset_fires": 0,
+   "negative_windows": 34
+  }
+ ],
+ [
+  "grounds-pos",
+  {
+   "best_area": 0.057,
+   "latency_s": 3.8,
+   "negative_fires": 3,
+   "pre_onset_fires": 0,
+   "negative_windows": 34
+  }
+ ],
+ [
+  "hazard-hand-pos",
+  {
+   "best_area": 0.094,
+   "latency_s": 0.2,
+   "negative_fires": 0,
+   "pre_onset_fires": 0,
+   "negative_windows": 34
+  }
+ ],
+ [
+  "damage-jar-pos",
+  {
+   "best_area": 0.02,
+   "latency_s": 0.7,
+   "negative_fires": 26,
+   "pre_onset_fires": 0,
+   "negative_windows": 26
+  }
+ ]
+]

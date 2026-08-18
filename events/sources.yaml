@@ -1,0 +1,219 @@
+# Search plan for the licence-clean corpus.
+#
+# Two fields per side, and the second one is what makes this a measurement.
+#
+#   search  terms handed to the Pexels API. Deliberately plain and scene-led:
+#           stock libraries are tagged the way a buyer searches ("warehouse
+#           worker", "factory line"), not the way an incident is named
+#           ("intrusion", "abandonment").
+#
+#   title   a regex over the clip's own Pexels title, which is the only reliable
+#           description of what is actually in it. The API ignores negation —
+#           "construction worker no helmet" returns workers wearing helmets, and
+#           "person falling down" returned a woman stretching, a man doing glute
+#           bridges, and an aerial shot of a man. A first survey that counted
+#           search hits graded all 19 events "strong" and was measuring nothing
+#           but whether the endpoint answered. The title filter is what separates
+#           a candidate from a result.
+#
+# A title match still is not ground truth — it is a shortlist for human viewing.
+# Nothing enters clips/ until its contact sheet has actually been looked at.
+
+version: 0.2
+
+queries:
+
+  # ─── state ────────────────────────────────────────────────────────────────
+  # The easy tier for stock: these need only a scene, not an incident.
+  ppe-missing:
+    positive:
+      search: ["construction worker no helmet", "man working construction site",
+               "worker on site casual clothes", "builder working without helmet"]
+      title: "(?i)\\b(worker|builder|man|woman|carpenter|labou?rer)\\b"
+    negative:
+      search: ["construction worker hard hat", "worker safety helmet vest",
+               "factory worker protective equipment"]
+      title: "(?i)\\b(helmet|hard ?hat|safety|protective|vest|ppe)\\b"
+
+  shelf-empty:
+    positive:
+      search: ["empty supermarket shelves", "empty store shelf", "bare shelves shop"]
+      title: "(?i)\\bempty\\b|\\bbare\\b"
+    negative:
+      search: ["full supermarket shelves", "stocked grocery shelf",
+               "supermarket aisle products"]
+      title: "(?i)\\b(shelf|shelves|aisle|grocery|supermarket|store)\\b"
+
+  part-missing:
+    positive:
+      search: ["disassembled machine parts", "unfinished assembly circuit board",
+               "machine parts laid out"]
+      title: "(?i)\\b(part|parts|disassembl|component|unfinished|repair)\\b"
+    negative:
+      search: ["assembled product factory", "finished circuit board close up"]
+      title: "(?i)\\b(assembled|finished|complete|product|circuit board)\\b"
+
+  assembly-wrong:
+    positive:
+      search: ["worker assembling incorrectly", "machine assembly parts hands"]
+      title: "(?i)\\b(assembl|install|fitting|mount)\\w*"
+    negative:
+      search: ["worker assembling product", "factory assembly line hands"]
+      title: "(?i)\\b(assembl|install|fitting|mount)\\w*"
+
+  meter-anomaly:
+    positive:
+      search: ["pressure gauge red zone", "industrial gauge warning",
+               "control panel warning light"]
+      title: "(?i)\\b(gauge|meter|dial|warning|indicator|pressure|panel)\\b"
+    negative:
+      search: ["pressure gauge normal", "industrial gauge dial",
+               "control panel factory"]
+      title: "(?i)\\b(gauge|meter|dial|indicator|pressure|panel)\\b"
+
+  damage:
+    positive:
+      search: ["damaged package box", "cracked wall inspection", "broken machine part",
+               "crushed cardboard box"]
+      title: "(?i)\\b(damag|crack|broken|break|crush|torn|dent|rust)\\w*"
+    negative:
+      search: ["intact cardboard boxes", "clean wall surface", "new machine part"]
+      title: "(?i)\\b(box|boxes|carton|wall|surface|package|parcel)\\b"
+
+  # ─── change ───────────────────────────────────────────────────────────────
+  object-removed:
+    positive:
+      search: ["person taking box from shelf", "woman picking product shelf",
+               "customer taking item supermarket", "man picks up bag and leaves"]
+      title: "(?i)\\b(pick|picking|taking|takes|grab|removing|choos)\\w*"
+    negative:
+      search: ["person walking past shelf", "customer browsing store shelf",
+               "person walking past luggage"]
+      title: "(?i)\\b(walk|walking|browsing|passing|looking|standing)\\w*"
+
+  object-abandoned:
+    positive:
+      search: ["suitcase alone station", "abandoned bag public place",
+               "backpack on floor empty room", "luggage left on platform"]
+      title: "(?i)\\b(abandoned|alone|left|unattended|empty)\\b"
+    negative:
+      search: ["person standing with suitcase", "traveller waiting with luggage",
+               "person sitting next to backpack"]
+      title: "(?i)\\b(person|man|woman|traveller|traveler|passenger)\\b.*\\b(luggage|suitcase|bag|backpack)\\b"
+
+  step-complete:
+    positive:
+      search: ["worker sealing box with tape", "applying label to package",
+               "closing lid container factory", "taping cardboard box"]
+      title: "(?i)\\b(seal|tap(e|ing)|clos|label|pack|wrap)\\w*"
+    negative:
+      search: ["worker holding box", "packages on table warehouse"]
+      title: "(?i)\\b(hold|holding|table|stack|pile|standing)\\w*"
+
+  # ─── motion ───────────────────────────────────────────────────────────────
+  # The hard tier for stock. Nobody shoots "worker falls in a warehouse", so the
+  # positives that exist are sports and stunt falls. Recorded, not hidden: the
+  # domain gap goes on the clip card.
+  fall:
+    positive:
+      search: ["person falling down", "man slips and falls", "skateboard fall",
+               "person tripping over", "athlete falling"]
+      title: "(?i)\\b(fall|falls|falling|fell|slip|slips|trip|tripping|tumbl|wipe ?out|crash)\\w*"
+    negative:
+      search: ["person crouching down floor", "man kneeling on floor",
+               "person sitting down on ground", "person lying on floor",
+               "picking up something from floor"]
+      title: "(?i)\\b(sit|sitting|lying|lies|lay|crouch|kneel|stretch|picking up|yoga|rest)\\w*"
+
+  object-drop:
+    positive:
+      search: ["dropping box on floor", "object falling to ground",
+               "worker drops package", "spilling items floor"]
+      title: "(?i)\\b(drop|drops|dropping|falling|spill|knock)\\w*"
+    negative:
+      search: ["placing box on floor", "worker putting down package",
+               "person setting box down"]
+      title: "(?i)\\b(plac|putting|put|set|setting|lower|carry)\\w*"
+
+  intrusion:
+    positive:
+      search: ["person climbing fence", "man jumping over barrier",
+               "climbing over wall", "trespassing at night"]
+      title: "(?i)\\b(climb|jump|over|trespass|break ?in|scal)\\w*"
+    negative:
+      search: ["person walking along fence", "man standing near fence",
+               "worker walking past barrier"]
+      title: "(?i)\\b(walk|walking|standing|stands|passing|beside|along)\\w*"
+
+  entry-exit:
+    positive:
+      search: ["person entering door", "man walking through doorway",
+               "employee entering office door", "woman opens door and enters"]
+      title: "(?i)\\b(enter|entering|through|walk(s|ing)? in|going in|doorway)\\w*"
+    negative:
+      search: ["person standing at door", "man opening door not entering",
+               "person walking past door"]
+      title: "(?i)\\b(standing|stands|waiting|knock|past|outside)\\w*"
+
+  handover:
+    positive:
+      search: ["handing over package", "person giving box to another",
+               "delivery man handing parcel", "passing item between people"]
+      title: "(?i)\\b(hand(s|ing)? (over|to)|giv(e|ing)|deliver|receiv|passing)\\w*"
+    negative:
+      search: ["two people talking holding box", "person holding parcel standing",
+               "two coworkers standing warehouse"]
+      title: "(?i)\\b(talk|talking|holding|standing|discuss|meeting)\\w*"
+
+  vehicle-arrival:
+    positive:
+      search: ["truck arriving loading dock", "van parking warehouse",
+               "forklift arriving", "truck backing into dock"]
+      title: "(?i)\\b(arriv|park|parking|dock|unload|back(s|ing)? in|stop)\\w*"
+    negative:
+      search: ["truck driving highway", "parked truck loading dock",
+               "truck leaving warehouse"]
+      title: "(?i)\\b(driv|highway|road|leaving|departing|parked)\\w*"
+
+  parcel-pass:
+    positive:
+      search: ["packages moving on conveyor belt", "parcels on sorting lane",
+               "boxes on conveyor belt factory"]
+      title: "(?i)\\b(conveyor|sorting|belt|moving|parcel|package|box)\\w*"
+    negative:
+      search: ["empty conveyor belt", "stationary boxes warehouse",
+               "boxes stacked warehouse"]
+      title: "(?i)\\b(empty|stationary|stacked|stack|idle|still)\\w*"
+
+  # ─── dwell ────────────────────────────────────────────────────────────────
+  line-stopped:
+    positive:
+      search: ["stopped production line", "idle factory machine",
+               "empty conveyor belt factory", "abandoned factory machinery"]
+      title: "(?i)\\b(stopped|idle|empty|abandoned|still|closed|unused)\\b"
+    negative:
+      search: ["running production line", "factory conveyor moving",
+               "automated assembly line working", "machine operating factory"]
+      title: "(?i)\\b(running|moving|working|operat|automat|product|machin)\\w*"
+
+  jam:
+    positive:
+      search: ["boxes stuck on conveyor", "packages piled up conveyor",
+               "clogged production line", "pile of packages warehouse"]
+      title: "(?i)\\b(stuck|jam|pile|piled|clog|block|heap|cluttered)\\w*"
+    negative:
+      search: ["packages flowing on conveyor", "smooth conveyor belt boxes"]
+      title: "(?i)\\b(conveyor|belt|flow|moving|smooth|line)\\w*"
+
+  # ─── diffuse ──────────────────────────────────────────────────────────────
+  # The negatives here are the point: steam, fog, dust and welding sparks are the
+  # classic false positives for every smoke detector ever shipped.
+  smoke-fire:
+    positive:
+      search: ["smoke rising industrial", "fire in building", "burning fire close up",
+               "smoke from machine"]
+      title: "(?i)\\b(smoke|smoking|fire|flame|burn|blaze)\\w*"
+    negative:
+      search: ["steam rising industrial", "fog in the morning",
+               "dust cloud construction", "welding sparks close up"]
+      title: "(?i)\\b(steam|fog|mist|dust|spark|weld|cloud|vapou?r)\\w*"

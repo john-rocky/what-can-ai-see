@@ -1,0 +1,33 @@
+# Cut from spill-pourside2-anom-e000002. kantine LeRobot, Apache-2.0. Negative verified by measurement.
+id: spill3-pos
+tier: field
+event: spill
+label: positive
+pair: spill3-neg
+onset_s: 6.5
+duration_s: 15.0
+ground_truth: The same rig. The robot pours and a large amount goes onto the table beside
+  the cup. Onset measured at 13.4s in the source by tools/spill_onset.py.
+dataset_anomaly: pour coffee incorrectly and put a lot on the side
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/domotic_pouringCoffee_anomaly
+  file: videos/chunk-000/observation.images.logitech_1/episode_000002.mp4
+  camera: observation.images.logitech_1
+  license: apache-2.0
+  counterpart: kantine/domotic_pouringCoffee_expert — same rig, same camera, same task, different
+    outcome.
+conditions:
+  viewpoint: fixed-rig
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid
+trim:
+- 6.9
+- 21.9
+derived_from: spill-pourside2-anom-e000002
+shows_transition: true
+onset_method: measured, tools/spill_onset.py

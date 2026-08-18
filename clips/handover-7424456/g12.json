@@ -1,0 +1,33 @@
+{
+  "encoding": "g12",
+  "grid": [
+    3,
+    4
+  ],
+  "panels": 12,
+  "times": [
+    0.158,
+    0.475,
+    0.792,
+    1.108,
+    1.425,
+    1.742,
+    2.058,
+    2.375,
+    2.692,
+    3.008,
+    3.325,
+    3.642
+  ],
+  "sheet_px": [
+    1023,
+    778
+  ],
+  "canvas_aspect": 1.315,
+  "panel_px_at_448": [
+    149,
+    112
+  ],
+  "tokens_per_panel_at_196": 16.3,
+  "out": "/Users/majimadaisuke/code/what-can-ai-see/clips/handover-7424456/g12.jpg"
+}

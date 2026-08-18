@@ -1,0 +1,38 @@
+# Re-cut from fall-8526604 with a long lead-in, for the live sliding-window view.
+# A window ending at t is all the model has at t, so latency is only
+# meaningful if several windows fall entirely BEFORE the event.
+id: fall-live-neg
+tier: field
+event: fall
+label: negative
+pair: fall-live-pos
+onset_s: null
+duration_s: 9.0
+ground_truth: A man on an exercise mat kneels, then lies flat on his back and stays there.
+  Upright, then on the ground, then staying down - the trajectory of a collapse, done deliberately.
+  Cut to the same length as its positive.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 8526604
+  url: https://www.pexels.com/video/a-medium-shot-of-a-man-lying-down-on-the-floor-8526604/
+  title: a medium shot of a man lying down on the floor
+  author: Ron Lach
+  author_url: https://www.pexels.com/@ron-lach
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 2048x1080
+conditions:
+  distance: near
+  target_size: large
+  light: dim
+  occlusion: none
+  blur: none
+  viewpoint: side
+  clutter: low
+  duration_class: multi-second
+negative_hardness: hard
+trim:
+- 0.5
+- 9.5
+shows_transition: true
+derived_from: fall-8526604

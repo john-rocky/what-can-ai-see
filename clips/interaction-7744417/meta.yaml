@@ -1,0 +1,32 @@
+# Fetched by tools/fetch_scene.py — searched by PLACE, not by event.
+id: interaction-7744417
+tier: field
+event: interaction
+label: positive
+pair: null
+onset_s: 4.0
+duration_s: 15.12
+camera: fixed
+ground_truth: A coffee cup sits on a white table seen from directly above. At 4.0s a hand reaches
+  in and takes it away, leaving the table empty.
+source:
+  kind: stock
+  provider: pexels
+  id: 7744417
+  url: https://www.pexels.com/video/coffee-in-a-ceramic-cup-7744417/
+  title: coffee in a ceramic cup
+  scene_query: interaction
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: interaction
+kind: transition
+expected: null
+moment: the cup is taken

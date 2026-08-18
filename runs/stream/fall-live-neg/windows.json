@@ -1,0 +1,242 @@
+{
+  "clip": "fall-live-neg",
+  "event": "fall",
+  "label": "negative",
+  "question": "Did a person fall to the ground?",
+  "onset_s": null,
+  "duration_s": 9.0,
+  "window_s": 1.6,
+  "stride_s": 0.4,
+  "panels": 4,
+  "ground_truth": "A man on an exercise mat kneels, then lies flat on his back and stays there. Upright, then on the ground, then staying down - the trajectory of a collapse, done deliberately. Cut to the same length as its positive.",
+  "windows": [
+    {
+      "i": 0,
+      "t_start": 0.0,
+      "t_end": 1.6,
+      "times": [
+        0.2,
+        0.6,
+        1.0,
+        1.4
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w000.jpg"
+    },
+    {
+      "i": 1,
+      "t_start": 0.4,
+      "t_end": 2.0,
+      "times": [
+        0.6,
+        1.0,
+        1.4,
+        1.8
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w001.jpg"
+    },
+    {
+      "i": 2,
+      "t_start": 0.8,
+      "t_end": 2.4,
+      "times": [
+        1.0,
+        1.4,
+        1.8,
+        2.2
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w002.jpg"
+    },
+    {
+      "i": 3,
+      "t_start": 1.2,
+      "t_end": 2.8,
+      "times": [
+        1.4,
+        1.8,
+        2.2,
+        2.6
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w003.jpg"
+    },
+    {
+      "i": 4,
+      "t_start": 1.6,
+      "t_end": 3.2,
+      "times": [
+        1.8,
+        2.2,
+        2.6,
+        3.0
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w004.jpg"
+    },
+    {
+      "i": 5,
+      "t_start": 2.0,
+      "t_end": 3.6,
+      "times": [
+        2.2,
+        2.6,
+        3.0,
+        3.4
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w005.jpg"
+    },
+    {
+      "i": 6,
+      "t_start": 2.4,
+      "t_end": 4.0,
+      "times": [
+        2.6,
+        3.0,
+        3.4,
+        3.8
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w006.jpg"
+    },
+    {
+      "i": 7,
+      "t_start": 2.8,
+      "t_end": 4.4,
+      "times": [
+        3.0,
+        3.4,
+        3.8,
+        4.2
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w007.jpg"
+    },
+    {
+      "i": 8,
+      "t_start": 3.2,
+      "t_end": 4.8,
+      "times": [
+        3.4,
+        3.8,
+        4.2,
+        4.6
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w008.jpg"
+    },
+    {
+      "i": 9,
+      "t_start": 3.6,
+      "t_end": 5.2,
+      "times": [
+        3.8,
+        4.2,
+        4.6,
+        5.0
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w009.jpg"
+    },
+    {
+      "i": 10,
+      "t_start": 4.0,
+      "t_end": 5.6,
+      "times": [
+        4.2,
+        4.6,
+        5.0,
+        5.4
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w010.jpg"
+    },
+    {
+      "i": 11,
+      "t_start": 4.4,
+      "t_end": 6.0,
+      "times": [
+        4.6,
+        5.0,
+        5.4,
+        5.8
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w011.jpg"
+    },
+    {
+      "i": 12,
+      "t_start": 4.8,
+      "t_end": 6.4,
+      "times": [
+        5.0,
+        5.4,
+        5.8,
+        6.2
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w012.jpg"
+    },
+    {
+      "i": 13,
+      "t_start": 5.2,
+      "t_end": 6.8,
+      "times": [
+        5.4,
+        5.8,
+        6.2,
+        6.6
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w013.jpg"
+    },
+    {
+      "i": 14,
+      "t_start": 5.6,
+      "t_end": 7.2,
+      "times": [
+        5.8,
+        6.2,
+        6.6,
+        7.0
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w014.jpg"
+    },
+    {
+      "i": 15,
+      "t_start": 6.0,
+      "t_end": 7.6,
+      "times": [
+        6.2,
+        6.6,
+        7.0,
+        7.4
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w015.jpg"
+    },
+    {
+      "i": 16,
+      "t_start": 6.4,
+      "t_end": 8.0,
+      "times": [
+        6.6,
+        7.0,
+        7.4,
+        7.8
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w016.jpg"
+    },
+    {
+      "i": 17,
+      "t_start": 6.8,
+      "t_end": 8.4,
+      "times": [
+        7.0,
+        7.4,
+        7.8,
+        8.2
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w017.jpg"
+    },
+    {
+      "i": 18,
+      "t_start": 7.2,
+      "t_end": 8.8,
+      "times": [
+        7.4,
+        7.8,
+        8.2,
+        8.6
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-live-neg/windows/w018.jpg"
+    }
+  ]
+}

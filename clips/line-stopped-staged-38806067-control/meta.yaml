@@ -1,0 +1,39 @@
+# STAGED control for line-stopped-staged-38806067: the same footage, unmodified.
+id: line-stopped-staged-38806067-control
+tier: staged
+event: line-stopped
+label: negative
+pair: line-stopped-staged-38806067
+onset_s: null
+duration_s: 6.0
+ground_truth: 'The same clip, unmodified: the scene continues normally throughout. Background,
+  lighting, camera, grain and duration are identical to the positive it pairs with — the composited
+  change is the only difference.'
+staged:
+  base_clip: line-stopped-38806067
+  transition: freeze-control
+  at_s: null
+  caveat: Composited, not filmed. A model that scores here may be reading a compositing seam
+    rather than the event; the patch edge is feathered and tools/stage.py --check renders
+    a difference map for inspection.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 38806067
+  url: https://www.pexels.com/video/efficient-beer-bottling-production-line-38806067/
+  title: efficient beer bottling production line
+  author: Kiwi and Camera
+  author_url: https://www.pexels.com/@kiwi-and-camera-2158354883
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: unknown
+  target_size: unknown
+  light: unknown
+  occlusion: unknown
+  blur: unknown
+  viewpoint: unknown
+  clutter: unknown
+  duration_class: unknown
+negative_hardness: hard
+shows_transition: false

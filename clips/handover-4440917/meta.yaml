@@ -1,0 +1,36 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: handover-4440917
+tier: field
+event: handover
+label: positive
+pair: handover-7424456
+onset_s: 0.9
+duration_s: 3.8
+ground_truth: A delivery courier holds a cardboard box and a white parcel. Between panels
+  2 and 4 a second person's hands take the white parcel; by panels 5-6 only the box remains
+  with the courier. Both people and the object are visible throughout the transfer.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 4440917
+  url: https://www.pexels.com/video/man-handing-delivery-package-4440917/
+  title: man handing delivery package
+  author: Polina Tankilevitch
+  author_url: https://www.pexels.com/@polina-tankilevitch
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: near
+  target_size: large
+  light: bright
+  occlusion: none
+  blur: none
+  viewpoint: side
+  clutter: mid
+  duration_class: multi-second
+trim:
+- 0.15
+- 3.95
+onset_confidence: +/-0.5s, read off the panel timestamps
+shows_transition: true

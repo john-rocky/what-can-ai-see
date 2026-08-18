@@ -1,0 +1,37 @@
+# Lead-in staged from damage-31637076: frame 0 held for 4.0s, then the clip.
+id: damage-jar-pos
+tier: staged
+event: damage
+label: positive
+pair: damage-jar-neg
+onset_s: 5.3
+duration_s: 11.72
+ground_truth: A glass jar falls into frame and shatters on the surface at the onset; the first four
+  seconds hold the empty scene before it enters. Panels after the break show only scattered fragments.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 31637076
+  url: https://www.pexels.com/video/high-speed-shattering-glass-jar-impact-31637076/
+  title: high speed shattering glass jar impact
+  author: Just For Music And Film
+  author_url: https://www.pexels.com/@mackeionesco
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: unknown
+  target_size: unknown
+  light: unknown
+  occlusion: unknown
+  blur: unknown
+  viewpoint: unknown
+  clutter: unknown
+  duration_class: unknown
+derived_from: damage-31637076
+shows_transition: true
+lead_in:
+  held_first_frame_s: 4.0
+  why: the source has no pre-event footage; frame 0 is the normal state and is held to supply a measurable
+    baseline
+  caveat: duration is fabricated; the held pixels are the clip's own frame 0
+moment: the jar shatters

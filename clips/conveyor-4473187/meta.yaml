@@ -1,0 +1,35 @@
+# Fetched by tools/fetch_scene.py — searched by PLACE, not by event.
+id: conveyor-4473187
+tier: field
+event: line-stopped
+label: negative
+pair: null
+onset_s: null
+duration_s: 15.02
+camera: fixed
+ground_truth: 'A fixed camera on a running conveyor belt in a lit factory hall. The belt runs for
+  the whole clip and never stops. A hard negative for line-stopped: there is continuous motion throughout,
+  so a method keyed on ''nothing is moving'' must stay quiet.'
+source:
+  kind: stock
+  provider: pexels
+  id: 4473187
+  url: https://www.pexels.com/video/black-conveyor-belt-4473187/
+  title: black conveyor belt
+  scene_query: conveyor
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: fixed-tripod
+  distance: near
+  light: indoor-mixed
+  occlusion: none
+  blur: motion-on-belt
+  clutter: mid
+selection: kept by tools/review.py after tools/enter_onset.py measured the camera as fixed. 165 of
+  327 candidates were rejected on camera motion alone, which a 6-frame contact sheet does not reveal.
+trim:
+- 0.0
+- 15.0
+moment: belt keeps running

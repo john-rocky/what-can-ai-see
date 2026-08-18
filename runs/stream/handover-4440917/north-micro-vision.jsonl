@@ -1,0 +1,6 @@
+{"answer":"Yes, in panel 4, a hand is visible handing an object to the person in the black jacket.","id":"handover-4440917|w000|gate","load_s":5.1619999999999999,"max_tokens":70,"model":"north-micro-vision","ms":2848,"ok":true}
+{"answer":"Yes, in panel 3, the person on the left hand an object to the person on the right.","id":"handover-4440917|w001|gate","load_s":5.1619999999999999,"max_tokens":70,"model":"north-micro-vision","ms":2694,"ok":true}
+{"answer":"Yes, in panel 2, one person is handing a white package to another person.","id":"handover-4440917|w002|gate","load_s":5.1619999999999999,"max_tokens":70,"model":"north-micro-vision","ms":2777,"ok":true}
+{"answer":"Yes, in panel 1, one person is handing an object to another.","id":"handover-4440917|w003|gate","load_s":5.1619999999999999,"max_tokens":70,"model":"north-micro-vision","ms":3113,"ok":true}
+{"answer":"Yes, in panel 1, one person is handing a white object to another person.","id":"handover-4440917|w004|gate","load_s":5.1619999999999999,"max_tokens":70,"model":"north-micro-vision","ms":2760,"ok":true}
+{"answer":"Yes, in panel 1, the person in panel 2 is handing a white object to the person in panel 3.","id":"handover-4440917|w005|gate","load_s":5.1619999999999999,"max_tokens":70,"model":"north-micro-vision","ms":2737,"ok":true}

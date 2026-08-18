@@ -1,0 +1,35 @@
+# Mirror of count-6380996 for the training-contamination probe. See `mirrored:` below.
+id: count-6380996-mir
+tier: field
+event: count
+label: negative
+pair: null
+onset_s: null
+duration_s: 10.01
+camera: fixed
+ground_truth: Two women sit across a table from each other in a wood-panelled room. Nobody else appears.
+source:
+  kind: stock
+  provider: pexels
+  id: 6380996
+  url: https://www.pexels.com/video/women-talking-to-each-other-6380996/
+  title: women talking to each other
+  scene_query: count
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: count
+kind: stable
+expected: 'no'
+derived_from: count-6380996
+mirrored: horizontally flipped copy of the original. Semantically identical — a cat on a bench is
+  still on the bench, two people are still two people — but no longer a pixel match for anything in
+  a training set. If a model's answers hold across the flip it is reading the picture; if they move,
+  the flip is not the only explanation but memory of the original clip becomes one of them.

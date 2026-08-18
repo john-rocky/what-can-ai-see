@@ -1,0 +1,12 @@
+{"answer": "No", "area_threshold": 0.077, "id": "line-stopped-staged-9244501-control|w000|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.02117}
+{"answer": "No", "area_threshold": 0.077, "id": "line-stopped-staged-9244501-control|w001|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.03773}
+{"answer": "No", "area_threshold": 0.077, "id": "line-stopped-staged-9244501-control|w002|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.05296}
+{"answer": "No", "area_threshold": 0.077, "id": "line-stopped-staged-9244501-control|w003|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0756}
+{"answer": "Yes", "area_threshold": 0.077, "id": "line-stopped-staged-9244501-control|w004|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.09868}
+{"answer": "Yes", "area_threshold": 0.077, "id": "line-stopped-staged-9244501-control|w005|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.13124}
+{"answer": "Yes", "area_threshold": 0.077, "id": "line-stopped-staged-9244501-control|w006|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.15092}
+{"answer": "Yes", "area_threshold": 0.077, "id": "line-stopped-staged-9244501-control|w007|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.16448}
+{"answer": "Yes", "area_threshold": 0.077, "id": "line-stopped-staged-9244501-control|w008|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.21561}
+{"answer": "Yes", "area_threshold": 0.077, "id": "line-stopped-staged-9244501-control|w009|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.25927}
+{"answer": "Yes", "area_threshold": 0.077, "id": "line-stopped-staged-9244501-control|w010|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.2739}
+{"answer": "Yes", "area_threshold": 0.077, "id": "line-stopped-staged-9244501-control|w011|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.29289}

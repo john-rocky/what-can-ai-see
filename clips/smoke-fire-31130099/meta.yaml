@@ -1,0 +1,37 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: smoke-fire-31130099
+tier: field
+event: smoke-fire
+label: positive
+pair: smoke-fire-11718858
+onset_s: null
+duration_s: 6.0
+ground_truth: Aerial view over an industrial district; a large grey-brown smoke column rises
+  from a ridge several kilometres away and drifts across the sky. The seat of the fire is
+  not in frame - only the plume.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 31130099
+  url: https://www.pexels.com/video/aerial-view-of-smoke-rising-from-urban-landscape-31130099/
+  title: aerial view of smoke rising from urban landscape
+  author: K
+  author_url: https://www.pexels.com/@kelly
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: far
+  target_size: large
+  light: bright
+  occlusion: none
+  blur: none
+  viewpoint: aerial
+  clutter: high
+  duration_class: multi-second
+subtype: fire
+trim:
+- 0.5
+- 6.5
+evidence_note: Diffuse event:present throughout, so onset_s is null and latency is not defined.
+shows_transition: false

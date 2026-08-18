@@ -1,0 +1,41 @@
+# Cut from part-missing-coffeepod-ok-e000000. kantine LeRobot, Apache-2.0.
+# The dataset calls this anomaly 'no container in the machine'; the VISIBLE
+# consequence is spilled grounds, so it is filed as `spill`, not part-missing.
+id: grounds-neg
+tier: field
+event: spill
+label: negative
+pair: grounds-pos
+onset_s: null
+duration_s: 15.0
+ground_truth: The same rig, same fixed camera, same task, from the normal episodes of the same dataset.
+  The grounds go where they should and the table stays clean.
+dataset_anomaly: episodes 0-4 are the normal test episodes
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/domotic_makingCoffee_anomaly
+  file: videos/chunk-000/observation.images.logitech_1/episode_000000.mp4
+  camera: observation.images.logitech_1
+  license: apache-2.0
+  counterpart: kantine/domotic_makingCoffee_anomaly — same rig, same camera, same task, different
+    outcome.
+conditions:
+  viewpoint: fixed-rig
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid
+trim:
+- 10.0
+- 25.0
+derived_from: part-missing-coffeepod-ok-e000000
+shows_transition: false
+negative_hardness: hard
+verified_clean: 'checked by eye on the last frame (verify/end-frame.png) — the table is clean and
+  the spoon is back in the tin. spill_onset.py does NOT apply to this scene, because the coffee machine
+  is brown: it scores this clean control at 0.166 and calls it a spill. endstate.py does not apply
+  either and is inverted here; see its docstring. This control comes from the claimed-normal episode
+  range of an _anomaly repo, which is the same pattern that put a spill inside the first spill-neg,
+  so it was checked rather than trusted.'

@@ -1,0 +1,27 @@
+{
+  "encoding": "g6",
+  "grid": [
+    2,
+    3
+  ],
+  "panels": 6,
+  "times": [
+    0.5,
+    1.5,
+    2.5,
+    3.5,
+    4.5,
+    5.5
+  ],
+  "sheet_px": [
+    1024,
+    870
+  ],
+  "canvas_aspect": 1.177,
+  "panel_px_at_448": [
+    224,
+    149
+  ],
+  "tokens_per_panel_at_196": 32.7,
+  "out": "/Users/majimadaisuke/code/what-can-ai-see/clips/synth-stop-neg/g6.jpg"
+}

@@ -1,0 +1,11 @@
+{"answer": "No", "area_threshold": 0.048, "id": "line-stopped-staged-38806067-control|w000|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.04562}
+{"answer": "No", "area_threshold": 0.048, "id": "line-stopped-staged-38806067-control|w001|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.04772}
+{"answer": "No", "area_threshold": 0.048, "id": "line-stopped-staged-38806067-control|w002|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.04772}
+{"answer": "Yes", "area_threshold": 0.048, "id": "line-stopped-staged-38806067-control|w003|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.04921}
+{"answer": "Yes", "area_threshold": 0.048, "id": "line-stopped-staged-38806067-control|w004|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.04921}
+{"answer": "Yes", "area_threshold": 0.048, "id": "line-stopped-staged-38806067-control|w005|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.06423}
+{"answer": "Yes", "area_threshold": 0.048, "id": "line-stopped-staged-38806067-control|w006|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.08613}
+{"answer": "Yes", "area_threshold": 0.048, "id": "line-stopped-staged-38806067-control|w007|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.10525}
+{"answer": "Yes", "area_threshold": 0.048, "id": "line-stopped-staged-38806067-control|w008|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.12483}
+{"answer": "Yes", "area_threshold": 0.048, "id": "line-stopped-staged-38806067-control|w009|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.14194}
+{"answer": "Yes", "area_threshold": 0.048, "id": "line-stopped-staged-38806067-control|w010|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.14957}

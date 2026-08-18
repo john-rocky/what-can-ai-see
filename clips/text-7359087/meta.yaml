@@ -1,0 +1,33 @@
+# Fetched by tools/fetch_scene.py — searched by PLACE, not by event.
+id: text-7359087
+tier: field
+event: text
+label: positive
+pair: null
+onset_s: null
+duration_s: 15.02
+camera: fixed
+ground_truth: A shop window carries a large orange sign reading CLOSING DOWN SALE, in frame throughout.
+source:
+  kind: stock
+  provider: pexels
+  id: 7359087
+  url: https://www.pexels.com/video/closing-down-sale-poster-7359087/
+  title: closing down sale poster
+  scene_query: text
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: text
+kind: stable
+expected: 'yes'
+trim:
+- 0.0
+- 15.0

@@ -1,0 +1,134 @@
+{
+  "clip": "fall-7644974",
+  "event": "fall",
+  "label": "positive",
+  "question": "Did a person fall to the ground?",
+  "onset_s": 2.2,
+  "duration_s": 6.0,
+  "window_s": 2.4,
+  "stride_s": 0.4,
+  "panels": 4,
+  "ground_truth": "A skateboarder rides the lip of a ramp upright (panels 1-2), loses it and comes down (panel 3), and is on the ground from panel 4 onward. The whole body is in frame throughout - upright, falling, down, staying down.",
+  "windows": [
+    {
+      "i": 0,
+      "t_start": 0.0,
+      "t_end": 2.4,
+      "times": [
+        0.3,
+        0.9,
+        1.5,
+        2.1
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-7644974/windows/w000.jpg"
+    },
+    {
+      "i": 1,
+      "t_start": 0.4,
+      "t_end": 2.8,
+      "times": [
+        0.7,
+        1.3,
+        1.9,
+        2.5
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-7644974/windows/w001.jpg"
+    },
+    {
+      "i": 2,
+      "t_start": 0.8,
+      "t_end": 3.2,
+      "times": [
+        1.1,
+        1.7,
+        2.3,
+        2.9
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-7644974/windows/w002.jpg"
+    },
+    {
+      "i": 3,
+      "t_start": 1.2,
+      "t_end": 3.6,
+      "times": [
+        1.5,
+        2.1,
+        2.7,
+        3.3
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-7644974/windows/w003.jpg"
+    },
+    {
+      "i": 4,
+      "t_start": 1.6,
+      "t_end": 4.0,
+      "times": [
+        1.9,
+        2.5,
+        3.1,
+        3.7
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-7644974/windows/w004.jpg"
+    },
+    {
+      "i": 5,
+      "t_start": 2.0,
+      "t_end": 4.4,
+      "times": [
+        2.3,
+        2.9,
+        3.5,
+        4.1
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-7644974/windows/w005.jpg"
+    },
+    {
+      "i": 6,
+      "t_start": 2.4,
+      "t_end": 4.8,
+      "times": [
+        2.7,
+        3.3,
+        3.9,
+        4.5
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-7644974/windows/w006.jpg"
+    },
+    {
+      "i": 7,
+      "t_start": 2.8,
+      "t_end": 5.2,
+      "times": [
+        3.1,
+        3.7,
+        4.3,
+        4.9
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-7644974/windows/w007.jpg"
+    },
+    {
+      "i": 8,
+      "t_start": 3.2,
+      "t_end": 5.6,
+      "times": [
+        3.5,
+        4.1,
+        4.7,
+        5.3
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-7644974/windows/w008.jpg"
+    },
+    {
+      "i": 9,
+      "t_start": 3.6,
+      "t_end": 6.0,
+      "times": [
+        3.9,
+        4.5,
+        5.1,
+        5.7
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/fall-7644974/windows/w009.jpg"
+    }
+  ]
+}

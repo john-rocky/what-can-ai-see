@@ -1,0 +1,38 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: smoke-fire-8064156
+tier: field
+event: smoke-fire
+label: positive
+pair: smoke-fire-34992285
+onset_s: null
+duration_s: 6.0
+ground_truth: 'Two chimney plumes over an urban skyline at dusk, dark and clearly silhouetted
+  against a bright sky. Literally smoke, though a controlled stack emission rather than a
+  fire - tagged `subtype: controlled-emission` so it can be separated in analysis.'
+source:
+  kind: stock
+  provider: pexels
+  video_id: 8064156
+  url: https://www.pexels.com/video/a-dark-smoke-coming-from-the-factories-8064156/
+  title: a dark smoke coming from the factories
+  author: Adventure Studio
+  author_url: https://www.pexels.com/@adventurestudio
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: far
+  target_size: small
+  light: dusk
+  occlusion: none
+  blur: none
+  viewpoint: elevated
+  clutter: high
+  duration_class: multi-second
+subtype: controlled-emission
+trim:
+- 0.5
+- 6.5
+evidence_note: Diffuse event:present throughout the clip, so onset_s is null and latency is
+  not defined.
+shows_transition: false

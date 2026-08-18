@@ -1,0 +1,37 @@
+# Curated negative for damage-jar-pos, cut to the same length.
+id: damage-jar-neg
+tier: field
+event: damage
+label: negative
+pair: damage-jar-pos
+onset_s: null
+duration_s: 11.7
+ground_truth: A water glass and a bottle stand on a counter for the whole clip. Nothing falls
+  and nothing breaks.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 6062824
+  url: https://www.pexels.com/video/water-glass-and-bottle-6062824/
+  title: water glass and bottle
+  author: Nikita Belokhonov
+  author_url: https://www.pexels.com/@traveliving
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: unknown
+  target_size: unknown
+  light: unknown
+  occlusion: unknown
+  blur: unknown
+  viewpoint: unknown
+  clutter: unknown
+  duration_class: unknown
+negative_hardness: hard
+trim:
+- 0.5
+- 12.2
+derived_from: damage-6062824
+shows_transition: false
+pair_note: Its positive has a four-second held lead-in to supply a baseline; this negative
+  is cut to the same length so clip duration is not a cue.

@@ -1,0 +1,12 @@
+{"answer":"Yes, in panel 1, there is smoke rising from the roof of the building.","id":"smoke-fire-11718858|w000|gate","load_s":5.0359999999999996,"max_tokens":320,"model":"qwen3-vl-2b","ms":1607,"ok":true}
+{"answer":"Yes, in panel 4, there is smoke rising from the roof of the building.","id":"smoke-fire-11718858|w001|gate","load_s":5.0359999999999996,"max_tokens":320,"model":"qwen3-vl-2b","ms":1608,"ok":true}
+{"answer":"Yes, in panel 1, there is smoke rising from the chimney of the building.","id":"smoke-fire-11718858|w002|gate","load_s":5.0359999999999996,"max_tokens":320,"model":"qwen3-vl-2b","ms":1604,"ok":true}
+{"answer":"Yes, in panel 1, there is smoke rising from the chimney of the building.","id":"smoke-fire-11718858|w003|gate","load_s":5.0359999999999996,"max_tokens":320,"model":"qwen3-vl-2b","ms":1609,"ok":true}
+{"answer":"Yes, in panel 1, there is smoke rising from the chimney of the building on the left.","id":"smoke-fire-11718858|w004|gate","load_s":5.0359999999999996,"max_tokens":320,"model":"qwen3-vl-2b","ms":1622,"ok":true}
+{"answer":"Yes, in panel 1, there is smoke rising from the chimney of the building.","id":"smoke-fire-11718858|w005|gate","load_s":5.0359999999999996,"max_tokens":320,"model":"qwen3-vl-2b","ms":1604,"ok":true}
+{"answer":"No, there is no smoke or fire in the scene.","id":"smoke-fire-11718858|w006|gate","load_s":5.0359999999999996,"max_tokens":320,"model":"qwen3-vl-2b","ms":1560,"ok":true}
+{"answer":"No, there is no smoke or fire in the scene.","id":"smoke-fire-11718858|w007|gate","load_s":5.0359999999999996,"max_tokens":320,"model":"qwen3-vl-2b","ms":1562,"ok":true}
+{"answer":"Yes, in panel 1, there is smoke rising from the roof of the building.","id":"smoke-fire-11718858|w008|gate","load_s":5.0359999999999996,"max_tokens":320,"model":"qwen3-vl-2b","ms":1602,"ok":true}
+{"answer":"Yes, in panel 1, there is smoke rising from the roof of the building.","id":"smoke-fire-11718858|w009|gate","load_s":5.0359999999999996,"max_tokens":320,"model":"qwen3-vl-2b","ms":1599,"ok":true}
+{"answer":"Yes, in panel 1, there is smoke rising from the roof of the building.","id":"smoke-fire-11718858|w010|gate","load_s":5.0359999999999996,"max_tokens":320,"model":"qwen3-vl-2b","ms":1600,"ok":true}
+{"answer":"Yes, in panels 2, 3, and 4, there is smoke coming from the roof of the building.","id":"smoke-fire-11718858|w011|gate","load_s":5.0359999999999996,"max_tokens":320,"model":"qwen3-vl-2b","ms":1654,"ok":true}

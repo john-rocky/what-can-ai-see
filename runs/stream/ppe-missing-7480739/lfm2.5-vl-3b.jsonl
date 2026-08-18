@@ -1,0 +1,12 @@
+{"answer":"No. The person in all four frames is wearing a dark hat, but no hard hat is visible.","id":"ppe-missing-7480739|w000|gate","load_s":1.53,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":4032,"ok":true}
+{"answer":"No. The person in all four frames is wearing a hat.","id":"ppe-missing-7480739|w001|gate","load_s":1.53,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3872,"ok":true}
+{"answer":"No. The person in all four frames is wearing a hat.","id":"ppe-missing-7480739|w002|gate","load_s":1.53,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3866,"ok":true}
+{"answer":"No. The person in all four frames is wearing a dark apron, but no hard hat is visible.","id":"ppe-missing-7480739|w003|gate","load_s":1.53,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":4003,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a hard hat.","id":"ppe-missing-7480739|w004|gate","load_s":1.53,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":4096,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a hat, not a hard hat.","id":"ppe-missing-7480739|w005|gate","load_s":1.53,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3994,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a hat, not a hard hat.","id":"ppe-missing-7480739|w006|gate","load_s":1.53,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":4026,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a hat, but no hard hat.","id":"ppe-missing-7480739|w007|gate","load_s":1.53,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":4057,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a hard hat.","id":"ppe-missing-7480739|w008|gate","load_s":1.53,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3907,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a hat, not a hard hat.","id":"ppe-missing-7480739|w009|gate","load_s":1.53,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3949,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a hat, so there is no one not wearing a hard hat.","id":"ppe-missing-7480739|w010|gate","load_s":1.53,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3991,"ok":true}
+{"answer":"No\nThe person in all four frames is wearing a hard hat.","id":"ppe-missing-7480739|w011|gate","load_s":1.53,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3875,"ok":true}

@@ -1,0 +1,12 @@
+{"answer": "No", "area_threshold": 0.02, "id": "synth-stop-pos|w000|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0}
+{"answer": "No", "area_threshold": 0.02, "id": "synth-stop-pos|w001|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0}
+{"answer": "No", "area_threshold": 0.02, "id": "synth-stop-pos|w002|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0}
+{"answer": "No", "area_threshold": 0.02, "id": "synth-stop-pos|w003|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0}
+{"answer": "No", "area_threshold": 0.02, "id": "synth-stop-pos|w004|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0}
+{"answer": "No", "area_threshold": 0.02, "id": "synth-stop-pos|w005|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0}
+{"answer": "No", "area_threshold": 0.02, "id": "synth-stop-pos|w006|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0}
+{"answer": "No", "area_threshold": 0.02, "id": "synth-stop-pos|w007|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0}
+{"answer": "No", "area_threshold": 0.02, "id": "synth-stop-pos|w008|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0}
+{"answer": "No", "area_threshold": 0.02, "id": "synth-stop-pos|w009|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0}
+{"answer": "No", "area_threshold": 0.02, "id": "synth-stop-pos|w010|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0}
+{"answer": "No", "area_threshold": 0.02, "id": "synth-stop-pos|w011|gate", "model": "baseline-bgdiff", "ms": 0, "ok": true, "peak_foreground": 0.0}

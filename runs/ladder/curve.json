@@ -1,0 +1,65 @@
+{
+  "curves": [
+    {
+      "model": "lfm2.5-vl-3b",
+      "axis": "darkness",
+      "clean": 1,
+      "levels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "model": "lfm2.5-vl-3b",
+      "axis": "occlusion",
+      "clean": 1,
+      "levels": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "model": "lfm2.5-vl-3b",
+      "axis": "resolution",
+      "clean": 1,
+      "levels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "model": "north-micro-vision",
+      "axis": "darkness",
+      "clean": 1,
+      "levels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "model": "north-micro-vision",
+      "axis": "occlusion",
+      "clean": 1,
+      "levels": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "model": "north-micro-vision",
+      "axis": "resolution",
+      "clean": 1,
+      "levels": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "skipped": []
+}

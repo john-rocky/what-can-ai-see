@@ -1,0 +1,30 @@
+# Fetched by tools/fetch_scene.py — searched by PLACE, not by event.
+id: count-3970144
+tier: field
+event: count
+label: positive
+pair: null
+onset_s: null
+duration_s: 14.01
+camera: fixed
+ground_truth: Three young people sit together at a table looking at a menu. Nobody joins or leaves.
+source:
+  kind: stock
+  provider: pexels
+  id: 3970144
+  url: https://www.pexels.com/video/people-ordering-at-a-restaurant-3970144/
+  title: people ordering at a restaurant
+  scene_query: count
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: count
+kind: stable
+expected: 'yes'

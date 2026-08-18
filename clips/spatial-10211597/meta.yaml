@@ -1,0 +1,33 @@
+# Fetched by tools/fetch_scene.py — searched by PLACE, not by event.
+id: spatial-10211597
+tier: field
+event: spatial
+label: positive
+pair: null
+onset_s: null
+duration_s: 15.02
+camera: fixed
+ground_truth: A tabby cat sits on top of a wooden bench in a garden and stays there.
+source:
+  kind: stock
+  provider: pexels
+  id: 10211597
+  url: https://www.pexels.com/video/a-cat-with-a-strong-look-10211597/
+  title: a cat with a strong look
+  scene_query: spatial
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: spatial
+kind: stable
+expected: 'yes'
+trim:
+- 0.0
+- 15.0

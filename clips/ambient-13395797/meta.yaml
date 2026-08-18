@@ -1,0 +1,33 @@
+# Fetched by tools/fetch_scene.py — searched by PLACE, not by event.
+id: ambient-13395797
+tier: field
+event: ambient
+label: positive
+pair: null
+onset_s: null
+duration_s: 15.0
+camera: fixed
+ground_truth: 'From inside a car at night: rain on the windscreen, red tail lights ahead in traffic.'
+source:
+  kind: stock
+  provider: pexels
+  id: 13395797
+  url: https://www.pexels.com/video/raindrops-on-car-window-13395797/
+  title: raindrops on car window
+  scene_query: ambient
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: ambient
+kind: stable
+expected: 'yes'
+trim:
+- 0.0
+- 15.0

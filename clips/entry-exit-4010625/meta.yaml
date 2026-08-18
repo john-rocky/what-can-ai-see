@@ -1,0 +1,32 @@
+# Fetched by tools/fetch_pexels.py. NOT YET SCOREABLE.
+# Watch the contact sheet, then replace `label: UNVERIFIED` with positive or
+# negative, set `onset_s` for positives, write `ground_truth`, and pair it with
+# its opposite clip. An unverified clip is excluded by build_tasks.py.
+id: entry-exit-4010625
+tier: field
+event: entry-exit
+label: UNVERIFIED          # intended: positive
+pair: null
+onset_s: null
+duration_s: 11
+ground_truth: >-
+  TODO — describe what is actually visible, in the terms events.yaml uses.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 4010625
+  url: https://www.pexels.com/video/a-woman-going-inside-the-house-4010625/
+  title: "a woman going inside the house"
+  author: "Martina Tomšič"
+  author_url: https://www.pexels.com/@martina-tomsic-1656378
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: unknown
+  target_size: unknown
+  light: unknown
+  occlusion: unknown
+  blur: unknown
+  viewpoint: unknown
+  clutter: unknown
+  duration_class: unknown

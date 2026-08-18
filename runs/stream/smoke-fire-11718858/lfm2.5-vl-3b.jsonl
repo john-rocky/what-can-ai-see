@@ -1,0 +1,12 @@
+{"answer":"Yes\nSmoke is visible rising from the factory chimneys in the later frames.","id":"smoke-fire-11718858|w000|gate","load_s":6.319,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3476,"ok":true}
+{"answer":"Yes\nSmoke is visible rising from the factory chimneys in the later frames.","id":"smoke-fire-11718858|w001|gate","load_s":6.319,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3634,"ok":true}
+{"answer":"Yes\nSmoke is visible rising from the factory chimneys in the later frames.","id":"smoke-fire-11718858|w002|gate","load_s":6.319,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3368,"ok":true}
+{"answer":"Yes\nSmoke is visible rising from the factory chimney in the early frames.","id":"smoke-fire-11718858|w003|gate","load_s":6.319,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3313,"ok":true}
+{"answer":"Yes\nSmoke is visible rising from the chimney in the early frames.","id":"smoke-fire-11718858|w004|gate","load_s":6.319,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3319,"ok":true}
+{"answer":"No\nThe sky remains clear and cloudless across all four frames, with no visible smoke or fire.","id":"smoke-fire-11718858|w005|gate","load_s":6.319,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3449,"ok":true}
+{"answer":"No\nThe sky remains clear and cloudless across all four frames with no visible smoke or fire.","id":"smoke-fire-11718858|w006|gate","load_s":6.319,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3273,"ok":true}
+{"answer":"No\nThe sky remains clear and cloudless across all four frames with no visible smoke or fire.","id":"smoke-fire-11718858|w007|gate","load_s":6.319,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3325,"ok":true}
+{"answer":"No\nThe frames show a clear sky with no visible smoke or fire.","id":"smoke-fire-11718858|w008|gate","load_s":6.319,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3247,"ok":true}
+{"answer":"Yes\nSmoke is visible rising from the industrial chimney in the sequence.","id":"smoke-fire-11718858|w009|gate","load_s":6.319,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3370,"ok":true}
+{"answer":"Yes\nSmoke is visible rising from the factory chimney in the later frames.","id":"smoke-fire-11718858|w010|gate","load_s":6.319,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3235,"ok":true}
+{"answer":"Yes\nSmoke is visible rising from the industrial chimney in the later frames.","id":"smoke-fire-11718858|w011|gate","load_s":6.319,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3228,"ok":true}

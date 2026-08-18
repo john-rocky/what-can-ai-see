@@ -1,0 +1,34 @@
+# Fetched by tools/fetch_scene.py — searched by PLACE, not by event.
+# NOT YET SCOREABLE. Watch it (tools/review.py), then set:
+#   label      positive | negative   (and delete this UNVERIFIED marker)
+#   event      which event it shows, from events/events.yaml
+#   onset_s    the second the event becomes visible, or null for a negative
+#   camera     fixed | handheld | moving   — needed to read the transition score
+# Rejected clips go to clips/REJECTED.md with the reason, never deleted silently.
+id: office-3201794
+tier: field
+event: UNVERIFIED
+label: UNVERIFIED
+pair: null
+onset_s: null
+duration_s: 20
+camera: UNVERIFIED
+ground_truth: >-
+  TODO — describe what is actually visible, in the terms events.yaml uses.
+source:
+  kind: stock
+  provider: pexels
+  id: 3201794
+  url: https://www.pexels.com/video/women-walking-and-greeting-each-other-inside-an-office-3201794/
+  title: women walking and greeting each other inside an office
+  scene_query: office
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file
+    itself is not permitted — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED

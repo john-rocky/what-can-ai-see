@@ -1,0 +1,11 @@
+{"answer":"No The person is still holding onto the climbing wall in all four frames, indicating they have not fallen.","id":"fall-5916779|w000|gate","load_s":1.276,"max_tokens":70,"model":"north-micro-vision","ms":2698,"ok":true}
+{"answer":"Yes, the person appears to be in a precarious position, suggesting a potential fall.","id":"fall-5916779|w001|gate","load_s":1.276,"max_tokens":70,"model":"north-micro-vision","ms":2599,"ok":true}
+{"answer":"No The person is still in the air in all four frames, indicating no fall.","id":"fall-5916779|w002|gate","load_s":1.276,"max_tokens":70,"model":"north-micro-vision","ms":2598,"ok":true}
+{"answer":"No The person is still holding onto the climbing wall in all four frames, indicating no fall.","id":"fall-5916779|w003|gate","load_s":1.276,"max_tokens":70,"model":"north-micro-vision","ms":2615,"ok":true}
+{"answer":"No The person is still holding onto the climbing wall in all four frames, indicating no fall.","id":"fall-5916779|w004|gate","load_s":1.276,"max_tokens":70,"model":"north-micro-vision","ms":2629,"ok":true}
+{"answer":"Yes, the person appears to have lost their grip and is no longer climbing.","id":"fall-5916779|w005|gate","load_s":1.276,"max_tokens":70,"model":"north-micro-vision","ms":2660,"ok":true}
+{"answer":"No The person is still holding onto the wall in all four frames, indicating they have not fallen.","id":"fall-5916779|w006|gate","load_s":1.276,"max_tokens":70,"model":"north-micro-vision","ms":2595,"ok":true}
+{"answer":"Yes, the person appears to be in a position that suggests a fall, with their body angled downward and hands extended.","id":"fall-5916779|w007|gate","load_s":1.276,"max_tokens":70,"model":"north-micro-vision","ms":2663,"ok":true}
+{"answer":"Yes, the person is captured mid-fall in panel 4.","id":"fall-5916779|w008|gate","load_s":1.276,"max_tokens":70,"model":"north-micro-vision","ms":2557,"ok":true}
+{"answer":"Yes, the person appears to have fallen to the ground in panel 3.","id":"fall-5916779|w009|gate","load_s":1.276,"max_tokens":70,"model":"north-micro-vision","ms":2571,"ok":true}
+{"answer":"Yes, the person appears to be in a precarious position with one hand extended, suggesting a fall risk.","id":"fall-5916779|w010|gate","load_s":1.276,"max_tokens":70,"model":"north-micro-vision","ms":2645,"ok":true}

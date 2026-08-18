@@ -1,0 +1,36 @@
+# Lead-in staged from damage-854406: frame 0 held for 4.0s, then the clip.
+id: damage-bottle-pos
+tier: staged
+event: damage
+label: positive
+pair: damage-bottle-neg
+onset_s: 4.9
+duration_s: 9.52
+ground_truth: A glass bottle shatters against a dark background; the first four seconds hold
+  the pre-impact frame.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 854406
+  url: https://www.pexels.com/video/bottle-shattering-slow-motion-854406/
+  title: bottle shattering slow motion
+  author: Pixabay
+  author_url: https://www.pexels.com/@pixabay
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1280x720
+conditions:
+  distance: unknown
+  target_size: unknown
+  light: unknown
+  occlusion: unknown
+  blur: unknown
+  viewpoint: unknown
+  clutter: unknown
+  duration_class: unknown
+derived_from: damage-854406
+shows_transition: true
+lead_in:
+  held_first_frame_s: 4.0
+  why: the source has no pre-event footage; frame 0 is the normal state and is held to supply
+    a measurable baseline
+  caveat: duration is fabricated; the held pixels are the clip's own frame 0

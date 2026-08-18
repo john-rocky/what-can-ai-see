@@ -1,0 +1,36 @@
+# The observation.images.logitech_2 view of spill2-neg: same episode, same trim, same event,
+# different angle. Onset and control cleanliness are NOT inherited.
+id: spill2-neg-v2
+tier: field
+event: spill
+label: negative
+pair: spill2-pos-v2
+onset_s: null
+duration_s: 15.0
+ground_truth: The same rig, camera and task, normal episode. The table stays clean — 0.003 brown at
+  the end.
+dataset_anomaly: claimed normal
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/domotic_pouringCoffee_anomaly
+  file: videos/chunk-000/observation.images.logitech_2/episode_000016.mp4
+  camera: observation.images.logitech_2
+  license: apache-2.0
+  counterpart: kantine/domotic_pouringCoffee_anomaly — same rig, same camera, same task, different
+    outcome.
+conditions:
+  viewpoint: fixed-rig-oblique
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid
+trim:
+- 10.0
+- 25.0
+derived_from: spill2-neg
+shows_transition: false
+negative_hardness: hard
+view: oblique-low (logitech_2); the paired clip is overhead (logitech_1)
+verified_clean: no rise over baseline at any point (relative brown measure).

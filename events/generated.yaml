@@ -1,0 +1,226 @@
+# Generated tier — the events nobody films.
+#
+# F6 established the ceiling on sourcing: stock footage holds the normal state of
+# every industrial process and the abnormal state of almost none. A jam, a worker
+# going down, a patient falling, a shelf emptying — none of it can be bought,
+# because none of it is shot on purpose.
+#
+# Generation supplies exactly those, and supplies one thing sourcing never can:
+#
+#     the same seed, the same scene, one prompt with the event and one without.
+#
+# Backgrounds then differ ONLY in the event. That is the ablation the whole
+# benchmark rests on, and with real footage it is never quite achievable.
+#
+# THIS TIER IS NOT FIELD FOOTAGE AND MUST NOT BE AVERAGED WITH IT.
+# Generated video has its own artefacts and unnatural motion. A model that reads a
+# generated fall has not been shown to read a real one. Scored separately, the GAP
+# between generated and field on the same event is itself the measurement — and it
+# is the number that tells anyone building a benchmark on synthetic data how much
+# their results overstate.
+#
+# Prompt rules, applied to every entry:
+#   - the camera clause is prepended by tools/gen_clip.py and is always fixed and
+#     locked-off, because that is what an industrial or security camera is; a
+#     drifting cinematic camera would test a viewpoint no deployment has
+#   - `scene` is IDENTICAL between the pair. Only `event` and `calm` differ, and
+#     they are the same length and register so clip pacing is not a cue
+#   - `seed` is shared by the pair
+#
+# `onset_hint` is where the event is asked to happen. Generation does not honour
+# timing reliably, so it is a request, not ground truth: every clip still gets
+# watched and its real onset written into meta.yaml by hand.
+
+version: 0.1
+
+defaults:
+  seconds: 4.0
+  width: 768
+  height: 448
+  steps: 30
+
+pairs:
+
+  # ─── industrial production line ───────────────────────────────────────────
+  - id: gen-line-jam
+    event_id: jam
+    seed: 1001
+    scene: >-
+      A factory conveyor belt carrying identical cardboard boxes past a metal
+      guide rail, industrial lighting, machinery in the background
+    event: >-
+      ; partway through the clip the boxes stop advancing and pile up against the
+      rail while more arrive behind them
+    calm: >-
+      ; the boxes advance steadily along the belt for the whole clip with even
+      spacing between them
+    onset_hint: 2.0
+
+  - id: gen-line-stop
+    event_id: line-stopped
+    seed: 1002
+    scene: >-
+      A bottling line, glass bottles moving along a stainless steel conveyor
+      under a filling machine in a factory
+    event: >-
+      ; halfway through the clip the line halts and every bottle stands
+      completely still
+    calm: >-
+      ; the line runs continuously and every bottle keeps moving along the belt
+    onset_hint: 2.0
+
+  - id: gen-part-missing
+    event_id: part-missing
+    seed: 1003
+    scene: >-
+      A close overhead view of a tray of identical machined metal parts arranged
+      in a grid on a workbench in a factory
+    event: >-
+      ; a gloved hand reaches in and removes one part, leaving an empty slot in
+      the grid
+    calm: >-
+      ; a gloved hand reaches in, touches one part and withdraws, leaving the
+      grid complete
+    onset_hint: 2.0
+
+  # ─── human accident on the line ───────────────────────────────────────────
+  - id: gen-worker-fall
+    event_id: fall
+    seed: 2001
+    scene: >-
+      A warehouse aisle with tall shelving, a worker in a hi-vis vest walking
+      between racks carrying a box
+    event: >-
+      ; the worker slips and falls to the concrete floor and stays down
+    calm: >-
+      ; the worker walks the length of the aisle and sets the box down on a rack
+    onset_hint: 2.2
+
+  - id: gen-object-drop
+    event_id: object-drop
+    seed: 2002
+    scene: >-
+      A worker in a hard hat lifting a heavy crate from a pallet in a loading bay
+    event: >-
+      ; the crate slips from their hands and falls to the floor
+    calm: >-
+      ; the worker carries the crate clear of the pallet and out of frame
+    onset_hint: 2.2
+
+  # ─── safety management ────────────────────────────────────────────────────
+  - id: gen-ppe
+    event_id: ppe-missing
+    seed: 3001
+    scene: >-
+      A construction site walkway, two workers in hi-vis vests and hard hats
+      inspecting steel framework
+    event: >-
+      ; a third worker with a bare head and no helmet walks into frame and joins
+      them
+    calm: >-
+      ; a third worker wearing a hard hat walks into frame and joins them
+    onset_hint: 2.0
+
+  - id: gen-intrusion
+    event_id: intrusion
+    seed: 3002
+    scene: >-
+      A fenced compound at dusk seen from a fixed pole camera, a chain-link
+      perimeter with a yard and stacked pallets behind it
+    event: >-
+      ; a person climbs over the fence and drops into the yard
+    calm: >-
+      ; a person walks along the outside of the fence and continues past it
+    onset_hint: 2.2
+
+  # ─── retail ───────────────────────────────────────────────────────────────
+  - id: gen-shelf-empty
+    event_id: shelf-empty
+    seed: 4001
+    scene: >-
+      A supermarket aisle, a shelf of packaged goods fully faced, a shopper
+      standing in front of it
+    event: >-
+      ; the shopper sweeps an armful of packages off the shelf into a bag,
+      leaving a bare gap
+    calm: >-
+      ; the shopper takes one package, looks at it and puts it back, leaving the
+      shelf full
+    onset_hint: 2.0
+
+  - id: gen-shoplift
+    event_id: object-removed
+    seed: 4002
+    scene: >-
+      A convenience store shelf seen from a ceiling security camera, a customer
+      standing at the shelf with a jacket on
+    event: >-
+      ; the customer puts an item inside their jacket and walks away
+    calm: >-
+      ; the customer picks up an item, holds it, and puts it back on the shelf
+    onset_hint: 2.2
+
+  # ─── medical and care ─────────────────────────────────────────────────────
+  - id: gen-patient-fall
+    event_id: fall
+    seed: 5001
+    scene: >-
+      A hospital room seen from a corner ceiling camera, a bed, a bedside table
+      and an elderly patient standing beside the bed
+    event: >-
+      ; the patient loses balance and falls to the floor beside the bed and stays
+      down
+    calm: >-
+      ; the patient steadies themselves on the bed rail and sits down on the bed
+    onset_hint: 2.2
+
+  - id: gen-bed-exit
+    event_id: entry-exit
+    seed: 5002
+    scene: >-
+      A care home bedroom at night seen from a fixed ceiling camera, a bed with a
+      patient lying under a blanket, low light
+    event: >-
+      ; the patient gets out of bed unaided and walks toward the door
+    calm: >-
+      ; the patient shifts position under the blanket and remains in bed
+    onset_hint: 2.2
+
+  # ─── crowds ───────────────────────────────────────────────────────────────
+  - id: gen-crowd-surge
+    event_id: intrusion
+    seed: 6001
+    scene: >-
+      A pedestrian concourse seen from a high fixed camera, a steady crowd of
+      people walking in both directions
+    event: >-
+      ; the crowd suddenly turns and runs in one direction, bunching together
+    calm: >-
+      ; the crowd continues walking in both directions at an even pace
+    onset_hint: 2.2
+
+  - id: gen-crowd-down
+    event_id: fall
+    seed: 6002
+    scene: >-
+      A busy railway platform seen from a fixed overhead camera, commuters
+      walking along the platform edge
+    event: >-
+      ; one person collapses onto the platform and the people around them stop
+      and gather
+    calm: >-
+      ; the commuters keep walking along the platform and no one stops
+    onset_hint: 2.2
+
+  # ─── diffuse ──────────────────────────────────────────────────────────────
+  - id: gen-smoke
+    event_id: smoke-fire
+    seed: 7001
+    scene: >-
+      A factory floor with machinery and an electrical cabinet against the wall,
+      seen from a fixed wall camera
+    event: >-
+      ; grey smoke begins pouring from the cabinet and spreads across the floor
+    calm: >-
+      ; white steam drifts briefly from a pipe above the cabinet and disperses
+    onset_hint: 2.0

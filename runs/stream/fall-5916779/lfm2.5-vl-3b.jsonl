@@ -1,0 +1,11 @@
+{"answer":"No\nThe climber remains upright and attached to the wall throughout all four frames.","id":"fall-5916779|w000|gate","load_s":5.827,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3109,"ok":true}
+{"answer":"No\nThe climber remains upright and attached to the wall throughout the sequence.","id":"fall-5916779|w001|gate","load_s":5.827,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":2990,"ok":true}
+{"answer":"No\nThe climber remains upright and attached to the wall throughout the sequence.","id":"fall-5916779|w002|gate","load_s":5.827,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3015,"ok":true}
+{"answer":"Yes\nThe person is shown in panel 4 with their body horizontal and limbs extended, indicating a fall.","id":"fall-5916779|w003|gate","load_s":5.827,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3053,"ok":true}
+{"answer":"No\nThe climber remains upright and attached to the wall throughout all four frames.","id":"fall-5916779|w004|gate","load_s":5.827,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3003,"ok":true}
+{"answer":"Yes\nThe final panel shows the climber's body positioned near the ground with one leg extended downward.","id":"fall-5916779|w005|gate","load_s":5.827,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3017,"ok":true}
+{"answer":"Yes\nThe final panel shows the climber in mid-air with legs extended, indicating a fall.","id":"fall-5916779|w006|gate","load_s":5.827,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3082,"ok":true}
+{"answer":"No\nThe climber is shown in a continuous sequence of successful ascents without any falls.","id":"fall-5916779|w007|gate","load_s":5.827,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3041,"ok":true}
+{"answer":"No\nThe climber is shown in a controlled descent with arms raised, maintaining balance throughout the sequence.","id":"fall-5916779|w008|gate","load_s":5.827,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3092,"ok":true}
+{"answer":"No\nThe climber is shown in each frame maintaining contact with the wall and ropes, with no indication of a fall.","id":"fall-5916779|w009|gate","load_s":5.827,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3123,"ok":true}
+{"answer":"Yes\nThe sequence shows the climber ascending, reaching a high point, and then falling backward toward the ground.","id":"fall-5916779|w010|gate","load_s":5.827,"max_tokens":70,"model":"lfm2.5-vl-3b","ms":3083,"ok":true}

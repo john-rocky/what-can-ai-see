@@ -1,0 +1,39 @@
+# Curated: contact sheet watched, ground truth written by hand.
+# `trim` is the window cut out of clip.full.mp4 by tools/trim.py.
+id: fall-7667144
+tier: field
+event: fall
+label: negative
+pair: fall-7644974
+onset_s: null
+duration_s: 6.0
+ground_truth: A woman lies on a large sheet of paper drawing with chalk, moving her arms and
+  head. She is on the ground in every panel and never falls - there is no upright state anywhere
+  in the clip.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 7667144
+  url: https://www.pexels.com/video/a-woman-lying-on-the-floor-7667144/
+  title: a woman lying on the floor
+  author: ArtHouse Studio
+  author_url: https://www.pexels.com/@arthousestudio
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: near
+  target_size: large
+  light: bright
+  occlusion: none
+  blur: none
+  viewpoint: overhead
+  clutter: low
+  duration_class: multi-second
+negative_hardness: hard
+trim:
+- 0.5
+- 6.5
+pair_note: 'A different flavour of hard negative from fall-8526604: that one shows a deliberate
+  transition DOWN to the ground, this one is already down throughout. Together they separate
+  ''saw a downward transition'' from ''saw a person on the floor''.'
+shows_transition: false

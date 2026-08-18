@@ -1,0 +1,360 @@
+{"answer":"No\nThe image shows a person actively climbing a bouldering wall, not falling.","id":"fall-5916779|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2762,"ok":true}
+{"answer":"No, there is no indication in the image that a person has fallen to the ground. The climber appears to be successfully scaling the wall, and the surrounding area looks clear of any fallen climbers or debris.","id":"fall-5916779|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2723,"ok":true}
+{"answer":"No","id":"fall-5916779|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2562,"ok":true}
+{"answer":"A man in a black shirt and shorts is climbing an indoor rock wall, reaching for a blue hold. The scene transitions from a close-up of the colorful climbing holds to a wider view of the climbing gym with its distinctive arched ceiling and vibrant banners.","id":"fall-5916779|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2929,"ok":true}
+{"answer":"None","id":"fall-5916779|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2579,"ok":true}
+{"answer":"No\nPanel 2 shows the climber in mid-air above the climbing wall, indicating he has fallen.","id":"fall-5916779|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3042,"ok":true}
+{"answer":"No, a person did not fall to the ground.","id":"fall-5916779|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2733,"ok":true}
+{"answer":"No","id":"fall-5916779|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2879,"ok":true}
+{"answer":"The climber ascends the wall in the first frame, reaching a higher position. In the second frame, he has reached the top and is beginning his descent.","id":"fall-5916779|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3059,"ok":true}
+{"answer":"None","id":"fall-5916779|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2891,"ok":true}
+{"answer":"No\nPanel 5 shows the climber in mid-air above the climbing wall, indicating he has fallen.","id":"fall-5916779|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3043,"ok":true}
+{"answer":"Yes, a person did fall to the ground. In panel 5, the climber is shown in mid-air with his legs extended, indicating he has just fallen.","id":"fall-5916779|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2949,"ok":true}
+{"answer":"No","id":"fall-5916779|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2955,"ok":true}
+{"answer":"A man climbs a colorful indoor rock wall over the course of six frames. He begins at the bottom, ascends to the top, and then descends back down to the starting position.","id":"fall-5916779|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3197,"ok":true}
+{"answer":"None","id":"fall-5916779|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2898,"ok":true}
+{"answer":"Yes\nPanel 11 shows the climber falling backward with arms outstretched toward the ground.","id":"fall-5916779|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3060,"ok":true}
+{"answer":"Yes, a person did fall to the ground. In panel 9, the climber is shown in mid-air, having just left the climbing wall. In panel 10, the climber is captured in a horizontal position, indicating that they have fallen and are now on the ground.","id":"fall-5916779|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3152,"ok":true}
+{"answer":"Yes","id":"fall-5916779|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2841,"ok":true}
+{"answer":"A man climbs a colorful indoor rock wall, starting from the bottom and ascending to the top. He reaches the summit in the final frame, then descends and repeats the climb.","id":"fall-5916779|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3078,"ok":true}
+{"answer":"None","id":"fall-5916779|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2854,"ok":true}
+{"answer":"No\nThe image shows a person sitting on the floor with their arm resting on the ground, but there is no indication of a fall or any impact that would suggest they have fallen.","id":"fall-8526604|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2862,"ok":true}
+{"answer":"Based on the image, it appears that a person may have fallen to the ground. The individual is sitting on a carpeted floor with their arm resting on the ground, which could indicate a fall. However, without more context or information, it's difficult to confirm if they actually fell or are simply resting in a position that resembles a fall.","id":"fall-8526604|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2951,"ok":true}
+{"answer":"No","id":"fall-8526604|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2540,"ok":true}
+{"answer":"The image shows a person's arm and torso in the foreground, with a couch visible in the background. The earliest frame displays the arm and part of the torso, while the latest frame reveals more of the arm and the surrounding environment.","id":"fall-8526604|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2890,"ok":true}
+{"answer":"None","id":"fall-8526604|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2566,"ok":true}
+{"answer":"Yes\nPanel 2 shows the person lying on the ground with their head tilted back.","id":"fall-8526604|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2991,"ok":true}
+{"answer":"Yes","id":"fall-8526604|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2625,"ok":true}
+{"answer":"Yes","id":"fall-8526604|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2859,"ok":true}
+{"answer":"In the earliest frame, a man is kneeling on the floor with his back to the camera. In the latest frame, he is lying on his back on the floor, looking up at the ceiling.","id":"fall-8526604|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3119,"ok":true}
+{"answer":"2","id":"fall-8526604|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3092,"ok":true}
+{"answer":"Yes\nPanel 6 shows the person lying flat on the floor with limbs splayed, indicating a fall.","id":"fall-8526604|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3411,"ok":true}
+{"answer":"Yes, a person did fall to the ground.","id":"fall-8526604|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3084,"ok":true}
+{"answer":"Yes","id":"fall-8526604|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3111,"ok":true}
+{"answer":"A man in a grey t-shirt and shorts transitions from standing to lying down on a carpeted floor. He moves from a seated position in the background to lying on his back in the foreground.","id":"fall-8526604|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4852,"ok":true}
+{"answer":"None","id":"fall-8526604|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3024,"ok":true}
+{"answer":"Yes\nPanel 12 shows the person lying flat on the floor with limbs extended.","id":"fall-8526604|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3195,"ok":true}
+{"answer":"Yes, a person did fall to the ground.","id":"fall-8526604|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2836,"ok":true}
+{"answer":"Yes","id":"fall-8526604|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3090,"ok":true}
+{"answer":"A man in a grey t-shirt and shorts is shown transitioning from a kneeling position to lying down on a carpeted floor. The sequence captures his movement from standing, to kneeling, and finally resting on his back with his head tilted to the side.","id":"fall-8526604|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4206,"ok":true}
+{"answer":"None","id":"fall-8526604|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3216,"ok":true}
+{"answer":"Yes\n\nThe image shows a delivery person handing a cardboard box to a customer in a room with bookshelves.","id":"handover-4440917|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2770,"ok":true}
+{"answer":"Yes, one person is handing an object to another person.","id":"handover-4440917|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2457,"ok":true}
+{"answer":"Yes","id":"handover-4440917|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2568,"ok":true}
+{"answer":"A delivery person in a black jacket hands a cardboard box to a customer inside a room with bookshelves. The customer is holding a white package and appears to be receiving the delivery.","id":"handover-4440917|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2783,"ok":true}
+{"answer":"2","id":"handover-4440917|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2581,"ok":true}
+{"answer":"Yes\nPanel 1 shows the person handing a white package to the other person, while panel 2 shows the recipient holding the package.","id":"handover-4440917|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3122,"ok":true}
+{"answer":"Yes, one person appears to have handed an object to another person. In the first frame, a person is holding a brown box and a white package, while in the second frame, another person is receiving the white package. This suggests that the white package was likely handed over to the person in the second frame.","id":"handover-4440917|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3229,"ok":true}
+{"answer":"Yes","id":"handover-4440917|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2866,"ok":true}
+{"answer":"In the earliest frame, a man in a black jacket is handing a brown cardboard box to another person. In the latest frame, the man is now holding a white padded package instead of the box.","id":"handover-4440917|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3122,"ok":true}
+{"answer":"1","id":"handover-4440917|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2879,"ok":true}
+{"answer":"Yes\nPanel 3 shows the person handing a white package to the other person.","id":"handover-4440917|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3021,"ok":true}
+{"answer":"Yes, based on the sequence of images, it appears that one person handed an object to another person. In the first image, the person is holding a box, and in the subsequent images, the object is being passed to another individual.","id":"handover-4440917|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3080,"ok":true}
+{"answer":"Yes","id":"handover-4440917|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2861,"ok":true}
+{"answer":"A man in a black jacket and gray apron receives a package from an unseen person. The package is first wrapped in white paper, then transferred to a brown cardboard box before being held by the man.","id":"handover-4440917|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3135,"ok":true}
+{"answer":"1","id":"handover-4440917|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2879,"ok":true}
+{"answer":"Yes\nPanel 6 shows a hand extending from the right to take an object from the person on the left.","id":"handover-4440917|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3060,"ok":true}
+{"answer":"Yes, based on the sequence of frames, it appears that one person is handing an object to another person. In the early frames, a person is holding a box, and in the later frames, another person is reaching out to receive the box. This suggests a handover or exchange of the object between the two individuals.","id":"handover-4440917|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3253,"ok":true}
+{"answer":"Yes","id":"handover-4440917|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2863,"ok":true}
+{"answer":"A man in a black hoodie and grey skirt is shown in a sequence of frames as he interacts with a cardboard box. He first opens the box, then hands a white package to another person, and finally closes the box.","id":"handover-4440917|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3170,"ok":true}
+{"answer":"1","id":"handover-4440917|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2882,"ok":true}
+{"answer":"No\nThe image shows a woman holding a box while a man sits on a couch, but there is no visible handoff or exchange of an object between them.","id":"handover-7424456|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2857,"ok":true}
+{"answer":"Yes, according to the image description, a woman is holding a box and handing it to a man who is sitting on the couch.","id":"handover-7424456|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2602,"ok":true}
+{"answer":"No","id":"handover-7424456|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2572,"ok":true}
+{"answer":"A man sits on a couch smiling while a woman stands holding a large cardboard box, suggesting they are in the process of moving into or out of the apartment. The scene captures a moment of interaction between the two individuals as they engage in what appears to be a conversation about the moving process.","id":"handover-7424456|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2980,"ok":true}
+{"answer":"None","id":"handover-7424456|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2624,"ok":true}
+{"answer":"No\nPanel 2 shows the box already on the couch while Panel 1 shows the box being held by the woman, indicating the object was not handed over.","id":"handover-7424456|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4374,"ok":true}
+{"answer":"No, there is no indication in the image that one person handed an object to another person.","id":"handover-7424456|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2844,"ok":true}
+{"answer":"No","id":"handover-7424456|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3798,"ok":true}
+{"answer":"In the earliest frame, a man is sitting on a couch laughing while a woman holds a cardboard box. In the latest frame, the man has moved slightly closer to the box, and the woman is looking down at it with a more focused expression.","id":"handover-7424456|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3242,"ok":true}
+{"answer":"None","id":"handover-7424456|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3939,"ok":true}
+{"answer":"Yes\nPanel 6 shows the man's hand extended toward the woman's hand over the box.","id":"handover-7424456|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3088,"ok":true}
+{"answer":"Yes, in panel 6, the person on the right appears to be handing an object to the person on the left.","id":"handover-7424456|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3519,"ok":true}
+{"answer":"No","id":"handover-7424456|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2937,"ok":true}
+{"answer":"The clip shows a man and woman sitting on a couch, with the man laughing and gesturing while the woman listens. The man's laughter intensifies and becomes more animated as the sequence progresses, while the woman remains relatively still and attentive.","id":"handover-7424456|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4434,"ok":true}
+{"answer":"None","id":"handover-7424456|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6594,"ok":true}
+{"answer":"Yes\nPanel 12 shows the box being handed from the man's hand to the woman's hand.","id":"handover-7424456|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3991,"ok":true}
+{"answer":"Yes, in panel 10, the man appears to be handing an object to the woman.","id":"handover-7424456|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5974,"ok":true}
+{"answer":"No","id":"handover-7424456|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6157,"ok":true}
+{"answer":"The clip shows a man sitting on a couch talking to a woman while a box is placed between them. The man's expression changes from neutral to a smile as he engages in conversation with the woman.","id":"handover-7424456|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5557,"ok":true}
+{"answer":"None","id":"handover-7424456|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5981,"ok":true}
+{"answer":"No. The image shows a baggage claim area with a conveyor belt, but there is no visible parcel on it.","id":"parcel-pass-3701054|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6687,"ok":true}
+{"answer":"No","id":"parcel-pass-3701054|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4202,"ok":true}
+{"answer":"No","id":"parcel-pass-3701054|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5979,"ok":true}
+{"answer":"The image shows a baggage claim area with a conveyor belt in the foreground and various potted plants arranged on a grassy surface behind it. The earliest frame features a person standing near the plants, while the latest frame shows the same person walking away from the plants.","id":"parcel-pass-3701054|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5654,"ok":true}
+{"answer":"None","id":"parcel-pass-3701054|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3771,"ok":true}
+{"answer":"No\nPanel 1 shows an empty conveyor belt, while Panel 2 shows the same conveyor belt with items on it.","id":"parcel-pass-3701054|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":7024,"ok":true}
+{"answer":"No","id":"parcel-pass-3701054|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":7496,"ok":true}
+{"answer":"No","id":"parcel-pass-3701054|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5968,"ok":true}
+{"answer":"The earliest frame shows a person walking past the potted plants, while the latest frame shows the same person further down the hallway. The main change between the two frames is the position of the person in the background.","id":"parcel-pass-3701054|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6374,"ok":true}
+{"answer":"None","id":"parcel-pass-3701054|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4913,"ok":true}
+{"answer":"No\nPanel 6 shows a person walking past the conveyor belt, but no parcel is visible.","id":"parcel-pass-3701054|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3415,"ok":true}
+{"answer":"No","id":"parcel-pass-3701054|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4087,"ok":true}
+{"answer":"No","id":"parcel-pass-3701054|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3115,"ok":true}
+{"answer":"A person enters the frame in panel 5, moves toward the center, and disappears by panel 6. The remaining elements, including the potted plants, vases, and red wall, remain stationary throughout the clip.","id":"parcel-pass-3701054|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6034,"ok":true}
+{"answer":"None","id":"parcel-pass-3701054|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3502,"ok":true}
+{"answer":"No\nPanel 12 shows a stationary conveyor belt with no visible parcel.","id":"parcel-pass-3701054|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4387,"ok":true}
+{"answer":"No, a parcel did not pass along the conveyor.","id":"parcel-pass-3701054|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3607,"ok":true}
+{"answer":"No","id":"parcel-pass-3701054|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4599,"ok":true}
+{"answer":"The clip shows a static indoor scene with a red wall, potted plants, and a tiled floor. The primary change between the earliest and latest frames is the gradual movement of a person walking from the left side of the frame toward the right.","id":"parcel-pass-3701054|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4467,"ok":true}
+{"answer":"None","id":"parcel-pass-3701054|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4457,"ok":true}
+{"answer":"Yes\nA cat is visible on the conveyor belt, indicating a parcel was present.","id":"parcel-pass-4156510|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3411,"ok":true}
+{"answer":"Yes, a parcel did pass along the conveyor. The image shows a cat sitting on the conveyor belt, and a parcel is visible on the conveyor as well.","id":"parcel-pass-4156510|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3995,"ok":true}
+{"answer":"Yes","id":"parcel-pass-4156510|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3497,"ok":true}
+{"answer":"In the earliest frame, a cat is sitting on a conveyor belt in a warehouse, while in the latest frame, two people are standing near a window, seemingly engaged in a conversation. The cat is absent in the later frame, and the people have moved closer to the window.","id":"parcel-pass-4156510|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4496,"ok":true}
+{"answer":"1","id":"parcel-pass-4156510|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3874,"ok":true}
+{"answer":"Yes\nPanel 1 shows a box on the conveyor belt, while Panel 2 shows the same box further along the belt.","id":"parcel-pass-4156510|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3585,"ok":true}
+{"answer":"Yes, a parcel did pass along the conveyor.","id":"parcel-pass-4156510|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5011,"ok":true}
+{"answer":"No","id":"parcel-pass-4156510|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3027,"ok":true}
+{"answer":"The person in the image moves closer to the window in the background. Additionally, a red and black bag appears on the conveyor belt in the second frame.","id":"parcel-pass-4156510|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5207,"ok":true}
+{"answer":"None","id":"parcel-pass-4156510|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3064,"ok":true}
+{"answer":"Yes\nPanel 6 shows a red and white package on the conveyor belt.","id":"parcel-pass-4156510|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5112,"ok":true}
+{"answer":"Yes, a parcel did pass along the conveyor.","id":"parcel-pass-4156510|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3046,"ok":true}
+{"answer":"No","id":"parcel-pass-4156510|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4702,"ok":true}
+{"answer":"A man moves from the left side of the frame toward the right, passing a large yellow pipe. He then disappears from view as the camera shifts to a new position.","id":"parcel-pass-4156510|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3502,"ok":true}
+{"answer":"None","id":"parcel-pass-4156510|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4559,"ok":true}
+{"answer":"Yes\nPanel 12 shows a package on the conveyor belt.","id":"parcel-pass-4156510|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3673,"ok":true}
+{"answer":"Yes, a parcel did pass along the conveyor.","id":"parcel-pass-4156510|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6932,"ok":true}
+{"answer":"Yes, panel 7 shows a parcel on the conveyor belt.","id":"parcel-pass-4156510|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6536,"ok":true}
+{"answer":"A person moves from the left side of the frame toward the right, passing behind a large blue table. The individual's position shifts progressively across the sequence, eventually appearing on the far right edge of the final frame.","id":"parcel-pass-4156510|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3832,"ok":true}
+{"answer":"None","id":"parcel-pass-4156510|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5703,"ok":true}
+{"answer":"Yes. The man is wearing a red beanie instead of a hard hat.","id":"ppe-missing-7480739|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3347,"ok":true}
+{"answer":"Yes, there is a person in the image who is not wearing a hard hat. The man is wearing a red hat and a plaid shirt while working in the workshop.","id":"ppe-missing-7480739|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4226,"ok":true}
+{"answer":"Yes","id":"ppe-missing-7480739|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3486,"ok":true}
+{"answer":"In the earliest frame, a man wearing a red beanie and plaid shirt is standing at a workbench in a cluttered workshop, surrounded by tools and equipment. In the latest frame, he has moved to a different part of the room, possibly to work on another project or task.","id":"ppe-missing-7480739|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4826,"ok":true}
+{"answer":"None","id":"ppe-missing-7480739|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3808,"ok":true}
+{"answer":"No. Panel 1 shows the person wearing a red beanie, and panel 2 shows the same person in the same position without a hard hat.","id":"ppe-missing-7480739|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3969,"ok":true}
+{"answer":"No","id":"ppe-missing-7480739|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3833,"ok":true}
+{"answer":"No","id":"ppe-missing-7480739|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2926,"ok":true}
+{"answer":"The person in the workshop moves slightly to the right between the earliest and latest frames. The primary change is the position of the individual, while the surrounding environment remains consistent.","id":"ppe-missing-7480739|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4377,"ok":true}
+{"answer":"None","id":"ppe-missing-7480739|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2967,"ok":true}
+{"answer":"No\nPanel 1 shows the person wearing a red beanie but no hard hat.","id":"ppe-missing-7480739|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5334,"ok":true}
+{"answer":"No, there is no person not wearing a hard hat in the image.","id":"ppe-missing-7480739|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3244,"ok":true}
+{"answer":"No","id":"ppe-missing-7480739|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5011,"ok":true}
+{"answer":"A man in a plaid shirt and red beanie moves from the left side of the frame to the right side. He interacts with a table saw on a workbench in a workshop setting.","id":"ppe-missing-7480739|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3753,"ok":true}
+{"answer":"None","id":"ppe-missing-7480739|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5997,"ok":true}
+{"answer":"No\nPanel 1 shows the person wearing a dark shirt without any visible head protection.","id":"ppe-missing-7480739|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3395,"ok":true}
+{"answer":"No, there is no person not wearing a hard hat in the image.","id":"ppe-missing-7480739|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4780,"ok":true}
+{"answer":"No","id":"ppe-missing-7480739|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4123,"ok":true}
+{"answer":"A man in a plaid shirt and overalls is working at a table saw in a workshop. He moves the saw's blade guard and appears to be cutting a piece of wood.","id":"ppe-missing-7480739|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4834,"ok":true}
+{"answer":"None","id":"ppe-missing-7480739|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4582,"ok":true}
+{"answer":"No\nThe worker is wearing a yellow hard hat.","id":"ppe-missing-8963857|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2998,"ok":true}
+{"answer":"No, the man in the image is wearing a yellow hard hat.","id":"ppe-missing-8963857|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4339,"ok":true}
+{"answer":"No","id":"ppe-missing-8963857|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3259,"ok":true}
+{"answer":"A construction worker wearing a yellow hard hat and blue uniform is holding a walkie-talkie to his ear with one hand while pointing with the other. The background shows yellow scaffolding structures and a red vehicle, indicating an active construction site.","id":"ppe-missing-8963857|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4232,"ok":true}
+{"answer":"None","id":"ppe-missing-8963857|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3839,"ok":true}
+{"answer":"No\nPanel 1 shows a person wearing a yellow hard hat.","id":"ppe-missing-8963857|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3648,"ok":true}
+{"answer":"No","id":"ppe-missing-8963857|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4468,"ok":true}
+{"answer":"No","id":"ppe-missing-8963857|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3214,"ok":true}
+{"answer":"In the earliest frame, the man is holding his phone with a closed fist, while in the latest frame he holds it with an open hand. The background remains consistent, showing the yellow construction scaffolding.","id":"ppe-missing-8963857|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5110,"ok":true}
+{"answer":"None","id":"ppe-missing-8963857|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3208,"ok":true}
+{"answer":"No\nPanel 1 shows the worker wearing a yellow hard hat.","id":"ppe-missing-8963857|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5321,"ok":true}
+{"answer":"No, there is no person not wearing a hard hat in the image. All six frames show the same individual wearing a yellow hard hat.","id":"ppe-missing-8963857|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3701,"ok":true}
+{"answer":"No","id":"ppe-missing-8963857|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3738,"ok":true}
+{"answer":"The worker's arm moves from the left side of the frame to the right side. He also shifts his hand position, starting from the top left corner and ending near the bottom right corner.","id":"ppe-missing-8963857|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4469,"ok":true}
+{"answer":"None","id":"ppe-missing-8963857|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3416,"ok":true}
+{"answer":"No\nPanel 1 shows the worker wearing a yellow hard hat.","id":"ppe-missing-8963857|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4796,"ok":true}
+{"answer":"No, there is no person in the contact sheet who is not wearing a hard hat. Every frame shows the same individual wearing a yellow hard hat.","id":"ppe-missing-8963857|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3520,"ok":true}
+{"answer":"No","id":"ppe-missing-8963857|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4862,"ok":true}
+{"answer":"The worker in the blue shirt and yellow hard hat performs a sequence of hand gestures, starting with a fist near his face and progressing to an open palm. He then raises his hand upward, closing it again, before extending his arm fully and waving.","id":"ppe-missing-8963857|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4096,"ok":true}
+{"answer":"None","id":"ppe-missing-8963857|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4922,"ok":true}
+{"answer":"No\nThe image shows white steam rising from industrial structures, not smoke or fire.","id":"smoke-fire-14458800|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3078,"ok":true}
+{"answer":"Yes, there is smoke in the scene.","id":"smoke-fire-14458800|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4204,"ok":true}
+{"answer":"No","id":"smoke-fire-14458800|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3506,"ok":true}
+{"answer":"The image shows an industrial facility with multiple buildings and smokestacks emitting large plumes of white smoke or steam into the clear blue sky. In the background, there are snow-capped mountains and a town or cityscape, indicating the plant is located in a valley or basin surrounded by mountainous terrain.","id":"smoke-fire-14458800|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4594,"ok":true}
+{"answer":"None","id":"smoke-fire-14458800|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3378,"ok":true}
+{"answer":"Yes\nPanel 1 shows large plumes of white smoke rising from industrial stacks.","id":"smoke-fire-14458800|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3797,"ok":true}
+{"answer":"Yes, there is smoke in the scene.","id":"smoke-fire-14458800|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3872,"ok":true}
+{"answer":"Yes","id":"smoke-fire-14458800|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3527,"ok":true}
+{"answer":"The smoke plumes from the industrial facility grow larger and more spread out between the earliest and latest frames. This suggests that the activity within the plant is increasing or expanding over time.","id":"smoke-fire-14458800|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4395,"ok":true}
+{"answer":"1","id":"smoke-fire-14458800|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3682,"ok":true}
+{"answer":"Yes\nPanel 1 shows a large plume of white smoke rising from the industrial facility.","id":"smoke-fire-14458800|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4840,"ok":true}
+{"answer":"Yes, there is smoke in the scene.","id":"smoke-fire-14458800|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2978,"ok":true}
+{"answer":"No","id":"smoke-fire-14458800|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4248,"ok":true}
+{"answer":"The smoke plumes from the industrial facility grow larger and more voluminous over time. The sequence captures the progression of the emissions as the video plays.","id":"smoke-fire-14458800|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3757,"ok":true}
+{"answer":"None","id":"smoke-fire-14458800|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3613,"ok":true}
+{"answer":"Yes\nPanel 1 shows a plume of smoke rising from the industrial facility.","id":"smoke-fire-14458800|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4469,"ok":true}
+{"answer":"Yes, there is smoke in the scene.","id":"smoke-fire-14458800|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2972,"ok":true}
+{"answer":"No","id":"smoke-fire-14458800|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4149,"ok":true}
+{"answer":"The smoke plumes from the industrial facility grow larger and more defined over time. The sequence captures the progression of the smoke as it disperses into the sky.","id":"smoke-fire-14458800|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3688,"ok":true}
+{"answer":"None","id":"smoke-fire-14458800|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4233,"ok":true}
+{"answer":"Yes\nSmoke is visible rising from the ground near the yellow and red barriers.","id":"smoke-fire-34992285|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3861,"ok":true}
+{"answer":"Yes, there is smoke in the scene.","id":"smoke-fire-34992285|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2766,"ok":true}
+{"answer":"Yes","id":"smoke-fire-34992285|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4017,"ok":true}
+{"answer":"The image shows a smoky industrial scene with a stop sign and yellow safety barriers in the background. The smoke appears to be rising from the ground, creating a hazy atmosphere around the area.","id":"smoke-fire-34992285|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3270,"ok":true}
+{"answer":"None","id":"smoke-fire-34992285|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4326,"ok":true}
+{"answer":"Yes\nPanel 1 shows white smoke rising from the ground near the yellow barriers.","id":"smoke-fire-34992285|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3322,"ok":true}
+{"answer":"Yes","id":"smoke-fire-34992285|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4075,"ok":true}
+{"answer":"Yes","id":"smoke-fire-34992285|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3079,"ok":true}
+{"answer":"The smoke rising from the ground on the left side of the frame increases in volume and spreads further across the scene. The yellow and red striped barrier on the right side of the frame moves slightly, indicating the vehicle has advanced forward.","id":"smoke-fire-34992285|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5314,"ok":true}
+{"answer":"1","id":"smoke-fire-34992285|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3594,"ok":true}
+{"answer":"Yes\nPanel 1 shows a distinct plume of smoke rising from the ground.","id":"smoke-fire-34992285|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4157,"ok":true}
+{"answer":"Yes","id":"smoke-fire-34992285|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3412,"ok":true}
+{"answer":"Yes","id":"smoke-fire-34992285|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4371,"ok":true}
+{"answer":"The smoke billowing from the ground intensifies and spreads across the frame over time. The smoke eventually dissipates, leaving the scene clear by the latest panel.","id":"smoke-fire-34992285|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3817,"ok":true}
+{"answer":"None","id":"smoke-fire-34992285|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3562,"ok":true}
+{"answer":"Yes\nPanel 1 shows white smoke rising from the ground near the barrels.","id":"smoke-fire-34992285|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4709,"ok":true}
+{"answer":"Yes, there is smoke in the scene.","id":"smoke-fire-34992285|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2980,"ok":true}
+{"answer":"Yes","id":"smoke-fire-34992285|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4290,"ok":true}
+{"answer":"The smoke billowing from the white cylindrical tanks gradually dissipates over the 12 frames. The yellow gate remains stationary throughout the sequence, while the red sign on the pole appears to shift slightly in position.","id":"smoke-fire-34992285|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3666,"ok":true}
+{"answer":"None","id":"smoke-fire-34992285|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4560,"ok":true}
+{"answer":"Yes\nThe panel shows two tall smokestacks emitting thick plumes of smoke into the sky.","id":"smoke-fire-8064156|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3086,"ok":true}
+{"answer":"Yes, there is smoke in the scene.","id":"smoke-fire-8064156|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3046,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8064156|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4040,"ok":true}
+{"answer":"The image shows a cityscape at dusk with buildings and two prominent smokestacks emitting plumes of smoke into the colorful sky. The earliest frame likely depicts the cityscape with the smokestacks releasing smoke, while the latest frame shows the same scene with the smoke having dissipated or cleared from the sky.","id":"smoke-fire-8064156|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4072,"ok":true}
+{"answer":"2","id":"smoke-fire-8064156|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4183,"ok":true}
+{"answer":"Yes\nPanel 1 shows two distinct plumes of smoke rising vertically from industrial chimneys.","id":"smoke-fire-8064156|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3515,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8064156|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5466,"ok":true}
+{"answer":"No","id":"smoke-fire-8064156|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3098,"ok":true}
+{"answer":"The smoke plumes from the industrial chimneys appear to be thinning and dispersing slightly between the two frames. This suggests a gradual reduction in the emission or a change in wind conditions over the short time interval.","id":"smoke-fire-8064156|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6130,"ok":true}
+{"answer":"None","id":"smoke-fire-8064156|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3074,"ok":true}
+{"answer":"Yes\nPanel 1 shows a distinct plume of smoke rising from the industrial chimneys.","id":"smoke-fire-8064156|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5042,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8064156|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2865,"ok":true}
+{"answer":"No","id":"smoke-fire-8064156|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4813,"ok":true}
+{"answer":"The smoke from the factory chimneys gradually dissipates over the course of the six frames. The sky transitions from a bright orange sunset to a deep blue twilight as the smoke clears.","id":"smoke-fire-8064156|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3477,"ok":true}
+{"answer":"None","id":"smoke-fire-8064156|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3445,"ok":true}
+{"answer":"Yes\nPanel 1 shows a distinct plume of smoke rising from the industrial chimneys.","id":"smoke-fire-8064156|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3083,"ok":true}
+{"answer":"Yes, there is smoke in the scene.","id":"smoke-fire-8064156|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3410,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8064156|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4513,"ok":true}
+{"answer":"The smoke rising from the factory chimneys gradually dissipates over the course of the 12 frames. The sky transitions from a warm orange and yellow sunset to a cooler blue hue as the day ends.","id":"smoke-fire-8064156|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6025,"ok":true}
+{"answer":"None","id":"smoke-fire-8064156|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5765,"ok":true}
+{"answer":"Yes\nThe image shows a large plume of black smoke rising from a fire burning among buildings and vegetation.","id":"smoke-fire-8365988|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5491,"ok":true}
+{"answer":"Yes, there is both fire and smoke in the scene.","id":"smoke-fire-8365988|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5372,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8365988|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3613,"ok":true}
+{"answer":"The image shows a large plume of thick black smoke rising from a fire in a densely populated area with numerous buildings and houses. The smoke obscures much of the view, indicating the intensity and scale of the blaze.","id":"smoke-fire-8365988|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6102,"ok":true}
+{"answer":"1","id":"smoke-fire-8365988|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5894,"ok":true}
+{"answer":"Yes\nPanel 1 shows a large plume of black smoke rising from a fire.","id":"smoke-fire-8365988|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3772,"ok":true}
+{"answer":"Yes, there is both smoke and fire in the scene.","id":"smoke-fire-8365988|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6641,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8365988|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5587,"ok":true}
+{"answer":"The fire in the industrial area grows larger and more intense between the two frames. The smoke plume expands upward and becomes thicker, indicating the fire's progression over time.","id":"smoke-fire-8365988|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6158,"ok":true}
+{"answer":"1","id":"smoke-fire-8365988|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":6353,"ok":true}
+{"answer":"Yes\nPanel 1 shows a large plume of dark smoke rising from a fire on the ground.","id":"smoke-fire-8365988|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5610,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8365988|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5316,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8365988|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4775,"ok":true}
+{"answer":"The fire in the industrial area grows larger and more intense over time. The smoke plume expands and darkens, eventually spreading across the sky.","id":"smoke-fire-8365988|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4359,"ok":true}
+{"answer":"1","id":"smoke-fire-8365988|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3083,"ok":true}
+{"answer":"Yes\nPanel 1 shows a large plume of dark smoke rising from a fire.","id":"smoke-fire-8365988|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5289,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8365988|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2893,"ok":true}
+{"answer":"Yes","id":"smoke-fire-8365988|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5755,"ok":true}
+{"answer":"The smoke from a fire rises steadily from the ground, expanding and darkening as it ascends. By the final frame, the plume reaches the sky, indicating the fire has grown significantly larger.","id":"smoke-fire-8365988|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3595,"ok":true}
+{"answer":"1","id":"smoke-fire-8365988|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5254,"ok":true}
+{"answer":"No\nPanel 1 shows a person standing upright on a flat surface with no indication of a fall.","id":"synth-fall-neg|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3076,"ok":true}
+{"answer":"No","id":"synth-fall-neg|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4798,"ok":true}
+{"answer":"No","id":"synth-fall-neg|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2806,"ok":true}
+{"answer":"The clip shows a simple animation of a blue stick figure with a round head standing upright on a gray surface against a light gray background. The figure remains stationary throughout the sequence, with no other changes visible between the earliest and latest frames.","id":"synth-fall-neg|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4861,"ok":true}
+{"answer":"None","id":"synth-fall-neg|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2772,"ok":true}
+{"answer":"No\nPanel 1 shows the person standing upright with both feet on the ground.","id":"synth-fall-neg|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4382,"ok":true}
+{"answer":"No","id":"synth-fall-neg|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2873,"ok":true}
+{"answer":"No","id":"synth-fall-neg|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4886,"ok":true}
+{"answer":"The clip shows a blue pole with a tan sphere on top moving upward along a gray surface. The sphere rises from the bottom of the frame in the earliest image to a higher position in the second frame.","id":"synth-fall-neg|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3718,"ok":true}
+{"answer":"None","id":"synth-fall-neg|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4561,"ok":true}
+{"answer":"No\nPanel 1 shows a standing figure with no indication of a fall.","id":"synth-fall-neg|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3434,"ok":true}
+{"answer":"No","id":"synth-fall-neg|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4081,"ok":true}
+{"answer":"No","id":"synth-fall-neg|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3031,"ok":true}
+{"answer":"The clip shows a blue vertical line with a tan circle at its top moving upward along a gray horizontal surface. The tan circle rises from the bottom of the frame to the top, indicating a vertical motion or ascent.","id":"synth-fall-neg|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3598,"ok":true}
+{"answer":"None","id":"synth-fall-neg|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3031,"ok":true}
+{"answer":"No\nPanel 12 shows a single blue vertical line without any preceding motion or impact.","id":"synth-fall-neg|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3291,"ok":true}
+{"answer":"No, a person did not fall to the ground.","id":"synth-fall-neg|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2942,"ok":true}
+{"answer":"No","id":"synth-fall-neg|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3022,"ok":true}
+{"answer":"The clip shows a blue vertical line moving upward along a gray horizontal surface. The position of the line increases progressively from the earliest frame to the latest, indicating a continuous upward motion.","id":"synth-fall-neg|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3479,"ok":true}
+{"answer":"None","id":"synth-fall-neg|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3028,"ok":true}
+{"answer":"No\nA blue stick with a tan circle at the top is leaning against a gray surface.","id":"synth-fall-pos|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2981,"ok":true}
+{"answer":"Yes, the image shows a person falling to the ground. The figure is depicted in a tilted position, with one leg extended and the other bent, suggesting a fall. The head is not visible, but the body's orientation indicates a loss of balance and contact with the ground.","id":"synth-fall-pos|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3404,"ok":true}
+{"answer":"No","id":"synth-fall-pos|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2697,"ok":true}
+{"answer":"A blue pencil with a tan eraser is shown in the earliest frame, positioned upright on a gray surface against a light gray background. In the latest frame, the pencil has been tilted to the right, with its eraser now resting on the ground.","id":"synth-fall-pos|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3408,"ok":true}
+{"answer":"None","id":"synth-fall-pos|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2711,"ok":true}
+{"answer":"Yes\nPanel 2 shows the person's body lying flat on the ground with no upright posture.","id":"synth-fall-pos|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3343,"ok":true}
+{"answer":"Yes","id":"synth-fall-pos|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2804,"ok":true}
+{"answer":"Yes","id":"synth-fall-pos|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3020,"ok":true}
+{"answer":"The blue vertical line moves from the center of the frame to the right edge. The tan circle moves from the top of the frame to the bottom.","id":"synth-fall-pos|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3391,"ok":true}
+{"answer":"None","id":"synth-fall-pos|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3025,"ok":true}
+{"answer":"Yes\nPanel 5 shows the person's body beginning to rotate and fall toward the ground.","id":"synth-fall-pos|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3299,"ok":true}
+{"answer":"Yes, a person did fall to the ground.","id":"synth-fall-pos|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2930,"ok":true}
+{"answer":"Yes","id":"synth-fall-pos|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3048,"ok":true}
+{"answer":"The clip shows a blue stick figure moving from an upright position to lying flat on its side. The figure's head remains stationary while the body rotates and settles horizontally across the six frames.","id":"synth-fall-pos|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3486,"ok":true}
+{"answer":"None","id":"synth-fall-pos|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3029,"ok":true}
+{"answer":"No\nPanel 6 shows the matchstick tilted at an angle, indicating it has fallen.","id":"synth-fall-pos|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3324,"ok":true}
+{"answer":"No","id":"synth-fall-pos|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2825,"ok":true}
+{"answer":"No","id":"synth-fall-pos|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3078,"ok":true}
+{"answer":"A matchstick is shown in a sequence of frames, starting upright and then progressively tilting to the right. The final frame shows the matchstick lying flat on the surface.","id":"synth-fall-pos|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5369,"ok":true}
+{"answer":"None","id":"synth-fall-pos|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3144,"ok":true}
+{"answer":"No\nPanel 1 shows a minimal scene with only a head, a blue pole, and an orange block, with no object removed.","id":"synth-remove-neg|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4798,"ok":true}
+{"answer":"Yes, a matchstick appears to have been taken away from the scene.","id":"synth-remove-neg|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2803,"ok":true}
+{"answer":"No","id":"synth-remove-neg|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4390,"ok":true}
+{"answer":"The clip shows a simple scene with a blue stick figure and an orange square on a gray background. In the earliest frame, the stick figure is positioned to the left of the square, while in the latest frame, the stick figure has moved to the right of the square.","id":"synth-remove-neg|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3580,"ok":true}
+{"answer":"None","id":"synth-remove-neg|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4423,"ok":true}
+{"answer":"Yes\nPanel 2 shows the orange block in a different position than in panel 1.","id":"synth-remove-neg|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3245,"ok":true}
+{"answer":"Yes, an object was taken away from the scene.","id":"synth-remove-neg|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3697,"ok":true}
+{"answer":"Yes","id":"synth-remove-neg|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2942,"ok":true}
+{"answer":"The person moves from standing upright to bending over. The orange box remains stationary throughout the clip.","id":"synth-remove-neg|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3787,"ok":true}
+{"answer":"1","id":"synth-remove-neg|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3617,"ok":true}
+{"answer":"Yes\nPanel 6 shows the blue pole has been removed.","id":"synth-remove-neg|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3539,"ok":true}
+{"answer":"Yes, an object was taken away from the scene. In the first frame, there is a blue stick with a yellow ball on top, and an orange square. By the sixth frame, the blue stick with the yellow ball is gone, leaving only the orange square.","id":"synth-remove-neg|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5417,"ok":true}
+{"answer":"No","id":"synth-remove-neg|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3163,"ok":true}
+{"answer":"The clip shows a blue pole and an orange box moving across a gray surface. The pole remains stationary while the box shifts from the left side to the right side of the frame.","id":"synth-remove-neg|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4814,"ok":true}
+{"answer":"None","id":"synth-remove-neg|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3396,"ok":true}
+{"answer":"No\nPanel 12 shows the blue object has moved from the frame, indicating it was taken away.","id":"synth-remove-neg|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3659,"ok":true}
+{"answer":"Yes, an object was taken away from the scene.","id":"synth-remove-neg|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4787,"ok":true}
+{"answer":"No","id":"synth-remove-neg|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3182,"ok":true}
+{"answer":"The clip shows a blue stick figure moving from the left side of the frame to the right side. The figure's position and orientation change progressively across the 12 frames, indicating a simple left-to-right motion.","id":"synth-remove-neg|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4943,"ok":true}
+{"answer":"None","id":"synth-remove-neg|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3961,"ok":true}
+{"answer":"Yes\nPanel 1 shows a single blue matchstick standing upright with no head.","id":"synth-remove-pos|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3175,"ok":true}
+{"answer":"Yes, a matchstick appears to have been taken away from the scene.","id":"synth-remove-pos|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4775,"ok":true}
+{"answer":"No","id":"synth-remove-pos|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2881,"ok":true}
+{"answer":"The clip shows a simple animation of a blue matchstick standing upright on a gray surface against a light gray background. The earliest frame displays the matchstick in its initial position, while the latest frame shows it ignited with a small flame at the top.","id":"synth-remove-pos|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4040,"ok":true}
+{"answer":"None","id":"synth-remove-pos|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3527,"ok":true}
+{"answer":"Yes\nPanel 2 shows the orange cube missing compared to panel 1.","id":"synth-remove-pos|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3596,"ok":true}
+{"answer":"Yes, an object was taken away from the scene.","id":"synth-remove-pos|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4570,"ok":true}
+{"answer":"No","id":"synth-remove-pos|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3216,"ok":true}
+{"answer":"The person moves from the left side of the frame to the right side. The orange box remains stationary in the background.","id":"synth-remove-pos|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3700,"ok":true}
+{"answer":"None","id":"synth-remove-pos|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5046,"ok":true}
+{"answer":"No\nPanel 6 shows the object is gone, as only the pole and ball remain.","id":"synth-remove-pos|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4592,"ok":true}
+{"answer":"Yes, an object was taken away from the scene. In the first frame, there is a square object present, but by the sixth frame, the square object is no longer visible.","id":"synth-remove-pos|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3637,"ok":true}
+{"answer":"No","id":"synth-remove-pos|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3613,"ok":true}
+{"answer":"The clip shows a blue pole and an orange cube moving across a gray surface. The cube starts on the left side of the frame and gradually shifts to the right, while the pole remains stationary throughout the sequence.","id":"synth-remove-pos|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4945,"ok":true}
+{"answer":"None","id":"synth-remove-pos|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3124,"ok":true}
+{"answer":"No\nPanel 12 shows a single blue stick figure where the object was present in the previous panels.","id":"synth-remove-pos|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3974,"ok":true}
+{"answer":"No","id":"synth-remove-pos|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3900,"ok":true}
+{"answer":"No","id":"synth-remove-pos|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3177,"ok":true}
+{"answer":"The clip shows a blue stick figure moving from the left side of the frame to the right side. The figure's position shifts progressively across the 12 frames, indicating a left-to-right motion.","id":"synth-remove-pos|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4833,"ok":true}
+{"answer":"None","id":"synth-remove-pos|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3032,"ok":true}
+{"answer":"Yes. The conveyor belt is stationary, as evidenced by the three orange blocks resting evenly on its surface.","id":"synth-stop-neg|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3226,"ok":true}
+{"answer":"Yes, the conveyor or machine has stopped moving.","id":"synth-stop-neg|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3843,"ok":true}
+{"answer":"Yes","id":"synth-stop-neg|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3152,"ok":true}
+{"answer":"Three identical orange rectangular blocks appear in a horizontal row on a dark gray surface against a light gray background. The blocks remain stationary and evenly spaced throughout the clip.","id":"synth-stop-neg|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3437,"ok":true}
+{"answer":"None","id":"synth-stop-neg|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3931,"ok":true}
+{"answer":"Yes\nPanel 1 shows the boxes in a more spread-out arrangement, while Panel 2 shows them closer together, indicating movement.","id":"synth-stop-neg|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3438,"ok":true}
+{"answer":"No","id":"synth-stop-neg|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2729,"ok":true}
+{"answer":"No","id":"synth-stop-neg|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2975,"ok":true}
+{"answer":"The clip shows a conveyor belt transporting orange boxes. In the earliest frame, the boxes are positioned further back on the belt, while in the latest frame, they have moved forward, indicating the belt is in motion.","id":"synth-stop-neg|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5831,"ok":true}
+{"answer":"1","id":"synth-stop-neg|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3033,"ok":true}
+{"answer":"Yes\nPanel 6 shows the objects in their final position with no motion blur.","id":"synth-stop-neg|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3403,"ok":true}
+{"answer":"No, the conveyor or machine has not stopped moving.","id":"synth-stop-neg|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3545,"ok":true}
+{"answer":"No","id":"synth-stop-neg|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3741,"ok":true}
+{"answer":"The clip shows a sequence of five orange squares moving from left to right across a gray background. The squares appear to be sliding or traveling along a horizontal path, with their position shifting progressively from the left side of the frame to the right side.","id":"synth-stop-neg|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4522,"ok":true}
+{"answer":"None","id":"synth-stop-neg|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3112,"ok":true}
+{"answer":"Yes\nPanel 12 shows a uniform row of blocks with no movement.","id":"synth-stop-neg|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3317,"ok":true}
+{"answer":"No, the conveyor or machine has not stopped moving.","id":"synth-stop-neg|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4577,"ok":true}
+{"answer":"No","id":"synth-stop-neg|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2988,"ok":true}
+{"answer":"The clip shows a sequence of orange squares moving across a gray background. Initially, the squares are clustered together on the left side, then gradually spread out and move toward the right side of the frame.","id":"synth-stop-neg|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3823,"ok":true}
+{"answer":"None","id":"synth-stop-neg|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3492,"ok":true}
+{"answer":"Yes. The conveyor belt is stationary, as evidenced by the four identical orange blocks aligned in a straight line without any signs of motion or spacing changes.","id":"synth-stop-pos|f1|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3577,"ok":true}
+{"answer":"Yes, the conveyor or machine has stopped moving.","id":"synth-stop-pos|f1|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":2687,"ok":true}
+{"answer":"Yes","id":"synth-stop-pos|f1|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3820,"ok":true}
+{"answer":"Four identical orange cubes are positioned in a horizontal line on a dark gray surface against a light gray background. The cubes remain stationary throughout the clip, with no changes in their arrangement or movement.","id":"synth-stop-pos|f1|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3126,"ok":true}
+{"answer":"None","id":"synth-stop-pos|f1|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3984,"ok":true}
+{"answer":"Yes\nPanel 1 shows the conveyor belt with boxes moving from left to right, while Panel 2 shows the same belt with no boxes present.","id":"synth-stop-pos|g2|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3848,"ok":true}
+{"answer":"No, the conveyor or machine has not stopped moving.","id":"synth-stop-pos|g2|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3055,"ok":true}
+{"answer":"No","id":"synth-stop-pos|g2|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4708,"ok":true}
+{"answer":"The clip shows a conveyor belt transporting orange boxes. The primary change between the earliest and latest frames is the position of the boxes, which have moved along the belt.","id":"synth-stop-pos|g2|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3474,"ok":true}
+{"answer":"None","id":"synth-stop-pos|g2|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4777,"ok":true}
+{"answer":"Yes\nPanel 1 shows the objects at the leftmost position, while panel 6 shows them at the rightmost position, indicating movement from left to right.","id":"synth-stop-pos|g6|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3641,"ok":true}
+{"answer":"No, the conveyor or machine has not stopped moving.","id":"synth-stop-pos|g6|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":4698,"ok":true}
+{"answer":"No","id":"synth-stop-pos|g6|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3046,"ok":true}
+{"answer":"The clip shows a row of orange squares moving from left to right across a gray background. The primary change between the earliest and latest frames is the horizontal translation of the squares, indicating motion or progression over time.","id":"synth-stop-pos|g6|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5159,"ok":true}
+{"answer":"None","id":"synth-stop-pos|g6|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3053,"ok":true}
+{"answer":"Yes\nPanel 12 shows a complete row of objects with no new movement compared to earlier panels.","id":"synth-stop-pos|g12|gate","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5475,"ok":true}
+{"answer":"No, the conveyor or machine has not stopped moving.","id":"synth-stop-pos|g12|gate2","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3059,"ok":true}
+{"answer":"No","id":"synth-stop-pos|g12|gate3","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3666,"ok":true}
+{"answer":"The clip shows a row of orange squares moving from left to right across a gray background. The primary change between the earliest and latest frames is the horizontal translation of the squares, indicating motion along a single axis.","id":"synth-stop-pos|g12|open","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":5801,"ok":true}
+{"answer":"None","id":"synth-stop-pos|g12|when","load_s":1.427,"max_tokens":80,"model":"lfm2.5-vl-3b","ms":3189,"ok":true}

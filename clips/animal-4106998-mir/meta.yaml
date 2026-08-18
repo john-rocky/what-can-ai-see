@@ -1,0 +1,38 @@
+# Mirror of animal-4106998 for the training-contamination probe. See `mirrored:` below.
+id: animal-4106998-mir
+tier: field
+event: animal
+label: positive
+pair: null
+onset_s: 1.3
+duration_s: 15.02
+camera: fixed
+ground_truth: A Yorkshire terrier stands beside a bowl and then puts its head down and eats.
+source:
+  kind: stock
+  provider: pexels
+  id: 4106998
+  url: https://www.pexels.com/video/food-dog-pet-cute-4106998/
+  title: food dog pet cute
+  scene_query: animal
+  license: pexels
+  license_note: free to use, no attribution required, redistribution of the file itself is not permitted
+    — the benchmark ships ids and urls, not the mp4s.
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+genre: animal
+kind: transition
+expected: null
+trim:
+- 0.0
+- 15.0
+derived_from: animal-4106998
+mirrored: horizontally flipped copy of the original. Semantically identical — a cat on a bench is
+  still on the bench, two people are still two people — but no longer a pixel match for anything in
+  a training set. If a model's answers hold across the flip it is reading the picture; if they move,
+  the flip is not the only explanation but memory of the original clip becomes one of them.

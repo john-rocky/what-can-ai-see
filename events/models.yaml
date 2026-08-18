@@ -1,0 +1,111 @@
+# What Can AI See — the models under test, and the budget each one actually has.
+#
+# Every field below is read out of CoreAIKit's own source, not inferred:
+#   canvas, resize   Sources/CoreAIKit/Vision/VLArchitecture.swift  (imageSide / imageWidth / resize)
+#   visual_tokens    the same file, `mergedTokens`
+#   size_mb, repo    coreai-kit/catalog.json
+#
+# `visual_tokens` is the number that matters and the one nobody quotes. It is not
+# per frame. It is the ENTIRE image — and since CoreAIKit's VL path takes one image
+# per turn, it is the entire clip. Qwen3-VL sees a video in 196 tokens. MiniCPM-V
+# 4.6 sees it in 64. Split a clip into a 3x4 contact sheet and Qwen3-VL has 16
+# tokens per panel; MiniCPM-V has five.
+#
+# These numbers predict the results before a single clip is run. Publishing the
+# prediction alongside the measurement is the point.
+#
+# There is deliberately no `cached` field. A local copy is not proof the model is
+# ready: the 3B had 3.9 GB on disk under a revision the catalog no longer pins, so
+# the first run downloaded it again. The catalog pin is the source of truth.
+
+version: 0.1
+
+models:
+  - id: lfm2.5-vl-450m
+    name: LFM2.5-VL 450M
+    params: 0.45B
+    size_mb: 658
+    canvas: [512, 512]
+    resize: stretch
+    visual_tokens: 256
+    token_grid: [16, 16]
+    iphone: true
+
+  - id: minicpm-v-4.6
+    name: MiniCPM-V 4.6
+    params: ~2B
+    size_mb: 2145
+    canvas: [448, 448]
+    resize: stretch
+    visual_tokens: 64
+    token_grid: [8, 8]
+    iphone: true
+    note: >-
+      The tightest visual budget in the catalog by 4x. A single-slice 448px SigLIP
+      tower into 64 tokens. Expected to be the clearest demonstration that the
+      budget, not the parameter count, is what bounds what a model can see.
+
+  - id: qwen3-vl-2b
+    name: Qwen3-VL 2B
+    params: 2B
+    size_mb: 3278
+    canvas: [448, 448]
+    resize: stretch
+    visual_tokens: 196
+    token_grid: [14, 14]
+    iphone: true
+
+  - id: lfm2.5-vl-3b
+    name: LFM2.5-VL 3B
+    params: 3B
+    size_mb: 3915
+    canvas: [512, 512]
+    resize: stretch
+    visual_tokens: 256
+    token_grid: [16, 16]
+    iphone: true
+
+  - id: north-micro-vision
+    name: North Micro Vision
+    params: 2.4B
+    size_mb: 3400
+    canvas: [512, 512]
+    resize: stretch
+    visual_tokens: 256
+    token_grid: [16, 16]
+    iphone: true
+
+  - id: holo2-4b
+    name: Holo2 4B
+    params: 4B
+    size_mb: 5484
+    canvas: [448, 448]
+    resize: stretch
+    visual_tokens: 196
+    token_grid: [14, 14]
+    iphone: true
+
+  - id: qwen3-vl-4b
+    name: Qwen3-VL 4B
+    params: 4B
+    size_mb: 5897
+    canvas: [448, 448]
+    resize: stretch
+    visual_tokens: 196
+    token_grid: [14, 14]
+    iphone: true
+
+  - id: qwen3-vl-8b
+    name: Qwen3-VL 8B
+    params: 8B
+    size_mb: 10453
+    canvas: [448, 448]
+    resize: stretch
+    visual_tokens: 196
+    token_grid: [14, 14]
+    iphone: false
+    note: >-
+      Mac-only — the decoder exceeds the iPhone jetsam ceiling. Kept in the table
+      as the ceiling row: same 196-token eye as the 2B, four times the reasoning
+      behind it. The gap between them separates "could not see it" from
+      "saw it and reasoned wrong", which is the distinction a PoC decision turns on.

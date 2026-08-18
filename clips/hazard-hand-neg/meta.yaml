@@ -1,0 +1,31 @@
+# Matched negative: same rig and camera, normal episode.
+id: hazard-hand-neg
+tier: field
+event: hand-in-danger-zone
+label: negative
+pair: hazard-hand-pos
+onset_s: null
+duration_s: 15.0
+ground_truth: The same soldering station, same fixed camera, same task. The robot works on
+  the board for the whole clip and no hand ever enters the danger zone.
+dataset_anomaly: episodes 0-4 are the NORMAL samples of the anomaly set
+source:
+  kind: dataset
+  provider: huggingface
+  repo: kantine/industrial_soldering_anomaly
+  file: videos/chunk-000/observation.images.logitech_1/episode_000000.mp4
+  camera: observation.images.logitech_1
+  license: apache-2.0
+  counterpart: kantine/industrial_soldering_anomaly — same rig, same camera, same task, different
+    outcome.
+conditions:
+  viewpoint: fixed-rig
+  distance: near
+  light: bright
+  occlusion: none
+  blur: none
+  clutter: mid
+negative_hardness: hard
+shows_transition: false
+pair_note: 'From the SAME dataset as its positive: episodes 0-4 of industrial_soldering_anomaly
+  are the normal samples. Rig, camera, lighting and task are identical; only the hand differs.'

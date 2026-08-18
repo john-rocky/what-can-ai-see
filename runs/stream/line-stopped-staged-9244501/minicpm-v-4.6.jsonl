@@ -1,0 +1,12 @@
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-9244501|w000|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2577,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-9244501|w001|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2576,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-9244501|w002|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2593,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-9244501|w003|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2573,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-9244501|w004|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2572,"ok":false}
+{"answer":"\n\nYes, the machine appears to be stationary in all frames, indicating it has stopped moving. The evidence is that the conveyor\/machine is shown","id":"line-stopped-staged-9244501|w005|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2580,"ok":true}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-9244501|w006|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2588,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-9244501|w007|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2579,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-9244501|w008|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2574,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-9244501|w009|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2576,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-9244501|w010|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2571,"ok":false}
+{"error":"Session ended without producing a response.","id":"line-stopped-staged-9244501|w011|gate","load_s":3.6080000000000001,"max_tokens":320,"model":"minicpm-v-4.6","ms":2577,"ok":false}

@@ -1,0 +1,39 @@
+# DERIVED from object-removed-5241131 by tools/make_variants.py — darkness level 2.
+# Not field footage. Its pair is the identically-degraded mate, so the only
+# difference across this rung is the condition under test.
+id: object-removed-5241131__darkness2
+tier: variant
+event: object-removed
+label: positive
+pair: object-removed-8420771__darkness2
+onset_s: 3.0
+duration_s: 6.0
+ground_truth: A retail tray of sunglasses. The tray is full and a hand hovers over it in panels
+  1-3; in panel 4 a blue pair is lifted clear of the tray and held, and in panels 5-6 it stays
+  out with a visible gap left behind. An object present early is absent from its position
+  later.
+source:
+  kind: stock
+  provider: pexels
+  video_id: 5241131
+  url: https://www.pexels.com/video/a-person-picking-up-sunglasses-5241131/
+  title: a person picking up sunglasses
+  author: https://kaboompics.com/
+  author_url: https://www.pexels.com/@karola-g
+  license: Pexels License (free to use, no attribution required, not for resale as-is)
+  fetched_resolution: 1920x1080
+conditions:
+  distance: near
+  target_size: small
+  light: dark
+  occlusion: none
+  blur: none
+  viewpoint: overhead
+  clutter: high
+  duration_class: multi-second
+onset_confidence: +/-0.5s, between the panel-3 and panel-4 timestamps
+shows_transition: true
+derived_from: object-removed-5241131
+degradation:
+  axis: darkness
+  level: 2
