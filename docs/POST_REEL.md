@@ -1,6 +1,6 @@
 # Post: the reel
 
-Attach `cards/reel-events.mp4` (56s, 8 cuts) to the main post.
+Attach `cards/reel-post.mp4` (56s, 8 cuts) to the main post.
 
 X free tier is 280 characters. A URL counts as 23 whatever its length, and CJK
 counts double — so a Japanese post has an effective budget of 140 characters.
@@ -9,40 +9,43 @@ English is what goes out. The Japanese is the same post, for checking.
 
 ---
 
-## Main post — EN, 279/280
+## Main post — EN, 260/280
 
 How much does a small on-device VLM understand? Before you ship one, you need to
 know where it stops.
 
-I tested six. One question, every 0.4s, real footage. Green = right, red = wrong.
+I tested six. One question, every 0.4s, on real footage.
 
-They read rain, a sign, a cat on a bench. They can't count to three.
+They see a jar shatter, a hand enter a machine. They can't count to three.
 
 github.com/john-rocky/what-can-ai-see
 
-## Main post — JP, 274/280
+## Main post — JP, 256/280
 
 オンデバイスで動く小型VLMは、実際どこまで理解できるのか。業務に組み込むなら、その理解度を先に知る必要がある。
 
-6つ試した。実写映像に質問を1つ、0.4秒ごとに問い直す。緑が正解、赤が不正解。
+6つ試した。実写映像に質問を1つ、0.4秒ごとに問い直す。
 
-雨も、店の看板も、ベンチの上の猫も読める。3人を数えられない。
+ガラスが割れるのも、機械に手が入るのも見える。3人を数えられない。
 
 github.com/john-rocky/what-can-ai-see
 
-### Why this opening and not the previous one
+### Notes on the wording
 
-The first draft opened on method — six models, one question, every 0.4 seconds —
-which tells a reader what was done and gives them no reason to care. This opens on
-the question they would have anyway if they were considering shipping one of these,
-and the last line answers it in the least comfortable way available: it reads a
-shop sign and cannot count to three.
+**The examples name what is actually on screen.** An earlier draft said "they read
+rain, a shop sign, a cat on a bench" — all true, all measured, and none of them in
+the video. A caption describing clips a viewer cannot see is the same failure as a
+number without its baseline.
 
-"Can't count to three" is exact, not a flourish. Asked whether more than two people
-are in a shot of two people at a table, LFM2.5-VL 3B changes its mind 11 times
-across 34 windows of a still scene, Qwen3-VL 2B answers yes on every one, and only
-MiniCPM-V 4.6 gets it right — while every model reads rain, wet ground, a cat on a
-bench and the word SALE correctly and holds that answer for the whole clip.
+**The colour key moved into the video.** "Green = right, red = wrong" cost 28 of
+280 characters — a tenth of the post spent explaining the artwork. It is now drawn
+on the first two beats.
+
+**"Can't count to three" is exact.** Shown two people at a table and asked whether
+there are more than two: LFM2.5-VL 3B changes its mind 11 times across 34 windows
+of a still scene, Qwen3-VL 2B answers yes to every one, Holo2 4B gets one clip and
+not the other. MiniCPM-V 4.6 is the only model that gets both. So the honest form
+is "most of them can't" — if a reader pushes, that is the correction to make.
 
 ---
 
@@ -112,7 +115,7 @@ Flip every video left-right: not one answer moved.
 | six models, 0.4s stride | `runs/stream/*` | a Mac Studio M4 Max, not a phone. Reply 2 says so; if that reply is dropped the main post overclaims |
 | green right / red wrong | `tools/reel_fast.py` | for a gradual event the onset is a measured threshold crossing, not a knife edge — an "early" fire on a spreading spill may be the model being right before the threshold |
 | "can't count to three" | `tools/genre_score.py` | on two clips of two people: LFM2.5-VL 3B is 47%/54% with 11 and 7 changes of mind, Qwen3-VL 2B is 0%/0%, Holo2 4B 52%/0%. MiniCPM-V 4.6 gets both. So it is "most of them can't", and the post says "they" — tighten it if a reader pushes |
-| "they read rain, a sign, a cat on a bench" | `tools/genre_score.py` | 100% and zero changes of mind for every model on all three, plus wet ground and writing |
+| "they see a jar shatter, a hand enter a machine" | `runs/stream/damage-jar-pos`, `hazard-hand-pos` | both are in the reel. Every model fires within 0.5s of the measured onset on the jar |
 | smallest is 658MB | `events/models.yaml` | that model is also at chance. The post does not claim it works |
 | not one answer moved under a flip | `tools/mirror_probe.py` | six genres, four models. The count clips DID move — on the questions each model was already guessing |
 

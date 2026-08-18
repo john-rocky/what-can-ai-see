@@ -230,6 +230,15 @@ def render_beat(beat: dict, workdir: Path, idx: int) -> list[Path]:
                                     fill=(250, 250, 250))
                 d.text((bx + 13, 158), lab, font=F_KICK, fill=(12, 14, 18))
 
+        # The colour key belongs on the video, not in the caption. It cost 28
+        # characters of a 280-character post to say "green = right, red = wrong",
+        # which is a quarter of the budget spent explaining the artwork.
+        if beat.get("legend"):
+            lg = "GREEN = RIGHT     RED = WRONG"
+            lw = d.textlength(lg, font=F_KICK)
+            d.text((W - 60 - lw, H - 34 - 38 * n_rows - 4), lg,
+                   font=F_KICK, fill=(196, 202, 214))
+
         if said_model and said_model in series:
             _, txt = state_at(series[said_model], t)
             txt = txt.split("\n")[0]
