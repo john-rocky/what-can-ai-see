@@ -108,6 +108,31 @@ Flip every video left-right: not one answer moved.
 
 ---
 
+## Reply 4 — footage credit — EN, 165/280
+
+Footage: three clips from kantine's LeRobot recordings (Apache-2.0) —
+huggingface.co/kantine
+The rest is Pexels stock. Full list with links:
+github.com/john-rocky/what-can-ai-see/blob/main/CREDITS.md
+
+## Reply 4 — JP, 123/280
+
+素材：3本はkantineのLeRobot録画（Apache-2.0）huggingface.co/kantine
+残りはPexels。全リンクはこちら github.com/john-rocky/what-can-ai-see/blob/main/CREDITS.md
+
+### Why this reply exists
+
+Apache-2.0 asks that attribution notices be retained when a derivative work is
+distributed, and three of the eight clips are Apache-2.0. Pexels does not require
+attribution and the other five are credited anyway — a benchmark that asks people
+to check its sources should make that one click.
+
+`CREDITS.md` also records what could not be verified: the Pexels licence page is
+behind a bot check and could not be fetched, so the summary of its terms there is
+prior knowledge rather than a quote of the current text.
+
+---
+
 ## Claims audit
 
 | claim | recomputed by | caveat that must survive editing |
