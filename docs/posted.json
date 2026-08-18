@@ -1,0 +1,90 @@
+{
+ "posts": [
+  {
+   "cut": "cards/reel-post.mp4",
+   "note": "first X post \u2014 how much does a small on-device VLM understand",
+   "clips": [
+    "conveyor-4473187",
+    "count-4035246",
+    "damage-jar-pos",
+    "fall-live-neg",
+    "grounds-pos",
+    "hazard-hand-pos",
+    "office-11903981",
+    "spill2-pos"
+   ]
+  },
+  {
+   "cut": "cards/reel-ja-v1",
+   "note": "japanese cut v1, shown for review",
+   "clips": [
+    "ambient-12309293",
+    "animal-4106998",
+    "count-4035246",
+    "damage-jar-pos",
+    "hazard-hand-pos",
+    "interaction-7744417",
+    "office-11903981",
+    "spatial-10211597",
+    "spill2-pos",
+    "state-change-2959327"
+   ]
+  },
+  {
+   "cut": "cards/reel-ja-v2",
+   "note": "japanese cut v2, shown for review",
+   "clips": [
+    "ambient-855222",
+    "animal-4106998",
+    "count-6380996",
+    "damage-bottle-pos",
+    "interaction-7744417",
+    "material-9253241",
+    "object-removed-5241131",
+    "office-11903990",
+    "spatial-27040096",
+    "spill-pos",
+    "state-change-2959327",
+    "text-7359087"
+   ]
+  },
+  {
+   "cut": "cards/reel-fast+flips+slow+events",
+   "note": "iteration cuts shown during review",
+   "clips": [
+    "action-30844680",
+    "action-6101146",
+    "ambient-12309293",
+    "conveyor-4473187",
+    "count-4035246",
+    "damage-bottle-pos",
+    "damage-jar-pos",
+    "fall-5916779",
+    "fall-live-neg",
+    "fall-live-pos",
+    "grounds-pos",
+    "grounds-pos-v2",
+    "hazard-hand-pos",
+    "intrusion-35054875",
+    "line-stopped-staged-855859",
+    "line-stopped-staged-9244501",
+    "material-9253241",
+    "object-removed-8420771",
+    "office-11903981",
+    "office-11903990",
+    "smoke-fire-11718858",
+    "spatial-10211597",
+    "spill-pos-v2",
+    "spill2-neg",
+    "spill2-pos",
+    "spill2-pos-v2",
+    "spill3-neg-v2",
+    "spill3-pos",
+    "spill3-pos-v2",
+    "state-change-2959327",
+    "synth-fall-pos",
+    "text-7359087"
+   ]
+  }
+ ]
+}

@@ -43,6 +43,20 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 from card import verdict_of  # noqa: E402
 from reel import W, H, FPS, ACCENT, font  # noqa: E402
+from PIL import ImageFont
+
+
+def jfont(size: int, weight: str = "W6"):
+    """Hiragino, for the Japanese cut. Arial has no CJK glyphs and Pillow draws
+    every kanji as a hollow box rather than failing, so a missing font here looks
+    like a rendering bug rather than a missing font."""
+    for p in (f"/System/Library/Fonts/\u30d2\u30e9\u30ae\u30ce\u89d2\u30b4\u30b7\u30c3\u30af {weight}.ttc",
+              "/System/Library/Fonts/Hiragino Sans GB.ttc"):
+        try:
+            return ImageFont.truetype(p, size)
+        except OSError:
+            continue
+    return font("bold", size)
 
 # Colour means RIGHT or WRONG here, not yes or no.
 #
@@ -131,7 +145,24 @@ def content_crop(video: Path) -> str:
          "cropdetect=limit=24:round=2", "-frames:v", "40", "-f", "null", "-"],
         capture_output=True, text=True).stderr
     crops = [l.split("crop=")[-1].strip() for l in out.splitlines() if "crop=" in l]
-    _CROP[key] = crops[-1] if crops else ""
+    chosen = ""
+    if crops:
+        # cropdetect trusts darkness, and a studio shot of a bottle on black is
+        # almost all darkness: it returned crop=60:-718:592:720 — a negative
+        # height — and ffmpeg died with exit 234 rather than anything readable.
+        # Only accept a crop that keeps most of the picture.
+        try:
+            w, h, x, y = (int(v) for v in crops[-1].split(":"))
+            src = subprocess.run(
+                ["ffprobe", "-v", "0", "-select_streams", "v:0", "-show_entries",
+                 "stream=width,height", "-of", "csv=p=0:s=x", str(video)],
+                capture_output=True, text=True).stdout.strip().split("x")
+            sw, sh = int(src[0]), int(src[1])
+            if w > sw * 0.4 and h > sh * 0.4 and x >= 0 and y >= 0:
+                chosen = crops[-1]
+        except (ValueError, IndexError):
+            chosen = ""
+    _CROP[key] = chosen
     return _CROP[key]
 
 
@@ -158,8 +189,12 @@ def render_beat(beat: dict, workdir: Path, idx: int) -> list[Path]:
     out_dir = workdir / f"out{idx:03d}"
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    question = spec.get("question", "")
+    question = beat.get("question_ja") or spec.get("question", "")
     said_model = beat.get("say")
+    ja = bool(beat.get("question_ja"))
+    f_q = jfont(32) if ja else F_Q
+    f_kick = jfont(16) if ja else F_KICK
+    f_name = jfont(17) if ja else F_NAME
 
     # What the correct answer is at time t. For a stable clip it never changes; for
     # a transition it is No before the onset and Yes after.
@@ -188,9 +223,9 @@ def render_beat(beat: dict, workdir: Path, idx: int) -> list[Path]:
         d = ImageDraw.Draw(img, "RGBA")
 
         scrim(img, 0, 128, 216, fade=40)
-        d.text((44, 18), (beat.get("kicker") or mt.get("genre") or mt.get("event") or "").upper(),
-               font=F_KICK, fill=ACCENT)
-        d.text((44, 44), question, font=F_Q, fill=(246, 248, 252))
+        kick = beat.get("kicker") or mt.get("genre") or mt.get("event") or ""
+        d.text((44, 18), kick if ja else kick.upper(), font=f_kick, fill=ACCENT)
+        d.text((44, 44), question, font=f_q, fill=(246, 248, 252))
 
         # verdict chips, bottom-left, stacked
         n_rows = sum(1 for m in models if m in series)
@@ -213,7 +248,7 @@ def render_beat(beat: dict, workdir: Path, idx: int) -> list[Path]:
                                     outline=(255, 255, 255), width=3)
             tw = d.textlength(lab, font=F_CHIP)
             d.text((44 + (76 - tw) / 2, y + 3), lab, font=F_CHIP, fill=(10, 12, 16))
-            d.text((132, y + 6), name, font=F_NAME,
+            d.text((132, y + 6), name, font=f_name,
                    fill=(255, 255, 255) if fresh else (236, 240, 248))
             y += 38
 
@@ -223,21 +258,21 @@ def render_beat(beat: dict, workdir: Path, idx: int) -> list[Path]:
         if onset is not None and mt.get("kind") != "stable":
             on = float(onset)
             if t0 <= on <= t1 and -0.2 <= t - on <= 1.1:
-                lab = (mt.get("moment") or "THE EVENT").upper()
-                lw = d.textlength(lab, font=F_KICK)
+                lab = beat.get("moment_ja") or (mt.get("moment") or "THE EVENT").upper()
+                lw = d.textlength(lab, font=f_kick)
                 bx = W - 60 - lw - 26
                 d.rounded_rectangle([bx, 150, bx + lw + 26, 182], 7,
                                     fill=(250, 250, 250))
-                d.text((bx + 13, 158), lab, font=F_KICK, fill=(12, 14, 18))
+                d.text((bx + 13, 158), lab, font=f_kick, fill=(12, 14, 18))
 
         # The colour key belongs on the video, not in the caption. It cost 28
         # characters of a 280-character post to say "green = right, red = wrong",
         # which is a quarter of the budget spent explaining the artwork.
         if beat.get("legend"):
-            lg = "GREEN = RIGHT     RED = WRONG"
-            lw = d.textlength(lg, font=F_KICK)
+            lg = "緑 = 正解     赤 = 不正解" if ja else "GREEN = RIGHT     RED = WRONG"
+            lw = d.textlength(lg, font=f_kick)
             d.text((W - 60 - lw, H - 34 - 38 * n_rows - 4), lg,
-                   font=F_KICK, fill=(196, 202, 214))
+                   font=f_kick, fill=(196, 202, 214))
 
         if said_model and said_model in series:
             _, txt = state_at(series[said_model], t)
