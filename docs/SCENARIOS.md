@@ -1,104 +1,108 @@
 # Scenes worth measuring
 
-The demand side. Written before any footage is searched for, because searching
-first produces whatever stock libraries happen to sell — corridors, conveyors,
-b-roll — and then the questions get bent to fit it. A day was lost that way.
+The demand side, written before any footage is searched for. Searching first
+produces whatever stock libraries happen to sell, and then the questions get bent
+to fit it.
 
-The axis is not how dramatic the footage is. **It is what breaks when the model is
-wrong.** A volcano detected correctly proves nothing; nobody puts a 3B model on a
-volcano. Two people at a café table miscounted is the most interesting result this
-project has produced, and the footage is furniture.
+Two tests. A scenario has to pass both.
 
-Each entry carries the cost of being wrong, because a miss and a false alarm are
-not the same failure and the same model is rarely bad at both.
+**1. What breaks when the model is wrong?** Not how dramatic the footage is. A
+volcano detected correctly proves nothing — nobody puts a 3B model on a volcano.
+Two people at a café table miscounted is the most interesting result this project
+has produced and the footage is furniture.
 
-## What the measurements already say
+**2. What would a 2020s CV pipeline do here?** If a person detector, a pose model
+and a background subtractor would handle it, a VLM doing it worse is not a result.
+This test cuts hard, and it should: half the first draft of this list failed it.
 
-These are the levers. A scenario that pulls one of them is worth building; one
-that does not is a demo.
+## The second test, applied to what has already been measured
 
-| finding | what it predicts will fail |
+The benchmark keeps producing evidence against its own subject, and that has to be
+faced before more scenarios are written:
+
+| scenario | classical method | measured outcome |
+|---|---|---|
+| a person enters an area | background subtraction | **0.99** balanced accuracy, self-swept (F21) |
+| a hand enters a machine's path | background subtraction | **beats every VLM**, 0 false alarms (F15) |
+| a person falls | YOLO + pose | not run here, but it is the textbook case |
+| a machine stopped | frame differencing | structurally blind — but so is every VLM, all at chance (F20) |
+| **a thin run of coffee spreads** | swept background subtraction | **+5.5s and 10 false alarms; the 3B +0.3s and 2** (F16) |
+
+Only the last row is a reason to run a VLM. The change is too small for a pixel
+threshold and COCO has no class for "spill", so the classical side needs a
+per-scene rule that somebody has to write and maintain.
+
+That is the shape to look for.
+
+## What a VLM can be asked that a detector cannot
+
+1. **A rule stated in words.** "Is this person wearing the right protection for
+   this area." A detector needs the rule compiled into geometry and classes; a VLM
+   takes the sentence.
+2. **Objects nobody enumerated.** COCO has 80 classes. "Is there something on the
+   line that should not be" is unanswerable by a model that can only name 80 things.
+3. **States that are not objects.** Wet, dry, on, off, open, cooked, cracked. There
+   is no bounding box for "the hob is lit".
+4. **Relations and intent.** Handed to someone versus put down. Waiting versus lost.
+5. **Text in context.** Not OCR — whether the label matches the box it is on.
+6. **Normality.** "Does this look wrong", with nobody having said what wrong is.
+
+Every scenario below has to sit in one of those six, or it is a demo.
+
+---
+
+## Passes both tests
+
+**A pan is on a lit hob and the kitchen is empty.**
+*State, not object.* A detector sees a pan; it cannot see that the ring is on. The
+absence half is where models invent (F23), so this pulls two levers at once.
+Wrong-way costs: a miss is a fire, a false alarm is a device switched off in a week.
+
+**Something is on the conveyor that does not belong.**
+*Unenumerated object.* The whole point is that nobody listed what could be there.
+A detector can only report the 80 things it knows, and the answer is always "none
+of them".
+
+**The floor is wet in a place people walk.**
+*State, not object,* and one every model reads correctly when asked and **never
+volunteers** (6–20%, F23). That gap is the product: it works only if someone knew
+to ask.
+
+**The label on the box does not match what is in it.**
+*Text in context.* OCR reads the label. Deciding it is the wrong label needs both
+halves compared.
+
+**A spill is spreading and nobody has noticed.**
+*The one measured win.* Small change, no COCO class, and the 3B beat a swept pixel
+method on exactly this (F16). Worth extending to other liquids and surfaces.
+
+**Someone is doing the task in the wrong order.**
+*Rule in words.* Assembly and food prep both have orders that matter. A detector
+sees hands and parts; the sequence is the rule.
+
+## Fails the second test — do not build these
+
+| scenario | why not |
 |---|---|
-| No model can tell two people from three (F17, F23) | anything that counts — occupancy, queue length, staffing minimums |
-| Materials and text are never volunteered, only confirmed when asked (F23) | wet floors, spills, warning labels, expiry dates: invisible unless somebody thought to ask |
-| A still scene makes every model invent (F23) | monitoring, where nothing happens for hours |
-| Moving the camera swapped first and third place (F18) | any spec written against one mounting position |
-| A person lying down reads as a fall | care settings, where the distinction is the entire product |
-| Question wording moves results more than model choice (F14) | every integration that writes its own prompt |
+| a person falls | pose estimation, solved |
+| a person enters a restricted area | background subtraction scores 0.99 here (F21) |
+| a hand enters a machine | measured: classical wins outright (F15) |
+| an item leaves a shelf | background subtraction plus a detector |
+| how long is the queue | a person detector counts better than any VLM here does (F17) |
+| a machine stopped | frame differencing, and every VLM is at chance anyway (F20) |
 
-## Care and health
+These stay on the page because knowing a VLM is *not* needed is worth publishing —
+F15 and F21 are that result — but they are findings about the classical baseline,
+not scenarios to source new footage for.
 
-**A person is on the floor and has not moved.**
-Cost of a miss: someone lies there. Cost of a false alarm: staff stop trusting it
-within a week, which is the same as a miss but slower. The hard part is not seeing
-a body on the floor; it is separating that from someone lying down deliberately,
-which every model here currently fails.
-*Testable now — `fall-live-neg` is exactly this and all models call it a fall.*
+## Open question this list cannot answer yet
 
-**Someone got out of bed at night and did not come back.**
-Absence over time, not an instant. Needs memory the runtime does not have (F1),
-so it must be assembled outside the model — which makes it a test of whether the
-per-window descriptions carry enough to reconstruct.
+Every "passes" entry above is a *state* or a *rule*. None of them has been sourced
+yet, and the sourcing findings so far (F6, F19, F23) say states are exactly what
+stock footage does not carry: a wet floor and a dry floor look like the same shop.
 
-**A walking aid is out of reach of the person who needs it.**
-A spatial relation between two specific objects. Models volunteer spatial language
-often (65–100%) but the relation has to be the right one.
+If that holds, the honest conclusion is that the cases where a small VLM earns its
+place are the cases nobody films — and that is itself the most useful thing this
+project could report to someone sizing a PoC.
 
-## Retail
-
-**An item left the shelf and did not go into a basket.**
-Cost of a false alarm: an accusation. This is the scenario where being wrong is
-worst, and it needs two events linked over time.
-*Partly testable — `object-removed-5241131` is a hand taking sunglasses.*
-
-**The shelf gap that means a product is out of stock.**
-Absence again, and the model has to know what the shelf normally looks like.
-
-**A queue formed and nobody opened a till.**
-Counting, which is the known failure. Directly on the weakest lever.
-
-## Home and consumer
-
-**A pan was left on a lit hob and nobody is in the kitchen.**
-Two facts at once: the hob state and the absence of a person. Absence is the
-harder half — a still, empty kitchen is exactly the condition that makes models
-invent.
-
-**Water is running and the sink is filling.**
-A liquid level rising. Related to the spill work, which is the one place a small
-VLM has beaten a pixel method.
-
-**A child is near something they should not be near.**
-Proximity between two subjects. Cost of a miss is obvious; cost of a false alarm
-is a parent who switches it off.
-
-## Roads and public space
-
-**Someone stepped into the road and the vehicle has not slowed.**
-Needs both the person and the vehicle state. Camera is almost always moving, which
-F18 says breaks the measurement before the model gets a chance.
-
-**A door was propped open that should have closed.**
-A state that persists, on a fixed camera, in an empty scene. The invention case.
-
-## Factory and logistics
-
-**A machine stopped and nobody noticed.**
-Absence of motion — the dwell class, where every method scored at chance (F20) and
-a pixel differencer is structurally blind because the event is the lack of change.
-
-**Something is on the line that should not be.**
-Foreign-object detection: the model has to know what normal looks like.
-
-**A person is inside the guarded area while the machine runs.**
-*Testable now — `hazard-hand-pos` is this, and it is the one case where a 1995
-background subtractor beats every VLM (F15).*
-
-## What this list is for
-
-Sourcing is driven from here, not the other way round. A scenario stays on the
-list until it has either been measured or shown to be unsourceable, and the second
-outcome is a finding too — F6, F19 and F23 are all "this could not be sourced, and
-here is why".
-
-Add to it whenever a use case surfaces. The list is meant to outrun the corpus.
+Add to this list whenever a use case surfaces. It is meant to outrun the corpus.
