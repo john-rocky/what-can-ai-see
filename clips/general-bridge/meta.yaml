@@ -1,0 +1,56 @@
+# The other half of the pair. Where general-cannon is a RELATION that a detector
+# cannot see (a muzzle facing a man), this is the opposite case: a single event so
+# large that frame differencing finds it trivially — a locomotive drops through a
+# burning trestle into a river. Both are in the same film, the same scan, the same
+# tint, so the comparison is not confounded by footage quality.
+#
+# It is here to keep the claim honest. "Small models miss what people see" is only
+# worth saying if they DO catch what a pixel baseline catches; if they miss this
+# too, the finding is about the models' general weakness, not about relations.
+id: general-bridge
+tier: film
+event: commentary
+label: positive
+pair: null
+onset_s: null
+duration_s: 80.0
+camera: fixed
+ground_truth: >
+  A railway trestle over a river is burning. A locomotive runs onto it, the span
+  gives way, and the engine falls into the water. Cavalry and infantry then ford
+  the river past the wreck, which lies in the shallows giving off steam.
+source:
+  kind: film
+  provider: archive.org
+  id: The_General_Buster_Keaton
+  url: https://archive.org/details/The_General_Buster_Keaton
+  title: The General (1926), dir. Buster Keaton & Clyde Bruckman
+  segment_s: [4078, 4158]
+  license: public domain (US) — published before 1931, renewal not filed
+  license_note: >
+    Public domain in the US and, by every route, in Japan: as a corporate-name work
+    the old 50-year term ran out in 1976; as an individually-named work the old term
+    was death + 38 (Keaton d. 1966 -> 2004) and even with the ~10y5m wartime addition
+    for pre-war US works it ended in 2014. Still protected in the EU, where the term
+    runs 70 years from the last surviving of director/writer/composer -> 2036.
+conditions:
+  viewpoint: wide
+  distance: far
+  light: daylight
+  occlusion: low
+  blur: low
+  clutter: medium
+genre: destruction
+kind: transition
+
+# Unlike the cannon, this needs no generosity: the train is the largest moving
+# thing in the frame and it disappears downward. Verified by eye on the 5-minute
+# sheet -- intact trestle at 68:17, black explosion at 68:25, wreck steaming in the
+# water from 68:42.
+key_fact:
+  window_s: [27, 33]      # w012 shows the span break and the splash; by w015 only steam
+  plain: the locomotive falls through the bridge into the river
+  says:
+    - "(train|locomotive|engine|car)\\w*[^.]{0,60}\\b(fall|fell|falling|collaps|plung|drop|crash|derail|topple|tumbl|sink|sank)"
+    - "(bridge|trestle|span)[^.]{0,60}\\b(collaps|giv\\w+ way|fail|break|broke|fall|fell)"
+    - "into the (river|water|creek)"

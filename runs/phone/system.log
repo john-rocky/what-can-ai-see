@@ -1,0 +1,39 @@
+Launched application with com.whatcanaisee.phonebench bundle identifier.
+Waiting for the application to terminate…
+[    0.0] device: iPhone18,1 iOS Version 27.0 (Build 24A5418b)
+[    0.0] physical memory: 11722 MB
+[    0.0] model: system  maxTokens: 96  sampling: greedy
+[    0.0] start {"available_mb":3364,"battery_pct":100,"footprint_mb":12,"thermal":"fair"}
+[    0.0] 27 task(s)
+[    0.0] system model: available=true vision=true
+[    0.0] loaded in 0.0 s  {"available_mb":3362.9000000000001,"battery_pct":100,"footprint_mb":13.1,"thermal":"fair"}
+[    1.9] [  1/ 27] ok   general-bridge|w000|open   1896 ms  fp=22 avail=3354 fair
+[    4.1] [  2/ 27] ok   general-bridge|w012|open   2232 ms  fp=22 avail=3354 fair
+[    6.4] [  3/ 27] ok   general-bridge|w013|open   2244 ms  fp=22 avail=3354 fair
+[    8.7] [  4/ 27] ok   general-bridge|w014|open   2267 ms  fp=22 avail=3354 fair
+[   10.7] [  5/ 27] ok   general-bridge|w015|open   2063 ms  fp=22 avail=3354 fair
+[   13.1] [  6/ 27] ok   general-bridge|w024|open   2362 ms  fp=22 avail=3354 fair
+[   15.3] [  7/ 27] ok   general-bridge|w036|open   2226 ms  fp=22 avail=3354 fair
+[   17.7] [  8/ 27] ok   general-cannon|w000|open   2387 ms  fp=23 avail=3353 fair
+[   18.0] [  9/ 27] FAIL general-cannon|w012|open    329 ms  fp=34 avail=3342 fair
+[   20.4] [ 10/ 27] ok   general-cannon|w024|open   2399 ms  fp=23 avail=3353 fair
+[   22.8] [ 11/ 27] ok   general-cannon|w035|open   2411 ms  fp=23 avail=3353 fair
+[   25.6] [ 12/ 27] ok   general-cannon|w036|open   2806 ms  fp=23 avail=3353 fair
+[   28.6] [ 13/ 27] ok   general-cannon|w037|open   2997 ms  fp=24 avail=3352 fair
+[   31.4] [ 14/ 27] ok   general-cannon|w038|open   2797 ms  fp=24 avail=3352 fair
+[   34.4] [ 15/ 27] ok   general-cannon|w039|open   2948 ms  fp=24 avail=3352 serious
+[   37.3] [ 16/ 27] ok   general-cannon|w040|open   2904 ms  fp=24 avail=3352 serious
+[   39.9] [ 17/ 27] ok   general-cannon|w041|open   2665 ms  fp=24 avail=3352 serious
+[   42.9] [ 18/ 27] ok   general-cannon|w042|open   2918 ms  fp=24 avail=3352 serious
+[   45.8] [ 19/ 27] ok   general-cannon|w043|open   2949 ms  fp=24 avail=3352 serious
+[   48.8] [ 20/ 27] ok   general-cannon|w044|open   3020 ms  fp=24 avail=3352 serious
+[   51.9] [ 21/ 27] ok   general-cannon|w045|open   3034 ms  fp=25 avail=3351 serious
+[   54.6] [ 22/ 27] ok   general-cannon|w046|open   2712 ms  fp=25 avail=3351 serious
+[   57.5] [ 23/ 27] ok   general-cannon|w047|open   2968 ms  fp=25 avail=3351 serious
+[   60.3] [ 24/ 27] ok   general-cannon|w048|open   2717 ms  fp=25 avail=3351 serious
+[   63.3] [ 25/ 27] ok   general-cannon|w060|open   2988 ms  fp=25 avail=3351 serious
+[   66.1] [ 26/ 27] ok   general-cannon|w072|open   2809 ms  fp=25 avail=3351 serious
+[   68.7] [ 27/ 27] ok   general-cannon|w084|open   2679 ms  fp=26 avail=3350 serious
+[   68.7] STATS model=system n=27 load_s=0.0 mean_s=2.55 windows_per_s=0.393 peak_fp_mb=34 fail=1 thermal=serious battery=100
+RESULTS /var/mobile/Containers/Data/Application/DDFD0939-A59B-488E-ACC8-8511349C4753/Documents/system.jsonl
+App terminated due to signal 15.

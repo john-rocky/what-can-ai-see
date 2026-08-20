@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- NOT wired into project.yml. `increased-memory-limit` cannot be signed unless the
+         capability is enabled for this App ID in the developer portal — a manual web step —
+         and adding it speculatively traded a working build for a provisioning error.
+         The models that actually need it are the big ones: qwen3-vl-2b (3.3 GB) and up.
+         The system model (0 MB), 450M (653 MB) and MiniCPM (2.1 GB) do not.
+         Wire it back in when a run is actually blocked, and the log will say so: Probe
+         records available headroom beside every task, so a jetsam kill leaves a trail. -->
+    <key>com.apple.developer.kernel.increased-memory-limit</key>
+    <true/>
+    <key>com.apple.developer.kernel.extended-virtual-addressing</key>
+    <true/>
+</dict>
+</plist>

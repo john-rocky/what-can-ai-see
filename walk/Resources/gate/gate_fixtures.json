@@ -1,0 +1,32 @@
+[
+ {
+  "image": "gate_count-4035246.jpg",
+  "note": "two women at a cafe table, mid shot",
+  "expect": "person"
+ },
+ {
+  "image": "gate_count-6137848.jpg",
+  "note": "three people at an outdoor table, wider",
+  "expect": "person"
+ },
+ {
+  "image": "gate_handover-7424456.jpg",
+  "note": "two people in a room, one seated on the floor",
+  "expect": "person"
+ },
+ {
+  "image": "gate_fall-8526604.jpg",
+  "note": "one man kneeling on a mat, close",
+  "expect": "person"
+ },
+ {
+  "image": "gate_fall-7667144.jpg",
+  "note": "a woman lying down, drawing \u2014 unusual pose",
+  "expect": "person"
+ },
+ {
+  "image": "gate_action-6101146.jpg",
+  "note": "one person seated at a table",
+  "expect": "person"
+ }
+]

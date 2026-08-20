@@ -1,0 +1,1082 @@
+{
+  "clip": "general-cannon",
+  "event": "commentary",
+  "label": "positive",
+  "question": "Describe what is happening.",
+  "onset_s": null,
+  "duration_s": 180.025,
+  "window_s": 3.0,
+  "stride_s": 2.0,
+  "panels": 4,
+  "ground_truth": "A man on a flatcar loads a cannon and aims it at a train ahead. The barrel settles until it points at him instead; he tries to block it, then scrambles forward along the coupling. The charge fires past him and hits the track ahead.\n",
+  "windows": [
+    {
+      "i": 0,
+      "t_start": 0.0,
+      "t_end": 3.0,
+      "times": [
+        0.375,
+        1.125,
+        1.875,
+        2.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w000.jpg"
+    },
+    {
+      "i": 1,
+      "t_start": 2.0,
+      "t_end": 5.0,
+      "times": [
+        2.375,
+        3.125,
+        3.875,
+        4.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w001.jpg"
+    },
+    {
+      "i": 2,
+      "t_start": 4.0,
+      "t_end": 7.0,
+      "times": [
+        4.375,
+        5.125,
+        5.875,
+        6.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w002.jpg"
+    },
+    {
+      "i": 3,
+      "t_start": 6.0,
+      "t_end": 9.0,
+      "times": [
+        6.375,
+        7.125,
+        7.875,
+        8.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w003.jpg"
+    },
+    {
+      "i": 4,
+      "t_start": 8.0,
+      "t_end": 11.0,
+      "times": [
+        8.375,
+        9.125,
+        9.875,
+        10.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w004.jpg"
+    },
+    {
+      "i": 5,
+      "t_start": 10.0,
+      "t_end": 13.0,
+      "times": [
+        10.375,
+        11.125,
+        11.875,
+        12.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w005.jpg"
+    },
+    {
+      "i": 6,
+      "t_start": 12.0,
+      "t_end": 15.0,
+      "times": [
+        12.375,
+        13.125,
+        13.875,
+        14.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w006.jpg"
+    },
+    {
+      "i": 7,
+      "t_start": 14.0,
+      "t_end": 17.0,
+      "times": [
+        14.375,
+        15.125,
+        15.875,
+        16.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w007.jpg"
+    },
+    {
+      "i": 8,
+      "t_start": 16.0,
+      "t_end": 19.0,
+      "times": [
+        16.375,
+        17.125,
+        17.875,
+        18.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w008.jpg"
+    },
+    {
+      "i": 9,
+      "t_start": 18.0,
+      "t_end": 21.0,
+      "times": [
+        18.375,
+        19.125,
+        19.875,
+        20.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w009.jpg"
+    },
+    {
+      "i": 10,
+      "t_start": 20.0,
+      "t_end": 23.0,
+      "times": [
+        20.375,
+        21.125,
+        21.875,
+        22.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w010.jpg"
+    },
+    {
+      "i": 11,
+      "t_start": 22.0,
+      "t_end": 25.0,
+      "times": [
+        22.375,
+        23.125,
+        23.875,
+        24.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w011.jpg"
+    },
+    {
+      "i": 12,
+      "t_start": 24.0,
+      "t_end": 27.0,
+      "times": [
+        24.375,
+        25.125,
+        25.875,
+        26.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w012.jpg"
+    },
+    {
+      "i": 13,
+      "t_start": 26.0,
+      "t_end": 29.0,
+      "times": [
+        26.375,
+        27.125,
+        27.875,
+        28.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w013.jpg"
+    },
+    {
+      "i": 14,
+      "t_start": 28.0,
+      "t_end": 31.0,
+      "times": [
+        28.375,
+        29.125,
+        29.875,
+        30.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w014.jpg"
+    },
+    {
+      "i": 15,
+      "t_start": 30.0,
+      "t_end": 33.0,
+      "times": [
+        30.375,
+        31.125,
+        31.875,
+        32.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w015.jpg"
+    },
+    {
+      "i": 16,
+      "t_start": 32.0,
+      "t_end": 35.0,
+      "times": [
+        32.375,
+        33.125,
+        33.875,
+        34.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w016.jpg"
+    },
+    {
+      "i": 17,
+      "t_start": 34.0,
+      "t_end": 37.0,
+      "times": [
+        34.375,
+        35.125,
+        35.875,
+        36.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w017.jpg"
+    },
+    {
+      "i": 18,
+      "t_start": 36.0,
+      "t_end": 39.0,
+      "times": [
+        36.375,
+        37.125,
+        37.875,
+        38.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w018.jpg"
+    },
+    {
+      "i": 19,
+      "t_start": 38.0,
+      "t_end": 41.0,
+      "times": [
+        38.375,
+        39.125,
+        39.875,
+        40.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w019.jpg"
+    },
+    {
+      "i": 20,
+      "t_start": 40.0,
+      "t_end": 43.0,
+      "times": [
+        40.375,
+        41.125,
+        41.875,
+        42.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w020.jpg"
+    },
+    {
+      "i": 21,
+      "t_start": 42.0,
+      "t_end": 45.0,
+      "times": [
+        42.375,
+        43.125,
+        43.875,
+        44.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w021.jpg"
+    },
+    {
+      "i": 22,
+      "t_start": 44.0,
+      "t_end": 47.0,
+      "times": [
+        44.375,
+        45.125,
+        45.875,
+        46.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w022.jpg"
+    },
+    {
+      "i": 23,
+      "t_start": 46.0,
+      "t_end": 49.0,
+      "times": [
+        46.375,
+        47.125,
+        47.875,
+        48.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w023.jpg"
+    },
+    {
+      "i": 24,
+      "t_start": 48.0,
+      "t_end": 51.0,
+      "times": [
+        48.375,
+        49.125,
+        49.875,
+        50.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w024.jpg"
+    },
+    {
+      "i": 25,
+      "t_start": 50.0,
+      "t_end": 53.0,
+      "times": [
+        50.375,
+        51.125,
+        51.875,
+        52.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w025.jpg"
+    },
+    {
+      "i": 26,
+      "t_start": 52.0,
+      "t_end": 55.0,
+      "times": [
+        52.375,
+        53.125,
+        53.875,
+        54.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w026.jpg"
+    },
+    {
+      "i": 27,
+      "t_start": 54.0,
+      "t_end": 57.0,
+      "times": [
+        54.375,
+        55.125,
+        55.875,
+        56.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w027.jpg"
+    },
+    {
+      "i": 28,
+      "t_start": 56.0,
+      "t_end": 59.0,
+      "times": [
+        56.375,
+        57.125,
+        57.875,
+        58.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w028.jpg"
+    },
+    {
+      "i": 29,
+      "t_start": 58.0,
+      "t_end": 61.0,
+      "times": [
+        58.375,
+        59.125,
+        59.875,
+        60.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w029.jpg"
+    },
+    {
+      "i": 30,
+      "t_start": 60.0,
+      "t_end": 63.0,
+      "times": [
+        60.375,
+        61.125,
+        61.875,
+        62.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w030.jpg"
+    },
+    {
+      "i": 31,
+      "t_start": 62.0,
+      "t_end": 65.0,
+      "times": [
+        62.375,
+        63.125,
+        63.875,
+        64.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w031.jpg"
+    },
+    {
+      "i": 32,
+      "t_start": 64.0,
+      "t_end": 67.0,
+      "times": [
+        64.375,
+        65.125,
+        65.875,
+        66.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w032.jpg"
+    },
+    {
+      "i": 33,
+      "t_start": 66.0,
+      "t_end": 69.0,
+      "times": [
+        66.375,
+        67.125,
+        67.875,
+        68.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w033.jpg"
+    },
+    {
+      "i": 34,
+      "t_start": 68.0,
+      "t_end": 71.0,
+      "times": [
+        68.375,
+        69.125,
+        69.875,
+        70.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w034.jpg"
+    },
+    {
+      "i": 35,
+      "t_start": 70.0,
+      "t_end": 73.0,
+      "times": [
+        70.375,
+        71.125,
+        71.875,
+        72.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w035.jpg"
+    },
+    {
+      "i": 36,
+      "t_start": 72.0,
+      "t_end": 75.0,
+      "times": [
+        72.375,
+        73.125,
+        73.875,
+        74.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w036.jpg"
+    },
+    {
+      "i": 37,
+      "t_start": 74.0,
+      "t_end": 77.0,
+      "times": [
+        74.375,
+        75.125,
+        75.875,
+        76.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w037.jpg"
+    },
+    {
+      "i": 38,
+      "t_start": 76.0,
+      "t_end": 79.0,
+      "times": [
+        76.375,
+        77.125,
+        77.875,
+        78.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w038.jpg"
+    },
+    {
+      "i": 39,
+      "t_start": 78.0,
+      "t_end": 81.0,
+      "times": [
+        78.375,
+        79.125,
+        79.875,
+        80.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w039.jpg"
+    },
+    {
+      "i": 40,
+      "t_start": 80.0,
+      "t_end": 83.0,
+      "times": [
+        80.375,
+        81.125,
+        81.875,
+        82.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w040.jpg"
+    },
+    {
+      "i": 41,
+      "t_start": 82.0,
+      "t_end": 85.0,
+      "times": [
+        82.375,
+        83.125,
+        83.875,
+        84.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w041.jpg"
+    },
+    {
+      "i": 42,
+      "t_start": 84.0,
+      "t_end": 87.0,
+      "times": [
+        84.375,
+        85.125,
+        85.875,
+        86.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w042.jpg"
+    },
+    {
+      "i": 43,
+      "t_start": 86.0,
+      "t_end": 89.0,
+      "times": [
+        86.375,
+        87.125,
+        87.875,
+        88.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w043.jpg"
+    },
+    {
+      "i": 44,
+      "t_start": 88.0,
+      "t_end": 91.0,
+      "times": [
+        88.375,
+        89.125,
+        89.875,
+        90.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w044.jpg"
+    },
+    {
+      "i": 45,
+      "t_start": 90.0,
+      "t_end": 93.0,
+      "times": [
+        90.375,
+        91.125,
+        91.875,
+        92.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w045.jpg"
+    },
+    {
+      "i": 46,
+      "t_start": 92.0,
+      "t_end": 95.0,
+      "times": [
+        92.375,
+        93.125,
+        93.875,
+        94.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w046.jpg"
+    },
+    {
+      "i": 47,
+      "t_start": 94.0,
+      "t_end": 97.0,
+      "times": [
+        94.375,
+        95.125,
+        95.875,
+        96.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w047.jpg"
+    },
+    {
+      "i": 48,
+      "t_start": 96.0,
+      "t_end": 99.0,
+      "times": [
+        96.375,
+        97.125,
+        97.875,
+        98.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w048.jpg"
+    },
+    {
+      "i": 49,
+      "t_start": 98.0,
+      "t_end": 101.0,
+      "times": [
+        98.375,
+        99.125,
+        99.875,
+        100.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w049.jpg"
+    },
+    {
+      "i": 50,
+      "t_start": 100.0,
+      "t_end": 103.0,
+      "times": [
+        100.375,
+        101.125,
+        101.875,
+        102.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w050.jpg"
+    },
+    {
+      "i": 51,
+      "t_start": 102.0,
+      "t_end": 105.0,
+      "times": [
+        102.375,
+        103.125,
+        103.875,
+        104.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w051.jpg"
+    },
+    {
+      "i": 52,
+      "t_start": 104.0,
+      "t_end": 107.0,
+      "times": [
+        104.375,
+        105.125,
+        105.875,
+        106.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w052.jpg"
+    },
+    {
+      "i": 53,
+      "t_start": 106.0,
+      "t_end": 109.0,
+      "times": [
+        106.375,
+        107.125,
+        107.875,
+        108.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w053.jpg"
+    },
+    {
+      "i": 54,
+      "t_start": 108.0,
+      "t_end": 111.0,
+      "times": [
+        108.375,
+        109.125,
+        109.875,
+        110.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w054.jpg"
+    },
+    {
+      "i": 55,
+      "t_start": 110.0,
+      "t_end": 113.0,
+      "times": [
+        110.375,
+        111.125,
+        111.875,
+        112.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w055.jpg"
+    },
+    {
+      "i": 56,
+      "t_start": 112.0,
+      "t_end": 115.0,
+      "times": [
+        112.375,
+        113.125,
+        113.875,
+        114.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w056.jpg"
+    },
+    {
+      "i": 57,
+      "t_start": 114.0,
+      "t_end": 117.0,
+      "times": [
+        114.375,
+        115.125,
+        115.875,
+        116.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w057.jpg"
+    },
+    {
+      "i": 58,
+      "t_start": 116.0,
+      "t_end": 119.0,
+      "times": [
+        116.375,
+        117.125,
+        117.875,
+        118.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w058.jpg"
+    },
+    {
+      "i": 59,
+      "t_start": 118.0,
+      "t_end": 121.0,
+      "times": [
+        118.375,
+        119.125,
+        119.875,
+        120.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w059.jpg"
+    },
+    {
+      "i": 60,
+      "t_start": 120.0,
+      "t_end": 123.0,
+      "times": [
+        120.375,
+        121.125,
+        121.875,
+        122.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w060.jpg"
+    },
+    {
+      "i": 61,
+      "t_start": 122.0,
+      "t_end": 125.0,
+      "times": [
+        122.375,
+        123.125,
+        123.875,
+        124.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w061.jpg"
+    },
+    {
+      "i": 62,
+      "t_start": 124.0,
+      "t_end": 127.0,
+      "times": [
+        124.375,
+        125.125,
+        125.875,
+        126.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w062.jpg"
+    },
+    {
+      "i": 63,
+      "t_start": 126.0,
+      "t_end": 129.0,
+      "times": [
+        126.375,
+        127.125,
+        127.875,
+        128.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w063.jpg"
+    },
+    {
+      "i": 64,
+      "t_start": 128.0,
+      "t_end": 131.0,
+      "times": [
+        128.375,
+        129.125,
+        129.875,
+        130.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w064.jpg"
+    },
+    {
+      "i": 65,
+      "t_start": 130.0,
+      "t_end": 133.0,
+      "times": [
+        130.375,
+        131.125,
+        131.875,
+        132.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w065.jpg"
+    },
+    {
+      "i": 66,
+      "t_start": 132.0,
+      "t_end": 135.0,
+      "times": [
+        132.375,
+        133.125,
+        133.875,
+        134.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w066.jpg"
+    },
+    {
+      "i": 67,
+      "t_start": 134.0,
+      "t_end": 137.0,
+      "times": [
+        134.375,
+        135.125,
+        135.875,
+        136.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w067.jpg"
+    },
+    {
+      "i": 68,
+      "t_start": 136.0,
+      "t_end": 139.0,
+      "times": [
+        136.375,
+        137.125,
+        137.875,
+        138.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w068.jpg"
+    },
+    {
+      "i": 69,
+      "t_start": 138.0,
+      "t_end": 141.0,
+      "times": [
+        138.375,
+        139.125,
+        139.875,
+        140.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w069.jpg"
+    },
+    {
+      "i": 70,
+      "t_start": 140.0,
+      "t_end": 143.0,
+      "times": [
+        140.375,
+        141.125,
+        141.875,
+        142.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w070.jpg"
+    },
+    {
+      "i": 71,
+      "t_start": 142.0,
+      "t_end": 145.0,
+      "times": [
+        142.375,
+        143.125,
+        143.875,
+        144.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w071.jpg"
+    },
+    {
+      "i": 72,
+      "t_start": 144.0,
+      "t_end": 147.0,
+      "times": [
+        144.375,
+        145.125,
+        145.875,
+        146.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w072.jpg"
+    },
+    {
+      "i": 73,
+      "t_start": 146.0,
+      "t_end": 149.0,
+      "times": [
+        146.375,
+        147.125,
+        147.875,
+        148.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w073.jpg"
+    },
+    {
+      "i": 74,
+      "t_start": 148.0,
+      "t_end": 151.0,
+      "times": [
+        148.375,
+        149.125,
+        149.875,
+        150.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w074.jpg"
+    },
+    {
+      "i": 75,
+      "t_start": 150.0,
+      "t_end": 153.0,
+      "times": [
+        150.375,
+        151.125,
+        151.875,
+        152.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w075.jpg"
+    },
+    {
+      "i": 76,
+      "t_start": 152.0,
+      "t_end": 155.0,
+      "times": [
+        152.375,
+        153.125,
+        153.875,
+        154.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w076.jpg"
+    },
+    {
+      "i": 77,
+      "t_start": 154.0,
+      "t_end": 157.0,
+      "times": [
+        154.375,
+        155.125,
+        155.875,
+        156.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w077.jpg"
+    },
+    {
+      "i": 78,
+      "t_start": 156.0,
+      "t_end": 159.0,
+      "times": [
+        156.375,
+        157.125,
+        157.875,
+        158.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w078.jpg"
+    },
+    {
+      "i": 79,
+      "t_start": 158.0,
+      "t_end": 161.0,
+      "times": [
+        158.375,
+        159.125,
+        159.875,
+        160.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w079.jpg"
+    },
+    {
+      "i": 80,
+      "t_start": 160.0,
+      "t_end": 163.0,
+      "times": [
+        160.375,
+        161.125,
+        161.875,
+        162.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w080.jpg"
+    },
+    {
+      "i": 81,
+      "t_start": 162.0,
+      "t_end": 165.0,
+      "times": [
+        162.375,
+        163.125,
+        163.875,
+        164.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w081.jpg"
+    },
+    {
+      "i": 82,
+      "t_start": 164.0,
+      "t_end": 167.0,
+      "times": [
+        164.375,
+        165.125,
+        165.875,
+        166.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w082.jpg"
+    },
+    {
+      "i": 83,
+      "t_start": 166.0,
+      "t_end": 169.0,
+      "times": [
+        166.375,
+        167.125,
+        167.875,
+        168.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w083.jpg"
+    },
+    {
+      "i": 84,
+      "t_start": 168.0,
+      "t_end": 171.0,
+      "times": [
+        168.375,
+        169.125,
+        169.875,
+        170.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w084.jpg"
+    },
+    {
+      "i": 85,
+      "t_start": 170.0,
+      "t_end": 173.0,
+      "times": [
+        170.375,
+        171.125,
+        171.875,
+        172.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w085.jpg"
+    },
+    {
+      "i": 86,
+      "t_start": 172.0,
+      "t_end": 175.0,
+      "times": [
+        172.375,
+        173.125,
+        173.875,
+        174.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w086.jpg"
+    },
+    {
+      "i": 87,
+      "t_start": 174.0,
+      "t_end": 177.0,
+      "times": [
+        174.375,
+        175.125,
+        175.875,
+        176.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w087.jpg"
+    },
+    {
+      "i": 88,
+      "t_start": 176.0,
+      "t_end": 179.0,
+      "times": [
+        176.375,
+        177.125,
+        177.875,
+        178.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/general-cannon/windows/w088.jpg"
+    }
+  ]
+}

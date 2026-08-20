@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- NOT wired into project.yml, on purpose. The walk runs yolox-s (36 MB) plus
+         LFM2.5-VL 450M (653 MB), which fits under the default per-process limit — and
+         `com.apple.developer.kernel.increased-memory-limit` cannot be signed unless the
+         capability is enabled for this App ID in the developer portal, which is a manual
+         web step. Adding it "just in case" traded a working build for a provisioning
+         error. Wire it back in (CODE_SIGN_ENTITLEMENTS in project.yml) only when a walk
+         actually needs a model big enough to require it. -->
+    <key>com.apple.developer.kernel.increased-memory-limit</key>
+    <true/>
+</dict>
+</plist>

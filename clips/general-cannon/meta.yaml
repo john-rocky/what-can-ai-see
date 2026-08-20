@@ -1,0 +1,65 @@
+# A 3-minute stretch of a 1926 silent feature, taken whole rather than cut to an
+# event. Silent comedy is the closest thing to a purpose-built test of visual
+# comprehension: it was engineered to be legible with no audio at all, so every
+# beat is carried by what is in the frame. A human reads the gag here in half a
+# second — the cannon the man loaded has settled until its muzzle points back at
+# him. Both objects are COCO classes and a detector will find both; the danger is
+# in the RELATION between them, and there is no detector for that.
+#
+# No onset. This is not one event with a before and an after; it is a continuous
+# run of them, which is the point — the stream tier has never been given footage
+# that keeps producing new events for three minutes.
+id: general-cannon
+tier: film
+event: commentary
+label: positive
+pair: null
+onset_s: null
+duration_s: 180.0
+camera: moving
+ground_truth: >
+  A man on a flatcar loads a cannon and aims it at a train ahead. The barrel
+  settles until it points at him instead; he tries to block it, then scrambles
+  forward along the coupling. The charge fires past him and hits the track ahead.
+source:
+  kind: film
+  provider: archive.org
+  id: The_General_Buster_Keaton
+  url: https://archive.org/details/The_General_Buster_Keaton
+  title: The General (1926), dir. Buster Keaton & Clyde Bruckman
+  segment_s: [1235, 1415]
+  license: public domain (US) — copyright not renewed
+  license_note: >
+    Public domain in the United States. NOT verified for Japan or the EU: the EU term
+    runs from the death of the last of director/writer/composer (Keaton d. 1966), and
+    Japan's pre-1971 films were litigated as individually-named works (the 2007 Chaplin
+    ruling). Measurement here is private and unaffected; this must be settled before any
+    frame of it is posted.
+conditions:
+  viewpoint: mixed
+  distance: mixed
+  light: daylight
+  occlusion: low
+  blur: low
+  clutter: medium
+genre: relation
+kind: transition
+
+# The one fact a person takes from this stretch. Verified by eye on the window
+# sheets, not inferred from the plot: from w035 the shot is head-on down the bore
+# with the man beside it, and from w040 it is a side view with the muzzle to his
+# left and the man standing in front of it. By w048 he has propped the barrel up
+# and the relation is over.
+#
+# The patterns are deliberately generous — direction, aim, danger, line of fire,
+# any of them in any phrasing counts. A zero under generous matching is a finding;
+# a zero under strict matching is a badly written regex.
+key_fact:
+  window_s: [73, 97]
+  plain: the cannon's muzzle is pointing at the man
+  says:
+    - "(point|aim|face|direct)\\w*\\s+(?:\\w+\\s+){0,3}?(at|toward|towards)\\s+(him|himself|the man|the person|the soldier)"
+    - "(muzzle|barrel|cannon|gun)\\b[^.]{0,60}\\b(at|toward|towards)\\s+(him|himself|the man|the person)"
+    - "line of fire"
+    - "(in|into)\\s+danger|dangerous(ly)?\\s+(close|positioned)|at risk|about to be (hit|shot|struck|killed)"
+    - "(pointing|aimed|directed)\\s+(back|backwards|inward|at itself|toward the train)"

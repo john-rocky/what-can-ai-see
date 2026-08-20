@@ -22,3 +22,16 @@ runner/.build/
 .DS_Store
 clips/**/*.png
 clips/**/*.jpg
+
+# iOS build products. The generated .xcodeproj is derived from project.yml by xcodegen —
+# committing it means every regeneration is a diff nobody reads.
+phone/*.xcodeproj/
+walk/*.xcodeproj/
+phone/Resources/
+walk/Resources/gate/*.jpg
+**/DerivedData/
+**/.build_xcode/
+
+# Downloaded source films. Public domain, but 100-400 MB each and re-fetchable from the
+# archive.org ids recorded in clips/*/meta.yaml.
+sources/film/

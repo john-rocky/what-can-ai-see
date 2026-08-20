@@ -42,6 +42,7 @@ struct Task: Decodable {
 let usage = """
     usage: wcas-run --model <catalog-id> --tasks <file.jsonl> --out <file.jsonl>
                     [--max-tokens N] [--temperature F] [--resume]
+                    [--greedy] [--seed N]
     """
 
 var modelID: String?
@@ -50,6 +51,14 @@ var outPath: String?
 var maxTokens = 96
 var temperature: Double?
 var resume = false
+// Sampling. The default was whatever the runtime picks, which is a SAMPLER — so every
+// figure in this repo was measured from one draw of a distribution and re-running the
+// same window could change the answer. Measured on the phone across three passes of the
+// same 27 windows: content-word overlap between runs had a median of 0.21, and one
+// judgment window named the event in 1 of 3 runs. `--greedy` takes the argmax instead,
+// which removes the variance rather than pinning it to one arbitrary draw.
+var greedy = false
+var seed: UInt64?
 
 var argv = CommandLine.arguments.dropFirst()
 while let a = argv.popFirst() {
@@ -60,6 +69,8 @@ while let a = argv.popFirst() {
     case "--max-tokens": maxTokens = Int(argv.popFirst() ?? "") ?? maxTokens
     case "--temperature": temperature = Double(argv.popFirst() ?? "")
     case "--resume": resume = true
+    case "--greedy": greedy = true
+    case "--seed": seed = UInt64(argv.popFirst() ?? "")
     default: die("unknown argument \(a)\n\(usage)")
     }
 }
@@ -139,7 +150,13 @@ if !FileManager.default.fileExists(atPath: outPath) {
 guard let sink = FileHandle(forWritingAtPath: outPath) else { die("cannot write \(outPath)") }
 sink.seekToEndOfFile()
 
-let options = GenerationOptions(temperature: temperature, maximumResponseTokens: maxTokens)
+// A seed only means anything for a sampler, so --seed implies top-k sampling; --greedy
+// wins if both are given, because "deterministic" is the stronger request.
+let sampling: GenerationOptions.SamplingMode? =
+    greedy ? .greedy : (seed.map { .random(top: 50, seed: $0) })
+let options = GenerationOptions(
+    samplingMode: sampling, temperature: temperature, maximumResponseTokens: maxTokens)
+if let sampling { err("sampling: \(sampling.kind)") }
 
 func emit(_ payload: [String: Any]) {
     guard let data = try? JSONSerialization.data(withJSONObject: payload, options: [.sortedKeys])

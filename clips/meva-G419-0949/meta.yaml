@@ -1,0 +1,37 @@
+# MEVA, camera G419, three consecutive segments joined: 09:49:46 to 09:55:00.
+# The first genuinely long single-camera recording in this corpus — everything
+# before it was 15s of stock or a 9s shot from an edited documentary.
+id: meva-G419-0949
+tier: field
+event: person-enters
+label: negative
+pair: null
+onset_s: null
+duration_s: 314.1
+camera: fixed
+ground_truth: A school stairwell seen from a fixed ceiling camera for five minutes and fourteen seconds.
+  Nobody enters, nothing moves; measured foreground change is 0.000 across the whole span. Real surveillance
+  footage of the condition a camera is in most of the time.
+source:
+  kind: dataset
+  provider: mevadata.org
+  dataset: MEVA (Multiview Extended Video with Activities)
+  camera: G419
+  site: school
+  segments:
+  - 2018-03-05.09-49-46.09-50-00.school.G419.r13.avi
+  - 2018-03-05.09-50-00.09-50-16.school.G419.r13.avi
+  - 2018-03-05.09-50-16.09-55-00.school.G419.r13.avi
+  license: CC BY 4.0
+  license_note: commercial use permitted, attribution required, no ShareAlike and no NonCommercial
+    clause — the only long fixed-camera source found with those terms.
+  url: https://mevadata.org/
+conditions:
+  viewpoint: UNVERIFIED
+  distance: UNVERIFIED
+  light: UNVERIFIED
+  occlusion: UNVERIFIED
+  blur: UNVERIFIED
+  clutter: UNVERIFIED
+expected: 'no'
+kind: stable

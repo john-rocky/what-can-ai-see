@@ -1,0 +1,40 @@
+Launched application with com.whatcanaisee.phonebench bundle identifier.
+Waiting for the application to terminate…
+[    0.0] device: iPhone18,1 iOS Version 27.0 (Build 24A5418b)
+[    0.0] physical memory: 11722 MB
+[    0.0] model: lfm2.5-vl-450m  maxTokens: 96
+[    0.0] start {"available_mb":3364.1999999999998,"battery_pct":95,"footprint_mb":11.800000000000001,"thermal":"nominal"}
+[    0.0] 27 task(s)
+[    0.0] system model: available=true vision=true
+[    0.0] loading …
+[    1.6] loaded in 1.6 s  {"available_mb":3312.5,"battery_pct":95,"footprint_mb":63.5,"thermal":"nominal"}
+[    7.4] [  1/ 27] ok   general-bridge|w000|open   5771 ms  fp=155 avail=3221 nominal
+[   10.9] [  2/ 27] ok   general-bridge|w012|open   3520 ms  fp=156 avail=3220 nominal
+[   14.5] [  3/ 27] ok   general-bridge|w013|open   3524 ms  fp=156 avail=3220 nominal
+[   18.0] [  4/ 27] ok   general-bridge|w014|open   3568 ms  fp=156 avail=3220 nominal
+[   21.7] [  5/ 27] ok   general-bridge|w015|open   3674 ms  fp=156 avail=3220 nominal
+[   25.4] [  6/ 27] ok   general-bridge|w024|open   3702 ms  fp=156 avail=3220 nominal
+[   29.3] [  7/ 27] ok   general-bridge|w036|open   3853 ms  fp=156 avail=3220 nominal
+[   33.0] [  8/ 27] ok   general-cannon|w000|open   3773 ms  fp=156 avail=3220 nominal
+[   36.9] [  9/ 27] ok   general-cannon|w012|open   3844 ms  fp=155 avail=3221 nominal
+[   40.7] [ 10/ 27] ok   general-cannon|w024|open   3843 ms  fp=157 avail=3219 nominal
+[   44.6] [ 11/ 27] ok   general-cannon|w035|open   3868 ms  fp=157 avail=3219 fair
+[   48.8] [ 12/ 27] ok   general-cannon|w036|open   4261 ms  fp=157 avail=3219 fair
+[   53.0] [ 13/ 27] ok   general-cannon|w037|open   4169 ms  fp=135 avail=3241 fair
+[   57.4] [ 14/ 27] ok   general-cannon|w038|open   4415 ms  fp=157 avail=3219 fair
+[   62.1] [ 15/ 27] ok   general-cannon|w039|open   4678 ms  fp=125 avail=3251 fair
+[   67.2] [ 16/ 27] ok   general-cannon|w040|open   5066 ms  fp=125 avail=3251 fair
+[   72.8] [ 17/ 27] ok   general-cannon|w041|open   5586 ms  fp=112 avail=3264 fair
+[   78.5] [ 18/ 27] ok   general-cannon|w042|open   5698 ms  fp=126 avail=3250 fair
+[   84.2] [ 19/ 27] ok   general-cannon|w043|open   5698 ms  fp=126 avail=3250 fair
+[   89.8] [ 20/ 27] ok   general-cannon|w044|open   5621 ms  fp=113 avail=3263 fair
+[   95.4] [ 21/ 27] ok   general-cannon|w045|open   5654 ms  fp=126 avail=3250 fair
+[  101.1] [ 22/ 27] ok   general-cannon|w046|open   5645 ms  fp=126 avail=3250 fair
+[  106.7] [ 23/ 27] ok   general-cannon|w047|open   5617 ms  fp=113 avail=3263 fair
+[  112.2] [ 24/ 27] ok   general-cannon|w048|open   5541 ms  fp=126 avail=3250 fair
+[  117.7] [ 25/ 27] ok   general-cannon|w060|open   5509 ms  fp=113 avail=3263 fair
+[  123.3] [ 26/ 27] ok   general-cannon|w072|open   5505 ms  fp=126 avail=3250 fair
+[  128.8] [ 27/ 27] ok   general-cannon|w084|open   5499 ms  fp=114 avail=3262 fair
+[  128.8] STATS model=lfm2.5-vl-450m n=27 load_s=1.6 mean_s=4.71 windows_per_s=0.212 peak_fp_mb=157 fail=0 thermal=fair battery=95
+RESULTS /var/mobile/Containers/Data/Application/5A2047C0-B4E6-4918-BB00-CA2583ED36FF/Documents/lfm2.5-vl-450m.jsonl
+App terminated due to signal 15.

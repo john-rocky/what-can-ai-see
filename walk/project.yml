@@ -1,0 +1,69 @@
+# wcas-walk — run the thing in the world it is supposed to run in.
+#
+# Everything else in this repo feeds a model footage from disk. This walks around with the
+# phone: live camera, hand-held motion, real light, real scene changes. Two loops — a 36 MB
+# detector on every frame deciding whether the frame is allowed to be recorded at all, and
+# a VLM describing whatever survived, several seconds behind the world.
+#
+#   xcodegen generate --spec walk/project.yml --project walk
+#   DEVELOPER_DIR=/Applications/Xcode-27.0.0-Beta.5.app/Contents/Developer \
+#     xcodebuild -project walk/wcas-walk.xcodeproj -scheme wcas-walk \
+#     -destination 'generic/platform=iOS' -configuration Release build
+name: wcas-walk
+options:
+  bundleIdPrefix: com.whatcanaisee
+  createIntermediateGroups: true
+
+packages:
+  coreai-kit:
+    path: ../../coreai-kit
+
+schemes:
+  wcas-walk:
+    build:
+      targets:
+        wcas-walk: all
+    run:
+      config: Release
+
+targets:
+  wcas-walk:
+    type: application
+    supportedDestinations: [iOS]
+    deploymentTarget:
+      iOS: "27.0"
+    sources:
+      - path: Sources
+      # The people-fixtures the gate must pass before Start is enabled. Bundled, not pushed
+      # to Documents: a fixture set that can drift from the binary is a self-test that can
+      # pass against images nobody checked. Cut by tools/gate_frames.py.
+      - path: Resources/gate
+    dependencies:
+      # CoreAIKit for the VLM (KitVisionModel); CoreAIKitVision for the camera feed and the
+      # detector that drives the gate. The two are separate products so an app that only
+      # needs CV does not link an LLM runtime — here we need both.
+      - package: coreai-kit
+        product: CoreAIKit
+      - package: coreai-kit
+        product: CoreAIKitVision
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.whatcanaisee.walk
+        DEVELOPMENT_TEAM: ${DEVELOPMENT_TEAM}
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_VERSION: "6.0"
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: "YES"
+        INFOPLIST_KEY_CFBundleDisplayName: "Walk"
+        INFOPLIST_KEY_UILaunchScreen_Generation: "YES"
+        SWIFT_APPROACHABLE_CONCURRENCY: "YES"
+        INFOPLIST_KEY_NSCameraUsageDescription: >-
+          The camera runs a small on-device model that describes the scene. Recording stops
+          automatically whenever a person is detected, and nothing leaves the device.
+        # A walk is minutes long with the screen on and two models resident. Portrait only:
+        # a rotation mid-walk changes the frame the gate is reasoning about.
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+      configs:
+        Release:
+          SWIFT_OPTIMIZATION_LEVEL: "-O"

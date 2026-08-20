@@ -96,11 +96,17 @@ def main() -> None:
             with tempfile.TemporaryDirectory() as td:
                 frames = extract(video, times, Path(td))
                 compose(frames, cols, rows, "badge").save(sheet_path, quality=93)
-        task_id = f"{args.clip.name}|w{i:03d}|gate"
+        # A neutral pass asks for a description, so it must NOT also demand a
+        # Yes/No first line. Wrapping it in GATE anyway produced the prompt
+        # "Describe what is happening. Answer with the single word Yes or No",
+        # which is two contradictory instructions and measures neither.
+        kind = "open" if args.neutral else "gate"
+        body = (event["question"] if args.neutral
+                else GATE.format(question=event["question"]))
+        task_id = f"{args.clip.name}|w{i:03d}|{kind}"
         lines.append(json.dumps({
             "id": task_id, "image": str(sheet_path.resolve()),
-            "prompt": PREAMBLE.format(n=args.panels, w=args.window)
-                      + GATE.format(question=event["question"]),
+            "prompt": PREAMBLE.format(n=args.panels, w=args.window) + body,
         }))
         index.append({"i": i, "t_start": round(t0, 3), "t_end": round(t_end, 3),
                       "times": [round(x, 3) for x in times], "sheet": str(sheet_path)})

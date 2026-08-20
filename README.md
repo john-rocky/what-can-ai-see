@@ -68,16 +68,41 @@ events/               one question per event; genres.yaml is the meaning axis
 runs/                 every answer every model gave, as JSONL
 tools/                harness, scorers, baselines, video renderers
 runner/               Swift; loads a model once and streams a task file
-docs/FINDINGS.md      F1-F22
+phone/                iOS app: the same tasks, on the device the premise is about
+walk/                 iOS app: live camera, a person-gate in front of the recorder
+docs/FINDINGS.md      F1-F27
 ```
 
 Start with `docs/FINDINGS.md`. Every tool's docstring says what it measures and,
 where it applies, what it got wrong first.
 
+## On the device
+
+Everything above was measured on a Mac Studio M4 Max, which is a problem for a
+benchmark about models that run on a phone. `phone/` closes it: the same task
+files, the same prompts, the same catalog ids, on an iPhone 17 Pro.
+
+The answers agree — content-word overlap between the two machines has a median of
+0.94 over 27 windows, and the windows that disagree are the ones where nothing
+happens. So F1-F26 are not desktop findings (F26).
+
+What the desktop cannot show is the cost. LFM2.5-VL 450M answers a 3-second window
+in 4.68 s on the phone, which is 12x slower than the 0.4 s stride this benchmark's
+sliding window assumes, and it slows from 3.91 s to 5.59 s across two minutes as
+the phone heats (F27). Apple's own `SystemLanguageModel` is 2.1x faster at 34 MB
+resident and 0 MB to download — but it samples by default, so the same frame gets
+a different answer each run until you ask for `.greedy` (F25).
+
+`walk/` is the other half: a live camera, a 36 MB detector deciding frame by frame
+whether recording is allowed at all, and the VLM describing whatever survived. The
+gate proves itself against bundled fixtures at launch and refuses to enable Start
+if it cannot find the people in them.
+
 ## Running it
 
 Needs macOS 27, the Xcode 27 beta toolchain (CoreAI is not in the release SDK),
-and a Pexels API key for the stock corpus.
+and a Pexels API key for the stock corpus. The two iOS apps need a paired device;
+CoreAI is not in the Simulator.
 
 ```sh
 DEVELOPER_DIR=/Applications/Xcode-27.0.0-Beta.5.app/Contents/Developer \

@@ -1,0 +1,64 @@
+# wcas-phone — the same benchmark, on the device it is supposed to run on.
+#
+# Every number in this repo so far was measured on a Mac Studio M4 Max. The project's
+# whole premise is "on-device", so the central claim has never been tested. This app
+# exists to close that: same catalog ids, same task file format, same prompts as
+# `runner/`, executed on an iPhone.
+#
+# It is an app rather than a SwiftPM executable because a SwiftPM executable does not
+# run on iOS. Launch it headless over devicectl and read the log:
+#
+#   xcodegen generate --spec phone/project.yml --project phone
+#   DEVELOPER_DIR=/Applications/Xcode-27.0.0-Beta.5.app/Contents/Developer \
+#     xcodebuild -project phone/wcas-phone.xcodeproj -scheme wcas-phone \
+#     -destination 'generic/platform=iOS' -configuration Release build
+#   tools/phone_run.sh lfm2.5-vl-450m
+name: wcas-phone
+options:
+  bundleIdPrefix: com.whatcanaisee
+  createIntermediateGroups: true
+
+packages:
+  coreai-kit:
+    path: ../../coreai-kit
+
+schemes:
+  wcas-phone:
+    build:
+      targets:
+        wcas-phone: all
+    run:
+      config: Release
+
+targets:
+  wcas-phone:
+    type: application
+    supportedDestinations: [iOS]
+    deploymentTarget:
+      iOS: "27.0"
+    sources:
+      - path: Sources
+      - path: Resources
+        optional: true
+    dependencies:
+      - package: coreai-kit
+        product: CoreAIKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.whatcanaisee.phonebench
+        DEVELOPMENT_TEAM: ${DEVELOPMENT_TEAM}
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_VERSION: "6.0"
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: "YES"
+        INFOPLIST_KEY_CFBundleDisplayName: "WCAS Bench"
+        INFOPLIST_KEY_UILaunchScreen_Generation: "YES"
+        SWIFT_APPROACHABLE_CONCURRENCY: "YES"
+        # A 5.5 GB model is over the default per-process memory limit. The entitlement
+        # that raises it is `com.apple.developer.kernel.increased-memory-limit`, added
+        # below via a plist rather than here; UIRequiresFullScreen was the wrong knob and
+        # is deprecated as of iOS 26 besides.
+      configs:
+        Release:
+          SWIFT_OPTIMIZATION_LEVEL: "-O"

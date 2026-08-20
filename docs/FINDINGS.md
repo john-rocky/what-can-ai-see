@@ -1411,3 +1411,129 @@ output is believed.
 - **Everything beyond one real pair.** `runs/field-fall/` is one event, one pair.
   It demonstrates the method; it is not a result about falls.
 - **`g20`**, and whether the panel ladder ever turns back down on real footage.
+
+## F24 — MiniCPM-V 4.6 answers nothing for some prompts, deterministically, and says so only as an error
+
+Running the film segments produced 89 of 89 empty answers from MiniCPM-V 4.6 on
+`general-cannon` and 37 of 39 on `general-bridge`, each recorded as
+`ok:false, error:"Session ended without producing a response."` The obvious
+reading — that the model cannot describe this footage — is wrong, and checking
+took four experiments:
+
+| test | result |
+|---|---|
+| same model, tasks that succeeded in an earlier run (`runs/neutral`, 379/394 ok) | 0/6 — so not the footage |
+| sheet at 1024x770 vs the same sheet at 640x480, same prompt | both fail — not the image size |
+| single 640x480 frame, long prompt vs short prompt | long fails, short works |
+| 7 prompt lengths from 28 to 179 chars, 3 runs each | clean break: 28/58/88/118 all 3/3, 137/158/179 all 0/3 |
+
+That last row looks like a length limit, and it is not. A fifth test broke it:
+
+| prompt | chars | usable |
+|---|---|---|
+| `A contact sheet of 4 video frames spanning 3 seconds, earliest first. Describe…` | 97 | 3/3 |
+| `4 video frames in time order, earliest first, spanning 3 seconds. Describe…` | 93 | 0/3 |
+| `The image is a contact sheet of 4 frames, in time order: panel 1 first. Describe…` | 99 | 0/3 |
+| 166 chars of harmless unrelated description + `Describe…` | 166 | 0/3 |
+
+93 fails, 97 works, 99 fails. Not length, not the image, and no wording rule that
+survives the four cases. What IS stable is the all-or-nothing shape: every prompt
+tested was 3/3 or 0/3, never mixed. So the model is deterministic per prompt and
+the outcome is not predictable from the prompt.
+
+Two consequences, both practical:
+
+**Any MiniCPM number in this repo needs its answer count checked, not just its
+task count.** A run that emits one line per task and fails every one looks
+complete from the outside: the ids are all present, the file parses, and the
+scorer reads 89 answers of "". A count of empties is now part of the run.
+
+**The model is excluded from the film runs**, and the exclusion is stated rather
+than papered over by switching everyone to a prompt MiniCPM tolerates — the
+repo's own F13 is that question wording moves results more than model choice, so
+a prompt chosen to keep one model alive is not a neutral fix.
+
+The single-frame control is unaffected and its numbers stand: those prompts
+returned `ok:true` on all 9 frames, verified by re-running them after the failure
+was found.
+
+## F25 — the catalog models are deterministic; Apple's system model is not
+
+Every score in this repo treats one run as the model's answer, which is only sound if a
+second run says the same thing. That had never been checked. It was checked because a
+window that named an event on one pass did not name it on the next — on the phone.
+
+Same image, same prompt, `tools/repeat.py` scoring content-word overlap between runs:
+
+| model | where | runs | median overlap |
+|---|---|---|---|
+| LFM2.5-VL 450M | Mac | 2 | 1.00 |
+| LFM2.5-VL 3B | Mac | 3 | 1.00 |
+| Qwen3-VL 2B | Mac | 2 | 1.00 |
+| North Micro Vision | Mac | 2 | 1.00 |
+| Holo2 4B | Mac | 2 | 1.00 |
+| **Apple `SystemLanguageModel`** | **iPhone 17 Pro** | **3** | **0.21** |
+
+1.00 is character-identical. `--greedy` changed 0 of 9 answers on LFM 3B, so the catalog
+path was already taking the argmax without being asked. **F1-F24 reproduce.**
+
+The system model does not, and the movement is not cosmetic. Over the four windows where
+the bridge collapse is true, one named it in 1 of 3 runs — a single-run score of that
+window is a coin toss reported as a measurement. Refusals moved too: `general-bridge|w000`
+was refused in 1 of 3 runs of the same file, so "refusal rate" measured from one pass is
+not a property of the footage.
+
+**The fix is the caller's, one line.** `GenerationOptions(samplingMode: .greedy)` takes the
+median overlap to 1.00 and freezes the refusals with it (the cannon window that is refused
+is then refused every time). The trap is that the DEFAULT samples: a monitoring product
+built on the system model without asking gets a different answer for the same camera frame,
+and nothing in the API says so.
+
+Run it: `WCAS_GREEDY=1 tools/phone_run.sh system`, three times, then
+`tools/repeat.py --runs runs/phone/determinism/greedy-r*.jsonl --clip general-bridge`.
+
+## F26 — the phone agrees with the Mac, so F1-F24 are not Mac findings
+
+Everything here was measured on a Mac Studio M4 Max while the project is about models that
+run on a phone. If the two disagreed, the whole benchmark would describe a desktop.
+
+LFM2.5-VL 450M, the same 27 windows, same prompts, iPhone 17 Pro against the Mac:
+
+```
+content-word overlap   median 0.94   min 0.12   max 1.00
+```
+
+The four windows below 0.30 are all windows where **nothing happens** — a static forest, a
+train already crossing, a man standing beside a cannon. Both machines produce a thin
+description there and the thin descriptions differ in wording. Where there is an event to
+name, they agree.
+
+So the desktop numbers transfer. This is the finding that had to be checked before any of
+the others could be quoted at a phone, and it had been assumed for twenty-four of them.
+
+## F27 — on a phone the model is 12x slower than the sliding window assumes, and slows further
+
+The stream design in `tools/stream.py` steps every 0.4 s. On the device:
+
+| | LFM2.5-VL 450M | Apple system model |
+|---|---|---|
+| download | 653 MB | 0 MB (in the OS) |
+| load | 1.6 s | 0.0 s |
+| median per window | 4.68 s | 2.23 s |
+| windows per second | 0.212 | 0.44 |
+| vs the 0.4 s stride | **11.8x slower** | 5.6x slower |
+| peak footprint | 157 MB | 34 MB |
+| answered / refused | 27 / 0 | 26 / 1 |
+
+Two things that a desktop benchmark cannot see:
+
+**It gets slower while you watch.** Over 27 windows — two minutes — the 450M went from
+3.91 s per window in the first third to 5.59 s in the last, and the thermal state moved
+`nominal` to `fair`. The median is a mid-throttle number, not a cold one, and "always-on
+monitoring" is precisely the case where the cold number is the wrong one to quote.
+
+**The free model is not the slow one.** Apple's is 2.1x faster and uses 4.6x less memory,
+because it is already resident and shared. What it costs instead is refusals: it declined a
+cannon-loading window as unsafe on every run, and the 450M answered it. On the relation
+tests both score the same — 0/13 on the cannon's aim, 0/4 on the bridge — so the extra
+653 MB does not buy the thing this benchmark is about.
