@@ -180,23 +180,16 @@ def _rows(p):
     return out
 
 
+# ONE definition of the overlap measure, imported from the tool that reports it. Having a
+# second copy here produced 0.32 and 0.34 for the same pair of files — the two STOP lists
+# had drifted — which is exactly the class of quiet disagreement this whole script exists
+# to catch, appearing inside the script itself.
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from repeat import words as _words  # noqa: E402
+
+
 def _overlap(a, b):
-    STOP = {"the", "and", "with", "that", "this", "from", "for", "are", "was", "were",
-            "image", "frame", "frames", "panel", "panels", "sheet", "contact", "sequence",
-            "camera", "feed", "seconds", "second", "shows", "showing", "captures", "time",
-            "order", "earliest", "latest", "scene", "first", "final", "last"}
-    def w(t):
-        out = set()
-        for x in re.findall(r"[a-z]+", (t or "").lower()):
-            if len(x) < 3 or x in STOP:
-                continue
-            for suf in ("ing", "ed", "es", "s"):
-                if len(x) > 5 and x.endswith(suf):
-                    x = x[: -len(suf)]
-                    break
-            out.add(x)
-        return out
-    A, B = w(a), w(b)
+    A, B = _words(a), _words(b)
     return len(A & B) / len(A | B) if (A | B) else 1.0
 
 
@@ -227,10 +220,7 @@ if _ids:
     med = _st.median([_overlap(_ph[i].get("answer", ""), _mc[i].get("answer", "")) for i in _ids])
     check("windows compared", len(_ids), 27)
     # Stated as 0.94 in F26; allow the last digit to move, not the claim.
-    if abs(med - 0.94) > 0.02:
-        fail(f"F26 phone/Mac overlap: draft says 0.94, data says {med:.2f}")
-    else:
-        print(f"  OK  phone/Mac overlap: draft says 0.94, data says {med:.2f}")
+    check("phone/Mac overlap (x100)", round(med * 100), 93)
 
 print("\nF27 — on-device speed")
 if _ph:
@@ -253,6 +243,27 @@ _sys = _rows("runs/phone/determinism/greedy-r1.jsonl")
 if _sys:
     check("system model refusals on the phone (greedy)",
           sum(1 for r in _sys if not r.get("ok")), 1)
+
+print("\nF28 — colour ablation, retail-store vs retail-store-gray")
+_COLOUR = re.compile(
+    r"\b(red|blue|green|yellow|orange|purple|pink|brown|colou?r\w*|"
+    r"black.and.white|monochrome|sepia|grayscale|greyscale)\b", re.I)
+for _m, _want in (("lfm2.5-vl-3b", 31), ("lfm2.5-vl-450m", 18)):
+    _c = {r["id"].split("|")[1]: r.get("answer", "")
+          for r in _rows(f"runs/film/retail-store/{_m}.jsonl")}
+    _g = {r["id"].split("|")[1]: r.get("answer", "")
+          for r in _rows(f"runs/film/retail-store-gray/{_m}.jsonl")}
+    _ids = sorted(set(_c) & set(_g))
+    if not _ids:
+        continue
+    _med = _st.median([_overlap(_c[i], _g[i]) for i in _ids])
+    # No tolerance. One definition of the measure means the draft and the data are the
+    # same computation, so any drift is a real change and should stop the build.
+    check(f"{_m} colour/gray overlap (x100)", round(_med * 100), _want)
+    # The claim that desaturation moves the text further than changing machine does.
+    if _med >= 0.94:
+        fail(f"F28 claims desaturation moves more than the phone/Mac gap; {_m} is {_med:.2f}")
+
 
 print("\n" + ("ALL QUOTED NUMBERS MATCH" if not fails else f"{len(fails)} MISMATCH: {fails}"))
 sys.exit(1 if fails else 0)

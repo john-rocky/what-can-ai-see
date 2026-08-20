@@ -1500,7 +1500,7 @@ run on a phone. If the two disagreed, the whole benchmark would describe a deskt
 LFM2.5-VL 450M, the same 27 windows, same prompts, iPhone 17 Pro against the Mac:
 
 ```
-content-word overlap   median 0.94   min 0.12   max 1.00
+content-word overlap   median 0.93   min 0.12   max 1.00
 ```
 
 The four windows below 0.30 are all windows where **nothing happens** — a static forest, a
@@ -1537,3 +1537,34 @@ because it is already resident and shared. What it costs instead is refusals: it
 cannon-loading window as unsafe on every run, and the 450M answered it. On the relation
 tests both score the same — 0/13 on the cannon's aim, 0/4 on the bridge — so the extra
 653 MB does not buy the thing this benchmark is about.
+
+## F28 — remove the colour and the model describes a different shop
+
+F19 records that no real-footage pair in this corpus has a same-camera control: two clips
+of the same event are always two cameras, so an angle difference rides along with whatever
+is being tested. Colour is the one variable that escapes that, because it can be removed
+from footage rather than found in a second clip.
+
+`retail-store` is 150 s inside a 1954 supermarket — shelves, carts, staff, a checkout,
+legible signage. `retail-store-gray` is the same file with `hue=s=0` and nothing else
+changed: same camera, same framing, same events, same encoder settings, one channel of
+information gone. 50 windows each, greedy, same prompts.
+
+| model | content-word overlap, colour vs grayscale | windows mentioning colour |
+|---|---|---|
+| LFM2.5-VL 3B | median 0.31 (min 0.12) | 30/50 → 17/50 |
+| LFM2.5-VL 450M | median 0.18 (min 0.02) | 20/50 → 1/50 |
+
+For scale: the same measure between two runs of one model on identical input is 1.00
+(F25), and between a phone and a Mac on the same windows it is 0.93 (F26). Desaturation
+moves the description three to five times further than swapping the machine does.
+
+The colour words that survive are not errors. They have become brightness words —
+`light-colored dress`, `dark uniform` — which is what is actually visible. The 450M drops
+them almost entirely (20 → 1); the 3B keeps half.
+
+**Why this is a deployment number and not a curiosity.** Monitoring cameras run infrared at
+night and low-light monochrome in poor conditions. A benchmark shot in daylight colour is
+describing a different input from the one the night shift produces, and this is the size of
+that difference measured rather than assumed. The corpus's other clips cannot show it: the
+film tier is monochrome or sepia already, and the stock tier has no same-camera pair.

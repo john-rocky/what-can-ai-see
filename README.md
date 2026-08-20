@@ -83,7 +83,7 @@ benchmark about models that run on a phone. `phone/` closes it: the same task
 files, the same prompts, the same catalog ids, on an iPhone 17 Pro.
 
 The answers agree — content-word overlap between the two machines has a median of
-0.94 over 27 windows, and the windows that disagree are the ones where nothing
+0.93 over 27 windows, and the windows that disagree are the ones where nothing
 happens. So F1-F26 are not desktop findings (F26).
 
 What the desktop cannot show is the cost. LFM2.5-VL 450M answers a 3-second window

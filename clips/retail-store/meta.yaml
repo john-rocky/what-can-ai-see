@@ -1,0 +1,43 @@
+# A supermarket floor in 1954: shelves, carts, staff, customers, readable signage. The
+# retail monitoring case the project keeps naming as a destination, in the only long
+# licence-clean colour footage found for it.
+#
+# Colour is the variable it adds. Every other clip in the film tier is monochrome or
+# sepia, and in a shop colour is doing work — staff are in red, products are colour-coded,
+# the signs are red on white. That makes the desaturation control (same camera, same
+# framing, same event, colour removed) buildable here and nowhere else, which matters
+# because monitoring cameras are routinely infrared or low-light and carry no colour at all.
+id: retail-store
+tier: film
+event: commentary
+label: positive
+pair: null
+onset_s: null
+duration_s: 150.0
+camera: mixed
+ground_truth: >
+  Inside a 1950s supermarket. Staff in uniform stock shelves and work a checkout; customers
+  push carts along aisles of packaged goods. Signage is legible in places ("Picnic Supplies",
+  "FRYING CHICKEN"). No single event: this is a continuous run of ordinary retail activity,
+  which is what a shop camera actually sees.
+source:
+  kind: film
+  provider: archive.org
+  id: OutofThi1954
+  url: https://archive.org/details/OutofThi1954
+  title: Out of This World (1954), a sponsored film
+  segment_s: [750, 900]
+  license: public domain — Prelinger Archives, sponsored film
+  license_note: >
+    Prelinger marks it public domain. Sponsored/ephemeral films of this period are the
+    class Prelinger's PD designation is most reliable for, but the renewal record itself
+    has NOT been checked here. Verify before publishing a frame of it.
+conditions:
+  viewpoint: mixed
+  distance: mixed
+  light: interior
+  occlusion: medium
+  blur: low
+  clutter: high
+genre: retail
+kind: stable
