@@ -1608,3 +1608,74 @@ OCR, not an observation about how the work is being done.
 
 So: two models, a control the corpus could not otherwise obtain, and neither describes the
 thing the control was built to isolate.
+
+## F30 — the crowd is not counted, and on one clip it is not seen at all
+
+The corpus had been narrow: robot arms, one 1926 film, a supermarket. Five clips were cut
+from material already on disk to widen it, 30 windows each, greedy, same neutral prompt.
+
+`cops-pursuit` is one man running from a large body of police — dozens of uniformed figures
+filling the street. `cops-parade` is ranks of officers past a dense crowd. `nola-crowd` is
+Mardi Gras 1941 in Kodachrome, a street packed shoulder to shoulder.
+
+Windows using any of *dozens / hundreds / many / numerous / crowd / large group / a 2-digit
+number*, prompt echo stripped first:
+
+| clip | LFM2.5-VL 3B | LFM2.5-VL 450M |
+|---|---|---|
+| cops-pursuit | 8/30 | **0/30** |
+| cops-parade | 15/30 | 4/30 |
+| nola-crowd | 29/30 | 10/30 |
+
+The 450M says nothing about crowd size in any of the thirty windows where a man is being
+chased by dozens of police. It is not silent — it describes the street, the buildings, the
+running figure. The number of people is simply not among the things it reports.
+
+Reading the 3B's hits matters more than the count. On `cops-pursuit` its "crowd" window
+describes **a man on a seesaw**: the word is present, the scene is not. F13 keeps applying —
+counting a keyword without reading it produces a finding that is not there. (F29 is the
+fifth instance of that error and this is the check that caught this one.)
+
+No model ever gives a number. Not once in 90 crowd windows.
+
+## F31 — the handwriting is read; the mask is not seen
+
+`masks-bags` is 90 s of *One Got Fat* (1963), colour: children in ape masks ride bicycles,
+and their picnic bags are hand-lettered MOSSBY, ROOTY, TIGHTY, FLOOG, NEL, FILBERT. Two
+things with unambiguous ground truth in one clip.
+
+| | LFM2.5-VL 3B | LFM2.5-VL 450M |
+|---|---|---|
+| reports an actual name off a bag | 6/30 | 1/30 |
+| mentions text/writing at all | 15/30 | 4/30 |
+| mentions a mask, ape or costume | **0/30** | 1/30 |
+
+**F23 needs amending.** It records that models never volunteer text. They do — when the text
+is large and centred, the 3B reads it correctly and quotes it: *"the word 'FILBERT' and 'NEL'
+written on them"*. The rule is not "never"; it is that text has to be big enough, and the
+earlier corpus had none that was.
+
+The masks are the other half. The 3B does not mention them in any of thirty windows. The
+450M mentions them once and gets it backwards — it reports **"a group of monkeys"**. They
+are children wearing masks, which is what makes the film memorable and what any viewer sees
+first. A detector would say `person` here and be closer to right than the VLM was.
+
+## F32 — the cat is named, and about one window in six it is a dog
+
+`cat-kittens`: 90 s of *The Private Life of a Cat* (1947), a tabby and her newborn litter
+nursing and crawling in close-up. Cat is COCO class 17, so a detector can be run on exactly
+these frames — the comparison this clip exists to enable.
+
+| | LFM2.5-VL 3B | LFM2.5-VL 450M |
+|---|---|---|
+| says cat or kitten | 26/30 | 23/30 |
+| says a **different** animal | 6/30 | 4/30 |
+| mentions nursing / mother / litter | 8/30 | 9/30 |
+
+Both name the animal most of the time and both name the wrong one regularly: *"a cat and a
+small animal, likely a rabbit"*, *"the motion of a dog in a video feed"*. The counts overlap
+because a single window can do both — hedging between two species in one sentence.
+
+The interesting column is the last. In a clip whose entire subject is a mother feeding her
+newborns, the relationship is reported in under a third of windows. Consistent with F21: the
+objects are named, the relation between them is not.

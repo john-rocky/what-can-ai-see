@@ -285,5 +285,33 @@ for _m, _within, _across in (("lfm2.5-vl-3b", 19, 10), ("lfm2.5-vl-450m", 8, 8))
     check(f"{_m} across the pair (x100)", round(c * 100), _across)
 
 
+print("\nF30-F32 — the widened corpus")
+_BIG = re.compile(r"\b(dozens?|hundreds?|many|numerous|crowd|large group|\d{2,})\b", re.I)
+_NAMES = re.compile(r"\b(MOSSBY|ROOTY|TIGHTY|FLOOG|SLIM|NEL|FILBERT|ORV)\b", re.I)
+_MASK = re.compile(r"\b(mask\w*|ape|monkey|gorilla|chimp\w*|costume|disguis\w*)\b", re.I)
+_CAT = re.compile(r"\b(cat|cats|kitten\w*|feline)\b", re.I)
+_OTHER = re.compile(r"\b(dog|puppy|rabbit|bear|mouse|mice|hamster|rat)\b", re.I)
+
+
+def _stripped(path):
+    return [_para(r.get("answer", ""), 2000) for r in _rows(path)]
+
+
+def _hits(path, pat):
+    return sum(1 for t in _stripped(path) if pat.search(t))
+
+
+for _clip, _a, _b in (("cops-pursuit", 8, 0), ("cops-parade", 15, 4), ("nola-crowd", 29, 10)):
+    check(f"{_clip} crowd words, 3B", _hits(f"runs/film/{_clip}/lfm2.5-vl-3b.jsonl", _BIG), _a)
+    check(f"{_clip} crowd words, 450M", _hits(f"runs/film/{_clip}/lfm2.5-vl-450m.jsonl", _BIG), _b)
+
+check("masks-bags names read, 3B", _hits("runs/film/masks-bags/lfm2.5-vl-3b.jsonl", _NAMES), 6)
+check("masks-bags names read, 450M", _hits("runs/film/masks-bags/lfm2.5-vl-450m.jsonl", _NAMES), 1)
+# The claim that carries F31: the 3B never mentions the masks.
+check("masks-bags masks seen, 3B", _hits("runs/film/masks-bags/lfm2.5-vl-3b.jsonl", _MASK), 0)
+check("cat named, 3B", _hits("runs/film/cat-kittens/lfm2.5-vl-3b.jsonl", _CAT), 26)
+check("wrong animal, 3B", _hits("runs/film/cat-kittens/lfm2.5-vl-3b.jsonl", _OTHER), 6)
+
+
 print("\n" + ("ALL QUOTED NUMBERS MATCH" if not fails else f"{len(fails)} MISMATCH: {fails}"))
 sys.exit(1 if fails else 0)

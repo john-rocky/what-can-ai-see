@@ -1,0 +1,27 @@
+id: cops-parade
+tier: film
+event: commentary
+label: positive
+pair: null
+onset_s: null
+duration_s: 90.0
+camera: fixed
+ground_truth: >
+  A police parade: ranks of officers march down a street lined with a dense crowd of spectators, seen from above and from street level. Horse-drawn carts pass. No single event; the scene is continuous crowd.
+source:
+  kind: film
+  provider: archive.org
+  id: Cops1922
+  url: https://archive.org/details/Cops1922
+  title: Cops (1922), dir. Buster Keaton & Edward F. Cline
+  segment_s: [600, 690]
+  license: public domain (US) — published 1922, before 1931
+conditions:
+  viewpoint: mixed
+  distance: mixed
+  light: daylight
+  occlusion: medium
+  blur: low
+  clutter: high
+genre: crowd
+kind: stable

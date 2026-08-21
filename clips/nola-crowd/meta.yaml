@@ -1,0 +1,27 @@
+id: nola-crowd
+tier: film
+event: commentary
+label: positive
+pair: null
+onset_s: null
+duration_s: 90.0
+camera: fixed
+ground_truth: >
+  Colour. Mardi Gras 1941: a street packed shoulder to shoulder with spectators, shot from above and from within the crowd. Kodachrome home movie, so the colour is real and the people are not extras.
+source:
+  kind: film
+  provider: archive.org
+  id: NewOrlea1941
+  url: https://archive.org/details/NewOrlea1941
+  title: "[Amateur film] New Orleans Carnival Week, February 1941"
+  segment_s: [340, 430]
+  license: "public domain — Prelinger Archives. Renewal record NOT checked; verify before publishing."
+conditions:
+  viewpoint: mixed
+  distance: mixed
+  light: daylight
+  occlusion: medium
+  blur: low
+  clutter: high
+genre: crowd
+kind: stable

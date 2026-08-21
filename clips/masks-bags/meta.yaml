@@ -1,0 +1,27 @@
+id: masks-bags
+tier: film
+event: commentary
+label: positive
+pair: null
+onset_s: null
+duration_s: 90.0
+camera: fixed
+ground_truth: >
+  Colour. Children in ape masks ride bicycles; paper picnic bags carry hand-lettered names (MOSSBY, ROOTY, TIGHTY). Two things at once: legible handwritten text with unambiguous ground truth, and people whose faces are masks.
+source:
+  kind: film
+  provider: archive.org
+  id: OneGotFa1963
+  url: https://archive.org/details/OneGotFa1963
+  title: "One Got Fat: Bicycle Safety (1963), Interlude Films"
+  segment_s: [80, 170]
+  license: "public domain — Prelinger Archives, sponsored film. Renewal record NOT checked; verify before publishing."
+conditions:
+  viewpoint: mixed
+  distance: mixed
+  light: daylight
+  occlusion: medium
+  blur: low
+  clutter: high
+genre: text
+kind: stable

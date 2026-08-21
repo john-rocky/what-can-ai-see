@@ -1,0 +1,27 @@
+id: cat-kittens
+tier: film
+event: commentary
+label: positive
+pair: null
+onset_s: null
+duration_s: 90.0
+camera: fixed
+ground_truth: >
+  A tabby cat and her newborn kittens in a domestic interior: nursing, a kitten carried, kittens crawling and sleeping in close-up. Cat is COCO class 17, so a detector can be run on exactly the same frames.
+source:
+  kind: film
+  provider: archive.org
+  id: PrivateL1947
+  url: https://archive.org/details/PrivateL1947
+  title: The Private Life of a Cat (1947), dir. Alexander Hammid
+  segment_s: [470, 560]
+  license: public domain — Prelinger; ALSO carried by Public Domain Review and the Library of Congress. Renewal record NOT independently checked; verify before publishing a frame.
+conditions:
+  viewpoint: mixed
+  distance: mixed
+  light: daylight
+  occlusion: medium
+  blur: low
+  clutter: high
+genre: animal
+kind: stable

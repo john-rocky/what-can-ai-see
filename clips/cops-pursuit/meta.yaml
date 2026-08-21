@@ -1,0 +1,27 @@
+id: cops-pursuit
+tier: film
+event: commentary
+label: positive
+pair: null
+onset_s: null
+duration_s: 90.0
+camera: fixed
+ground_truth: >
+  One man runs from a large body of police — dozens of uniformed figures fill the street behind him. He reaches a police station door. The count is the point: a person reads 'he is being chased by many' instantly, and both objects are ordinary detector classes.
+source:
+  kind: film
+  provider: archive.org
+  id: Cops1922
+  url: https://archive.org/details/Cops1922
+  title: Cops (1922), dir. Buster Keaton & Edward F. Cline
+  segment_s: [1000, 1090]
+  license: public domain (US) — published 1922, before 1931
+conditions:
+  viewpoint: mixed
+  distance: mixed
+  light: daylight
+  occlusion: medium
+  blur: low
+  clutter: high
+genre: crowd
+kind: stable

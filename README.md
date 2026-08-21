@@ -70,7 +70,7 @@ tools/                harness, scorers, baselines, video renderers
 runner/               Swift; loads a model once and streams a task file
 phone/                iOS app: the same tasks, on the device the premise is about
 walk/                 iOS app: live camera, a person-gate in front of the recorder
-docs/FINDINGS.md      F1-F29
+docs/FINDINGS.md      F1-F32
 ```
 
 Start with `docs/FINDINGS.md`. Every tool's docstring says what it measures and,

@@ -1,0 +1,374 @@
+{
+  "clip": "cops-parade",
+  "event": "commentary",
+  "label": "positive",
+  "question": "Describe what is happening.",
+  "onset_s": null,
+  "duration_s": 90.023,
+  "window_s": 3.0,
+  "stride_s": 3.0,
+  "panels": 4,
+  "ground_truth": "A police parade: ranks of officers march down a street lined with a dense crowd of spectators, seen from above and from street level. Horse-drawn carts pass. No single event; the scene is continuous crowd.\n",
+  "windows": [
+    {
+      "i": 0,
+      "t_start": 0.0,
+      "t_end": 3.0,
+      "times": [
+        0.375,
+        1.125,
+        1.875,
+        2.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w000.jpg"
+    },
+    {
+      "i": 1,
+      "t_start": 3.0,
+      "t_end": 6.0,
+      "times": [
+        3.375,
+        4.125,
+        4.875,
+        5.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w001.jpg"
+    },
+    {
+      "i": 2,
+      "t_start": 6.0,
+      "t_end": 9.0,
+      "times": [
+        6.375,
+        7.125,
+        7.875,
+        8.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w002.jpg"
+    },
+    {
+      "i": 3,
+      "t_start": 9.0,
+      "t_end": 12.0,
+      "times": [
+        9.375,
+        10.125,
+        10.875,
+        11.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w003.jpg"
+    },
+    {
+      "i": 4,
+      "t_start": 12.0,
+      "t_end": 15.0,
+      "times": [
+        12.375,
+        13.125,
+        13.875,
+        14.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w004.jpg"
+    },
+    {
+      "i": 5,
+      "t_start": 15.0,
+      "t_end": 18.0,
+      "times": [
+        15.375,
+        16.125,
+        16.875,
+        17.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w005.jpg"
+    },
+    {
+      "i": 6,
+      "t_start": 18.0,
+      "t_end": 21.0,
+      "times": [
+        18.375,
+        19.125,
+        19.875,
+        20.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w006.jpg"
+    },
+    {
+      "i": 7,
+      "t_start": 21.0,
+      "t_end": 24.0,
+      "times": [
+        21.375,
+        22.125,
+        22.875,
+        23.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w007.jpg"
+    },
+    {
+      "i": 8,
+      "t_start": 24.0,
+      "t_end": 27.0,
+      "times": [
+        24.375,
+        25.125,
+        25.875,
+        26.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w008.jpg"
+    },
+    {
+      "i": 9,
+      "t_start": 27.0,
+      "t_end": 30.0,
+      "times": [
+        27.375,
+        28.125,
+        28.875,
+        29.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w009.jpg"
+    },
+    {
+      "i": 10,
+      "t_start": 30.0,
+      "t_end": 33.0,
+      "times": [
+        30.375,
+        31.125,
+        31.875,
+        32.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w010.jpg"
+    },
+    {
+      "i": 11,
+      "t_start": 33.0,
+      "t_end": 36.0,
+      "times": [
+        33.375,
+        34.125,
+        34.875,
+        35.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w011.jpg"
+    },
+    {
+      "i": 12,
+      "t_start": 36.0,
+      "t_end": 39.0,
+      "times": [
+        36.375,
+        37.125,
+        37.875,
+        38.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w012.jpg"
+    },
+    {
+      "i": 13,
+      "t_start": 39.0,
+      "t_end": 42.0,
+      "times": [
+        39.375,
+        40.125,
+        40.875,
+        41.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w013.jpg"
+    },
+    {
+      "i": 14,
+      "t_start": 42.0,
+      "t_end": 45.0,
+      "times": [
+        42.375,
+        43.125,
+        43.875,
+        44.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w014.jpg"
+    },
+    {
+      "i": 15,
+      "t_start": 45.0,
+      "t_end": 48.0,
+      "times": [
+        45.375,
+        46.125,
+        46.875,
+        47.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w015.jpg"
+    },
+    {
+      "i": 16,
+      "t_start": 48.0,
+      "t_end": 51.0,
+      "times": [
+        48.375,
+        49.125,
+        49.875,
+        50.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w016.jpg"
+    },
+    {
+      "i": 17,
+      "t_start": 51.0,
+      "t_end": 54.0,
+      "times": [
+        51.375,
+        52.125,
+        52.875,
+        53.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w017.jpg"
+    },
+    {
+      "i": 18,
+      "t_start": 54.0,
+      "t_end": 57.0,
+      "times": [
+        54.375,
+        55.125,
+        55.875,
+        56.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w018.jpg"
+    },
+    {
+      "i": 19,
+      "t_start": 57.0,
+      "t_end": 60.0,
+      "times": [
+        57.375,
+        58.125,
+        58.875,
+        59.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w019.jpg"
+    },
+    {
+      "i": 20,
+      "t_start": 60.0,
+      "t_end": 63.0,
+      "times": [
+        60.375,
+        61.125,
+        61.875,
+        62.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w020.jpg"
+    },
+    {
+      "i": 21,
+      "t_start": 63.0,
+      "t_end": 66.0,
+      "times": [
+        63.375,
+        64.125,
+        64.875,
+        65.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w021.jpg"
+    },
+    {
+      "i": 22,
+      "t_start": 66.0,
+      "t_end": 69.0,
+      "times": [
+        66.375,
+        67.125,
+        67.875,
+        68.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w022.jpg"
+    },
+    {
+      "i": 23,
+      "t_start": 69.0,
+      "t_end": 72.0,
+      "times": [
+        69.375,
+        70.125,
+        70.875,
+        71.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w023.jpg"
+    },
+    {
+      "i": 24,
+      "t_start": 72.0,
+      "t_end": 75.0,
+      "times": [
+        72.375,
+        73.125,
+        73.875,
+        74.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w024.jpg"
+    },
+    {
+      "i": 25,
+      "t_start": 75.0,
+      "t_end": 78.0,
+      "times": [
+        75.375,
+        76.125,
+        76.875,
+        77.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w025.jpg"
+    },
+    {
+      "i": 26,
+      "t_start": 78.0,
+      "t_end": 81.0,
+      "times": [
+        78.375,
+        79.125,
+        79.875,
+        80.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w026.jpg"
+    },
+    {
+      "i": 27,
+      "t_start": 81.0,
+      "t_end": 84.0,
+      "times": [
+        81.375,
+        82.125,
+        82.875,
+        83.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w027.jpg"
+    },
+    {
+      "i": 28,
+      "t_start": 84.0,
+      "t_end": 87.0,
+      "times": [
+        84.375,
+        85.125,
+        85.875,
+        86.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w028.jpg"
+    },
+    {
+      "i": 29,
+      "t_start": 87.0,
+      "t_end": 90.0,
+      "times": [
+        87.375,
+        88.125,
+        88.875,
+        89.625
+      ],
+      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/cops-parade/windows/w029.jpg"
+    }
+  ]
+}
