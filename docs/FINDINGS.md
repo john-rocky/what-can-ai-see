@@ -1568,3 +1568,43 @@ night and low-light monochrome in poor conditions. A benchmark shot in daylight 
 describing a different input from the one the night shift produces, and this is the size of
 that difference measured rather than assumed. The corpus's other clips cannot show it: the
 film tier is monochrome or sepia already, and the stock tier has no same-camera pair.
+
+## F29 — a same-camera pair that actually happened, and neither model sees the difference
+
+F19 says no real-footage pair in this corpus has a same-camera control. F28 got round it by
+removing colour — a change applied to the footage afterwards. This one is a control that
+happened in front of the lens.
+
+Frank Gilbreth filmed industrial operations from 1910 to 1924 to measure the motions in
+them: a worker at a bench, a fixed tripod, a calibration grid behind, a chronometer in
+shot. The film shows the SAME packing operation done two ways — the unimproved method and
+his own. Phase correlation says the camera did not move between them: cross-group shift has
+a median of 1.67 px on a 320×240 frame, inside the 0.69–14.34 px spread *within* each group.
+One tripod, one bench, one worker, one task, two ways of doing it.
+
+That is the cleanest question a line-monitoring pitch rests on. Can it tell two methods apart?
+
+| model | overlap within `old` | overlap across the pair |
+|---|---|---|
+| LFM2.5-VL 3B | 0.19 | 0.10 |
+| LFM2.5-VL 450M | **0.08** | **0.08** |
+
+For the 450M the two numbers are identical: the difference between the two methods is
+indistinguishable from the drift between two windows of the same method. The 3B separates
+them slightly, but see below before crediting it.
+
+**The vocabulary result was mine, not the model's.** A first pass counted "method" words and
+found 36/38 windows in `old` against 13/25 in `new`, which reads as a model noticing
+something. Printing the matches killed it: `arranged`, `order` and `reaching` were matching
+the PROMPT — "…arranged in time order…" — in almost every hit. That is the fifth instance of
+this exact error in this repo (`pan\w*` → "panel", `car\w*` → "camera", a motion pattern
+matching "the progression of the frames", `river` → "driver's seat"). The rule that keeps
+being relearned: strip the echo, then count, then read the matches before believing the
+count.
+
+After stripping, the remaining hits are mostly the model **reading an intertitle**: the film
+puts "Original Method of Labeling Cartons" on screen and the model reports the text. That is
+OCR, not an observation about how the work is being done.
+
+So: two models, a control the corpus could not otherwise obtain, and neither describes the
+thing the control was built to isolate.

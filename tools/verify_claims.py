@@ -265,5 +265,25 @@ for _m, _want in (("lfm2.5-vl-3b", 31), ("lfm2.5-vl-450m", 18)):
         fail(f"F28 claims desaturation moves more than the phone/Mac gap; {_m} is {_med:.2f}")
 
 
+print("\nF29 — Gilbreth same-camera pair")
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from said_card import paragraph as _para  # noqa: E402
+
+def _seg(path):
+    # Echo stripped BEFORE anything is counted. Counting first is what produced a finding
+    # that was really the prompt matching itself — see F29.
+    return [_para(r.get("answer", ""), 2000) for r in _rows(path)]
+
+for _m, _within, _across in (("lfm2.5-vl-3b", 19, 10), ("lfm2.5-vl-450m", 8, 8)):
+    _o = _seg(f"runs/film/gilbreth-old/{_m}.jsonl")
+    _n = _seg(f"runs/film/gilbreth-new/{_m}.jsonl")
+    if len(_o) < 10 or len(_n) < 10:
+        continue
+    w = _st.median([_overlap(_o[i], _o[j]) for i in range(10) for j in range(i + 1, 10)])
+    c = _st.median([_overlap(a, b) for a in _o[:12] for b in _n[:12]])
+    check(f"{_m} within old (x100)", round(w * 100), _within)
+    check(f"{_m} across the pair (x100)", round(c * 100), _across)
+
+
 print("\n" + ("ALL QUOTED NUMBERS MATCH" if not fails else f"{len(fails)} MISMATCH: {fails}"))
 sys.exit(1 if fails else 0)

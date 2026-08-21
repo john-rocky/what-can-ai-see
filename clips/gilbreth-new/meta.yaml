@@ -1,0 +1,48 @@
+# The Gilbreth method — the 'after' half of a same-camera pair.
+#
+# Frank Gilbreth filmed industrial operations between 1910 and 1924 to measure the motions
+# in them — the ancestor of every factory-floor camera this project is nominally about.
+# A worker at a bench, a fixed tripod, a calibration grid on the wall behind, and a
+# chronometer in shot so the film could be timed frame by frame.
+#
+# The pair is what makes it worth measuring. The film shows the SAME packing operation done
+# two ways, and phase correlation says the camera did not move between them: cross-group
+# shift has a median of 1.67 px on a 320x240 frame, inside the 0.69-14.34 px spread WITHIN
+# each group. One tripod, two methods.
+#
+# F19 records that no real-footage pair in this corpus has a same-camera control. F28 got
+# around it by removing colour — a change applied to the footage. This one is a control that
+# actually happened in front of the lens: same camera, same bench, same worker, same task,
+# a different way of doing it. Whether a VLM can tell two methods apart at all is the
+# question a line-monitoring pitch rests on.
+id: gilbreth-new
+tier: film
+event: commentary
+label: positive
+pair: gilbreth-old
+onset_s: null
+duration_s: 75.0
+camera: fixed
+ground_truth: >
+  The same worker at the same bench packs soap by the Gilbreth method, with materials pre-positioned within reach. Same grid backdrop, same chronometer, same camera position.
+source:
+  kind: film
+  provider: archive.org
+  id: OriginalFilm
+  url: https://archive.org/details/OriginalFilm
+  title: Original Films of Frank B Gilbreth (Part I), 1910-1924
+  segment_s: [540, 615]
+  license: public domain — Prelinger Archives, sponsored film
+  license_note: >
+    Prelinger marks it public domain; sponsored/ephemeral films of this period are the class
+    that designation is most reliable for. The renewal record itself has NOT been checked.
+    Verify before publishing a frame of it.
+conditions:
+  viewpoint: fixed overhead-oblique
+  distance: near
+  light: studio
+  occlusion: low
+  blur: low
+  clutter: medium
+genre: industrial
+kind: stable

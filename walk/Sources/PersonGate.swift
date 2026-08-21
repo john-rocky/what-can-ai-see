@@ -65,20 +65,51 @@ struct PersonGate {
     /// How long the gate stays shut after the last person was seen.
     var cooldown: Double = 3.0
 
+    /// Widest a person-shaped box may be, as width/height. A standing or seated person is
+    /// taller than wide; the detector's false positives on an empty room were not.
+    ///
+    /// Measured rather than guessed. Ten person boxes from the gate fixtures (real people,
+    /// verified on device) had aspect 0.27–1.23. Six person boxes logged from this phone
+    /// pointed at an empty room had 0.99–3.73, three of them a band across the full width
+    /// of the frame at 25% height. Cutting at 1.4 keeps 10 of 10 real and drops 5 of 6 false.
+    ///
+    /// This is shape, not confidence. Raising the score threshold instead would have cost
+    /// the distant, low-scoring person the gate exists for — measured down to 0.08% of frame
+    /// area at 0.20. A far-away person is small; they are not wide.
+    var maxAspect: Double = 1.4
+
+    /// Largest a person-shaped box may be, as a fraction of the frame. A detector that
+    /// returns the whole image as one "person" is describing the frame, not a person.
+    var maxArea: Double = 0.80
+
     private var buffer: [GatedFrame] = []
     private var lastPersonAt: Double?
 
     /// Frames dropped so far, for the on-screen counter — a walk that discarded 40% of
     /// itself is worth knowing about before the walk is over, not after.
     private(set) var droppedCount = 0
+    /// Frames waiting out their hold-back. They are not on disk yet and may still be
+    /// discarded, but they are not dropped either — counting them as either would make the
+    /// on-screen kept-rate wrong in one direction or the other.
+    var pendingCount: Int { buffer.count }
     private(set) var lastSawPersonAgo: Double?
+
+    /// The boxes this gate counts as a person. Exposed so a caller can LOG the same list
+    /// the gate acts on: printing the raw detections instead showed rejected boxes and made
+    /// a working filter look like a broken one.
+    func people(in detections: [Detection]) -> [Detection] {
+        detections.filter {
+            guard $0.classID == personClassID, $0.score >= scoreThreshold else { return false }
+            let w = Double($0.box.width), h = Double($0.box.height)
+            guard h > 0 else { return false }
+            return w / h <= maxAspect && w * h <= maxArea
+        }
+    }
 
     mutating func offer(
         frame: CVPixelBuffer, at time: Double, detections: [Detection]
     ) -> GateDecision {
-        let people = detections.filter {
-            $0.classID == personClassID && $0.score >= scoreThreshold
-        }
+        let people = people(in: detections)
         if !people.isEmpty {
             lastPersonAt = time
             lastSawPersonAgo = 0

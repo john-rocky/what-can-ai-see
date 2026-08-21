@@ -44,7 +44,7 @@ enum GateSelfTest {
     /// Runs `detector` over every bundled fixture. Passes only if all of them report at
     /// least one person at `threshold` — the same threshold the gate will use, because a
     /// test run at a friendlier one proves nothing about the walk.
-    static func run(detector: KitDetector, threshold: Float) async -> Result {
+    static func run(detector: KitDetector, threshold: Float, gate: PersonGate) async -> Result {
         guard let url = Bundle.main.url(forResource: "gate_fixtures", withExtension: "json"),
             let data = try? Data(contentsOf: url),
             let fixtures = try? JSONDecoder().decode([GateFixture].self, from: data),
@@ -66,8 +66,13 @@ enum GateSelfTest {
             }
             do {
                 let dets = try await detector.detect(in: image, scoreThreshold: threshold)
+                // The same shape filter the gate applies. A self-test that accepts boxes
+                // the gate would reject proves a different gate than the one that runs.
                 let people = dets.filter {
-                    $0.classID == personClassID || $0.label.lowercased() == "person"
+                    guard $0.classID == personClassID || $0.label.lowercased() == "person"
+                    else { return false }
+                    let w = Double($0.box.width), h = Double($0.box.height)
+                    return h > 0 && w / h <= gate.maxAspect && w * h <= gate.maxArea
                 }
                 let best = people.map(\.score).max() ?? 0
                 if people.isEmpty {
