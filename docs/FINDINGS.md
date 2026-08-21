@@ -1569,7 +1569,56 @@ describing a different input from the one the night shift produces, and this is 
 that difference measured rather than assumed. The corpus's other clips cannot show it: the
 film tier is monochrome or sepia already, and the stock tier has no same-camera pair.
 
-## F29 — a same-camera pair that actually happened, and neither model sees the difference
+## F29 — RETRACTED: the pair is not same-camera, and the method that said it was is unsound
+
+**Retracted 2026-08-21.** The premise was wrong and so was the tool that established it.
+
+The claim was that Gilbreth shot the same packing operation two ways from one tripod, giving
+a same-camera control that F19 says this corpus cannot obtain. The evidence was phase
+correlation: "cross-group shift median 1.67 px, inside the 0.69–14.34 px spread within each
+group."
+
+`cv2.phaseCorrelate` returns a shift **and a response**, and I used only the shift. The
+response says whether the shift means anything, and on uncorrelated images the function
+happily returns a near-zero shift with a response near zero. Measured afterwards:
+
+| pair | shift | response |
+|---|---|---|
+| a frame against itself | 0.00 px | 1.000 |
+| two bench frames 5 s apart | 1.47 px | 0.333 |
+| an **intertitle card** against a bench | 0.54 px | **0.040** |
+| the F29 cross-group pairs | 1.67 px | **0.019** |
+
+The pairs I called "one tripod" scored *below a title card against a workbench*. The number
+was not small because the camera held still; it was small because phase correlation had
+found no correspondence at all and defaulted near the origin.
+
+Re-measured with ORB feature matching, which reports how many real correspondences exist:
+
+| pair | inliers | median displacement |
+|---|---|---|
+| a frame against itself | 60 | — |
+| two bench frames 5 s apart | 56 | 2.5 px |
+| an intertitle against a bench | 8 | 146.7 px |
+| **old method vs old method** | **7** | 79.4 px |
+| **old vs Gilbreth method** | **7–8** | 34–192 px |
+
+Seven inliers is the noise floor — the same score a title card gets. The camera moves
+between shots *within* each method, let alone between them. **There is no same-camera pair
+here.**
+
+What survives: the overlap numbers themselves are real measurements (0.19 within / 0.10
+across for the 3B; 0.08 / 0.08 for the 450M, both re-derived by `verify_claims.py`). What
+does not survive is the interpretation — the two segments differ in camera position as well
+as method, so a model failing to distinguish them says nothing about method-blindness. It is
+F18's confound, which this repo has already documented once, reintroduced by me.
+
+`tools/find_state.py` carries the fix: phase correlation is gated on its response, and the
+docstring says why.
+
+---
+
+### Original entry, kept for the record
 
 F19 says no real-footage pair in this corpus has a same-camera control. F28 got round it by
 removing colour — a change applied to the footage afterwards. This one is a control that
@@ -1782,3 +1831,56 @@ VLM has 11 of 13.
 That is a real difference and it is the only one these 365 windows support. It is also
 narrower than "VLMs understand scenes": the open vocabulary buys naming, not counting
 (F30), not relations (F21, F29), and not per-frame reliability (F33).
+
+## F35 — five models, four identical panels, and every one of them reports motion
+
+The research question is what classical CV cannot do. F16 answered part of it: against a
+swept background subtractor on five spill/hazard pairs the best VLM wins on **detection**
+(89% vs 56%) and ties on false alarms (8% vs 10%) and on latency (+0.3 s both). So the
+candidate advantage was "it misses less". This tests that on a different event, from
+different footage, where the classical method should be at its worst.
+
+`line-stopped` is the opposite of a spill: nothing appears, motion **stops**. Four staged
+pairs built by `tools/stage.py --freeze` from Pexels factory footage — the positive is the
+clip with a freeze composited in at 3.0 s, the control is the same file untouched, so
+lighting, grain, camera and duration are identical by construction. The freeze is total:
+frame-to-frame pixel difference drops from a mean of **1.312** before the onset to a
+**maximum of 0.021** after the cut frame — from 3.04 s on the pixels do not change at all.
+After the onset the four panels of a contact sheet are the same image.
+
+(The cut frame itself scores 4.18 and is excluded from both sides. Including it put the
+"after" mean at 0.058 and failed the check on a freeze that is total; the claim is about
+what the model was shown inside a window, and no window is four copies of the cut.)
+
+The question asked was *"Has the conveyor or machine stopped moving?"*
+
+| method | detect | wrong | balanced |
+|---|---|---|---|
+| bg-diff, swept | 21/32 | 32/61 | **0.57** |
+| LFM2.5-VL 3B | **0/32** | 0/61 | 0.50 |
+| Qwen3-VL 2B | **0/32** | 0/61 | 0.50 |
+| Holo2 4B | **0/32** | 0/61 | 0.50 |
+| North Micro Vision | **0/32** | 0/61 | 0.50 |
+| MiniCPM-V 4.6 | **0/16** | 0/20 | 0.50 |
+
+Every model, every window, answers No. Not hedged, not silent — confidently wrong, with
+evidence attached. Six consecutive windows of `855859`, all four panels byte-identical:
+
+> **No.** The conveyor belt continues to move the box from panel 1 to panel 4.
+
+It is describing motion between two copies of the same picture.
+
+### What this does to the F16 conclusion
+
+F16's "the VLM misses less" was measured on events where something **appears** — a pool, a
+heap, a hand. Every one of those is a new object in the frame, and naming new objects is
+what these models do (F32, F34). On an event that is the *absence* of change they score 0.50,
+which is the score of answering No to everything, because that is what they did.
+
+The background subtractor is not good here either — 0.57, with false alarms on 32 of 61
+control windows, because a freeze also stops the noise the sweep was fitted to. But 0.57
+beats 0.50, and the classical method at least fires sometimes.
+
+So the boundary is narrower again. **A VLM is worth asking when the event adds something
+nameable to the frame. When the event is that something stopped, it has nothing to name and
+reports the opposite.** That is not a threshold to tune; five architectures agreed.

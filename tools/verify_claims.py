@@ -38,6 +38,20 @@ def read(clip, fn):
     return spec, rows
 
 fails = []
+
+
+def fail(name):
+    """Record a mismatch that is not a number comparison.
+
+    This did not exist until F35 tripped it: four blocks added this session called
+    `fail(...)` in branches the data happened never to take, so the NameError sat there
+    unexecuted. A checker whose failure path has never run is not a checker — every
+    `fail` call below is now reachable and this one is exercised by the F35 freeze test.
+    """
+    print(f"  FAIL {name}")
+    fails.append(name)
+
+
 def check(name, got, want, tol=0):
     ok = abs(got - want) <= tol
     print(f"  {'OK ' if ok else 'FAIL'} {name}: draft says {want}, data says {got}")
@@ -412,6 +426,83 @@ check("open-vocabulary terms found by the VLM", _v_open, 11)
 _mh, _mn = _detector("masks-bags")
 check("masks-bags: detector finds bicycle", _mh.get("bicycle", 0), 10)
 check("masks-bags: detector finds person", _mh.get("person", 0), 24)
+
+
+print("\nF35 — line-stopped: every model answers No")
+from card import verdict_of as _verdict  # noqa: E402
+
+_LS = ["31818733", "38806067", "855859", "9244501"]
+
+
+def _staged(model):
+    det = post = wrong = nwin = 0
+    for i in _LS:
+        pos, neg = f"line-stopped-staged-{i}", f"line-stopped-staged-{i}-control"
+        wp = Path(f"runs/stream/{pos}/windows.json")
+        if not wp.exists():
+            continue
+        spec = json.loads(wp.read_text())
+        onset = spec["onset_s"]
+        rp = {int(r["id"].split("|")[1][1:]): _verdict(r.get("answer", ""))
+              for r in _rows(f"runs/stream/{pos}/{model}.jsonl")}
+        rn = {int(r["id"].split("|")[1][1:]): _verdict(r.get("answer", ""))
+              for r in _rows(f"runs/stream/{neg}/{model}.jsonl")}
+        if not rp:
+            continue
+        for w in spec["windows"]:
+            v = rp.get(w["i"])
+            if v is None:
+                continue
+            if w["t_end"] >= onset:
+                post += 1
+                det += v == "yes"
+            else:
+                nwin += 1
+                wrong += v == "yes"
+        for w in json.loads(Path(f"runs/stream/{neg}/windows.json").read_text())["windows"]:
+            v = rn.get(w["i"])
+            if v is None:
+                continue
+            nwin += 1
+            wrong += v == "yes"
+    return det, post, wrong, nwin
+
+
+for _m in ("lfm2.5-vl-3b", "qwen3-vl-2b", "holo2-4b", "north-micro-vision"):
+    _d, _p, _w, _n = _staged(_m)
+    check(f"{_m} detects a stopped line", _d, 0)
+    check(f"{_m} windows after onset", _p, 32)
+
+# The freeze has to be real, or the finding is about a broken fixture rather than a model.
+import cv2 as _cv2  # noqa: E402
+import numpy as _np  # noqa: E402
+_cap = _cv2.VideoCapture("clips/line-stopped-staged-855859/clip.mp4")
+_fps = _cap.get(_cv2.CAP_PROP_FPS) or 25.0
+_prev, _pre, _post, _i = None, [], [], 0
+while True:
+    _ok, _f = _cap.read()
+    if not _ok:
+        break
+    _g = _cv2.cvtColor(_f, _cv2.COLOR_BGR2GRAY).astype("float32")
+    if _prev is not None:
+        # The transition frame itself is excluded from BOTH sides. At 3.00s the
+        # difference is 4.18 — the composite cut — and including it put the "after"
+        # mean at 0.058 and failed this check on a freeze that is total from 3.04s on
+        # (max 0.017). The claim is about what the model was shown inside a window,
+        # and no window is four copies of the cut.
+        _t = _i / _fps
+        if _t < 2.96:
+            _pre.append(float(_np.abs(_g - _prev).mean()))
+        elif _t > 3.02:
+            _post.append(float(_np.abs(_g - _prev).mean()))
+    _prev, _i = _g, _i + 1
+_cap.release()
+if _post and max(_post) < 0.05 < _np.mean(_pre):
+    print(f"  OK  freeze is total after the cut: {_np.mean(_pre):.3f} before -> "
+          f"max {max(_post):.4f} after")
+else:
+    fail(f"F35 rests on the freeze being total; before {_np.mean(_pre):.3f}, "
+         f"after max {max(_post) if _post else float('nan'):.4f}")
 
 
 print("\n" + ("ALL QUOTED NUMBERS MATCH" if not fails else f"{len(fails)} MISMATCH: {fails}"))
