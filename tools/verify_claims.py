@@ -313,5 +313,43 @@ check("cat named, 3B", _hits("runs/film/cat-kittens/lfm2.5-vl-3b.jsonl", _CAT), 
 check("wrong animal, 3B", _hits("runs/film/cat-kittens/lfm2.5-vl-3b.jsonl", _OTHER), 6)
 
 
+print("\nF33 — union over a stretch")
+from aggregate import TRUTH as _TRUTH, load as _agg_load  # noqa: E402
+
+
+def _union(thresh):
+    P = A = Pn = An = 0
+    for model in ("lfm2.5-vl-3b", "lfm2.5-vl-450m"):
+        for clip, (pres, absent) in _TRUTH.items():
+            f = Path("runs/film") / clip / f"{model}.jsonl"
+            if not f.exists():
+                continue
+            texts = _agg_load(f)
+            if not texts:
+                continue
+            for term, truth in [(x, True) for x in pres] + [(x, False) for x in absent]:
+                pat = re.compile(rf"\b({term})\b", re.I)
+                says = (sum(1 for t in texts if pat.search(t)) / len(texts)) > thresh
+                if truth:
+                    Pn += 1
+                    P += says
+                else:
+                    An += 1
+                    A += not says
+    return P, Pn, A, An
+
+
+for _t, _p, _a in ((0.50, 14, 64), (0.10, 32, 64), (0.07, 33, 64)):
+    P, Pn, A, An = _union(_t)
+    check(f"union at {_t:.2f}: present found", P, _p)
+    check(f"union at {_t:.2f}: absent rejected", A, _a)
+# The claim the use case rests on: pushing the bar to one window breaks the zero.
+_, _, A1, An1 = _union(0.001)
+if A1 >= An1:
+    fail("F33 claims false positives appear at a one-window bar; they did not")
+else:
+    print(f"  OK  one-window bar does admit false positives: {An1 - A1} of {An1}")
+
+
 print("\n" + ("ALL QUOTED NUMBERS MATCH" if not fails else f"{len(fails)} MISMATCH: {fails}"))
 sys.exit(1 if fails else 0)

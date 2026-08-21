@@ -1679,3 +1679,58 @@ because a single window can do both — hedging between two species in one sente
 The interesting column is the last. In a clip whose entire subject is a mother feeding her
 newborns, the relationship is reported in under a third of windows. Consistent with F21: the
 objects are named, the relation between them is not.
+
+## F33 — what it is for: the union over a stretch, not the answer to a frame
+
+Thirty-two findings say what fails, and a reader is entitled to ask what the thing is good
+for. This is the answer the data gives, and it is not the one I expected.
+
+The hypothesis was that a model 87% right per window would be reliable per clip by majority
+vote — the errors disagree with each other while the truth agrees. **That is wrong.** Nine
+clips, both models, terms split into what is genuinely present and what is plausibly absent:
+
+| bar for calling a term present | present found | absent rejected | overall |
+|---|---|---|---|
+| a majority of windows | 14/40 | 64/64 | 75% |
+| 6 of 30 windows | 29/40 | 64/64 | 89% |
+| **3 of 30 windows** | **32/40** | **64/64** | **92%** |
+| **2 of 30 windows** | **33/40** | **64/64** | **93%** |
+| 1 of 30 windows | 37/40 | 59/64 | 92% |
+
+Majority vote loses more than half of what is there. A cannon fills the frame for ninety
+seconds and is named in 48% of windows; a shop floor is called a shop in 54%. The model does
+not describe the same scene the same way twice in a row, so "most windows agree" is the wrong
+test.
+
+**The union is a different instrument.** At two or three windows out of thirty the false
+positive rate is exactly zero across 64 absent terms — not one clip ever claimed a cat, a
+kitchen, snow or a train that was not there. Push the bar to one window and false positives
+appear immediately (5 of 64). So there is a floor, it is low, and it is sharp.
+
+### What that licenses
+
+**Retrieval over recorded footage.** "Which of these hours contains a bicycle" is a union
+question. The model needs to mention it two or three times in thirty windows, never mention
+it where it is absent, and both hold. Latency is irrelevant — F27's 12× slowdown does not
+matter to an overnight index — and F25's determinism means the index does not change under
+re-run.
+
+**Screening, in the direction of ruling things out.** Zero false positives over 64 absent
+terms is the strong half. "Nothing in this stretch mentioned a person in ninety windows" is
+worth acting on. "Every window says person" is not, because the presence half only reaches
+83%.
+
+### What it forbids, on the same evidence
+
+**Anything that depends on one frame.** Per-window accuracy is what fails, and the alerting
+products people imagine are per-window.
+
+**Counting.** No number in 90 crowd windows (F30). The union does not fix this: a term that
+is never said is never in the union.
+
+**Relations.** 0/13 on the cannon's aim, 0.08 vs 0.08 on the Gilbreth method pair (F29). Not
+a threshold problem — the words are absent at every threshold.
+
+The useful sentence is therefore narrow and testable: **it can tell you, cheaply and
+reproducibly, which recordings contain a thing — and nothing about how many, how they
+relate, or what just happened.**

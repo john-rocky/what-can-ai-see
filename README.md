@@ -70,11 +70,39 @@ tools/                harness, scorers, baselines, video renderers
 runner/               Swift; loads a model once and streams a task file
 phone/                iOS app: the same tasks, on the device the premise is about
 walk/                 iOS app: live camera, a person-gate in front of the recorder
-docs/FINDINGS.md      F1-F32
+docs/FINDINGS.md      F1-F33
 ```
 
 Start with `docs/FINDINGS.md`. Every tool's docstring says what it measures and,
 where it applies, what it got wrong first.
+
+## What it is for
+
+Thirty-three findings, and the one that answers "so what" is the last. Asked for a
+verdict on a single window, these models are unreliable — the cannon that fills the
+frame is named in 48% of windows, the shop floor is called a shop in 54%. Majority
+vote over a stretch does not rescue it: it finds 14 of 40 things that are present.
+
+The union does. If a term appears in **two or three windows out of thirty**, it is
+present — 33 of 40 found, and **0 false positives across 64 absent terms**. No clip
+ever claimed a cat, a kitchen, snow or a train that was not there. Drop the bar to one
+window and false positives appear at once, so the floor is low and sharp (F33).
+
+That licenses one shape of product and forbids another.
+
+**It can index recorded footage.** "Which of these hours contains a bicycle" is a union
+question. Latency does not matter to an overnight pass (F27), and the models are
+character-identical across runs, so the index is stable (F25).
+
+**It cannot answer about a frame, count anything, or read a relation.** No number
+appears in 90 windows of crowds (F30). The cannon aimed at the man is named in 0 of 13
+windows where it is true (F21). Two methods of the same task, one camera, are
+indistinguishable to the smaller model — 0.08 across the pair against 0.08 within one
+side of it (F29). None of these is a threshold that can be tuned; the words are absent
+at every threshold.
+
+The useful sentence is narrow: **it tells you which recordings contain a thing, cheaply
+and reproducibly, and nothing about how many, how they relate, or what just happened.**
 
 ## On the device
 
