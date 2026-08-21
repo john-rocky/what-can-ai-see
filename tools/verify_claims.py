@@ -351,5 +351,68 @@ else:
     print(f"  OK  one-window bar does admit false positives: {An1 - A1} of {An1}")
 
 
+print("\nF34 — VLM against a detector on the same windows")
+_COCO = {"person","bicycle","car","motorcycle","airplane","bus","train","truck","boat",
+ "traffic light","fire hydrant","stop sign","parking meter","bench","bird","cat","dog",
+ "horse","sheep","cow","elephant","bear","zebra","giraffe","backpack","umbrella","handbag",
+ "tie","suitcase","frisbee","skis","snowboard","sports ball","kite","baseball bat",
+ "baseball glove","skateboard","surfboard","tennis racket","bottle","wine glass","cup",
+ "fork","knife","spoon","bowl","banana","apple","sandwich","orange","broccoli","carrot",
+ "hot dog","pizza","donut","cake","chair","couch","potted plant","bed","dining table",
+ "toilet","tv","laptop","mouse","remote","keyboard","cell phone","microwave","oven",
+ "toaster","sink","refrigerator","book","clock","vase","scissors","teddy bear","hair drier",
+ "toothbrush"}
+
+
+def _coco_for(term):
+    for a in [x.strip().lower() for x in term.split("|")]:
+        for c in _COCO:
+            if a == c or a in c.split() or c in a:
+                return c
+    return None
+
+
+def _detector(clip):
+    p = Path(f"runs/detect/{clip}-out.jsonl")
+    if not p.exists():
+        return {}, 0
+    hits, n = {}, 0
+    for line in p.read_text().splitlines():
+        if not line.strip():
+            continue
+        n += 1
+        for b in {x["label"] for x in json.loads(line).get("boxes", [])}:
+            hits[b] = hits.get(b, 0) + 1
+    return hits, n
+
+
+_v_coco = _d_coco = _v_open = 0
+for _clip, (_present, _) in _TRUTH.items():
+    _f = Path("runs/film") / _clip / "lfm2.5-vl-3b.jsonl"
+    if not _f.exists():
+        continue
+    _texts = _agg_load(_f)
+    _hits, _n = _detector(_clip)
+    if not _texts or not _n:
+        continue
+    for _term in _present:
+        _pat = re.compile(rf"\b({_term})\b", re.I)
+        _v = (sum(1 for t in _texts if _pat.search(t)) / len(_texts)) > 0.07
+        _c = _coco_for(_term)
+        if _c is None:
+            _v_open += _v
+        else:
+            _v_coco += _v
+            _d_coco += (_hits.get(_c, 0) / _n) > 0.07
+check("COCO-expressible terms found by the VLM", _v_coco, 8)
+check("COCO-expressible terms found by the detector", _d_coco, 8)
+check("open-vocabulary terms found by the VLM", _v_open, 11)
+
+# The loss that keeps the comparison honest: on masks-bags the detector wins outright.
+_mh, _mn = _detector("masks-bags")
+check("masks-bags: detector finds bicycle", _mh.get("bicycle", 0), 10)
+check("masks-bags: detector finds person", _mh.get("person", 0), 24)
+
+
 print("\n" + ("ALL QUOTED NUMBERS MATCH" if not fails else f"{len(fails)} MISMATCH: {fails}"))
 sys.exit(1 if fails else 0)

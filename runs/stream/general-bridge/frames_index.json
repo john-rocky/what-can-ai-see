@@ -1,0 +1,397 @@
+{
+ "clip": "general-bridge",
+ "fps": 1,
+ "n_frames": 80,
+ "windows": [
+  {
+   "i": 0,
+   "t_start": 0.0,
+   "t_end": 3.0,
+   "frames": [
+    "general-bridge|f00000",
+    "general-bridge|f00001",
+    "general-bridge|f00002"
+   ]
+  },
+  {
+   "i": 1,
+   "t_start": 2.0,
+   "t_end": 5.0,
+   "frames": [
+    "general-bridge|f00002",
+    "general-bridge|f00003",
+    "general-bridge|f00004"
+   ]
+  },
+  {
+   "i": 2,
+   "t_start": 4.0,
+   "t_end": 7.0,
+   "frames": [
+    "general-bridge|f00004",
+    "general-bridge|f00005",
+    "general-bridge|f00006"
+   ]
+  },
+  {
+   "i": 3,
+   "t_start": 6.0,
+   "t_end": 9.0,
+   "frames": [
+    "general-bridge|f00006",
+    "general-bridge|f00007",
+    "general-bridge|f00008"
+   ]
+  },
+  {
+   "i": 4,
+   "t_start": 8.0,
+   "t_end": 11.0,
+   "frames": [
+    "general-bridge|f00008",
+    "general-bridge|f00009",
+    "general-bridge|f00010"
+   ]
+  },
+  {
+   "i": 5,
+   "t_start": 10.0,
+   "t_end": 13.0,
+   "frames": [
+    "general-bridge|f00010",
+    "general-bridge|f00011",
+    "general-bridge|f00012"
+   ]
+  },
+  {
+   "i": 6,
+   "t_start": 12.0,
+   "t_end": 15.0,
+   "frames": [
+    "general-bridge|f00012",
+    "general-bridge|f00013",
+    "general-bridge|f00014"
+   ]
+  },
+  {
+   "i": 7,
+   "t_start": 14.0,
+   "t_end": 17.0,
+   "frames": [
+    "general-bridge|f00014",
+    "general-bridge|f00015",
+    "general-bridge|f00016"
+   ]
+  },
+  {
+   "i": 8,
+   "t_start": 16.0,
+   "t_end": 19.0,
+   "frames": [
+    "general-bridge|f00016",
+    "general-bridge|f00017",
+    "general-bridge|f00018"
+   ]
+  },
+  {
+   "i": 9,
+   "t_start": 18.0,
+   "t_end": 21.0,
+   "frames": [
+    "general-bridge|f00018",
+    "general-bridge|f00019",
+    "general-bridge|f00020"
+   ]
+  },
+  {
+   "i": 10,
+   "t_start": 20.0,
+   "t_end": 23.0,
+   "frames": [
+    "general-bridge|f00020",
+    "general-bridge|f00021",
+    "general-bridge|f00022"
+   ]
+  },
+  {
+   "i": 11,
+   "t_start": 22.0,
+   "t_end": 25.0,
+   "frames": [
+    "general-bridge|f00022",
+    "general-bridge|f00023",
+    "general-bridge|f00024"
+   ]
+  },
+  {
+   "i": 12,
+   "t_start": 24.0,
+   "t_end": 27.0,
+   "frames": [
+    "general-bridge|f00024",
+    "general-bridge|f00025",
+    "general-bridge|f00026"
+   ]
+  },
+  {
+   "i": 13,
+   "t_start": 26.0,
+   "t_end": 29.0,
+   "frames": [
+    "general-bridge|f00026",
+    "general-bridge|f00027",
+    "general-bridge|f00028"
+   ]
+  },
+  {
+   "i": 14,
+   "t_start": 28.0,
+   "t_end": 31.0,
+   "frames": [
+    "general-bridge|f00028",
+    "general-bridge|f00029",
+    "general-bridge|f00030"
+   ]
+  },
+  {
+   "i": 15,
+   "t_start": 30.0,
+   "t_end": 33.0,
+   "frames": [
+    "general-bridge|f00030",
+    "general-bridge|f00031",
+    "general-bridge|f00032"
+   ]
+  },
+  {
+   "i": 16,
+   "t_start": 32.0,
+   "t_end": 35.0,
+   "frames": [
+    "general-bridge|f00032",
+    "general-bridge|f00033",
+    "general-bridge|f00034"
+   ]
+  },
+  {
+   "i": 17,
+   "t_start": 34.0,
+   "t_end": 37.0,
+   "frames": [
+    "general-bridge|f00034",
+    "general-bridge|f00035",
+    "general-bridge|f00036"
+   ]
+  },
+  {
+   "i": 18,
+   "t_start": 36.0,
+   "t_end": 39.0,
+   "frames": [
+    "general-bridge|f00036",
+    "general-bridge|f00037",
+    "general-bridge|f00038"
+   ]
+  },
+  {
+   "i": 19,
+   "t_start": 38.0,
+   "t_end": 41.0,
+   "frames": [
+    "general-bridge|f00038",
+    "general-bridge|f00039",
+    "general-bridge|f00040"
+   ]
+  },
+  {
+   "i": 20,
+   "t_start": 40.0,
+   "t_end": 43.0,
+   "frames": [
+    "general-bridge|f00040",
+    "general-bridge|f00041",
+    "general-bridge|f00042"
+   ]
+  },
+  {
+   "i": 21,
+   "t_start": 42.0,
+   "t_end": 45.0,
+   "frames": [
+    "general-bridge|f00042",
+    "general-bridge|f00043",
+    "general-bridge|f00044"
+   ]
+  },
+  {
+   "i": 22,
+   "t_start": 44.0,
+   "t_end": 47.0,
+   "frames": [
+    "general-bridge|f00044",
+    "general-bridge|f00045",
+    "general-bridge|f00046"
+   ]
+  },
+  {
+   "i": 23,
+   "t_start": 46.0,
+   "t_end": 49.0,
+   "frames": [
+    "general-bridge|f00046",
+    "general-bridge|f00047",
+    "general-bridge|f00048"
+   ]
+  },
+  {
+   "i": 24,
+   "t_start": 48.0,
+   "t_end": 51.0,
+   "frames": [
+    "general-bridge|f00048",
+    "general-bridge|f00049",
+    "general-bridge|f00050"
+   ]
+  },
+  {
+   "i": 25,
+   "t_start": 50.0,
+   "t_end": 53.0,
+   "frames": [
+    "general-bridge|f00050",
+    "general-bridge|f00051",
+    "general-bridge|f00052"
+   ]
+  },
+  {
+   "i": 26,
+   "t_start": 52.0,
+   "t_end": 55.0,
+   "frames": [
+    "general-bridge|f00052",
+    "general-bridge|f00053",
+    "general-bridge|f00054"
+   ]
+  },
+  {
+   "i": 27,
+   "t_start": 54.0,
+   "t_end": 57.0,
+   "frames": [
+    "general-bridge|f00054",
+    "general-bridge|f00055",
+    "general-bridge|f00056"
+   ]
+  },
+  {
+   "i": 28,
+   "t_start": 56.0,
+   "t_end": 59.0,
+   "frames": [
+    "general-bridge|f00056",
+    "general-bridge|f00057",
+    "general-bridge|f00058"
+   ]
+  },
+  {
+   "i": 29,
+   "t_start": 58.0,
+   "t_end": 61.0,
+   "frames": [
+    "general-bridge|f00058",
+    "general-bridge|f00059",
+    "general-bridge|f00060"
+   ]
+  },
+  {
+   "i": 30,
+   "t_start": 60.0,
+   "t_end": 63.0,
+   "frames": [
+    "general-bridge|f00060",
+    "general-bridge|f00061",
+    "general-bridge|f00062"
+   ]
+  },
+  {
+   "i": 31,
+   "t_start": 62.0,
+   "t_end": 65.0,
+   "frames": [
+    "general-bridge|f00062",
+    "general-bridge|f00063",
+    "general-bridge|f00064"
+   ]
+  },
+  {
+   "i": 32,
+   "t_start": 64.0,
+   "t_end": 67.0,
+   "frames": [
+    "general-bridge|f00064",
+    "general-bridge|f00065",
+    "general-bridge|f00066"
+   ]
+  },
+  {
+   "i": 33,
+   "t_start": 66.0,
+   "t_end": 69.0,
+   "frames": [
+    "general-bridge|f00066",
+    "general-bridge|f00067",
+    "general-bridge|f00068"
+   ]
+  },
+  {
+   "i": 34,
+   "t_start": 68.0,
+   "t_end": 71.0,
+   "frames": [
+    "general-bridge|f00068",
+    "general-bridge|f00069",
+    "general-bridge|f00070"
+   ]
+  },
+  {
+   "i": 35,
+   "t_start": 70.0,
+   "t_end": 73.0,
+   "frames": [
+    "general-bridge|f00070",
+    "general-bridge|f00071",
+    "general-bridge|f00072"
+   ]
+  },
+  {
+   "i": 36,
+   "t_start": 72.0,
+   "t_end": 75.0,
+   "frames": [
+    "general-bridge|f00072",
+    "general-bridge|f00073",
+    "general-bridge|f00074"
+   ]
+  },
+  {
+   "i": 37,
+   "t_start": 74.0,
+   "t_end": 77.0,
+   "frames": [
+    "general-bridge|f00074",
+    "general-bridge|f00075",
+    "general-bridge|f00076"
+   ]
+  },
+  {
+   "i": 38,
+   "t_start": 76.0,
+   "t_end": 79.0,
+   "frames": [
+    "general-bridge|f00076",
+    "general-bridge|f00077",
+    "general-bridge|f00078"
+   ]
+  }
+ ]
+}

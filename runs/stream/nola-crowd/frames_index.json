@@ -1,0 +1,307 @@
+{
+ "clip": "nola-crowd",
+ "fps": 1,
+ "n_frames": 90,
+ "windows": [
+  {
+   "i": 0,
+   "t_start": 0.0,
+   "t_end": 3.0,
+   "frames": [
+    "nola-crowd|f00000",
+    "nola-crowd|f00001",
+    "nola-crowd|f00002"
+   ]
+  },
+  {
+   "i": 1,
+   "t_start": 3.0,
+   "t_end": 6.0,
+   "frames": [
+    "nola-crowd|f00003",
+    "nola-crowd|f00004",
+    "nola-crowd|f00005"
+   ]
+  },
+  {
+   "i": 2,
+   "t_start": 6.0,
+   "t_end": 9.0,
+   "frames": [
+    "nola-crowd|f00006",
+    "nola-crowd|f00007",
+    "nola-crowd|f00008"
+   ]
+  },
+  {
+   "i": 3,
+   "t_start": 9.0,
+   "t_end": 12.0,
+   "frames": [
+    "nola-crowd|f00009",
+    "nola-crowd|f00010",
+    "nola-crowd|f00011"
+   ]
+  },
+  {
+   "i": 4,
+   "t_start": 12.0,
+   "t_end": 15.0,
+   "frames": [
+    "nola-crowd|f00012",
+    "nola-crowd|f00013",
+    "nola-crowd|f00014"
+   ]
+  },
+  {
+   "i": 5,
+   "t_start": 15.0,
+   "t_end": 18.0,
+   "frames": [
+    "nola-crowd|f00015",
+    "nola-crowd|f00016",
+    "nola-crowd|f00017"
+   ]
+  },
+  {
+   "i": 6,
+   "t_start": 18.0,
+   "t_end": 21.0,
+   "frames": [
+    "nola-crowd|f00018",
+    "nola-crowd|f00019",
+    "nola-crowd|f00020"
+   ]
+  },
+  {
+   "i": 7,
+   "t_start": 21.0,
+   "t_end": 24.0,
+   "frames": [
+    "nola-crowd|f00021",
+    "nola-crowd|f00022",
+    "nola-crowd|f00023"
+   ]
+  },
+  {
+   "i": 8,
+   "t_start": 24.0,
+   "t_end": 27.0,
+   "frames": [
+    "nola-crowd|f00024",
+    "nola-crowd|f00025",
+    "nola-crowd|f00026"
+   ]
+  },
+  {
+   "i": 9,
+   "t_start": 27.0,
+   "t_end": 30.0,
+   "frames": [
+    "nola-crowd|f00027",
+    "nola-crowd|f00028",
+    "nola-crowd|f00029"
+   ]
+  },
+  {
+   "i": 10,
+   "t_start": 30.0,
+   "t_end": 33.0,
+   "frames": [
+    "nola-crowd|f00030",
+    "nola-crowd|f00031",
+    "nola-crowd|f00032"
+   ]
+  },
+  {
+   "i": 11,
+   "t_start": 33.0,
+   "t_end": 36.0,
+   "frames": [
+    "nola-crowd|f00033",
+    "nola-crowd|f00034",
+    "nola-crowd|f00035"
+   ]
+  },
+  {
+   "i": 12,
+   "t_start": 36.0,
+   "t_end": 39.0,
+   "frames": [
+    "nola-crowd|f00036",
+    "nola-crowd|f00037",
+    "nola-crowd|f00038"
+   ]
+  },
+  {
+   "i": 13,
+   "t_start": 39.0,
+   "t_end": 42.0,
+   "frames": [
+    "nola-crowd|f00039",
+    "nola-crowd|f00040",
+    "nola-crowd|f00041"
+   ]
+  },
+  {
+   "i": 14,
+   "t_start": 42.0,
+   "t_end": 45.0,
+   "frames": [
+    "nola-crowd|f00042",
+    "nola-crowd|f00043",
+    "nola-crowd|f00044"
+   ]
+  },
+  {
+   "i": 15,
+   "t_start": 45.0,
+   "t_end": 48.0,
+   "frames": [
+    "nola-crowd|f00045",
+    "nola-crowd|f00046",
+    "nola-crowd|f00047"
+   ]
+  },
+  {
+   "i": 16,
+   "t_start": 48.0,
+   "t_end": 51.0,
+   "frames": [
+    "nola-crowd|f00048",
+    "nola-crowd|f00049",
+    "nola-crowd|f00050"
+   ]
+  },
+  {
+   "i": 17,
+   "t_start": 51.0,
+   "t_end": 54.0,
+   "frames": [
+    "nola-crowd|f00051",
+    "nola-crowd|f00052",
+    "nola-crowd|f00053"
+   ]
+  },
+  {
+   "i": 18,
+   "t_start": 54.0,
+   "t_end": 57.0,
+   "frames": [
+    "nola-crowd|f00054",
+    "nola-crowd|f00055",
+    "nola-crowd|f00056"
+   ]
+  },
+  {
+   "i": 19,
+   "t_start": 57.0,
+   "t_end": 60.0,
+   "frames": [
+    "nola-crowd|f00057",
+    "nola-crowd|f00058",
+    "nola-crowd|f00059"
+   ]
+  },
+  {
+   "i": 20,
+   "t_start": 60.0,
+   "t_end": 63.0,
+   "frames": [
+    "nola-crowd|f00060",
+    "nola-crowd|f00061",
+    "nola-crowd|f00062"
+   ]
+  },
+  {
+   "i": 21,
+   "t_start": 63.0,
+   "t_end": 66.0,
+   "frames": [
+    "nola-crowd|f00063",
+    "nola-crowd|f00064",
+    "nola-crowd|f00065"
+   ]
+  },
+  {
+   "i": 22,
+   "t_start": 66.0,
+   "t_end": 69.0,
+   "frames": [
+    "nola-crowd|f00066",
+    "nola-crowd|f00067",
+    "nola-crowd|f00068"
+   ]
+  },
+  {
+   "i": 23,
+   "t_start": 69.0,
+   "t_end": 72.0,
+   "frames": [
+    "nola-crowd|f00069",
+    "nola-crowd|f00070",
+    "nola-crowd|f00071"
+   ]
+  },
+  {
+   "i": 24,
+   "t_start": 72.0,
+   "t_end": 75.0,
+   "frames": [
+    "nola-crowd|f00072",
+    "nola-crowd|f00073",
+    "nola-crowd|f00074"
+   ]
+  },
+  {
+   "i": 25,
+   "t_start": 75.0,
+   "t_end": 78.0,
+   "frames": [
+    "nola-crowd|f00075",
+    "nola-crowd|f00076",
+    "nola-crowd|f00077"
+   ]
+  },
+  {
+   "i": 26,
+   "t_start": 78.0,
+   "t_end": 81.0,
+   "frames": [
+    "nola-crowd|f00078",
+    "nola-crowd|f00079",
+    "nola-crowd|f00080"
+   ]
+  },
+  {
+   "i": 27,
+   "t_start": 81.0,
+   "t_end": 84.0,
+   "frames": [
+    "nola-crowd|f00081",
+    "nola-crowd|f00082",
+    "nola-crowd|f00083"
+   ]
+  },
+  {
+   "i": 28,
+   "t_start": 84.0,
+   "t_end": 87.0,
+   "frames": [
+    "nola-crowd|f00084",
+    "nola-crowd|f00085",
+    "nola-crowd|f00086"
+   ]
+  },
+  {
+   "i": 29,
+   "t_start": 87.0,
+   "t_end": 90.0,
+   "frames": [
+    "nola-crowd|f00087",
+    "nola-crowd|f00088",
+    "nola-crowd|f00089"
+   ]
+  }
+ ]
+}

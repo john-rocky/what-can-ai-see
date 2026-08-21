@@ -1,0 +1,507 @@
+{
+ "clip": "retail-store",
+ "fps": 1,
+ "n_frames": 150,
+ "windows": [
+  {
+   "i": 0,
+   "t_start": 0.0,
+   "t_end": 3.0,
+   "frames": [
+    "retail-store|f00000",
+    "retail-store|f00001",
+    "retail-store|f00002"
+   ]
+  },
+  {
+   "i": 1,
+   "t_start": 3.0,
+   "t_end": 6.0,
+   "frames": [
+    "retail-store|f00003",
+    "retail-store|f00004",
+    "retail-store|f00005"
+   ]
+  },
+  {
+   "i": 2,
+   "t_start": 6.0,
+   "t_end": 9.0,
+   "frames": [
+    "retail-store|f00006",
+    "retail-store|f00007",
+    "retail-store|f00008"
+   ]
+  },
+  {
+   "i": 3,
+   "t_start": 9.0,
+   "t_end": 12.0,
+   "frames": [
+    "retail-store|f00009",
+    "retail-store|f00010",
+    "retail-store|f00011"
+   ]
+  },
+  {
+   "i": 4,
+   "t_start": 12.0,
+   "t_end": 15.0,
+   "frames": [
+    "retail-store|f00012",
+    "retail-store|f00013",
+    "retail-store|f00014"
+   ]
+  },
+  {
+   "i": 5,
+   "t_start": 15.0,
+   "t_end": 18.0,
+   "frames": [
+    "retail-store|f00015",
+    "retail-store|f00016",
+    "retail-store|f00017"
+   ]
+  },
+  {
+   "i": 6,
+   "t_start": 18.0,
+   "t_end": 21.0,
+   "frames": [
+    "retail-store|f00018",
+    "retail-store|f00019",
+    "retail-store|f00020"
+   ]
+  },
+  {
+   "i": 7,
+   "t_start": 21.0,
+   "t_end": 24.0,
+   "frames": [
+    "retail-store|f00021",
+    "retail-store|f00022",
+    "retail-store|f00023"
+   ]
+  },
+  {
+   "i": 8,
+   "t_start": 24.0,
+   "t_end": 27.0,
+   "frames": [
+    "retail-store|f00024",
+    "retail-store|f00025",
+    "retail-store|f00026"
+   ]
+  },
+  {
+   "i": 9,
+   "t_start": 27.0,
+   "t_end": 30.0,
+   "frames": [
+    "retail-store|f00027",
+    "retail-store|f00028",
+    "retail-store|f00029"
+   ]
+  },
+  {
+   "i": 10,
+   "t_start": 30.0,
+   "t_end": 33.0,
+   "frames": [
+    "retail-store|f00030",
+    "retail-store|f00031",
+    "retail-store|f00032"
+   ]
+  },
+  {
+   "i": 11,
+   "t_start": 33.0,
+   "t_end": 36.0,
+   "frames": [
+    "retail-store|f00033",
+    "retail-store|f00034",
+    "retail-store|f00035"
+   ]
+  },
+  {
+   "i": 12,
+   "t_start": 36.0,
+   "t_end": 39.0,
+   "frames": [
+    "retail-store|f00036",
+    "retail-store|f00037",
+    "retail-store|f00038"
+   ]
+  },
+  {
+   "i": 13,
+   "t_start": 39.0,
+   "t_end": 42.0,
+   "frames": [
+    "retail-store|f00039",
+    "retail-store|f00040",
+    "retail-store|f00041"
+   ]
+  },
+  {
+   "i": 14,
+   "t_start": 42.0,
+   "t_end": 45.0,
+   "frames": [
+    "retail-store|f00042",
+    "retail-store|f00043",
+    "retail-store|f00044"
+   ]
+  },
+  {
+   "i": 15,
+   "t_start": 45.0,
+   "t_end": 48.0,
+   "frames": [
+    "retail-store|f00045",
+    "retail-store|f00046",
+    "retail-store|f00047"
+   ]
+  },
+  {
+   "i": 16,
+   "t_start": 48.0,
+   "t_end": 51.0,
+   "frames": [
+    "retail-store|f00048",
+    "retail-store|f00049",
+    "retail-store|f00050"
+   ]
+  },
+  {
+   "i": 17,
+   "t_start": 51.0,
+   "t_end": 54.0,
+   "frames": [
+    "retail-store|f00051",
+    "retail-store|f00052",
+    "retail-store|f00053"
+   ]
+  },
+  {
+   "i": 18,
+   "t_start": 54.0,
+   "t_end": 57.0,
+   "frames": [
+    "retail-store|f00054",
+    "retail-store|f00055",
+    "retail-store|f00056"
+   ]
+  },
+  {
+   "i": 19,
+   "t_start": 57.0,
+   "t_end": 60.0,
+   "frames": [
+    "retail-store|f00057",
+    "retail-store|f00058",
+    "retail-store|f00059"
+   ]
+  },
+  {
+   "i": 20,
+   "t_start": 60.0,
+   "t_end": 63.0,
+   "frames": [
+    "retail-store|f00060",
+    "retail-store|f00061",
+    "retail-store|f00062"
+   ]
+  },
+  {
+   "i": 21,
+   "t_start": 63.0,
+   "t_end": 66.0,
+   "frames": [
+    "retail-store|f00063",
+    "retail-store|f00064",
+    "retail-store|f00065"
+   ]
+  },
+  {
+   "i": 22,
+   "t_start": 66.0,
+   "t_end": 69.0,
+   "frames": [
+    "retail-store|f00066",
+    "retail-store|f00067",
+    "retail-store|f00068"
+   ]
+  },
+  {
+   "i": 23,
+   "t_start": 69.0,
+   "t_end": 72.0,
+   "frames": [
+    "retail-store|f00069",
+    "retail-store|f00070",
+    "retail-store|f00071"
+   ]
+  },
+  {
+   "i": 24,
+   "t_start": 72.0,
+   "t_end": 75.0,
+   "frames": [
+    "retail-store|f00072",
+    "retail-store|f00073",
+    "retail-store|f00074"
+   ]
+  },
+  {
+   "i": 25,
+   "t_start": 75.0,
+   "t_end": 78.0,
+   "frames": [
+    "retail-store|f00075",
+    "retail-store|f00076",
+    "retail-store|f00077"
+   ]
+  },
+  {
+   "i": 26,
+   "t_start": 78.0,
+   "t_end": 81.0,
+   "frames": [
+    "retail-store|f00078",
+    "retail-store|f00079",
+    "retail-store|f00080"
+   ]
+  },
+  {
+   "i": 27,
+   "t_start": 81.0,
+   "t_end": 84.0,
+   "frames": [
+    "retail-store|f00081",
+    "retail-store|f00082",
+    "retail-store|f00083"
+   ]
+  },
+  {
+   "i": 28,
+   "t_start": 84.0,
+   "t_end": 87.0,
+   "frames": [
+    "retail-store|f00084",
+    "retail-store|f00085",
+    "retail-store|f00086"
+   ]
+  },
+  {
+   "i": 29,
+   "t_start": 87.0,
+   "t_end": 90.0,
+   "frames": [
+    "retail-store|f00087",
+    "retail-store|f00088",
+    "retail-store|f00089"
+   ]
+  },
+  {
+   "i": 30,
+   "t_start": 90.0,
+   "t_end": 93.0,
+   "frames": [
+    "retail-store|f00090",
+    "retail-store|f00091",
+    "retail-store|f00092"
+   ]
+  },
+  {
+   "i": 31,
+   "t_start": 93.0,
+   "t_end": 96.0,
+   "frames": [
+    "retail-store|f00093",
+    "retail-store|f00094",
+    "retail-store|f00095"
+   ]
+  },
+  {
+   "i": 32,
+   "t_start": 96.0,
+   "t_end": 99.0,
+   "frames": [
+    "retail-store|f00096",
+    "retail-store|f00097",
+    "retail-store|f00098"
+   ]
+  },
+  {
+   "i": 33,
+   "t_start": 99.0,
+   "t_end": 102.0,
+   "frames": [
+    "retail-store|f00099",
+    "retail-store|f00100",
+    "retail-store|f00101"
+   ]
+  },
+  {
+   "i": 34,
+   "t_start": 102.0,
+   "t_end": 105.0,
+   "frames": [
+    "retail-store|f00102",
+    "retail-store|f00103",
+    "retail-store|f00104"
+   ]
+  },
+  {
+   "i": 35,
+   "t_start": 105.0,
+   "t_end": 108.0,
+   "frames": [
+    "retail-store|f00105",
+    "retail-store|f00106",
+    "retail-store|f00107"
+   ]
+  },
+  {
+   "i": 36,
+   "t_start": 108.0,
+   "t_end": 111.0,
+   "frames": [
+    "retail-store|f00108",
+    "retail-store|f00109",
+    "retail-store|f00110"
+   ]
+  },
+  {
+   "i": 37,
+   "t_start": 111.0,
+   "t_end": 114.0,
+   "frames": [
+    "retail-store|f00111",
+    "retail-store|f00112",
+    "retail-store|f00113"
+   ]
+  },
+  {
+   "i": 38,
+   "t_start": 114.0,
+   "t_end": 117.0,
+   "frames": [
+    "retail-store|f00114",
+    "retail-store|f00115",
+    "retail-store|f00116"
+   ]
+  },
+  {
+   "i": 39,
+   "t_start": 117.0,
+   "t_end": 120.0,
+   "frames": [
+    "retail-store|f00117",
+    "retail-store|f00118",
+    "retail-store|f00119"
+   ]
+  },
+  {
+   "i": 40,
+   "t_start": 120.0,
+   "t_end": 123.0,
+   "frames": [
+    "retail-store|f00120",
+    "retail-store|f00121",
+    "retail-store|f00122"
+   ]
+  },
+  {
+   "i": 41,
+   "t_start": 123.0,
+   "t_end": 126.0,
+   "frames": [
+    "retail-store|f00123",
+    "retail-store|f00124",
+    "retail-store|f00125"
+   ]
+  },
+  {
+   "i": 42,
+   "t_start": 126.0,
+   "t_end": 129.0,
+   "frames": [
+    "retail-store|f00126",
+    "retail-store|f00127",
+    "retail-store|f00128"
+   ]
+  },
+  {
+   "i": 43,
+   "t_start": 129.0,
+   "t_end": 132.0,
+   "frames": [
+    "retail-store|f00129",
+    "retail-store|f00130",
+    "retail-store|f00131"
+   ]
+  },
+  {
+   "i": 44,
+   "t_start": 132.0,
+   "t_end": 135.0,
+   "frames": [
+    "retail-store|f00132",
+    "retail-store|f00133",
+    "retail-store|f00134"
+   ]
+  },
+  {
+   "i": 45,
+   "t_start": 135.0,
+   "t_end": 138.0,
+   "frames": [
+    "retail-store|f00135",
+    "retail-store|f00136",
+    "retail-store|f00137"
+   ]
+  },
+  {
+   "i": 46,
+   "t_start": 138.0,
+   "t_end": 141.0,
+   "frames": [
+    "retail-store|f00138",
+    "retail-store|f00139",
+    "retail-store|f00140"
+   ]
+  },
+  {
+   "i": 47,
+   "t_start": 141.0,
+   "t_end": 144.0,
+   "frames": [
+    "retail-store|f00141",
+    "retail-store|f00142",
+    "retail-store|f00143"
+   ]
+  },
+  {
+   "i": 48,
+   "t_start": 144.0,
+   "t_end": 147.0,
+   "frames": [
+    "retail-store|f00144",
+    "retail-store|f00145",
+    "retail-store|f00146"
+   ]
+  },
+  {
+   "i": 49,
+   "t_start": 147.0,
+   "t_end": 150.0,
+   "frames": [
+    "retail-store|f00147",
+    "retail-store|f00148",
+    "retail-store|f00149"
+   ]
+  }
+ ]
+}

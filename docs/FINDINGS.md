@@ -1734,3 +1734,51 @@ a threshold problem — the words are absent at every threshold.
 The useful sentence is therefore narrow and testable: **it can tell you, cheaply and
 reproducibly, which recordings contain a thing — and nothing about how many, how they
 relate, or what just happened.**
+
+## F34 — against a detector, the only difference is vocabulary
+
+F33 concluded that the union over a stretch tells you which recordings contain a thing.
+That is a description of an object detector, so the question is whether a 653 MB–3 GB VLM
+at 2–5 s per window buys anything over a 103 MB detector at 30 fps with a confidence score.
+
+RF-DETR was run over **the same window images** the VLMs were given — nine clips, 365
+windows — and scored on the same union rule (present if it fires in more than 7% of
+windows). The terms split cleanly by whether COCO's 80 classes can express them at all.
+
+| | VLM (LFM2.5-VL 3B) | RF-DETR |
+|---|---|---|
+| terms COCO **can** express (10) | 8 found | 8 found |
+| terms COCO **cannot** express (13) | 11 found | **cannot be asked** |
+
+**On COCO's own vocabulary it is a tie, and the detector is 6× smaller and ~100× faster.**
+There is no case for the VLM there.
+
+**The difference is the thirteen terms COCO has no word for**: *bridge*, *river*, *cannon*,
+*shelf / shop / aisle*, *crowd*, *street*, *paper bag*, *product / goods*. The VLM named 11
+of those 13. A detector cannot be wrong about them because it cannot be asked.
+
+### The tie is not clean, and the loss is instructive
+
+On `masks-bags` the detector beat the VLM on its own turf and on the VLM's:
+
+| | RF-DETR | LFM2.5-VL 3B |
+|---|---|---|
+| bicycle | 10/30 | 2/30 |
+| person | 24/30 | 0/30 (never says child/person) |
+| the ape masks | not a class | 0/30 (F31) |
+
+Children on bicycles, and the VLM reports neither the children nor the bicycles. The 450M
+described the same frames as *"a group of monkeys"*. A detector saying `person`, `bicycle`
+is both cheaper and closer to true.
+
+### What this does to F33
+
+The use case survives but narrows to one sentence: **an open vocabulary over recorded
+footage.** If the thing you want to find is a COCO class, use the detector — it is smaller,
+faster, gives a per-frame confidence, and here it was never worse. If the thing you want to
+find is a shelf, a bridge, a crowd or a shop aisle, the detector has no word for it and the
+VLM has 11 of 13.
+
+That is a real difference and it is the only one these 365 windows support. It is also
+narrower than "VLMs understand scenes": the open vocabulary buys naming, not counting
+(F30), not relations (F21, F29), and not per-frame reliability (F33).

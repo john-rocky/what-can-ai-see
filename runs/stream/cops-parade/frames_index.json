@@ -1,0 +1,307 @@
+{
+ "clip": "cops-parade",
+ "fps": 1,
+ "n_frames": 90,
+ "windows": [
+  {
+   "i": 0,
+   "t_start": 0.0,
+   "t_end": 3.0,
+   "frames": [
+    "cops-parade|f00000",
+    "cops-parade|f00001",
+    "cops-parade|f00002"
+   ]
+  },
+  {
+   "i": 1,
+   "t_start": 3.0,
+   "t_end": 6.0,
+   "frames": [
+    "cops-parade|f00003",
+    "cops-parade|f00004",
+    "cops-parade|f00005"
+   ]
+  },
+  {
+   "i": 2,
+   "t_start": 6.0,
+   "t_end": 9.0,
+   "frames": [
+    "cops-parade|f00006",
+    "cops-parade|f00007",
+    "cops-parade|f00008"
+   ]
+  },
+  {
+   "i": 3,
+   "t_start": 9.0,
+   "t_end": 12.0,
+   "frames": [
+    "cops-parade|f00009",
+    "cops-parade|f00010",
+    "cops-parade|f00011"
+   ]
+  },
+  {
+   "i": 4,
+   "t_start": 12.0,
+   "t_end": 15.0,
+   "frames": [
+    "cops-parade|f00012",
+    "cops-parade|f00013",
+    "cops-parade|f00014"
+   ]
+  },
+  {
+   "i": 5,
+   "t_start": 15.0,
+   "t_end": 18.0,
+   "frames": [
+    "cops-parade|f00015",
+    "cops-parade|f00016",
+    "cops-parade|f00017"
+   ]
+  },
+  {
+   "i": 6,
+   "t_start": 18.0,
+   "t_end": 21.0,
+   "frames": [
+    "cops-parade|f00018",
+    "cops-parade|f00019",
+    "cops-parade|f00020"
+   ]
+  },
+  {
+   "i": 7,
+   "t_start": 21.0,
+   "t_end": 24.0,
+   "frames": [
+    "cops-parade|f00021",
+    "cops-parade|f00022",
+    "cops-parade|f00023"
+   ]
+  },
+  {
+   "i": 8,
+   "t_start": 24.0,
+   "t_end": 27.0,
+   "frames": [
+    "cops-parade|f00024",
+    "cops-parade|f00025",
+    "cops-parade|f00026"
+   ]
+  },
+  {
+   "i": 9,
+   "t_start": 27.0,
+   "t_end": 30.0,
+   "frames": [
+    "cops-parade|f00027",
+    "cops-parade|f00028",
+    "cops-parade|f00029"
+   ]
+  },
+  {
+   "i": 10,
+   "t_start": 30.0,
+   "t_end": 33.0,
+   "frames": [
+    "cops-parade|f00030",
+    "cops-parade|f00031",
+    "cops-parade|f00032"
+   ]
+  },
+  {
+   "i": 11,
+   "t_start": 33.0,
+   "t_end": 36.0,
+   "frames": [
+    "cops-parade|f00033",
+    "cops-parade|f00034",
+    "cops-parade|f00035"
+   ]
+  },
+  {
+   "i": 12,
+   "t_start": 36.0,
+   "t_end": 39.0,
+   "frames": [
+    "cops-parade|f00036",
+    "cops-parade|f00037",
+    "cops-parade|f00038"
+   ]
+  },
+  {
+   "i": 13,
+   "t_start": 39.0,
+   "t_end": 42.0,
+   "frames": [
+    "cops-parade|f00039",
+    "cops-parade|f00040",
+    "cops-parade|f00041"
+   ]
+  },
+  {
+   "i": 14,
+   "t_start": 42.0,
+   "t_end": 45.0,
+   "frames": [
+    "cops-parade|f00042",
+    "cops-parade|f00043",
+    "cops-parade|f00044"
+   ]
+  },
+  {
+   "i": 15,
+   "t_start": 45.0,
+   "t_end": 48.0,
+   "frames": [
+    "cops-parade|f00045",
+    "cops-parade|f00046",
+    "cops-parade|f00047"
+   ]
+  },
+  {
+   "i": 16,
+   "t_start": 48.0,
+   "t_end": 51.0,
+   "frames": [
+    "cops-parade|f00048",
+    "cops-parade|f00049",
+    "cops-parade|f00050"
+   ]
+  },
+  {
+   "i": 17,
+   "t_start": 51.0,
+   "t_end": 54.0,
+   "frames": [
+    "cops-parade|f00051",
+    "cops-parade|f00052",
+    "cops-parade|f00053"
+   ]
+  },
+  {
+   "i": 18,
+   "t_start": 54.0,
+   "t_end": 57.0,
+   "frames": [
+    "cops-parade|f00054",
+    "cops-parade|f00055",
+    "cops-parade|f00056"
+   ]
+  },
+  {
+   "i": 19,
+   "t_start": 57.0,
+   "t_end": 60.0,
+   "frames": [
+    "cops-parade|f00057",
+    "cops-parade|f00058",
+    "cops-parade|f00059"
+   ]
+  },
+  {
+   "i": 20,
+   "t_start": 60.0,
+   "t_end": 63.0,
+   "frames": [
+    "cops-parade|f00060",
+    "cops-parade|f00061",
+    "cops-parade|f00062"
+   ]
+  },
+  {
+   "i": 21,
+   "t_start": 63.0,
+   "t_end": 66.0,
+   "frames": [
+    "cops-parade|f00063",
+    "cops-parade|f00064",
+    "cops-parade|f00065"
+   ]
+  },
+  {
+   "i": 22,
+   "t_start": 66.0,
+   "t_end": 69.0,
+   "frames": [
+    "cops-parade|f00066",
+    "cops-parade|f00067",
+    "cops-parade|f00068"
+   ]
+  },
+  {
+   "i": 23,
+   "t_start": 69.0,
+   "t_end": 72.0,
+   "frames": [
+    "cops-parade|f00069",
+    "cops-parade|f00070",
+    "cops-parade|f00071"
+   ]
+  },
+  {
+   "i": 24,
+   "t_start": 72.0,
+   "t_end": 75.0,
+   "frames": [
+    "cops-parade|f00072",
+    "cops-parade|f00073",
+    "cops-parade|f00074"
+   ]
+  },
+  {
+   "i": 25,
+   "t_start": 75.0,
+   "t_end": 78.0,
+   "frames": [
+    "cops-parade|f00075",
+    "cops-parade|f00076",
+    "cops-parade|f00077"
+   ]
+  },
+  {
+   "i": 26,
+   "t_start": 78.0,
+   "t_end": 81.0,
+   "frames": [
+    "cops-parade|f00078",
+    "cops-parade|f00079",
+    "cops-parade|f00080"
+   ]
+  },
+  {
+   "i": 27,
+   "t_start": 81.0,
+   "t_end": 84.0,
+   "frames": [
+    "cops-parade|f00081",
+    "cops-parade|f00082",
+    "cops-parade|f00083"
+   ]
+  },
+  {
+   "i": 28,
+   "t_start": 84.0,
+   "t_end": 87.0,
+   "frames": [
+    "cops-parade|f00084",
+    "cops-parade|f00085",
+    "cops-parade|f00086"
+   ]
+  },
+  {
+   "i": 29,
+   "t_start": 87.0,
+   "t_end": 90.0,
+   "frames": [
+    "cops-parade|f00087",
+    "cops-parade|f00088",
+    "cops-parade|f00089"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,897 @@
+{
+ "clip": "general-cannon",
+ "fps": 1,
+ "n_frames": 180,
+ "windows": [
+  {
+   "i": 0,
+   "t_start": 0.0,
+   "t_end": 3.0,
+   "frames": [
+    "general-cannon|f00000",
+    "general-cannon|f00001",
+    "general-cannon|f00002"
+   ]
+  },
+  {
+   "i": 1,
+   "t_start": 2.0,
+   "t_end": 5.0,
+   "frames": [
+    "general-cannon|f00002",
+    "general-cannon|f00003",
+    "general-cannon|f00004"
+   ]
+  },
+  {
+   "i": 2,
+   "t_start": 4.0,
+   "t_end": 7.0,
+   "frames": [
+    "general-cannon|f00004",
+    "general-cannon|f00005",
+    "general-cannon|f00006"
+   ]
+  },
+  {
+   "i": 3,
+   "t_start": 6.0,
+   "t_end": 9.0,
+   "frames": [
+    "general-cannon|f00006",
+    "general-cannon|f00007",
+    "general-cannon|f00008"
+   ]
+  },
+  {
+   "i": 4,
+   "t_start": 8.0,
+   "t_end": 11.0,
+   "frames": [
+    "general-cannon|f00008",
+    "general-cannon|f00009",
+    "general-cannon|f00010"
+   ]
+  },
+  {
+   "i": 5,
+   "t_start": 10.0,
+   "t_end": 13.0,
+   "frames": [
+    "general-cannon|f00010",
+    "general-cannon|f00011",
+    "general-cannon|f00012"
+   ]
+  },
+  {
+   "i": 6,
+   "t_start": 12.0,
+   "t_end": 15.0,
+   "frames": [
+    "general-cannon|f00012",
+    "general-cannon|f00013",
+    "general-cannon|f00014"
+   ]
+  },
+  {
+   "i": 7,
+   "t_start": 14.0,
+   "t_end": 17.0,
+   "frames": [
+    "general-cannon|f00014",
+    "general-cannon|f00015",
+    "general-cannon|f00016"
+   ]
+  },
+  {
+   "i": 8,
+   "t_start": 16.0,
+   "t_end": 19.0,
+   "frames": [
+    "general-cannon|f00016",
+    "general-cannon|f00017",
+    "general-cannon|f00018"
+   ]
+  },
+  {
+   "i": 9,
+   "t_start": 18.0,
+   "t_end": 21.0,
+   "frames": [
+    "general-cannon|f00018",
+    "general-cannon|f00019",
+    "general-cannon|f00020"
+   ]
+  },
+  {
+   "i": 10,
+   "t_start": 20.0,
+   "t_end": 23.0,
+   "frames": [
+    "general-cannon|f00020",
+    "general-cannon|f00021",
+    "general-cannon|f00022"
+   ]
+  },
+  {
+   "i": 11,
+   "t_start": 22.0,
+   "t_end": 25.0,
+   "frames": [
+    "general-cannon|f00022",
+    "general-cannon|f00023",
+    "general-cannon|f00024"
+   ]
+  },
+  {
+   "i": 12,
+   "t_start": 24.0,
+   "t_end": 27.0,
+   "frames": [
+    "general-cannon|f00024",
+    "general-cannon|f00025",
+    "general-cannon|f00026"
+   ]
+  },
+  {
+   "i": 13,
+   "t_start": 26.0,
+   "t_end": 29.0,
+   "frames": [
+    "general-cannon|f00026",
+    "general-cannon|f00027",
+    "general-cannon|f00028"
+   ]
+  },
+  {
+   "i": 14,
+   "t_start": 28.0,
+   "t_end": 31.0,
+   "frames": [
+    "general-cannon|f00028",
+    "general-cannon|f00029",
+    "general-cannon|f00030"
+   ]
+  },
+  {
+   "i": 15,
+   "t_start": 30.0,
+   "t_end": 33.0,
+   "frames": [
+    "general-cannon|f00030",
+    "general-cannon|f00031",
+    "general-cannon|f00032"
+   ]
+  },
+  {
+   "i": 16,
+   "t_start": 32.0,
+   "t_end": 35.0,
+   "frames": [
+    "general-cannon|f00032",
+    "general-cannon|f00033",
+    "general-cannon|f00034"
+   ]
+  },
+  {
+   "i": 17,
+   "t_start": 34.0,
+   "t_end": 37.0,
+   "frames": [
+    "general-cannon|f00034",
+    "general-cannon|f00035",
+    "general-cannon|f00036"
+   ]
+  },
+  {
+   "i": 18,
+   "t_start": 36.0,
+   "t_end": 39.0,
+   "frames": [
+    "general-cannon|f00036",
+    "general-cannon|f00037",
+    "general-cannon|f00038"
+   ]
+  },
+  {
+   "i": 19,
+   "t_start": 38.0,
+   "t_end": 41.0,
+   "frames": [
+    "general-cannon|f00038",
+    "general-cannon|f00039",
+    "general-cannon|f00040"
+   ]
+  },
+  {
+   "i": 20,
+   "t_start": 40.0,
+   "t_end": 43.0,
+   "frames": [
+    "general-cannon|f00040",
+    "general-cannon|f00041",
+    "general-cannon|f00042"
+   ]
+  },
+  {
+   "i": 21,
+   "t_start": 42.0,
+   "t_end": 45.0,
+   "frames": [
+    "general-cannon|f00042",
+    "general-cannon|f00043",
+    "general-cannon|f00044"
+   ]
+  },
+  {
+   "i": 22,
+   "t_start": 44.0,
+   "t_end": 47.0,
+   "frames": [
+    "general-cannon|f00044",
+    "general-cannon|f00045",
+    "general-cannon|f00046"
+   ]
+  },
+  {
+   "i": 23,
+   "t_start": 46.0,
+   "t_end": 49.0,
+   "frames": [
+    "general-cannon|f00046",
+    "general-cannon|f00047",
+    "general-cannon|f00048"
+   ]
+  },
+  {
+   "i": 24,
+   "t_start": 48.0,
+   "t_end": 51.0,
+   "frames": [
+    "general-cannon|f00048",
+    "general-cannon|f00049",
+    "general-cannon|f00050"
+   ]
+  },
+  {
+   "i": 25,
+   "t_start": 50.0,
+   "t_end": 53.0,
+   "frames": [
+    "general-cannon|f00050",
+    "general-cannon|f00051",
+    "general-cannon|f00052"
+   ]
+  },
+  {
+   "i": 26,
+   "t_start": 52.0,
+   "t_end": 55.0,
+   "frames": [
+    "general-cannon|f00052",
+    "general-cannon|f00053",
+    "general-cannon|f00054"
+   ]
+  },
+  {
+   "i": 27,
+   "t_start": 54.0,
+   "t_end": 57.0,
+   "frames": [
+    "general-cannon|f00054",
+    "general-cannon|f00055",
+    "general-cannon|f00056"
+   ]
+  },
+  {
+   "i": 28,
+   "t_start": 56.0,
+   "t_end": 59.0,
+   "frames": [
+    "general-cannon|f00056",
+    "general-cannon|f00057",
+    "general-cannon|f00058"
+   ]
+  },
+  {
+   "i": 29,
+   "t_start": 58.0,
+   "t_end": 61.0,
+   "frames": [
+    "general-cannon|f00058",
+    "general-cannon|f00059",
+    "general-cannon|f00060"
+   ]
+  },
+  {
+   "i": 30,
+   "t_start": 60.0,
+   "t_end": 63.0,
+   "frames": [
+    "general-cannon|f00060",
+    "general-cannon|f00061",
+    "general-cannon|f00062"
+   ]
+  },
+  {
+   "i": 31,
+   "t_start": 62.0,
+   "t_end": 65.0,
+   "frames": [
+    "general-cannon|f00062",
+    "general-cannon|f00063",
+    "general-cannon|f00064"
+   ]
+  },
+  {
+   "i": 32,
+   "t_start": 64.0,
+   "t_end": 67.0,
+   "frames": [
+    "general-cannon|f00064",
+    "general-cannon|f00065",
+    "general-cannon|f00066"
+   ]
+  },
+  {
+   "i": 33,
+   "t_start": 66.0,
+   "t_end": 69.0,
+   "frames": [
+    "general-cannon|f00066",
+    "general-cannon|f00067",
+    "general-cannon|f00068"
+   ]
+  },
+  {
+   "i": 34,
+   "t_start": 68.0,
+   "t_end": 71.0,
+   "frames": [
+    "general-cannon|f00068",
+    "general-cannon|f00069",
+    "general-cannon|f00070"
+   ]
+  },
+  {
+   "i": 35,
+   "t_start": 70.0,
+   "t_end": 73.0,
+   "frames": [
+    "general-cannon|f00070",
+    "general-cannon|f00071",
+    "general-cannon|f00072"
+   ]
+  },
+  {
+   "i": 36,
+   "t_start": 72.0,
+   "t_end": 75.0,
+   "frames": [
+    "general-cannon|f00072",
+    "general-cannon|f00073",
+    "general-cannon|f00074"
+   ]
+  },
+  {
+   "i": 37,
+   "t_start": 74.0,
+   "t_end": 77.0,
+   "frames": [
+    "general-cannon|f00074",
+    "general-cannon|f00075",
+    "general-cannon|f00076"
+   ]
+  },
+  {
+   "i": 38,
+   "t_start": 76.0,
+   "t_end": 79.0,
+   "frames": [
+    "general-cannon|f00076",
+    "general-cannon|f00077",
+    "general-cannon|f00078"
+   ]
+  },
+  {
+   "i": 39,
+   "t_start": 78.0,
+   "t_end": 81.0,
+   "frames": [
+    "general-cannon|f00078",
+    "general-cannon|f00079",
+    "general-cannon|f00080"
+   ]
+  },
+  {
+   "i": 40,
+   "t_start": 80.0,
+   "t_end": 83.0,
+   "frames": [
+    "general-cannon|f00080",
+    "general-cannon|f00081",
+    "general-cannon|f00082"
+   ]
+  },
+  {
+   "i": 41,
+   "t_start": 82.0,
+   "t_end": 85.0,
+   "frames": [
+    "general-cannon|f00082",
+    "general-cannon|f00083",
+    "general-cannon|f00084"
+   ]
+  },
+  {
+   "i": 42,
+   "t_start": 84.0,
+   "t_end": 87.0,
+   "frames": [
+    "general-cannon|f00084",
+    "general-cannon|f00085",
+    "general-cannon|f00086"
+   ]
+  },
+  {
+   "i": 43,
+   "t_start": 86.0,
+   "t_end": 89.0,
+   "frames": [
+    "general-cannon|f00086",
+    "general-cannon|f00087",
+    "general-cannon|f00088"
+   ]
+  },
+  {
+   "i": 44,
+   "t_start": 88.0,
+   "t_end": 91.0,
+   "frames": [
+    "general-cannon|f00088",
+    "general-cannon|f00089",
+    "general-cannon|f00090"
+   ]
+  },
+  {
+   "i": 45,
+   "t_start": 90.0,
+   "t_end": 93.0,
+   "frames": [
+    "general-cannon|f00090",
+    "general-cannon|f00091",
+    "general-cannon|f00092"
+   ]
+  },
+  {
+   "i": 46,
+   "t_start": 92.0,
+   "t_end": 95.0,
+   "frames": [
+    "general-cannon|f00092",
+    "general-cannon|f00093",
+    "general-cannon|f00094"
+   ]
+  },
+  {
+   "i": 47,
+   "t_start": 94.0,
+   "t_end": 97.0,
+   "frames": [
+    "general-cannon|f00094",
+    "general-cannon|f00095",
+    "general-cannon|f00096"
+   ]
+  },
+  {
+   "i": 48,
+   "t_start": 96.0,
+   "t_end": 99.0,
+   "frames": [
+    "general-cannon|f00096",
+    "general-cannon|f00097",
+    "general-cannon|f00098"
+   ]
+  },
+  {
+   "i": 49,
+   "t_start": 98.0,
+   "t_end": 101.0,
+   "frames": [
+    "general-cannon|f00098",
+    "general-cannon|f00099",
+    "general-cannon|f00100"
+   ]
+  },
+  {
+   "i": 50,
+   "t_start": 100.0,
+   "t_end": 103.0,
+   "frames": [
+    "general-cannon|f00100",
+    "general-cannon|f00101",
+    "general-cannon|f00102"
+   ]
+  },
+  {
+   "i": 51,
+   "t_start": 102.0,
+   "t_end": 105.0,
+   "frames": [
+    "general-cannon|f00102",
+    "general-cannon|f00103",
+    "general-cannon|f00104"
+   ]
+  },
+  {
+   "i": 52,
+   "t_start": 104.0,
+   "t_end": 107.0,
+   "frames": [
+    "general-cannon|f00104",
+    "general-cannon|f00105",
+    "general-cannon|f00106"
+   ]
+  },
+  {
+   "i": 53,
+   "t_start": 106.0,
+   "t_end": 109.0,
+   "frames": [
+    "general-cannon|f00106",
+    "general-cannon|f00107",
+    "general-cannon|f00108"
+   ]
+  },
+  {
+   "i": 54,
+   "t_start": 108.0,
+   "t_end": 111.0,
+   "frames": [
+    "general-cannon|f00108",
+    "general-cannon|f00109",
+    "general-cannon|f00110"
+   ]
+  },
+  {
+   "i": 55,
+   "t_start": 110.0,
+   "t_end": 113.0,
+   "frames": [
+    "general-cannon|f00110",
+    "general-cannon|f00111",
+    "general-cannon|f00112"
+   ]
+  },
+  {
+   "i": 56,
+   "t_start": 112.0,
+   "t_end": 115.0,
+   "frames": [
+    "general-cannon|f00112",
+    "general-cannon|f00113",
+    "general-cannon|f00114"
+   ]
+  },
+  {
+   "i": 57,
+   "t_start": 114.0,
+   "t_end": 117.0,
+   "frames": [
+    "general-cannon|f00114",
+    "general-cannon|f00115",
+    "general-cannon|f00116"
+   ]
+  },
+  {
+   "i": 58,
+   "t_start": 116.0,
+   "t_end": 119.0,
+   "frames": [
+    "general-cannon|f00116",
+    "general-cannon|f00117",
+    "general-cannon|f00118"
+   ]
+  },
+  {
+   "i": 59,
+   "t_start": 118.0,
+   "t_end": 121.0,
+   "frames": [
+    "general-cannon|f00118",
+    "general-cannon|f00119",
+    "general-cannon|f00120"
+   ]
+  },
+  {
+   "i": 60,
+   "t_start": 120.0,
+   "t_end": 123.0,
+   "frames": [
+    "general-cannon|f00120",
+    "general-cannon|f00121",
+    "general-cannon|f00122"
+   ]
+  },
+  {
+   "i": 61,
+   "t_start": 122.0,
+   "t_end": 125.0,
+   "frames": [
+    "general-cannon|f00122",
+    "general-cannon|f00123",
+    "general-cannon|f00124"
+   ]
+  },
+  {
+   "i": 62,
+   "t_start": 124.0,
+   "t_end": 127.0,
+   "frames": [
+    "general-cannon|f00124",
+    "general-cannon|f00125",
+    "general-cannon|f00126"
+   ]
+  },
+  {
+   "i": 63,
+   "t_start": 126.0,
+   "t_end": 129.0,
+   "frames": [
+    "general-cannon|f00126",
+    "general-cannon|f00127",
+    "general-cannon|f00128"
+   ]
+  },
+  {
+   "i": 64,
+   "t_start": 128.0,
+   "t_end": 131.0,
+   "frames": [
+    "general-cannon|f00128",
+    "general-cannon|f00129",
+    "general-cannon|f00130"
+   ]
+  },
+  {
+   "i": 65,
+   "t_start": 130.0,
+   "t_end": 133.0,
+   "frames": [
+    "general-cannon|f00130",
+    "general-cannon|f00131",
+    "general-cannon|f00132"
+   ]
+  },
+  {
+   "i": 66,
+   "t_start": 132.0,
+   "t_end": 135.0,
+   "frames": [
+    "general-cannon|f00132",
+    "general-cannon|f00133",
+    "general-cannon|f00134"
+   ]
+  },
+  {
+   "i": 67,
+   "t_start": 134.0,
+   "t_end": 137.0,
+   "frames": [
+    "general-cannon|f00134",
+    "general-cannon|f00135",
+    "general-cannon|f00136"
+   ]
+  },
+  {
+   "i": 68,
+   "t_start": 136.0,
+   "t_end": 139.0,
+   "frames": [
+    "general-cannon|f00136",
+    "general-cannon|f00137",
+    "general-cannon|f00138"
+   ]
+  },
+  {
+   "i": 69,
+   "t_start": 138.0,
+   "t_end": 141.0,
+   "frames": [
+    "general-cannon|f00138",
+    "general-cannon|f00139",
+    "general-cannon|f00140"
+   ]
+  },
+  {
+   "i": 70,
+   "t_start": 140.0,
+   "t_end": 143.0,
+   "frames": [
+    "general-cannon|f00140",
+    "general-cannon|f00141",
+    "general-cannon|f00142"
+   ]
+  },
+  {
+   "i": 71,
+   "t_start": 142.0,
+   "t_end": 145.0,
+   "frames": [
+    "general-cannon|f00142",
+    "general-cannon|f00143",
+    "general-cannon|f00144"
+   ]
+  },
+  {
+   "i": 72,
+   "t_start": 144.0,
+   "t_end": 147.0,
+   "frames": [
+    "general-cannon|f00144",
+    "general-cannon|f00145",
+    "general-cannon|f00146"
+   ]
+  },
+  {
+   "i": 73,
+   "t_start": 146.0,
+   "t_end": 149.0,
+   "frames": [
+    "general-cannon|f00146",
+    "general-cannon|f00147",
+    "general-cannon|f00148"
+   ]
+  },
+  {
+   "i": 74,
+   "t_start": 148.0,
+   "t_end": 151.0,
+   "frames": [
+    "general-cannon|f00148",
+    "general-cannon|f00149",
+    "general-cannon|f00150"
+   ]
+  },
+  {
+   "i": 75,
+   "t_start": 150.0,
+   "t_end": 153.0,
+   "frames": [
+    "general-cannon|f00150",
+    "general-cannon|f00151",
+    "general-cannon|f00152"
+   ]
+  },
+  {
+   "i": 76,
+   "t_start": 152.0,
+   "t_end": 155.0,
+   "frames": [
+    "general-cannon|f00152",
+    "general-cannon|f00153",
+    "general-cannon|f00154"
+   ]
+  },
+  {
+   "i": 77,
+   "t_start": 154.0,
+   "t_end": 157.0,
+   "frames": [
+    "general-cannon|f00154",
+    "general-cannon|f00155",
+    "general-cannon|f00156"
+   ]
+  },
+  {
+   "i": 78,
+   "t_start": 156.0,
+   "t_end": 159.0,
+   "frames": [
+    "general-cannon|f00156",
+    "general-cannon|f00157",
+    "general-cannon|f00158"
+   ]
+  },
+  {
+   "i": 79,
+   "t_start": 158.0,
+   "t_end": 161.0,
+   "frames": [
+    "general-cannon|f00158",
+    "general-cannon|f00159",
+    "general-cannon|f00160"
+   ]
+  },
+  {
+   "i": 80,
+   "t_start": 160.0,
+   "t_end": 163.0,
+   "frames": [
+    "general-cannon|f00160",
+    "general-cannon|f00161",
+    "general-cannon|f00162"
+   ]
+  },
+  {
+   "i": 81,
+   "t_start": 162.0,
+   "t_end": 165.0,
+   "frames": [
+    "general-cannon|f00162",
+    "general-cannon|f00163",
+    "general-cannon|f00164"
+   ]
+  },
+  {
+   "i": 82,
+   "t_start": 164.0,
+   "t_end": 167.0,
+   "frames": [
+    "general-cannon|f00164",
+    "general-cannon|f00165",
+    "general-cannon|f00166"
+   ]
+  },
+  {
+   "i": 83,
+   "t_start": 166.0,
+   "t_end": 169.0,
+   "frames": [
+    "general-cannon|f00166",
+    "general-cannon|f00167",
+    "general-cannon|f00168"
+   ]
+  },
+  {
+   "i": 84,
+   "t_start": 168.0,
+   "t_end": 171.0,
+   "frames": [
+    "general-cannon|f00168",
+    "general-cannon|f00169",
+    "general-cannon|f00170"
+   ]
+  },
+  {
+   "i": 85,
+   "t_start": 170.0,
+   "t_end": 173.0,
+   "frames": [
+    "general-cannon|f00170",
+    "general-cannon|f00171",
+    "general-cannon|f00172"
+   ]
+  },
+  {
+   "i": 86,
+   "t_start": 172.0,
+   "t_end": 175.0,
+   "frames": [
+    "general-cannon|f00172",
+    "general-cannon|f00173",
+    "general-cannon|f00174"
+   ]
+  },
+  {
+   "i": 87,
+   "t_start": 174.0,
+   "t_end": 177.0,
+   "frames": [
+    "general-cannon|f00174",
+    "general-cannon|f00175",
+    "general-cannon|f00176"
+   ]
+  },
+  {
+   "i": 88,
+   "t_start": 176.0,
+   "t_end": 179.0,
+   "frames": [
+    "general-cannon|f00176",
+    "general-cannon|f00177",
+    "general-cannon|f00178"
+   ]
+  }
+ ]
+}

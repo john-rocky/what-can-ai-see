@@ -1,0 +1,387 @@
+{
+ "clip": "gilbreth-old",
+ "fps": 1,
+ "n_frames": 115,
+ "windows": [
+  {
+   "i": 0,
+   "t_start": 0.0,
+   "t_end": 3.0,
+   "frames": [
+    "gilbreth-old|f00000",
+    "gilbreth-old|f00001",
+    "gilbreth-old|f00002"
+   ]
+  },
+  {
+   "i": 1,
+   "t_start": 3.0,
+   "t_end": 6.0,
+   "frames": [
+    "gilbreth-old|f00003",
+    "gilbreth-old|f00004",
+    "gilbreth-old|f00005"
+   ]
+  },
+  {
+   "i": 2,
+   "t_start": 6.0,
+   "t_end": 9.0,
+   "frames": [
+    "gilbreth-old|f00006",
+    "gilbreth-old|f00007",
+    "gilbreth-old|f00008"
+   ]
+  },
+  {
+   "i": 3,
+   "t_start": 9.0,
+   "t_end": 12.0,
+   "frames": [
+    "gilbreth-old|f00009",
+    "gilbreth-old|f00010",
+    "gilbreth-old|f00011"
+   ]
+  },
+  {
+   "i": 4,
+   "t_start": 12.0,
+   "t_end": 15.0,
+   "frames": [
+    "gilbreth-old|f00012",
+    "gilbreth-old|f00013",
+    "gilbreth-old|f00014"
+   ]
+  },
+  {
+   "i": 5,
+   "t_start": 15.0,
+   "t_end": 18.0,
+   "frames": [
+    "gilbreth-old|f00015",
+    "gilbreth-old|f00016",
+    "gilbreth-old|f00017"
+   ]
+  },
+  {
+   "i": 6,
+   "t_start": 18.0,
+   "t_end": 21.0,
+   "frames": [
+    "gilbreth-old|f00018",
+    "gilbreth-old|f00019",
+    "gilbreth-old|f00020"
+   ]
+  },
+  {
+   "i": 7,
+   "t_start": 21.0,
+   "t_end": 24.0,
+   "frames": [
+    "gilbreth-old|f00021",
+    "gilbreth-old|f00022",
+    "gilbreth-old|f00023"
+   ]
+  },
+  {
+   "i": 8,
+   "t_start": 24.0,
+   "t_end": 27.0,
+   "frames": [
+    "gilbreth-old|f00024",
+    "gilbreth-old|f00025",
+    "gilbreth-old|f00026"
+   ]
+  },
+  {
+   "i": 9,
+   "t_start": 27.0,
+   "t_end": 30.0,
+   "frames": [
+    "gilbreth-old|f00027",
+    "gilbreth-old|f00028",
+    "gilbreth-old|f00029"
+   ]
+  },
+  {
+   "i": 10,
+   "t_start": 30.0,
+   "t_end": 33.0,
+   "frames": [
+    "gilbreth-old|f00030",
+    "gilbreth-old|f00031",
+    "gilbreth-old|f00032"
+   ]
+  },
+  {
+   "i": 11,
+   "t_start": 33.0,
+   "t_end": 36.0,
+   "frames": [
+    "gilbreth-old|f00033",
+    "gilbreth-old|f00034",
+    "gilbreth-old|f00035"
+   ]
+  },
+  {
+   "i": 12,
+   "t_start": 36.0,
+   "t_end": 39.0,
+   "frames": [
+    "gilbreth-old|f00036",
+    "gilbreth-old|f00037",
+    "gilbreth-old|f00038"
+   ]
+  },
+  {
+   "i": 13,
+   "t_start": 39.0,
+   "t_end": 42.0,
+   "frames": [
+    "gilbreth-old|f00039",
+    "gilbreth-old|f00040",
+    "gilbreth-old|f00041"
+   ]
+  },
+  {
+   "i": 14,
+   "t_start": 42.0,
+   "t_end": 45.0,
+   "frames": [
+    "gilbreth-old|f00042",
+    "gilbreth-old|f00043",
+    "gilbreth-old|f00044"
+   ]
+  },
+  {
+   "i": 15,
+   "t_start": 45.0,
+   "t_end": 48.0,
+   "frames": [
+    "gilbreth-old|f00045",
+    "gilbreth-old|f00046",
+    "gilbreth-old|f00047"
+   ]
+  },
+  {
+   "i": 16,
+   "t_start": 48.0,
+   "t_end": 51.0,
+   "frames": [
+    "gilbreth-old|f00048",
+    "gilbreth-old|f00049",
+    "gilbreth-old|f00050"
+   ]
+  },
+  {
+   "i": 17,
+   "t_start": 51.0,
+   "t_end": 54.0,
+   "frames": [
+    "gilbreth-old|f00051",
+    "gilbreth-old|f00052",
+    "gilbreth-old|f00053"
+   ]
+  },
+  {
+   "i": 18,
+   "t_start": 54.0,
+   "t_end": 57.0,
+   "frames": [
+    "gilbreth-old|f00054",
+    "gilbreth-old|f00055",
+    "gilbreth-old|f00056"
+   ]
+  },
+  {
+   "i": 19,
+   "t_start": 57.0,
+   "t_end": 60.0,
+   "frames": [
+    "gilbreth-old|f00057",
+    "gilbreth-old|f00058",
+    "gilbreth-old|f00059"
+   ]
+  },
+  {
+   "i": 20,
+   "t_start": 60.0,
+   "t_end": 63.0,
+   "frames": [
+    "gilbreth-old|f00060",
+    "gilbreth-old|f00061",
+    "gilbreth-old|f00062"
+   ]
+  },
+  {
+   "i": 21,
+   "t_start": 63.0,
+   "t_end": 66.0,
+   "frames": [
+    "gilbreth-old|f00063",
+    "gilbreth-old|f00064",
+    "gilbreth-old|f00065"
+   ]
+  },
+  {
+   "i": 22,
+   "t_start": 66.0,
+   "t_end": 69.0,
+   "frames": [
+    "gilbreth-old|f00066",
+    "gilbreth-old|f00067",
+    "gilbreth-old|f00068"
+   ]
+  },
+  {
+   "i": 23,
+   "t_start": 69.0,
+   "t_end": 72.0,
+   "frames": [
+    "gilbreth-old|f00069",
+    "gilbreth-old|f00070",
+    "gilbreth-old|f00071"
+   ]
+  },
+  {
+   "i": 24,
+   "t_start": 72.0,
+   "t_end": 75.0,
+   "frames": [
+    "gilbreth-old|f00072",
+    "gilbreth-old|f00073",
+    "gilbreth-old|f00074"
+   ]
+  },
+  {
+   "i": 25,
+   "t_start": 75.0,
+   "t_end": 78.0,
+   "frames": [
+    "gilbreth-old|f00075",
+    "gilbreth-old|f00076",
+    "gilbreth-old|f00077"
+   ]
+  },
+  {
+   "i": 26,
+   "t_start": 78.0,
+   "t_end": 81.0,
+   "frames": [
+    "gilbreth-old|f00078",
+    "gilbreth-old|f00079",
+    "gilbreth-old|f00080"
+   ]
+  },
+  {
+   "i": 27,
+   "t_start": 81.0,
+   "t_end": 84.0,
+   "frames": [
+    "gilbreth-old|f00081",
+    "gilbreth-old|f00082",
+    "gilbreth-old|f00083"
+   ]
+  },
+  {
+   "i": 28,
+   "t_start": 84.0,
+   "t_end": 87.0,
+   "frames": [
+    "gilbreth-old|f00084",
+    "gilbreth-old|f00085",
+    "gilbreth-old|f00086"
+   ]
+  },
+  {
+   "i": 29,
+   "t_start": 87.0,
+   "t_end": 90.0,
+   "frames": [
+    "gilbreth-old|f00087",
+    "gilbreth-old|f00088",
+    "gilbreth-old|f00089"
+   ]
+  },
+  {
+   "i": 30,
+   "t_start": 90.0,
+   "t_end": 93.0,
+   "frames": [
+    "gilbreth-old|f00090",
+    "gilbreth-old|f00091",
+    "gilbreth-old|f00092"
+   ]
+  },
+  {
+   "i": 31,
+   "t_start": 93.0,
+   "t_end": 96.0,
+   "frames": [
+    "gilbreth-old|f00093",
+    "gilbreth-old|f00094",
+    "gilbreth-old|f00095"
+   ]
+  },
+  {
+   "i": 32,
+   "t_start": 96.0,
+   "t_end": 99.0,
+   "frames": [
+    "gilbreth-old|f00096",
+    "gilbreth-old|f00097",
+    "gilbreth-old|f00098"
+   ]
+  },
+  {
+   "i": 33,
+   "t_start": 99.0,
+   "t_end": 102.0,
+   "frames": [
+    "gilbreth-old|f00099",
+    "gilbreth-old|f00100",
+    "gilbreth-old|f00101"
+   ]
+  },
+  {
+   "i": 34,
+   "t_start": 102.0,
+   "t_end": 105.0,
+   "frames": [
+    "gilbreth-old|f00102",
+    "gilbreth-old|f00103",
+    "gilbreth-old|f00104"
+   ]
+  },
+  {
+   "i": 35,
+   "t_start": 105.0,
+   "t_end": 108.0,
+   "frames": [
+    "gilbreth-old|f00105",
+    "gilbreth-old|f00106",
+    "gilbreth-old|f00107"
+   ]
+  },
+  {
+   "i": 36,
+   "t_start": 108.0,
+   "t_end": 111.0,
+   "frames": [
+    "gilbreth-old|f00108",
+    "gilbreth-old|f00109",
+    "gilbreth-old|f00110"
+   ]
+  },
+  {
+   "i": 37,
+   "t_start": 111.0,
+   "t_end": 114.0,
+   "frames": [
+    "gilbreth-old|f00111",
+    "gilbreth-old|f00112",
+    "gilbreth-old|f00113"
+   ]
+  }
+ ]
+}

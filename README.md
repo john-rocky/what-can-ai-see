@@ -70,7 +70,7 @@ tools/                harness, scorers, baselines, video renderers
 runner/               Swift; loads a model once and streams a task file
 phone/                iOS app: the same tasks, on the device the premise is about
 walk/                 iOS app: live camera, a person-gate in front of the recorder
-docs/FINDINGS.md      F1-F33
+docs/FINDINGS.md      F1-F34
 ```
 
 Start with `docs/FINDINGS.md`. Every tool's docstring says what it measures and,
@@ -88,7 +88,20 @@ present — 33 of 40 found, and **0 false positives across 64 absent terms**. No
 ever claimed a cat, a kitchen, snow or a train that was not there. Drop the bar to one
 window and false positives appear at once, so the floor is low and sharp (F33).
 
-That licenses one shape of product and forbids another.
+**And that is a description of an object detector**, so the comparison has to be made.
+RF-DETR was run over the same 365 window images. On terms COCO's 80 classes can
+express it is a tie, 8 to 8 — from a model 6× smaller and ~100× faster, with a
+per-frame confidence score. On one clip the detector won outright: children on
+bicycles, where it found bicycle 10/30 and person 24/30 and the VLM found neither
+(F34).
+
+The difference is the thirteen terms COCO has no word for — *bridge*, *river*,
+*cannon*, *shelf*, *shop aisle*, *crowd*, *street*, *paper bag*. The VLM named 11 of
+them. A detector cannot be wrong about those because it cannot be asked.
+
+So the sentence is narrower again: **an open vocabulary over recorded footage.** If
+what you are looking for is a COCO class, use the detector. If it is a shelf or a
+crowd or a bridge, this is the only thing that can be asked.
 
 **It can index recorded footage.** "Which of these hours contains a bicycle" is a union
 question. Latency does not matter to an overnight pass (F27), and the models are

@@ -1,0 +1,307 @@
+{
+ "clip": "cops-pursuit",
+ "fps": 1,
+ "n_frames": 90,
+ "windows": [
+  {
+   "i": 0,
+   "t_start": 0.0,
+   "t_end": 3.0,
+   "frames": [
+    "cops-pursuit|f00000",
+    "cops-pursuit|f00001",
+    "cops-pursuit|f00002"
+   ]
+  },
+  {
+   "i": 1,
+   "t_start": 3.0,
+   "t_end": 6.0,
+   "frames": [
+    "cops-pursuit|f00003",
+    "cops-pursuit|f00004",
+    "cops-pursuit|f00005"
+   ]
+  },
+  {
+   "i": 2,
+   "t_start": 6.0,
+   "t_end": 9.0,
+   "frames": [
+    "cops-pursuit|f00006",
+    "cops-pursuit|f00007",
+    "cops-pursuit|f00008"
+   ]
+  },
+  {
+   "i": 3,
+   "t_start": 9.0,
+   "t_end": 12.0,
+   "frames": [
+    "cops-pursuit|f00009",
+    "cops-pursuit|f00010",
+    "cops-pursuit|f00011"
+   ]
+  },
+  {
+   "i": 4,
+   "t_start": 12.0,
+   "t_end": 15.0,
+   "frames": [
+    "cops-pursuit|f00012",
+    "cops-pursuit|f00013",
+    "cops-pursuit|f00014"
+   ]
+  },
+  {
+   "i": 5,
+   "t_start": 15.0,
+   "t_end": 18.0,
+   "frames": [
+    "cops-pursuit|f00015",
+    "cops-pursuit|f00016",
+    "cops-pursuit|f00017"
+   ]
+  },
+  {
+   "i": 6,
+   "t_start": 18.0,
+   "t_end": 21.0,
+   "frames": [
+    "cops-pursuit|f00018",
+    "cops-pursuit|f00019",
+    "cops-pursuit|f00020"
+   ]
+  },
+  {
+   "i": 7,
+   "t_start": 21.0,
+   "t_end": 24.0,
+   "frames": [
+    "cops-pursuit|f00021",
+    "cops-pursuit|f00022",
+    "cops-pursuit|f00023"
+   ]
+  },
+  {
+   "i": 8,
+   "t_start": 24.0,
+   "t_end": 27.0,
+   "frames": [
+    "cops-pursuit|f00024",
+    "cops-pursuit|f00025",
+    "cops-pursuit|f00026"
+   ]
+  },
+  {
+   "i": 9,
+   "t_start": 27.0,
+   "t_end": 30.0,
+   "frames": [
+    "cops-pursuit|f00027",
+    "cops-pursuit|f00028",
+    "cops-pursuit|f00029"
+   ]
+  },
+  {
+   "i": 10,
+   "t_start": 30.0,
+   "t_end": 33.0,
+   "frames": [
+    "cops-pursuit|f00030",
+    "cops-pursuit|f00031",
+    "cops-pursuit|f00032"
+   ]
+  },
+  {
+   "i": 11,
+   "t_start": 33.0,
+   "t_end": 36.0,
+   "frames": [
+    "cops-pursuit|f00033",
+    "cops-pursuit|f00034",
+    "cops-pursuit|f00035"
+   ]
+  },
+  {
+   "i": 12,
+   "t_start": 36.0,
+   "t_end": 39.0,
+   "frames": [
+    "cops-pursuit|f00036",
+    "cops-pursuit|f00037",
+    "cops-pursuit|f00038"
+   ]
+  },
+  {
+   "i": 13,
+   "t_start": 39.0,
+   "t_end": 42.0,
+   "frames": [
+    "cops-pursuit|f00039",
+    "cops-pursuit|f00040",
+    "cops-pursuit|f00041"
+   ]
+  },
+  {
+   "i": 14,
+   "t_start": 42.0,
+   "t_end": 45.0,
+   "frames": [
+    "cops-pursuit|f00042",
+    "cops-pursuit|f00043",
+    "cops-pursuit|f00044"
+   ]
+  },
+  {
+   "i": 15,
+   "t_start": 45.0,
+   "t_end": 48.0,
+   "frames": [
+    "cops-pursuit|f00045",
+    "cops-pursuit|f00046",
+    "cops-pursuit|f00047"
+   ]
+  },
+  {
+   "i": 16,
+   "t_start": 48.0,
+   "t_end": 51.0,
+   "frames": [
+    "cops-pursuit|f00048",
+    "cops-pursuit|f00049",
+    "cops-pursuit|f00050"
+   ]
+  },
+  {
+   "i": 17,
+   "t_start": 51.0,
+   "t_end": 54.0,
+   "frames": [
+    "cops-pursuit|f00051",
+    "cops-pursuit|f00052",
+    "cops-pursuit|f00053"
+   ]
+  },
+  {
+   "i": 18,
+   "t_start": 54.0,
+   "t_end": 57.0,
+   "frames": [
+    "cops-pursuit|f00054",
+    "cops-pursuit|f00055",
+    "cops-pursuit|f00056"
+   ]
+  },
+  {
+   "i": 19,
+   "t_start": 57.0,
+   "t_end": 60.0,
+   "frames": [
+    "cops-pursuit|f00057",
+    "cops-pursuit|f00058",
+    "cops-pursuit|f00059"
+   ]
+  },
+  {
+   "i": 20,
+   "t_start": 60.0,
+   "t_end": 63.0,
+   "frames": [
+    "cops-pursuit|f00060",
+    "cops-pursuit|f00061",
+    "cops-pursuit|f00062"
+   ]
+  },
+  {
+   "i": 21,
+   "t_start": 63.0,
+   "t_end": 66.0,
+   "frames": [
+    "cops-pursuit|f00063",
+    "cops-pursuit|f00064",
+    "cops-pursuit|f00065"
+   ]
+  },
+  {
+   "i": 22,
+   "t_start": 66.0,
+   "t_end": 69.0,
+   "frames": [
+    "cops-pursuit|f00066",
+    "cops-pursuit|f00067",
+    "cops-pursuit|f00068"
+   ]
+  },
+  {
+   "i": 23,
+   "t_start": 69.0,
+   "t_end": 72.0,
+   "frames": [
+    "cops-pursuit|f00069",
+    "cops-pursuit|f00070",
+    "cops-pursuit|f00071"
+   ]
+  },
+  {
+   "i": 24,
+   "t_start": 72.0,
+   "t_end": 75.0,
+   "frames": [
+    "cops-pursuit|f00072",
+    "cops-pursuit|f00073",
+    "cops-pursuit|f00074"
+   ]
+  },
+  {
+   "i": 25,
+   "t_start": 75.0,
+   "t_end": 78.0,
+   "frames": [
+    "cops-pursuit|f00075",
+    "cops-pursuit|f00076",
+    "cops-pursuit|f00077"
+   ]
+  },
+  {
+   "i": 26,
+   "t_start": 78.0,
+   "t_end": 81.0,
+   "frames": [
+    "cops-pursuit|f00078",
+    "cops-pursuit|f00079",
+    "cops-pursuit|f00080"
+   ]
+  },
+  {
+   "i": 27,
+   "t_start": 81.0,
+   "t_end": 84.0,
+   "frames": [
+    "cops-pursuit|f00081",
+    "cops-pursuit|f00082",
+    "cops-pursuit|f00083"
+   ]
+  },
+  {
+   "i": 28,
+   "t_start": 84.0,
+   "t_end": 87.0,
+   "frames": [
+    "cops-pursuit|f00084",
+    "cops-pursuit|f00085",
+    "cops-pursuit|f00086"
+   ]
+  },
+  {
+   "i": 29,
+   "t_start": 87.0,
+   "t_end": 90.0,
+   "frames": [
+    "cops-pursuit|f00087",
+    "cops-pursuit|f00088",
+    "cops-pursuit|f00089"
+   ]
+  }
+ ]
+}
