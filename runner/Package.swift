@@ -9,7 +9,7 @@ import PackageDescription
 //   swift build -c release
 //   .build/release/wcas-run --model lfm2.5-vl-3b --tasks tasks.jsonl --out results.jsonl
 //
-// Requires the Xcode 27 beta toolchain (the CoreAI framework is not in the release SDK):
+// Requires Xcode 27 (I built it with beta 5; point DEVELOPER_DIR at your own Xcode 27):
 //   DEVELOPER_DIR=/Applications/Xcode-27.0.0-Beta.5.app/Contents/Developer swift build -c release
 let package = Package(
     name: "wcas",
