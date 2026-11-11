@@ -62,7 +62,7 @@ ever claimed a cat, a kitchen, snow or a train that was not there. Drop the bar 
 window and false positives appear at once, so the floor is low and sharp (F33).
 
 **And that is a description of an object detector**, so the comparison has to be made.
-RF-DETR was run over the same 365 window images. On terms COCO's 80 classes can
+RF-DETR was run over the same 366 window images. On terms COCO's 80 classes can
 express it is a tie, 8 to 8 — from a model 6× smaller and ~100× faster, with a
 per-frame confidence score. On one clip the detector won outright: children on
 bicycles, where it found bicycle 10/30 and person 24/30 and the VLM found neither
@@ -82,7 +82,7 @@ character-identical across runs, so the index is stable (F25).
 
 **It cannot answer about a frame, count anything, or read a relation.** No number
 appears in 90 windows of crowds (F30). The cannon aimed at the man is named in 0 of 13
-windows where it is true (F21). None of these is a threshold that can be tuned; the words are absent
+windows where it is true (F27). None of these is a threshold that can be tuned; the words are absent
 at every threshold.
 
 The useful sentence is narrow: **it tells you which recordings contain a thing, cheaply
@@ -101,7 +101,7 @@ happens. So F1-F24 are not desktop findings (F26).
 What the desktop cannot show is the cost. LFM2.5-VL 450M answers a 3-second window
 in 4.68 s on the phone, which is 12x slower than the 0.4 s stride this benchmark's
 sliding window assumes, and it slows from 3.91 s to 5.59 s across two minutes as
-the phone heats (F27). Apple's own `SystemLanguageModel` is 2.1x faster at 34 MB
+the phone heats (F27). Apple's own `SystemLanguageModel` is 1.7 to 1.9x faster at 34 MB
 resident and 0 MB to download — but it samples by default, so the same frame gets
 a different answer each run until you ask for `.greedy` (F25).
 

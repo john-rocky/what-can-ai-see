@@ -66,7 +66,7 @@ def draw(total, title, note, theme, desc):
 def main():
     total = read()
     title = f"Asked if an event happened: {sum(total.values())} results on matched pairs of clips"
-    note = "Each result is one model on one pair at one of four video encodings: a clip with the event and a matching clip without it."
+    note = "Each result is one model on one pair of clips, with and without the event, each shown as 1, 2, 6 or 12 frames in one image."
     desc = f"{title}. {note} " + " ".join(f"{label}: {total[key]}." for key, label in ROWS)
     OUT.mkdir(parents=True, exist_ok=True)
     for theme in THEMES:
