@@ -1,4 +1,4 @@
-# Handoff: `KitVisionModel` cannot load an iOS vision tower (AOT `.aimodelc`)
+# `KitVisionModel` cannot load an iOS vision tower (AOT `.aimodelc`)
 
 > **FIXED and device-verified, 2026-08-20.** `GraphBundle.resolve(in:)` in
 > `Sources/CoreAIKit/GraphBundle.swift` now resolves the graph for every paired-bundle
