@@ -20,7 +20,7 @@
         1.0,
         1.4
       ],
-      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/object-removed-5241131/windows/w000.jpg"
+      "sheet": "runs/stream/object-removed-5241131/windows/w000.jpg"
     },
     {
       "i": 1,
@@ -32,7 +32,7 @@
         1.4,
         1.8
       ],
-      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/object-removed-5241131/windows/w001.jpg"
+      "sheet": "runs/stream/object-removed-5241131/windows/w001.jpg"
     },
     {
       "i": 2,
@@ -44,7 +44,7 @@
         1.8,
         2.2
       ],
-      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/object-removed-5241131/windows/w002.jpg"
+      "sheet": "runs/stream/object-removed-5241131/windows/w002.jpg"
     },
     {
       "i": 3,
@@ -56,7 +56,7 @@
         2.2,
         2.6
       ],
-      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/object-removed-5241131/windows/w003.jpg"
+      "sheet": "runs/stream/object-removed-5241131/windows/w003.jpg"
     },
     {
       "i": 4,
@@ -68,7 +68,7 @@
         2.6,
         3.0
       ],
-      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/object-removed-5241131/windows/w004.jpg"
+      "sheet": "runs/stream/object-removed-5241131/windows/w004.jpg"
     },
     {
       "i": 5,
@@ -80,7 +80,7 @@
         3.0,
         3.4
       ],
-      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/object-removed-5241131/windows/w005.jpg"
+      "sheet": "runs/stream/object-removed-5241131/windows/w005.jpg"
     },
     {
       "i": 6,
@@ -92,7 +92,7 @@
         3.4,
         3.8
       ],
-      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/object-removed-5241131/windows/w006.jpg"
+      "sheet": "runs/stream/object-removed-5241131/windows/w006.jpg"
     },
     {
       "i": 7,
@@ -104,7 +104,7 @@
         3.8,
         4.2
       ],
-      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/object-removed-5241131/windows/w007.jpg"
+      "sheet": "runs/stream/object-removed-5241131/windows/w007.jpg"
     },
     {
       "i": 8,
@@ -116,7 +116,7 @@
         4.2,
         4.6
       ],
-      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/object-removed-5241131/windows/w008.jpg"
+      "sheet": "runs/stream/object-removed-5241131/windows/w008.jpg"
     },
     {
       "i": 9,
@@ -128,7 +128,7 @@
         4.6,
         5.0
       ],
-      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/object-removed-5241131/windows/w009.jpg"
+      "sheet": "runs/stream/object-removed-5241131/windows/w009.jpg"
     },
     {
       "i": 10,
@@ -140,7 +140,7 @@
         5.0,
         5.4
       ],
-      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/object-removed-5241131/windows/w010.jpg"
+      "sheet": "runs/stream/object-removed-5241131/windows/w010.jpg"
     },
     {
       "i": 11,
@@ -152,7 +152,7 @@
         5.4,
         5.8
       ],
-      "sheet": "/Users/majimadaisuke/code/what-can-ai-see/runs/stream/object-removed-5241131/windows/w011.jpg"
+      "sheet": "runs/stream/object-removed-5241131/windows/w011.jpg"
     }
   ]
 }

@@ -29,8 +29,10 @@ usage:
 from __future__ import annotations
 
 import argparse
+import os
 import shutil
 import subprocess
+import tempfile
 import urllib.parse
 from pathlib import Path
 
@@ -61,9 +63,9 @@ def main() -> None:
     ap.add_argument("--trim", default=None,
                     help="start,end in seconds, for a clip whose meta has no trim")
     ap.add_argument("--cache", type=Path,
-                    default=Path("/private/tmp/claude-501/-Users-majimadaisuke-code-"
-                                 "what-can-ai-see/cfee046d-f750-4d3f-b516-108ca1608b58/"
-                                 "scratchpad/cam2"))
+                    default=Path(os.environ.get("SCRATCH")
+                                 or os.path.join(tempfile.gettempdir(),
+                                                 "second_view_scratch")) / "cam2")
     args = ap.parse_args()
 
     for cid in [c.strip() for c in args.clips.split(",") if c.strip()]:

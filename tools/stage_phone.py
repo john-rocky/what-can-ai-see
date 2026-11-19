@@ -91,7 +91,7 @@ def main() -> None:
         for w in [spec["windows"][i] for i in chosen if i < len(spec["windows"])]:
             if len(lines) >= args.max:
                 break
-            src = Path(w["sheet"])
+            src = ROOT / w["sheet"]
             if not src.exists():
                 continue
             name = f"{clip}_w{w['i']:03d}.jpg"
